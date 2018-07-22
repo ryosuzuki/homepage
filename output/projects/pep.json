@@ -1,5 +1,7 @@
 {
-  "id": "pep,",
+  "id": "pep",
+  "name": "PEP",
+  "description": "3D Printed Electronic Papercrafts - An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
   "title": "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
   "authors": [
     "Hyunjoo Oh",

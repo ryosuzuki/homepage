@@ -1,0 +1,79 @@
+- period: August, 2015 --- Current
+  role: RA
+  logo: cu-boulder.png
+  institute:
+    name: CU Boulder
+    url: https://colorado.edu
+  lab:
+    name: HCC Group
+    url: http://hcc.colorado.edu/
+  advisors:
+    - name: Tom Yeh
+      url: http://tomyeh.info/
+    - name: Daniel Lightinger
+      url: http://leithinger.com/
+    - name: Mark D. Gross
+      url: http://mdgross.net/
+- period: December, 2017 --- Current
+  role: Intern
+  logo: ut.png
+  institute:
+    name: University of Tokyo
+    url: https://colorado.edu
+  lab:
+    name: ERATO UIN
+    url: http://www.jst.go.jp/erato/kawahara
+  advisors:
+    - name: Yasuaki Kakehi
+      url: http://www.xlab.sfc.keio.ac.jp/
+    - name: Yoshihiro Kawahara
+      url: http://www.akg.t.u-tokyo.ac.jp/
+- period: May, 2016 --- August, 2016
+  role: Intern
+  logo: uc-berkeley.png
+  institute:
+    name: UC Berkeley
+    url:
+  lab:
+    name: Bid Lab
+    url: http://bid.berkeley.edu/
+  advisors:
+    - name: Bjoern Hartmann
+      url: http://people.eecs.berkeley.edu/~bjoern/
+- period: May, 2015 --- August, 2015
+  role: Intern
+  logo: stanford.png
+  institute:
+    name: Stanford University
+    url: https://stanford.edu
+  lab:
+    name: HCI Group
+    url: http://hci.stanford.edu/
+  advisors:
+    - name: Michael Bernstein
+      url: http://hci.stanford.edu/msb/
+- period: October, 2014 --- May, 2015
+  role: RA
+  logo: ut.png
+  institute:
+    name: University of Tokyo
+    url:
+  lab:
+    name: IIS Lab
+    url: http://iis-lab.org/
+  advisors:
+    - name: Koji Yatani
+      url: http://iis-lab.org/member/koji-yatani/
+- period: December, 2014 --- March, 2015
+  role: Intern
+  logo: aist.png
+  institute:
+    name: AIST
+    url:
+  lab:
+    name: Media Interaction
+    url: https://staff.aist.go.jp/m.goto/MIG/index-j.html
+  advisors:
+    - name: Jun Kato
+      url: http://junkato.jp/
+

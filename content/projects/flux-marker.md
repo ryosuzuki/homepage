@@ -1,5 +1,7 @@
 ---
 id: flux-marker
+name: FluxMarker
+description: Enhancing Tactile Graphics with Dynamic Tactile Markers for Blind People
 title: 'FluxMarker: Enhancing Tactile Graphics with Dynamic Tactile Markers'
 authors:
   - Ryo Suzuki

@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "build:content": "processmd \"content/**/*.{yaml,md}\" --outputDir output --summaryOutput output/summary.json",
-    "build:content:watch": "processmd \"content/**/*.{yml,md}\" --outputDir output --watch"
+    "build:content:watch": "processmd \"content/**/*.{yaml,md}\" --outputDir output --watch"
   },
   "author": "Ryo Suzuki <ryosuzk@googlemail.com> (http://ryosuzuki.org/)",
   "license": "ISC",

@@ -14,7 +14,6 @@ class Project extends React.Component {
     return { id: id }
   }
 
-
   render() {
     return (
       <div id="project">
