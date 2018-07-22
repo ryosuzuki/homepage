@@ -1,0 +1,10 @@
+{
+  "bodyContent": "### Profile\n\nHi, I'm Ryo Suzuki, a Ph.D. student in Computer Science at the [**University of Colorado Boulder**](http://www.colorado.edu/cs/), [Human-Centered Computing lab](http://hcc.colorado.edu/), working with [**Tom Yeh**](http://tomyeh.info/), [**Mark D. Gross**](http://mdgross.net/), and [**Daniel Leithinger**](http://leithinger.com/).\n\n**Publications:**\n[<i class=\"fa fa-graduation-cap fa-fw\"></i> Google Scholar](https://scholar.google.com/citations?user=klWjaQIAAAAJ)",
+  "bodyHtml": "<h3>Profile</h3>\n<p>Hi, I'm Ryo Suzuki, a Ph.D. student in Computer Science at the <a href=\"http://www.colorado.edu/cs/\"><strong>University of Colorado Boulder</strong></a>, <a href=\"http://hcc.colorado.edu/\">Human-Centered Computing lab</a>, working with <a href=\"http://tomyeh.info/\"><strong>Tom Yeh</strong></a>, <a href=\"http://mdgross.net/\"><strong>Mark D. Gross</strong></a>, and <a href=\"http://leithinger.com/\"><strong>Daniel Leithinger</strong></a>.</p>\n<p><strong>Publications:</strong>\n<a href=\"https://scholar.google.com/citations?user=klWjaQIAAAAJ\">&lt;i class=&quot;fa fa-graduation-cap fa-fw&quot;&gt;&lt;/i&gt; Google Scholar</a></p>\n",
+  "title": "Profile",
+  "dir": "output",
+  "base": "profile.json",
+  "ext": ".json",
+  "sourceBase": "profile.md",
+  "sourceExt": ".md"
+}

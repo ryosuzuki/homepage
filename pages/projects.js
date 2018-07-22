@@ -1,16 +1,29 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-import items from './projects.json'
+import summary from '../output/summary.json'
+
+import { Link } from '../routes'
+
+const ids = ['reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
+
+let projects = []
+for (let id of ids) {
+  let key = `output/projects/${id}.json`
+  projects.push(summary.fileMap[key])
+}
 
 export default () => (
   <div id="projects">
-    { items.map((item) => {
+    { projects.map((project) => {
       return (
         <div>
-          <img width="100" height="100" src={ `/static/${ item.image }` } />
-          <p>{ item.title }</p>
-          <span>{ item.authors }</span>
+          <Link route={ project.id }>
+            <a>Link</a>
+          </Link>
+          <img width="100" height="100" src={ `/static/images/${ project.image }` } />
+          <p>{ project.title }</p>
+          <span>{ project.authors }</span>
         </div>
       )
     })}

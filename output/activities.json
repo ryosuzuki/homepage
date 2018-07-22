@@ -1,0 +1,10 @@
+{
+  "bodyContent": "### Professional Activities\n\n**Organizer:** UIST 2017 (Web and Social Media Chair)\n\n**Review:** CHI 2016, CHI 2017, UIST 2017, CHI 2018, UIST 2018\n\n**Student Volunteer:** UIST 2016, CHI 2017",
+  "bodyHtml": "<h3>Professional Activities</h3>\n<p><strong>Organizer:</strong> UIST 2017 (Web and Social Media Chair)</p>\n<p><strong>Review:</strong> CHI 2016, CHI 2017, UIST 2017, CHI 2018, UIST 2018</p>\n<p><strong>Student Volunteer:</strong> UIST 2016, CHI 2017</p>\n",
+  "title": "Professional Activities",
+  "dir": "output",
+  "base": "activities.json",
+  "ext": ".json",
+  "sourceBase": "activities.md",
+  "sourceExt": ".md"
+}

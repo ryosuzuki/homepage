@@ -1,0 +1,12 @@
+{
+  "date": "2017-12-11",
+  "image": "",
+  "bodyContent": "Two [**CHI 2018**](https://chi2018.acm.org/) full-papers have been accepted (25%).",
+  "bodyHtml": "<p>Two <a href=\"https://chi2018.acm.org/\"><strong>CHI 2018</strong></a> full-papers have been accepted (25%).</p>\n",
+  "title": "Two <a href=\"https://chi2018.acm.org/\"><strong>CHI 2018",
+  "dir": "output/news",
+  "base": "2017-12-11.json",
+  "ext": ".json",
+  "sourceBase": "2017-12-11.md",
+  "sourceExt": ".md"
+}

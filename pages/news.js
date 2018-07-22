@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-import items from './news.json'
+import items from '../output/news.json'
 
 
 export default () => (

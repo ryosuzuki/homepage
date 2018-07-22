@@ -1,0 +1,294 @@
+{
+  "fileMap": {
+    "output/activities.json": {
+      "title": "Professional Activities",
+      "dir": "output",
+      "base": "activities.json",
+      "ext": ".json",
+      "sourceBase": "activities.md",
+      "sourceExt": ".md"
+    },
+    "output/awards.json": {
+      "title": "Awards and Honors",
+      "dir": "output",
+      "base": "awards.json",
+      "ext": ".json",
+      "sourceBase": "awards.md",
+      "sourceExt": ".md"
+    },
+    "output/news.json": [
+      {
+        "date": "2017-12-16",
+        "image": "",
+        "text": "Spring and Summer Intern for [**ERATO Project**](http://www.jst.go.jp/erato/kawahara/projects/) at the University of Tokyo with [**Yasuaki Kakehi**](http://www.xlab.sfc.keio.ac.jp/) and [**Yoshihiro Kawahara**](http://www.akg.t.u-tokyo.ac.jp/)."
+      },
+      {
+        "date": "2017-12-11",
+        "image": "",
+        "text": "Two [**CHI 2018**](https://chi2018.acm.org/) full-papers have been accepted (25%)."
+      },
+      {
+        "date": "2017-06-27",
+        "image": "",
+        "text": "One [**VL/HCC 2017**](https://sites.google.com/site/vlhcc2017/) full-paper has been accepted (29%)."
+      },
+      {
+        "date": "2017-06-21",
+        "image": "",
+        "text": "One [**ASSETS 2017**](https://assets17.sigaccess.org/) full-paper has been accepted (26%)."
+      },
+      {
+        "date": "2017-02-11",
+        "image": "",
+        "text": "One [**CHI 2017**](https://chi2017.acm.org/) LBW paper has been accepted (38%)."
+      },
+      {
+        "date": "2016-12-16",
+        "image": "",
+        "text": "One [**L@S 2017**](http://learningatscale.acm.org/las2017/) full paper has been accepted (22%)."
+      },
+      {
+        "date": "2016-12-12",
+        "image": "",
+        "text": "One [**ICSE 2017**](http://icse2017.gatech.edu/) full-paper has been accepted (19%)."
+      },
+      {
+        "date": "2016-05-23",
+        "image": "",
+        "text": "Summer at [**UC Berkeley**](http://bid.berkeley.edu/) with [**Bjoern Hartmann**](http://people.eecs.berkeley.edu/~bjoern/)."
+      },
+      {
+        "date": "2016-01-15",
+        "image": "",
+        "text": "One [**CHI 2016**](https://chi2016.acm.org/wp/) full-paper has been accepted (23%)."
+      },
+      {
+        "date": "2015-10-01",
+        "image": "",
+        "text": "I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)"
+      },
+      {
+        "date": "2015-05-20",
+        "image": "",
+        "text": "Summer at [**Stanford**](http://hci.stanford.edu/) with [**Michael Bernstein**](http://hci.stanford.edu/msb/)."
+      }
+    ],
+    "output/news/2017-12-11.json": {
+      "date": "2017-12-11",
+      "image": "",
+      "title": "Two <a href=\"https://chi2018.acm.org/\"><strong>CHI 2018",
+      "dir": "output/news",
+      "base": "2017-12-11.json",
+      "ext": ".json",
+      "sourceBase": "2017-12-11.md",
+      "sourceExt": ".md"
+    },
+    "output/news/2017-12-16.json": {
+      "date": "2017-12-16",
+      "image": "",
+      "title": "Spring and Summer Intern for <a href=\"http://www.jst.go.jp/erato/kawahara/projects/\"><strong>ERATO Project",
+      "dir": "output/news",
+      "base": "2017-12-16.json",
+      "ext": ".json",
+      "sourceBase": "2017-12-16.md",
+      "sourceExt": ".md"
+    },
+    "output/experience.json": {
+      "title": "Research Experience",
+      "dir": "output",
+      "base": "experience.json",
+      "ext": ".json",
+      "sourceBase": "experience.md",
+      "sourceExt": ".md"
+    },
+    "output/profile.json": {
+      "title": "Profile",
+      "dir": "output",
+      "base": "profile.json",
+      "ext": ".json",
+      "sourceBase": "profile.md",
+      "sourceExt": ".md"
+    },
+    "output/projects/atelier.json": {
+      "id": "Atelier",
+      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "authors": "Ryo Suzuki**, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and Michael S. Bernstein",
+      "image": "atelier.jpg",
+      "conference": {
+        "name": "CHI 2016",
+        "url": "https://chi2016.acm.org/wp/"
+      },
+      "pdf": "chi-2016-atelier.pdf",
+      "video": "https://www.youtube.com/satch-v=tBojZejtFQo",
+      "slide": "chi-2016-atelier-slide.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
+      "arxiv": "https://arxiv.org/abs/1602.06634",
+      "dir": "output/projects",
+      "base": "atelier.json",
+      "ext": ".json",
+      "sourceBase": "atelier.md",
+      "sourceExt": ".md"
+    },
+    "output/projects/flux-marker.json": {
+      "id": "flux-marker",
+      "title": "FluxMarker: Enhancing Tactile Graphics with Dynamic Tactile Markers",
+      "authors": [
+        "Ryo Suzuki",
+        "Abigale Stangl",
+        "Mark D. Gross",
+        "Tom Yeh"
+      ],
+      "image": "fluxmarker.png",
+      "conference": {
+        "name": "ASSETS 2017",
+        "url": "https://assets17.sigaccess.org/"
+      },
+      "pdf": "assets-2017-fluxmarker.pdf",
+      "video": "https://www.youtube.com/watch?v=VbwIZ9V6i_g",
+      "slide": "assets-2017-fluxmarker-slide.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3132548",
+      "arxiv": "https://arxiv.org/abs/1708.03783",
+      "dir": "output/projects",
+      "base": "flux-marker.json",
+      "ext": ".json",
+      "sourceBase": "flux-marker.md",
+      "sourceExt": ".md"
+    },
+    "output/projects/mixed-initiative.json": {
+      "id": "mixed-initiative",
+      "title": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
+      "authors": "Andrew Head, Elena Glassman, Gustavo Soares, **Ryo Suzuki**, Lucas Figueredo, Loris D’Antoni, Bjoern Hartmann",
+      "image": "las2017.png",
+      "conference": {
+        "name": "L@S",
+        "url": "http://learningatscale.acm.org/las2017"
+      },
+      "pdf": "las-2017-mixed.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3051467",
+      "dir": "output/projects",
+      "base": "mixed-initiative.json",
+      "ext": ".json",
+      "sourceBase": "mixed-initiative.md",
+      "sourceExt": ".md"
+    },
+    "output/projects/reactile.json": {
+      "id": "reactile",
+      "title": "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation",
+      "authors": [
+        "Ryo Suzuki",
+        "Jun Kato",
+        "Mark D. Gross",
+        "Tom Yeh"
+      ],
+      "image": "reactile.jpg",
+      "conference": [
+        {
+          "name": "CHI 2018"
+        },
+        {
+          "url": "https://chi2018.acm.org/"
+        }
+      ],
+      "pdf": "chi-2018-reactile.pdf",
+      "video": "https://www.youtube.com/watch?v=Gb7brajKCVE",
+      "short-video": "https://www.youtube.com/watch?v=YT7vMJZjohU",
+      "slide": "chi-2018-reactile-slide.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3173773",
+      "github": "https://github.com/ryosuzuki/reactile",
+      "dir": "output/projects",
+      "base": "reactile.json",
+      "ext": ".json",
+      "sourceBase": "reactile.md",
+      "sourceExt": ".md"
+    },
+    "output/projects/pep.json": {
+      "id": "pep,",
+      "title": "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
+      "authors": [
+        "Hyunjoo Oh",
+        "Tung D. Ta",
+        "Ryo Suzuki",
+        "Mark D. Gross",
+        "Yoshihiro Kawahara",
+        "Lining Yao"
+      ],
+      "image": "pep.png",
+      "conference": {
+        "name": "CHI 2018",
+        "url": "https://chi2018.acm.org/"
+      },
+      "pdf": "chi-2018-pep.pdf",
+      "video": "https://vimeo.com/252080903",
+      "short-video": "https://www.youtube.com/watch?v=DTd863suDN0",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3174015",
+      "dir": "output/projects",
+      "base": "pep.json",
+      "ext": ".json",
+      "sourceBase": "pep.md",
+      "sourceExt": ".md"
+    },
+    "output/projects/refazer.json": {
+      "id": "refazer",
+      "title": "Learning Syntactic Program Transformations from Examples",
+      "authors": "Reudismam Rolim, Gustavo Soares, Loris D’Antoni, Oleksandr Polozov, Sumit Gulwani, Rohit Gheyi, **Ryo Suzuki**, and Bjoern Hartmann",
+      "image": "refazer.png",
+      "conference": {
+        "name": "ICSE 2017",
+        "url": "http://icse2017.gatech.edu/"
+      },
+      "pdf": "icse-2017-refazer.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
+      "arxiv": "https://arxiv.org/abs/1608.09000",
+      "dir": "output/projects",
+      "base": "refazer.json",
+      "ext": ".json",
+      "sourceBase": "refazer.md",
+      "sourceExt": ".md"
+    },
+    "output/projects/trace-diff.json": {
+      "id": "trace-diff",
+      "title": "TraceDiff: Debugging Unexpected Code Behavior Using Trace Divergences",
+      "authors": "**Ryo Suzuki**, Gustavo Soares, Andrew Head, Elena Glassman, Ruan Reis, Melina Mongiovi, Loris D’Antoni, Bjoern Hartmann",
+      "image": "tracediff.png",
+      "conference": null,
+      "name": "VL/HCC",
+      "url": "https://sites.google.com/site/vlhcc",
+      "pdf": "vlhcc-2017-tracediff.pdf",
+      "slide": "vlhcc-2017-tracediff-slide.pdf",
+      "github": "https://github.com/ryosuzuki/trace-diff",
+      "demo": "https://ryosuzuki.github.io/trace-diff/",
+      "ieee": "http://ieeexplore.ieee.org/document/8103457/",
+      "arxiv": "https://arxiv.org/abs/1708.03786a",
+      "dir": "output/projects",
+      "base": "trace-diff.json",
+      "ext": ".json",
+      "sourceBase": "trace-diff.md",
+      "sourceExt": ".md"
+    },
+    "output/updates.json": {
+      "title": "Recent Updates",
+      "dir": "output",
+      "base": "updates.json",
+      "ext": ".json",
+      "sourceBase": "updates.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "content/activities.md",
+    "content/awards.md",
+    "content/experience.md",
+    "content/news.yaml",
+    "content/news/2017-12-11.md",
+    "content/news/2017-12-16.md",
+    "content/profile.md",
+    "content/projects/atelier.md",
+    "content/projects/flux-marker.md",
+    "content/projects/mixed-initiative.md",
+    "content/projects/pep.md",
+    "content/projects/reactile.md",
+    "content/projects/refazer.md",
+    "content/projects/trace-diff.md",
+    "content/updates.md"
+  ]
+}
