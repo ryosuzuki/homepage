@@ -22,45 +22,59 @@ class Profile extends React.Component {
               Research in <a href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction"><b>Human-Computer Interaction</b></a>, working with <a href="http://tomyeh.info/"><b>Tom Yeh</b></a>, <a href="http://leithinger.com/"><b>Daniel Leithinger</b></a>, and <a href="http://mdgross.net/">
                 <b>Mark D. Gross</b></a>.
             </p>
+
+            <p>
+              I make <b>dynamic media for human thinking</b>.
+              More specifically, I design and develop <b>explorable environments</b>, in which people can think, design, understand, and communicate ideas through exploration.
+              For example, imagine how we think and understand complex ideas in <b>science museums</b>.
+              I envision that computers in the 21st century will bring the science-museum-like experience into every room, just like computers in the past century have brought libraries to every desk.
+            </p>
           </div>
 
-          <div className="ui basic segment horizontal list">
+          <div className="ui horizontal list" style={{ marginTop: '10px' }}>
             <div className="item">
-              <a href="">
+              <a href="https://scholar.google.com/citations?user=klWjaQIAAAAJ">
                 <i className="fas fa-graduation-cap fa-fw" />
                 Google Scholar
               </a>
             </div>
             <div className="item">
-              <a href="">
+              <a href="http://ryosuzuki.org/cv/cv.pdf">
                 <i className="far fa-file fa-fw" />
                 Resume/CV
               </a>
             </div>
             <div className="item">
-              <a href="">
+              <a href="mailto:ryo.suzuki@colorado.edu">
+                <i className="far fa-envelope fa-fw" />
+                ryo.suzuki@colorado.edu
+              </a>
+            </div>
+            <div className="item">
+              <a href="https://www.facebook.com/ryosuzk">
                 <i className="fab fa-facebook-square fa-fw" />
                 ryosuzk
               </a>
             </div>
             <div className="item">
-              <a href="">
+              <a href="https://twitter.com/ryosuzk">
                 <i className="fab fa-twitter fa-fw" />
                 ryosuzk
               </a>
             </div>
             <div className="item">
-              <a href="">
+              <a href="https://github.com/ryosuzuki">
                 <i className="fab fa-github-alt fa-fw" />
                 ryosuzuki
               </a>
             </div>
             <div className="item">
-              <a href="">
+              <a href="https://www.linkedin.com/in/ryosuzuki/">
                 <i className="fab fa-linkedin-in fa-fw" />
                 ryosuzuki
               </a>
             </div>
+
 
           </div>
 

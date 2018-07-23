@@ -36,7 +36,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div id="projects" >
-        <h1>Projects</h1>
+        <h1>Publications</h1>
         { projects.map((project) => {
           return (
             <div className="project ui vertical segment grid" data-id={ project.id } >

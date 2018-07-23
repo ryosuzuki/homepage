@@ -1,0 +1,50 @@
+[
+  {
+    "author": "Ryo Suzuki, Gustavo Soares, Elena Glassman, Andrew Head, Loris D'Antoni, and Bjoern Hartmann,",
+    "title": "Exploring the Design Space of Automatically Synthesized Hints for Introductory Programming Assignments",
+    "booktitle": "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
+    "series": "CHI EA '17",
+    "year": 2017,
+    "isbn": "978-1-4503-4656-6",
+    "location": "Denver, Colorado, USA",
+    "pages": "2951--2958",
+    "numpages": 8,
+    "url": "http://doi.acm.org/10.1145/3027063.3053187",
+    "doi": "10.1145/3027063.3053187",
+    "acmid": 3053187,
+    "publisher": "ACM",
+    "address": "New York, NY, USA",
+    "keywords": "automated feedback, program synthesis, programming education"
+  },
+  {
+    "author": "Gaikwad, Snehal (Neil) and Morina, Durim and Nistala, Rohit and Agarwal, Megha and Cossette, Alison and Bhanu, Radhika and Savage, Saiph and Narwal, Vishwajeet and Rajpal, Karan and Regino, Jeff and Mithal, Aditi and Ginzberg, Adam and Nath, Aditi and Ziulkoski, Karolina R. and Cossette, Trygve and Gamage, Dilrukshi and Richmond-Fuller, Angela and Suzuki, Ryo and Herrej\\'{o}n, Jeerel and Le, Kevin and Flores-Saviaga, Claudia and Thilakarathne, Haritha and Gupta, Kajal and Dai, William and Sastry, Ankita and Goyal, Shirish and Rajapakshe, Thejan and Abolhassani, Niki and Xie, Angela and Reyes, Abigail and Ingle, Surabhi and Jaramillo, Ver\\'{o}nica and God\\'{\\i}nez, Martin and \\'{A}ngel, Walter and Toxtli, Carlos and Flores, Juan and Gupta, Asmita and Sethia, Vineet and Padilla, Diana and Milland, Kristy and Setyadi, Kristiono and Wajirasena, Nuwan and Batagoda, Muthitha and Cruz, Rolando and Damon, James and Nekkanti, Divya and Sarma, Tejas and Saleh, Mohamed and Gongora-Svartzman, Gabriela and Bateni, Soroosh and Toledo Barrera, Gema and Pe\\~{n}a, Alex and Compton, Ryan and Aariff, Deen and Palacios, Luis and Ritter, Manuela Paula and K.K., Nisha and Kay, Alan and Uhrmeister, Jana and Nistala, Srivalli and Esfahani, Milad and Bakiu, Elsa and Diemert, Christopher and Matsumoto, Luca and Singh, Manik and Patel, Krupa and Krishna, Ranjay and Kovacs, Geza and Vaish, Rajan and Bernstein, Michael",
+    "title": "Daemo: A Self-Governed Crowdsourcing Marketplace",
+    "booktitle": "Adjunct Proceedings of the 28th Annual ACM Symposium on User Interface Software \\& Technology",
+    "series": "UIST '15 Adjunct",
+    "year": 2015,
+    "isbn": "978-1-4503-3780-9",
+    "location": "Daegu, Kyungpook, Republic of Korea",
+    "pages": "101--102",
+    "numpages": 2,
+    "url": "http://doi.acm.org/10.1145/2815585.2815739",
+    "doi": "10.1145/2815585.2815739",
+    "acmid": 2815739,
+    "publisher": "ACM",
+    "address": "New York, NY, USA",
+    "keywords": "crowd research, crowd work., crowdsourcing"
+  },
+  {
+    "author": "Ryo Suzuki,",
+    "title": "Interactive and Collaborative Source Code Annotation",
+    "booktitle": "Proceedings of the 37th International Conference on Software Engineering - Volume 2",
+    "series": "ICSE '15",
+    "year": 2015,
+    "location": "Florence, Italy",
+    "pages": "799--800",
+    "numpages": 2,
+    "url": "http://dl.acm.org/citation.cfm?id=2819009.2819173",
+    "acmid": 2819173,
+    "publisher": "IEEE Press",
+    "address": "Piscataway, NJ, USA"
+  }
+]
