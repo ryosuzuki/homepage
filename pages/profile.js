@@ -13,8 +13,7 @@ class Profile extends React.Component {
           </h1>
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              Research in <a href="http://hcc.colorado.edu/"><b>Human-Computer Interaction Group</b></a>, working with <a href="http://tomyeh.info/"><b>Tom Yeh</b></a>, <a href="http://leithinger.com/"><b>Daniel Leithinger</b></a>, and <a href="http://mdgross.net/">
-                <b>Mark D. Gross</b></a>.
+              Research in <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction</b></a>, working with <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>, <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a>, and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a>.
             </p>
             <p>
               I am a Ph.D. student at the University of Colorado Boulder, Department of Computer Science.
@@ -35,43 +34,43 @@ class Profile extends React.Component {
 
           <div className="ui horizontal list" style={{ marginTop: '10px' }}>
             <div className="item">
-              <a href="https://scholar.google.com/citations?user=klWjaQIAAAAJ" style={{ fontSize: '1.2em' }}>
+              <a href="https://scholar.google.com/citations?user=klWjaQIAAAAJ" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fas fa-graduation-cap fa-fw" />
                 Google Scholar
               </a>
             </div>
             <div className="item">
-              <a href="http://ryosuzuki.org/cv/cv.pdf" style={{ fontSize: '1.2em' }}>
+              <a href="http://ryosuzuki.org/cv/cv.pdf" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-file fa-fw" />
                 Resume/CV
               </a>
             </div>
             <div className="item">
-              <a href="mailto:ryo.suzuki@colorado.edu" style={{ fontSize: '1.2em' }}>
+              <a href="mailto:ryo.suzuki@colorado.edu" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-envelope fa-fw" />
                 ryo.suzuki@colorado.edu
               </a>
             </div>
             <div className="item">
-              <a href="https://www.facebook.com/ryosuzk" style={{ fontSize: '1.2em' }}>
+              <a href="https://www.facebook.com/ryosuzk" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fab fa-facebook-square fa-fw" />
                 ryosuzk
               </a>
             </div>
             <div className="item">
-              <a href="https://twitter.com/ryosuzk" style={{ fontSize: '1.2em' }}>
+              <a href="https://twitter.com/ryosuzk" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fab fa-twitter fa-fw" />
                 ryosuzk
               </a>
             </div>
             <div className="item">
-              <a href="https://github.com/ryosuzuki" style={{ fontSize: '1.2em' }}>
+              <a href="https://github.com/ryosuzuki" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fab fa-github-alt fa-fw" />
                 ryosuzuki
               </a>
             </div>
             <div className="item">
-              <a href="https://www.linkedin.com/in/ryosuzuki/" style={{ fontSize: '1.2em' }}>
+              <a href="https://www.linkedin.com/in/ryosuzuki/" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fab fa-linkedin-in fa-fw" />
                 ryosuzuki
               </a>
