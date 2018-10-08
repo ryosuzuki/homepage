@@ -1,7 +1,7 @@
 {
-  "bodyContent": "### Awards and Honors\n\nJST ACT-I, 2018\n\nLeave a Nest Fellowship, 2018\n\nNakajima Foundation Scholarship, 2015\n\nJSPS Research Fellow DC1, 2013\n\nJASSO Fellow for Particularly Outstanding Students, 2013\n\nJBMC Microsoft Award, 2013\n\nTech Crunch Tokyo 2013 Finalist, 2013\n\n1st Prize Winner of University of Tokyo Entrepreneur Dojo, 2012\n\nHoner of MOVIDA School founded by Taizo Son, 2012\n\nTohso Scholorship Fellowship, 2010",
-  "bodyHtml": "<h3>Awards and Honors</h3>\n<p>JST ACT-I, 2018</p>\n<p>Leave a Nest Fellowship, 2018</p>\n<p>Nakajima Foundation Scholarship, 2015</p>\n<p>JSPS Research Fellow DC1, 2013</p>\n<p>JASSO Fellow for Particularly Outstanding Students, 2013</p>\n<p>JBMC Microsoft Award, 2013</p>\n<p>Tech Crunch Tokyo 2013 Finalist, 2013</p>\n<p>1st Prize Winner of University of Tokyo Entrepreneur Dojo, 2012</p>\n<p>Honer of MOVIDA School founded by Taizo Son, 2012</p>\n<p>Tohso Scholorship Fellowship, 2010</p>\n",
-  "title": "Awards and Honors",
+  "bodyContent": "JST ACT-I, 2018\n\nLeave a Nest Fellowship, 2018\n\nNakajima Foundation Scholarship, 2015\n\nJSPS Research Fellow DC1, 2013\n\nJASSO Fellow for Particularly Outstanding Students, 2013\n\nJBMC Microsoft Award, 2013\n\nTech Crunch Tokyo 2013 Finalist, 2013\n\n1st Prize Winner of University of Tokyo Entrepreneur Dojo, 2012\n\nHoner of MOVIDA School founded by Taizo Son, 2012\n\nTohso Scholorship Fellowship, 2010",
+  "bodyHtml": "<p>JST ACT-I, 2018</p>\n<p>Leave a Nest Fellowship, 2018</p>\n<p>Nakajima Foundation Scholarship, 2015</p>\n<p>JSPS Research Fellow DC1, 2013</p>\n<p>JASSO Fellow for Particularly Outstanding Students, 2013</p>\n<p>JBMC Microsoft Award, 2013</p>\n<p>Tech Crunch Tokyo 2013 Finalist, 2013</p>\n<p>1st Prize Winner of University of Tokyo Entrepreneur Dojo, 2012</p>\n<p>Honer of MOVIDA School founded by Taizo Son, 2012</p>\n<p>Tohso Scholorship Fellowship, 2010</p>\n",
+  "title": "JST ACT-I, 2018",
   "dir": "output",
   "base": "awards.json",
   "ext": ".json",

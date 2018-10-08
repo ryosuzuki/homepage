@@ -7,6 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll",
     "build:content": "processmd \"content/**/*.{yaml,md}\" --outputDir output --summaryOutput output/summary.json",
     "build:content:watch": "processmd \"content/**/*.{yaml,md}\" --outputDir output --watch"
   },

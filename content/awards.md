@@ -1,7 +1,4 @@
 
-
-### Awards and Honors
-
 JST ACT-I, 2018
 
 Leave a Nest Fellowship, 2018
