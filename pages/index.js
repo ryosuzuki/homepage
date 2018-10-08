@@ -57,16 +57,16 @@ class Index extends React.Component {
                   <div className="ui bulleted list">
                   { posters.map((item) => {
                     return (
-                      <div className="item" style={{ lineHeight: '1.8rem' }}>
+                      <div className="item" target="_blank" style={{ lineHeight: '1.8rem' }}>
                         <b>[{ item.series }]</b><br/>
                         <a href={ '/publications/' + item.pdf }><b>{ item.title }</b></a>
                         <br />
                         { item.author }, <i>{ item.booktitle } ({item.series })</i>. { item.publisher }, { item.address }, { item.pages }.
                         <br/>
-                        <a href={ '/publications/' + item.pdf } style={{ marginRight: '5px', display: item.pdf ? 'inline' : 'none' }}>[PDF]</a>
-                        <a href={ '/publications/' + item.poster } style={{ marginRight: '5px', display: item.poster ? 'inline' : 'none' }}>[Poster]</a>
-                        <a href={ '/publications/' + item.slide } style={{ marginRight: '5px', display: item.slide ? 'inline' : 'none' }}>[Slide]</a>
-                        <a href={ '/publications/' + item.url } style={{ marginRight: '5px', display: item.url ? 'inline' : 'none' }}>[DOI]</a>
+                        <a href={ '/publications/' + item.pdf } target="_blank" style={{ marginRight: '5px', display: item.pdf ? 'inline' : 'none' }}>[PDF]</a>
+                        <a href={ '/publications/' + item.poster } target="_blank" style={{ marginRight: '5px', display: item.poster ? 'inline' : 'none' }}>[Poster]</a>
+                        <a href={ '/publications/' + item.slide } target="_blank" style={{ marginRight: '5px', display: item.slide ? 'inline' : 'none' }}>[Slide]</a>
+                        <a href={ item.url } target="_blank" style={{ marginRight: '5px', display: item.url ? 'inline' : 'none' }}>[DOI]</a>
                       </div>
                     )
                   }) }
