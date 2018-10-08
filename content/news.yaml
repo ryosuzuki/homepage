@@ -1,6 +1,9 @@
+- date: '2018-08-06'
+  image: 'uist-2018.png'
+  text: One [**UIST 2018**](https://uist.acm.org/uist2018/) full-paper is accepted (21%).
 - date: '2018-08-03'
-  image: 'chi-2018.png'
-  text: One [**UIST 2018**](https://http://uist.acm.org/uist2018/) full-paper is accepted (21%).
+  image: 'pg-2018.png'
+  text: One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (26%).
 - date: '2017-12-11'
   image: 'chi-2018.png'
   text: Two [**CHI 2018**](https://chi2018.acm.org/) full-papers are accepted (25%).
@@ -27,4 +30,3 @@
 - date: '2015-10-01'
   image: 'uist-2016.jpg'
   text: I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)
-
