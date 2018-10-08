@@ -40,7 +40,7 @@ class Profile extends React.Component {
               </a>
             </div>
             <div className="item">
-              <a href="http://ryosuzuki.org/cv/cv.pdf" target="_blank" style={{ fontSize: '1.2em' }}>
+              <a href="/cv.pdf" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-file fa-fw" />
                 Resume/CV
               </a>

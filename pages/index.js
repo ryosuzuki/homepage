@@ -31,7 +31,7 @@ class Index extends React.Component {
           <div id="side" className="three wide column centered">
             <div className="three wide column centered" style={{ textAlign: 'center', marginTop: '50px', marginBottom: '30px' }}>
               <a href="/">
-                <img style={{ maxWidth: '200px' }} src="/static/images/profile.png" className="ui image" />
+                <img style={{ maxWidth: '80%', margin: 'auto' }} src="/static/images/profile.png" className="ui image" />
               </a>
             </div>
 
