@@ -6,8 +6,7 @@ const debug = process.env.NODE_ENV !== "production";
 module.exports = withCSS({
   exportPathMap: function () {
     return {
-      "/": { page: "/" },
-      "/about": { page: "/about" },
+      '/': { page: '/' },
     }
   },
   assetPrefix: !debug ? '/homepage/' : '',
