@@ -1,4 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document'
+import { GA_TRACKING_ID } from './_analytics'
 
 export default class MyDocument extends Document {
   render() {
@@ -20,6 +21,20 @@ export default class MyDocument extends Document {
           <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
           <script type="text/javascript" src="https://www.google.com/jsapi"></script>
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.js"></script>
+
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `}}
+          />
 
         </Head>
         <body>
