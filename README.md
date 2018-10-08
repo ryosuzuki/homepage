@@ -7,3 +7,9 @@ node server.js
 ```
 npm run build:content:watch
 ```
+
+
+To deploy
+```sh
+npm run deploy
+```
