@@ -3,12 +3,7 @@
   "name": "Reactile",
   "description": "Programming Swarm User Interfaces through Direct Physical Manipulation",
   "title": "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation",
-  "authors": [
-    "Ryo Suzuki",
-    "Jun Kato",
-    "Mark D. Gross",
-    "Tom Yeh"
-  ],
+  "authors": "Ryo Suzuki, Jun Kato, Mark D. Gross, Tom Yeh",
   "image": "reactile.jpg",
   "conference": {
     "name": "CHI 2018",

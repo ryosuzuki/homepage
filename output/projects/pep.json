@@ -3,14 +3,7 @@
   "name": "PEP",
   "description": "3D Printed Electronic Papercrafts - An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
   "title": "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
-  "authors": [
-    "Hyunjoo Oh",
-    "Tung D. Ta",
-    "Ryo Suzuki",
-    "Mark D. Gross",
-    "Yoshihiro Kawahara",
-    "Lining Yao"
-  ],
+  "authors": "Hyunjoo Oh, Tung D. Ta, Ryo Suzuki, Mark D. Gross, Yoshihiro Kawahara, Lining Yao",
   "image": "pep.png",
   "conference": {
     "name": "CHI 2018",

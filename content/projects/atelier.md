@@ -3,7 +3,7 @@ id: atelier
 name: Atelier
 description: Repurposing Expert Crowdsourcing Tasks as Micro-internships
 title: 'Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships'
-authors: Ryo Suzuki**, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and
+authors: Ryo Suzuki, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and
   Michael S. Bernstein
 image: atelier.jpg
 conference:

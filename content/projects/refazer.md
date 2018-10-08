@@ -3,8 +3,7 @@ id: refazer
 name: Refazer
 description: Learning Syntactic Program Transformations from Examples
 title: Learning Syntactic Program Transformations from Examples
-authors: Reudismam Rolim, Gustavo Soares, Loris D’Antoni, Oleksandr Polozov, Sumit
-  Gulwani, Rohit Gheyi, **Ryo Suzuki**, and Bjoern Hartmann
+authors: Reudismam Rolim, Gustavo Soares, Loris D’Antoni, Oleksandr Polozov, Sumit Gulwani, Rohit Gheyi, Ryo Suzuki, and Bjoern Hartmann
 image: refazer.png
 conference:
   name: ICSE 2017

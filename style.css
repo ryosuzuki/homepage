@@ -107,6 +107,7 @@ footer {
   /*max-width: 700px;*/
   background: #fff;
   /*margin: 40px auto 20px;*/
+  padding: 20px;
   border-radius: 7px;
   border: 1px solid #eee;
   position: relative; }
@@ -172,6 +173,7 @@ a, .as-link {
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
     color: #1d5884;
+    text-decoration: underline;
     background-repeat: repeat-x;
     background-position: left bottom; }
   a.big-button, .as-link.big-button {

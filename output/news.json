@@ -1,8 +1,13 @@
 [
   {
     "date": "2018-08-03",
-    "image": "chi-2018.png",
+    "image": "uist-2018.png",
     "text": "One [**UIST 2018**](https://http://uist.acm.org/uist2018/) full-paper is accepted (21%)."
+  },
+  {
+    "date": "2018-08-03",
+    "image": "pg-2018.png",
+    "text": "One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (23%)."
   },
   {
     "date": "2017-12-11",

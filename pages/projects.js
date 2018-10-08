@@ -8,7 +8,7 @@ import { Link } from '../routes'
 // import $ from 'jquery'
 // window.jQuery = $
 
-const ids = ['reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
+const ids = ['dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
 
 let projects = []
 for (let id of ids) {
@@ -36,7 +36,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div id="projects" >
-        <h1>Publications</h1>
+        <h1>Full Papers</h1>
         { projects.map((project) => {
           return (
             <div className="project ui vertical segment grid" data-id={ project.id } >
@@ -46,13 +46,17 @@ class Projects extends React.Component {
               <div className="twelve wide column">
                 <h1 className="ui header" style={{ marginBottom: '10px' }}>
                   <span>{ project.name }</span>
-                  <span className="ui large label">{ project.conference.name }</span>
+                  <span className="ui big label">{ project.conference.name }</span>
                 </h1>
-                <h3 style={{ margin: '5px 0' }}>{ project.description }</h3>
+                <h2 style={{ margin: '5px 0' }}>{ project.description }</h2>
                 <p>{ project.authors }</p>
-                <Link route={ project.id }>
-                  <a>Link</a>
-                </Link>
+                <a href={ '/publications/' + project.pdf } target="blank" style={{ marginRight: '5px', display: project.pdf ? 'inline' : 'none' }}>[PDF]</a>
+                <a href={ project.video } target="blank" style={{ marginRight: '5px', display: project.video ? 'inline' : 'none' }}>[Video]</a>
+                <a href={ project['short-video'] } target="blank" style={{ marginRight: '5px', display: project['short-video'] ? 'inline' : 'none' }}>[Short Video]</a>
+                <a href={ '/publications/' + project.slide } target="blank" style={{ marginRight: '5px', display: project.slide ? 'inline' : 'none' }}>[Slide]</a>
+                <a href={ project.github } target="blank" style={{ marginRight: '5px', display: project.github ? 'inline' : 'none' }}>[GitHub]</a>
+                <a href={ project['acm-dl'] } target="blank" style={{ marginRight: '5px', display: project['acm-dl'] ? 'inline' : 'none' }}>[ACM DL]</a>
+                <a href={ project['ieee'] } target="blank" style={{ marginRight: '5px', display: project['ieee'] ? 'inline' : 'none' }}>[IEEE]</a>
               </div>
 
               <div id={ project.id } className="ui modal">

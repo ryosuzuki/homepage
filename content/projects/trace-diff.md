@@ -3,8 +3,7 @@ id: trace-diff
 name: TraceDiff
 description: Debugging Unexpected Code Behavior Using Trace Divergences
 title: 'TraceDiff: Debugging Unexpected Code Behavior Using Trace Divergences'
-authors: "**Ryo Suzuki**, Gustavo Soares, Andrew Head, Elena Glassman, Ruan Reis,
-Melina Mongiovi, Loris D’Antoni, Bjoern Hartmann"
+authors: Ryo Suzuki, Gustavo Soares, Andrew Head, Elena Glassman, Ruan Reis, Melina Mongiovi, Loris D’Antoni, Bjoern Hartmann
 image: tracediff.png
 conference:
   name: VL/HCC 2017

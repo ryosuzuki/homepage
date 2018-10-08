@@ -2,6 +2,10 @@
 
 ### Awards and Honors
 
+JST ACT-I, 2018
+
+Leave a Nest Fellowship, 2018
+
 Nakajima Foundation Scholarship, 2015
 
 JSPS Research Fellow DC1, 2013
