@@ -18,14 +18,13 @@ class Profile extends React.Component {
             <p>
               I am a Ph.D. student at the University of Colorado Boulder, Department of Computer Science.
               <br/>
-              I make <b>a dynamic and interactive meidum</b> for human thought.
-              More specifically, I explore how dynamic, interactive, and explorable environments can transform our ways of thinking, designing, understanding, and communicating ideas through powerful representations of thought. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b> that can leverage our entire bodies to explore ideas, just like what we do in a science museum today.
+              I make <b>a dynamic medium</b> for human thought. More specifically, I explore how interactive and explorable environments can transform our ways of thinking, designing, understanding, and communicating ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b> that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
               {/* explore how dynamic computational media can contribute to new ways of thinking, designing, understanding, and communicating ideas through more interactive and explorable mannar. */}
               <br/>
               <br/>
 
-              Towards this goal, I have been working on several aspects of this computational environment, including
-              1) <b>hardware</b>: how to make our physical environment into a dynamic one and how to democratize such an environment for every home, school, and working space,
+              Towards this goal, I have been working on several aspects of this computational environment, including:
+              1) <b>hardware</b>: how to make our static physical environment into a dynamic one and how to democratize such a dynamic environment for every home, school, and working space,
               2) <b>authoring tools</b>: how to support designing and authoring a dynamic content through more direct and intuitive ways of programming, and
               3) <b>representations</b>: how to represent ideas for more understandable ways and how to design interaction for such dynamic representations.
 
