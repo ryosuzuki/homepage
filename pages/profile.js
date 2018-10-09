@@ -18,13 +18,21 @@ class Profile extends React.Component {
             <p>
               I am a Ph.D. student at the University of Colorado Boulder, Department of Computer Science.
               <br/>
-              I make <b>a dynamic medium</b> for human thought. More specifically, I explore how interactive and explorable environments can transform our ways of thinking, designing, understanding, and communicating ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b> that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
-              {/* explore how dynamic computational media can contribute to new ways of thinking, designing, understanding, and communicating ideas through more interactive and explorable mannar. */}
+              I make <b>a dynamic medium</b> for human's creative thought. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
+              {/*
+                a dynamic medium for creative thought
+                a dynamic medium to enhance creativity
+                a dynamic medium for human's creative activities
+
+                to design interactive and explorable environments
+
+                explore how dynamic computational media can contribute to new ways of thinking, designing, understanding, and communicating ideas through more interactive and explorable mannar.
+              */}
               <br/>
               <br/>
 
               Towards this goal, I have been working on several aspects of this computational environment, including:
-              1) <b>hardware</b>: how to make our static physical environment into a dynamic one and how to democratize such a dynamic environment for every home, school, and working space,
+              1) <b>hardware</b>: how to make our static physical environment into a dynamic one and how to democratize such an environment for every home, school, and work space,
               2) <b>authoring tools</b>: how to support designing and authoring a dynamic content through more direct and intuitive ways of programming, and
               3) <b>representations</b>: how to represent ideas for more understandable ways and how to design interaction for such dynamic representations.
 
