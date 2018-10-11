@@ -42,6 +42,9 @@ class Projects extends React.Component {
             <div className="project ui vertical segment grid" data-id={ project.id } >
               <div className="four wide column">
                 <img className="ui rounded image" src={ `/static/images/${ project.image }` } />
+                {/* <video autoplay="" loop="loop" muted="" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
+                  <source src={`/static/videos/${ project.id }.webm`} type="video/webm" />
+                </video> */}
               </div>
               <div className="twelve wide column">
                 <h1 className="ui header" style={{ marginBottom: '10px' }}>

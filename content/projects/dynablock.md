@@ -8,5 +8,8 @@ image: dynablock.jpg
 conference:
   name: UIST 2018
   url: http://uist.acm.org/uist2018
+pdf: uist-2018-dynablock.pdf
+video: https://www.youtube.com/watch?v=7nPlr3O9xu8
+short-video: https://www.youtube.com/watch?v=92eGI-gYYc4
 
 ---
