@@ -13,5 +13,6 @@ video: https://www.youtube.com/watch?v=7nPlr3O9xu8
 short-video: https://www.youtube.com/watch?v=92eGI-gYYc4
 slide: uist-2018-dynablock-slide.pdf
 acm-dl: https://dl.acm.org/citation.cfm?id=3242659
+talk: https://www.youtube.com/watch?v=R3FRUtOIiCQ
 
 ---

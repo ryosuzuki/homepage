@@ -60,6 +60,7 @@ class Projects extends React.Component {
                 <a href={ project.github } target="blank" style={{ marginRight: '5px', display: project.github ? 'inline' : 'none' }}>[GitHub]</a>
                 <a href={ project['acm-dl'] } target="blank" style={{ marginRight: '5px', display: project['acm-dl'] ? 'inline' : 'none' }}>[ACM DL]</a>
                 <a href={ project['ieee'] } target="blank" style={{ marginRight: '5px', display: project['ieee'] ? 'inline' : 'none' }}>[IEEE]</a>
+                <a href={ project['talk'] } target="blank" style={{ marginRight: '5px', display: project['talk'] ? 'inline' : 'none' }}>[Talk]</a>
               </div>
 
               <div id={ project.id } className="ui modal">
