@@ -3,7 +3,7 @@ id: morphio
 name: MorphIO
 description: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction
 title: 'MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction'
-authors: Ryosuke Nakayama, Ryo Suzuki, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi
+authors: Ryosuke Nakayama*, Ryo Suzuki*, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi (* equally contributed)
 image: morphio.png
 conference:
   name: DIS 2019
