@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import '../style.css'
 import updates from '../output/updates.json'
 import experience from '../output/experience.json'
-import awards from '../output/awards.json'
+import fellowship from '../output/fellowship.json'
 import activities from '../output/activities.json'
 import publications from '../output/publications.json'
 import posters from '../output/posters.json'
@@ -82,10 +82,10 @@ class Index extends React.Component {
                 </div>
               </div>
               <div class="ui divider"></div>
-              <div id="awards">
-                <h1>Awards and Honors</h1>
+              <div id="fellowship">
+                <h1>Scholarship and Fellowship</h1>
                 <div className="ui vertical segment">
-                  <ReactMarkdown source={ awards.bodyContent } />
+                  <ReactMarkdown source={ fellowship.bodyContent } />
                 </div>
               </div>
             </section>

@@ -11,5 +11,5 @@ conference:
 pdf: pg-2018-tabby.pdf
 video: https://www.youtube.com/watch?v=rRgw8lH74CA
 acm-dl: https://diglib.eg.org/handle/10.2312/pg20181273
-
+slide: pg-2018-tabby-slide.pdf
 ---

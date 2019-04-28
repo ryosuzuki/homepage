@@ -8,7 +8,7 @@ import { Link } from '../routes'
 // import $ from 'jquery'
 // window.jQuery = $
 
-const ids = ['dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
+const ids = ['morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
 
 let projects = []
 for (let id of ids) {

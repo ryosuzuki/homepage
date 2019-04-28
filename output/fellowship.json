@@ -1,0 +1,10 @@
+{
+  "bodyContent": "JST ACT-I (Mentor: Takeo Igarashi), 2018\n\nLeave a Nest Fellowship, 2018\n\nNakajima Foundation Scholarship, 2015\n\nJSPS Research Fellow DC1, 2013\n\nJASSO Fellow for Particularly Outstanding Students, 2013\n\nTohso Scholorship Fellowship, 2010\n\n[//]: # (JBMC Microsoft Award, 2013)\n\n[//]: # (Tech Crunch Tokyo 2013 Finalist, 2013)\n\n[//]: # (1st Prize Winner of University of Tokyo Entrepreneur Dojo, 2012)\n\n[//]: # (Honer of MOVIDA School founded by Taizo Son, 2012)",
+  "bodyHtml": "<p>JST ACT-I (Mentor: Takeo Igarashi), 2018</p>\n<p>Leave a Nest Fellowship, 2018</p>\n<p>Nakajima Foundation Scholarship, 2015</p>\n<p>JSPS Research Fellow DC1, 2013</p>\n<p>JASSO Fellow for Particularly Outstanding Students, 2013</p>\n<p>Tohso Scholorship Fellowship, 2010</p>\n",
+  "title": "JST ACT-I (Mentor: Takeo Igarashi), 2018",
+  "dir": "output",
+  "base": "fellowship.json",
+  "ext": ".json",
+  "sourceBase": "fellowship.md",
+  "sourceExt": ".md"
+}

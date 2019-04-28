@@ -13,7 +13,8 @@ class Profile extends React.Component {
           </h1>
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              Research in <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction</b></a>, working with <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>, <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a>, and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a>.
+              Research in <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a>. { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
+                */ }
             </p>
             <p>
               I am a Ph.D. student at the University of Colorado Boulder, Department of Computer Science.
