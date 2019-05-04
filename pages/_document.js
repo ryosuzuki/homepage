@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
 
           <link href='/assets/img/favicon.ico' rel='shortcut icon' />
 
-          <link rel="stylesheet" href="/_next/static/style.css" />
+          <link rel="stylesheet" href="/static/css/style.css" />
 
 
           <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
