@@ -7,9 +7,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && echo ryosuzuki.org > build/CNAME && touch build/.nojekyll && mv build/static/publications build/ && mv build/static/cv/cv.pdf build/ && git add build/",
-    "push": "git subtree push --prefix build origin gh-pages",
-    "force": "git push origin `git subtree split --prefix build master`:gh-pages --force",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && echo ryosuzuki.org > out/CNAME && touch out/.nojekyll && mv out/static/publications out/ && mv out/static/cv/cv.pdf out/ && git add out/",
+    "push": "git subtree push --prefix out origin gh-pages",
+    "force": "git push origin `git subtree split --prefix out master`:gh-pages --force",
     "build:content": "processmd \"content/**/*.{yaml,md}\" --outputDir content/output --summaryOutput content/output/summary.json",
     "build:content:watch": "processmd \"content/**/*.{yaml,md}\" --outputDir content/output --watch"
   },

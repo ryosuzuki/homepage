@@ -15,7 +15,7 @@ class Project extends React.Component {
   }
 
   render() {
-    const project = require(`../output/projects/${this.props.id}.json`)
+    const project = require(`../content/output/projects/${this.props.id}.json`)
 
     return (
       <div id="project">
