@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-import items from '../output/news.json'
+import items from '../content/output/news.json'
 
 class Timeline extends React.Component {
   render() {

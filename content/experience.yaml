@@ -10,6 +10,12 @@
   advisors:
     - name: Rubaiat Habib
       url: https://rubaiathabib.me/
+    - name: Li-Yi Wei
+      url: https://www.liyiwei.org/
+    - name: Stephen Diverdi
+      url: http://www.stephendiverdi.com/
+    - name: Danny Kaufman
+      url: http://dannykaufman.io/
 - period: August, 2015 --- Current
   role: RA
   logo: cu-boulder.png
@@ -40,6 +46,8 @@
       url: http://www.xlab.sfc.keio.ac.jp/
     - name: Yoshihiro Kawahara
       url: http://www.akg.t.u-tokyo.ac.jp/
+    - name: Ryuma Niiyama
+      url: https://scholar.google.co.jp/citations?user=0NMf5sgAAAAJ&hl=en
 - period: May, 2016 --- August, 2016
   role: Intern
   logo: uc-berkeley.png

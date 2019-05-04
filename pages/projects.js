@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-import summary from '../output/summary.json'
+import summary from '../content/output/summary.json'
 
-import { Link } from '../routes'
+// import { Link } from '../routes'
 
 // import $ from 'jquery'
 // window.jQuery = $
@@ -12,7 +12,7 @@ const ids = ['morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 
 
 let projects = []
 for (let id of ids) {
-  const project = require(`../output/projects/${id}.json`)
+  const project = require(`../content/output/projects/${id}.json`)
   projects.push(project)
 }
 
@@ -79,7 +79,7 @@ class Projects extends React.Component {
                   <div className="video">
                     <h3>Video Preview</h3>
                     <div className="video-container">
-                      <iframe id="video" width="560" height="300" src="https://www.youtube.com/embed/-JcezIL3UKQ" frameBorder="0" allowFullScreen="true"></iframe>
+                      <iframe id="video" width="560" height="300" src="https://www.youtube.com/embed/-JcezIL3UKQ" frameBorder="0" allowFullScreen={true}></iframe>
                     </div>
                   </div>
                   <div className="ui horizontal divider"></div>

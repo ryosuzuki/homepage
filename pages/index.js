@@ -1,13 +1,12 @@
 import React from 'react'
 
 import ReactMarkdown from 'react-markdown'
-import '../style.css'
-import updates from '../output/updates.json'
-import experience from '../output/experience.json'
-import fellowship from '../output/fellowship.json'
-import activities from '../output/activities.json'
-import publications from '../output/publications.json'
-import posters from '../output/posters.json'
+import '../static/css/style.css'
+import experience from '../content/output/experience.json'
+import fellowship from '../content/output/fellowship.json'
+import activities from '../content/output/activities.json'
+import publications from '../content/output/publications.json'
+import posters from '../content/output/posters.json'
 
 
 import Profile from './profile'
@@ -27,22 +26,6 @@ class Index extends React.Component {
       <div>
         <div className="ui stackable grid">
           <div className="one wide column"></div>
-
-          <div id="side" className="three wide column centered">
-            <div className="three wide column centered" style={{ textAlign: 'center', marginTop: '50px', marginBottom: '30px' }}>
-              <a href="/">
-                <img style={{ maxWidth: '80%', margin: 'auto' }} src="/static/images/profile.png" className="ui image" />
-              </a>
-            </div>
-
-
-            <Experience />
-            <Timeline />
-
-            <div style={{ textAlign: 'center' }}>
-            <a className="twitter-timeline" href="https://twitter.com/ryosuzk" data-widget-id="586803163707023360" width="580" >Tweets by @ryosuzk</a>
-            </div>
-          </div>
 
           <div className="eleven wide column centered">
             <Profile />
@@ -92,6 +75,18 @@ class Index extends React.Component {
 
 
           </div>
+
+
+          <div id="side" className="three wide column centered" style={{ marginTop: '50px'}}>
+            <Experience />
+            <Timeline />
+
+            <div style={{ textAlign: 'center' }}>
+            <a className="twitter-timeline" href="https://twitter.com/ryosuzk" data-widget-id="586803163707023360" width="580" >Tweets by @ryosuzk</a>
+            </div>
+          </div>
+
+
           <div className="one wide column"></div>
 
         </div>

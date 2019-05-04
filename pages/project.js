@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-import summary from '../output/summary.json'
-import {Router} from '../routes'
+import summary from '../content/output/summary.json'
+// import {Router} from '../routes'
 
 import Link from 'next/link'
 
@@ -16,7 +16,7 @@ class Project extends React.Component {
 
   render() {
     const project = require(`../output/projects/${this.props.id}.json`)
-    
+
     return (
       <div id="project">
         <div id={ project.id } className="ui modal">
@@ -35,7 +35,7 @@ class Project extends React.Component {
             <div className="video">
               <h3>Video Preview</h3>
               <div className="video-container">
-                <iframe id="video" width="560" height="300" src="https://www.youtube.com/embed/-JcezIL3UKQ" frameBorder="0" allowFullScreen="true"></iframe>
+                <iframe id="video" width="560" height="300" src="https://www.youtube.com/embed/-JcezIL3UKQ" frameBorder="0" allowFullScreen={true}></iframe>
               </div>
             </div>
             <div className="ui horizontal divider"></div>

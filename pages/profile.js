@@ -6,20 +6,28 @@ class Profile extends React.Component {
       <header className="ui stackable grid">
         <div className="ui sixteen wide column">
           <h1 className="ui huge header">
+            <img id="profile-image" src="/static/images/profile.png" className="ui image" />
             Ryo Suzuki
-            <div class="sub header" style={{ fontSize: '1.5rem'}}>
+            <div className="sub header" style={{ fontSize: '1.5rem'}}>
               Ph.D. student at the University of Colorado Boulder
             </div>
           </h1>
+
+          <video id="top-video" poster="/static/images/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+            <source src="/static/videos/top.webm" type="video/webm"></source>
+            <source src="/static/videos/top.mp4" type="video/mp4"></source>
+          </video>
+
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              Research in <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a>. { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
+              I am a Ph.D. student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, Department of Computer Science,
+              <br />
+              advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
+               { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>
             <p>
-              I am a Ph.D. student at the University of Colorado Boulder, Department of Computer Science.
-              <br/>
-              I make <b>a dynamic medium</b> for human's creative thought. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
+              I make <b>a dynamic medium</b> for <b>human-computer interaction</b>. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
               {/*
                 a dynamic medium for creative thought
                 a dynamic medium to enhance creativity
@@ -28,15 +36,13 @@ class Profile extends React.Component {
                 to design interactive and explorable environments
 
                 explore how dynamic computational media can contribute to new ways of thinking, designing, understanding, and communicating ideas through more interactive and explorable mannar.
+
+                Towards this goal, I have been working on several aspects of this computational environment, including:
+                1) <b>hardware</b>: how to make our static physical environment into a dynamic one and how to democratize such an environment for every home, school, and work space,
+                2) <b>authoring tools</b>: how to support designing and authoring a dynamic content through more direct and intuitive ways of programming, and
+                3) <b>representations</b>: how to represent ideas for more understandable ways and how to design interaction for such dynamic representations.
               */}
               <br/>
-              <br/>
-
-              Towards this goal, I have been working on several aspects of this computational environment, including:
-              1) <b>hardware</b>: how to make our static physical environment into a dynamic one and how to democratize such an environment for every home, school, and work space,
-              2) <b>authoring tools</b>: how to support designing and authoring a dynamic content through more direct and intuitive ways of programming, and
-              3) <b>representations</b>: how to represent ideas for more understandable ways and how to design interaction for such dynamic representations.
-
             </p>
           </div>
 

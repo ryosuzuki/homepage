@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-import items from '../output/experience.json'
+import items from '../content/output/experience.json'
 
 class Experience extends React.Component {
   render() {
@@ -39,8 +39,8 @@ class Experience extends React.Component {
                   })}
                 </div>
               </div>
-              <div class="extra" style={{ marginLeft: '0px', marginTop: '5px' }}>
-                <div class="ui label">{ item.period }</div>
+              <div className="extra" style={{ marginLeft: '0px', marginTop: '5px' }}>
+                <div className="ui label">{ item.period }</div>
               </div>
             </div>
           )

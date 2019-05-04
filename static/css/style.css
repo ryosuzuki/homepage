@@ -5,7 +5,8 @@
 }
 
 #top-video {
-  position: relative;
+  width: 100%;
+  margin: 10px 0;
 }
 
 #video-bg {
