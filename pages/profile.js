@@ -6,10 +6,12 @@ class Profile extends React.Component {
       <header className="ui stackable grid">
         <div className="ui sixteen wide column">
           <h1 className="ui huge header">
-            <img id="profile-image" src="/static/images/profile.png" className="ui image" />
-            Ryo Suzuki
-            <div className="sub header" style={{ fontSize: '1.5rem'}}>
-              Ph.D. student at the University of Colorado Boulder
+            <img style={{ maxWidth: '62px', marginRight: '15px' }} src="/static/images/profile.png" className="ui circular image" />
+            <div className="content">
+              Ryo Suzuki
+              <div className="sub header" style={{ fontSize: '1.5rem'}}>
+                University of Colorado Boulder
+              </div>
             </div>
           </h1>
 
@@ -20,9 +22,7 @@ class Profile extends React.Component {
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              I am a Ph.D. student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, Department of Computer Science,
-              <br />
-              advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
+              I am a Ph.D. student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, Department of Computer Science, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>

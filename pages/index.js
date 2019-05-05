@@ -81,9 +81,8 @@ class Index extends React.Component {
             <Experience />
             <Timeline />
 
-            <div style={{ textAlign: 'center' }}>
-            <a className="twitter-timeline" href="https://twitter.com/ryosuzk" data-widget-id="586803163707023360" width="580" >Tweets by @ryosuzk</a>
-            </div>
+            <br />
+            <a class="twitter-timeline" height="1500px" href="https://twitter.com/ryosuzk?ref_src=twsrc%5Etfw">Tweets by @ryosuzk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
 
 

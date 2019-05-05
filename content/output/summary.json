@@ -8,6 +8,275 @@
       "sourceBase": "activities.md",
       "sourceExt": ".md"
     },
+    "content/output/projects/atelier.json": {
+      "id": "atelier",
+      "name": "Atelier",
+      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "authors": "Ryo Suzuki, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and Michael S. Bernstein",
+      "image": "atelier.jpg",
+      "conference": {
+        "name": "CHI 2016",
+        "url": "https://chi2016.acm.org/wp/"
+      },
+      "pdf": "chi-2016-atelier.pdf",
+      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
+      "slide": "chi-2016-atelier-slide.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
+      "arxiv": "https://arxiv.org/abs/1602.06634",
+      "dir": "content/output/projects",
+      "base": "atelier.json",
+      "ext": ".json",
+      "sourceBase": "atelier.md",
+      "sourceExt": ".md"
+    },
+    "content/output/experience.json": [
+      {
+        "period": "May, 2019 --- Current",
+        "role": "Intern",
+        "logo": "adobe.png",
+        "institute": {
+          "name": "Adobe Research",
+          "url": "https://colorado.edu"
+        },
+        "lab": {
+          "name": "Creative Intelligence Lab",
+          "url": "http://hcc.colorado.edu/"
+        },
+        "advisors": [
+          {
+            "name": "Rubaiat Habib",
+            "url": "https://rubaiathabib.me/"
+          },
+          {
+            "name": "Li-Yi Wei",
+            "url": "https://www.liyiwei.org/"
+          },
+          {
+            "name": "Stephen Diverdi",
+            "url": "http://www.stephendiverdi.com/"
+          },
+          {
+            "name": "Danny Kaufman",
+            "url": "http://dannykaufman.io/"
+          }
+        ]
+      },
+      {
+        "period": "August, 2015 --- Current",
+        "role": "RA",
+        "logo": "cu-boulder.png",
+        "institute": {
+          "name": "CU Boulder",
+          "url": "https://colorado.edu"
+        },
+        "lab": {
+          "name": "THING Lab",
+          "url": "https://www.colorado.edu/atlas/thing-lab"
+        },
+        "advisors": [
+          {
+            "name": "Daniel Lightinger",
+            "url": "http://leithinger.com/"
+          },
+          {
+            "name": "Mark D. Gross",
+            "url": "http://mdgross.net/"
+          },
+          {
+            "name": "Tom Yeh",
+            "url": "http://tomyeh.info/"
+          }
+        ]
+      },
+      {
+        "period": "December, 2017 --- October, 2018",
+        "role": "Intern",
+        "logo": "ut.png",
+        "institute": {
+          "name": "University of Tokyo",
+          "url": "https://colorado.edu"
+        },
+        "lab": {
+          "name": "ERATO UIN",
+          "url": "http://www.jst.go.jp/erato/kawahara"
+        },
+        "advisors": [
+          {
+            "name": "Yasuaki Kakehi",
+            "url": "http://www.xlab.sfc.keio.ac.jp/"
+          },
+          {
+            "name": "Yoshihiro Kawahara",
+            "url": "http://www.akg.t.u-tokyo.ac.jp/"
+          },
+          {
+            "name": "Ryuma Niiyama",
+            "url": "https://scholar.google.co.jp/citations?user=0NMf5sgAAAAJ&hl=en"
+          }
+        ]
+      },
+      {
+        "period": "May, 2016 --- August, 2016",
+        "role": "Intern",
+        "logo": "uc-berkeley.png",
+        "institute": {
+          "name": "UC Berkeley",
+          "url": null
+        },
+        "lab": {
+          "name": "BiD Lab",
+          "url": "http://bid.berkeley.edu/"
+        },
+        "advisors": [
+          {
+            "name": "Bjoern Hartmann",
+            "url": "http://people.eecs.berkeley.edu/~bjoern/"
+          }
+        ]
+      },
+      {
+        "period": "May, 2015 --- August, 2015",
+        "role": "Intern",
+        "logo": "stanford.png",
+        "institute": {
+          "name": "Stanford University",
+          "url": "https://stanford.edu"
+        },
+        "lab": {
+          "name": "HCI Group",
+          "url": "http://hci.stanford.edu/"
+        },
+        "advisors": [
+          {
+            "name": "Michael Bernstein",
+            "url": "http://hci.stanford.edu/msb/"
+          }
+        ]
+      },
+      {
+        "period": "October, 2014 --- May, 2015",
+        "role": "RA",
+        "logo": "ut.png",
+        "institute": {
+          "name": "University of Tokyo",
+          "url": null
+        },
+        "lab": {
+          "name": "IIS Lab",
+          "url": "http://iis-lab.org/"
+        },
+        "advisors": [
+          {
+            "name": "Koji Yatani",
+            "url": "http://iis-lab.org/member/koji-yatani/"
+          }
+        ]
+      },
+      {
+        "period": "December, 2014 --- March, 2015",
+        "role": "Intern",
+        "logo": "aist.png",
+        "institute": {
+          "name": "AIST",
+          "url": null
+        },
+        "lab": {
+          "name": "Media Interaction",
+          "url": "https://staff.aist.go.jp/m.goto/MIG/index-j.html"
+        },
+        "advisors": [
+          {
+            "name": "Jun Kato",
+            "url": "http://junkato.jp/"
+          }
+        ]
+      }
+    ],
+    "content/output/fellowship.json": {
+      "title": "JST ACT-I (Mentor: Takeo Igarashi), 2018",
+      "dir": "content/output",
+      "base": "fellowship.json",
+      "ext": ".json",
+      "sourceBase": "fellowship.md",
+      "sourceExt": ".md"
+    },
+    "content/output/news.json": [
+      {
+        "date": "2019-03-26",
+        "image": "dis-2019.png",
+        "text": "One [**DIS 2019**](https://dis2019.com/) full-paper is accepted (25%)."
+      },
+      {
+        "date": "2018-08-06",
+        "image": "uist-2018.png",
+        "text": "One [**UIST 2018**](https://uist.acm.org/uist2018/) full-paper is accepted (21%)."
+      },
+      {
+        "date": "2018-08-03",
+        "image": "pg-2018.png",
+        "text": "One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (26%)."
+      },
+      {
+        "date": "2017-12-11",
+        "image": "chi-2018.png",
+        "text": "Two [**CHI 2018**](https://chi2018.acm.org/) full-papers are accepted (25%)."
+      },
+      {
+        "date": "2017-06-27",
+        "image": "vlhcc-2017.png",
+        "text": "One [**VL/HCC 2017**](https://sites.google.com/site/vlhcc2017/) full-paper are accepted (29%)."
+      },
+      {
+        "date": "2017-06-21",
+        "image": "assets-2017.png",
+        "text": "One [**ASSETS 2017**](https://assets17.sigaccess.org/) full-paper are accepted (26%)."
+      },
+      {
+        "date": "2017-02-11",
+        "image": "chi-2017.png",
+        "text": "One [**CHI 2017**](https://chi2017.acm.org/) LBW paper is accepted (38%)."
+      },
+      {
+        "date": "2016-12-16",
+        "image": "",
+        "text": "One [**L@S 2017**](http://learningatscale.acm.org/las2017/) full paper is accepted (22%)."
+      },
+      {
+        "date": "2016-12-12",
+        "image": "icse-2017.png",
+        "text": "One [**ICSE 2017**](http://icse2017.gatech.edu/) full-paper is accepted (19%)."
+      },
+      {
+        "date": "2016-01-15",
+        "image": "chi-2016.png",
+        "text": "One [**CHI 2016**](https://chi2016.acm.org/wp/) full-paper is accepted (23%)."
+      },
+      {
+        "date": "2015-10-01",
+        "image": "uist-2016.jpg",
+        "text": "I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)"
+      }
+    ],
+    "content/output/projects/mixed-initiative.json": {
+      "id": "mixed-initiative",
+      "name": "Mixed-Initiative Code Feedback",
+      "description": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
+      "title": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
+      "authors": "Andrew Head*, Elena Glassman*, Gustavo Soares*, Ryo Suzuki, Lucas Figueredo, Loris D’Antoni, Bjoern Hartmann (* equally contributed)",
+      "image": "mixed-initiative.png",
+      "conference": {
+        "name": "L@S 2017",
+        "url": "http://learningatscale.acm.org/las2017"
+      },
+      "pdf": "las-2017-mixed.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3051467",
+      "dir": "content/output/projects",
+      "base": "mixed-initiative.json",
+      "ext": ".json",
+      "sourceBase": "mixed-initiative.md",
+      "sourceExt": ".md"
+    },
     "content/output/posters.json": [
       {
         "author": "Ryo Suzuki, Gustavo Soares, Elena Glassman, Andrew Head, Loris D'Antoni, and Bjoern Hartmann,",
@@ -87,71 +356,6 @@
         "address": "New York, NY, USA"
       }
     ],
-    "content/output/fellowship.json": {
-      "title": "JST ACT-I (Mentor: Takeo Igarashi), 2018",
-      "dir": "content/output",
-      "base": "fellowship.json",
-      "ext": ".json",
-      "sourceBase": "fellowship.md",
-      "sourceExt": ".md"
-    },
-    "content/output/news.json": [
-      {
-        "date": "2019-03-26",
-        "image": "dis-2019.png",
-        "text": "One [**DIS 2019**](https://dis2019.com/) full-paper is accepted (25%)."
-      },
-      {
-        "date": "2018-08-06",
-        "image": "uist-2018.png",
-        "text": "One [**UIST 2018**](https://uist.acm.org/uist2018/) full-paper is accepted (21%)."
-      },
-      {
-        "date": "2018-08-03",
-        "image": "pg-2018.png",
-        "text": "One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (26%)."
-      },
-      {
-        "date": "2017-12-11",
-        "image": "chi-2018.png",
-        "text": "Two [**CHI 2018**](https://chi2018.acm.org/) full-papers are accepted (25%)."
-      },
-      {
-        "date": "2017-06-27",
-        "image": "vlhcc-2017.png",
-        "text": "One [**VL/HCC 2017**](https://sites.google.com/site/vlhcc2017/) full-paper are accepted (29%)."
-      },
-      {
-        "date": "2017-06-21",
-        "image": "assets-2017.png",
-        "text": "One [**ASSETS 2017**](https://assets17.sigaccess.org/) full-paper are accepted (26%)."
-      },
-      {
-        "date": "2017-02-11",
-        "image": "chi-2017.png",
-        "text": "One [**CHI 2017**](https://chi2017.acm.org/) LBW paper is accepted (38%)."
-      },
-      {
-        "date": "2016-12-16",
-        "image": "",
-        "text": "One [**L@S 2017**](http://learningatscale.acm.org/las2017/) full paper is accepted (22%)."
-      },
-      {
-        "date": "2016-12-12",
-        "image": "icse-2017.png",
-        "text": "One [**ICSE 2017**](http://icse2017.gatech.edu/) full-paper is accepted (19%)."
-      },
-      {
-        "date": "2016-01-15",
-        "image": "chi-2016.png",
-        "text": "One [**CHI 2016**](https://chi2016.acm.org/wp/) full-paper is accepted (23%)."
-      },
-      {
-        "date": "2015-10-01",
-        "image": "uist-2016.jpg",
-        "text": "I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)"
-      }
-    ],
     "content/output/projects/flux-marker.json": {
       "id": "flux-marker",
       "name": "FluxMarker",
@@ -172,43 +376,6 @@
       "base": "flux-marker.json",
       "ext": ".json",
       "sourceBase": "flux-marker.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/morphio.json": {
-      "id": "morphio",
-      "name": "MorphIO",
-      "description": "Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
-      "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
-      "authors": "Ryosuke Nakayama*, Ryo Suzuki*, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi (* equally contributed)",
-      "image": "morphio.png",
-      "conference": {
-        "name": "DIS 2019",
-        "url": "https://dis2019.com/"
-      },
-      "pdf": "dis-2019-morphio.pdf",
-      "dir": "content/output/projects",
-      "base": "morphio.json",
-      "ext": ".json",
-      "sourceBase": "morphio.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/mixed-initiative.json": {
-      "id": "mixed-initiative",
-      "name": "Mixed-Initiative Code Feedback",
-      "description": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
-      "title": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
-      "authors": "Andrew Head*, Elena Glassman*, Gustavo Soares*, Ryo Suzuki, Lucas Figueredo, Loris D’Antoni, Bjoern Hartmann (* equally contributed)",
-      "image": "mixed-initiative.png",
-      "conference": {
-        "name": "L@S 2017",
-        "url": "http://learningatscale.acm.org/las2017"
-      },
-      "pdf": "las-2017-mixed.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=3051467",
-      "dir": "content/output/projects",
-      "base": "mixed-initiative.json",
-      "ext": ".json",
-      "sourceBase": "mixed-initiative.md",
       "sourceExt": ".md"
     },
     "content/output/projects/pep.json": {
@@ -298,173 +465,6 @@
       "base": "trace-diff.json",
       "ext": ".json",
       "sourceBase": "trace-diff.md",
-      "sourceExt": ".md"
-    },
-    "content/output/experience.json": [
-      {
-        "period": "May, 2019 --- Current",
-        "role": "Intern",
-        "logo": "adobe.png",
-        "institute": {
-          "name": "Adobe Research",
-          "url": "https://colorado.edu"
-        },
-        "lab": {
-          "name": "Creative Intelligence Lab",
-          "url": "http://hcc.colorado.edu/"
-        },
-        "advisors": [
-          {
-            "name": "Rubaiat Habib",
-            "url": "https://rubaiathabib.me/"
-          }
-        ]
-      },
-      {
-        "period": "August, 2015 --- Current",
-        "role": "RA",
-        "logo": "cu-boulder.png",
-        "institute": {
-          "name": "CU Boulder",
-          "url": "https://colorado.edu"
-        },
-        "lab": {
-          "name": "THING Lab",
-          "url": "https://www.colorado.edu/atlas/thing-lab"
-        },
-        "advisors": [
-          {
-            "name": "Daniel Lightinger",
-            "url": "http://leithinger.com/"
-          },
-          {
-            "name": "Mark D. Gross",
-            "url": "http://mdgross.net/"
-          },
-          {
-            "name": "Tom Yeh",
-            "url": "http://tomyeh.info/"
-          }
-        ]
-      },
-      {
-        "period": "December, 2017 --- October, 2018",
-        "role": "Intern",
-        "logo": "ut.png",
-        "institute": {
-          "name": "University of Tokyo",
-          "url": "https://colorado.edu"
-        },
-        "lab": {
-          "name": "ERATO UIN",
-          "url": "http://www.jst.go.jp/erato/kawahara"
-        },
-        "advisors": [
-          {
-            "name": "Yasuaki Kakehi",
-            "url": "http://www.xlab.sfc.keio.ac.jp/"
-          },
-          {
-            "name": "Yoshihiro Kawahara",
-            "url": "http://www.akg.t.u-tokyo.ac.jp/"
-          }
-        ]
-      },
-      {
-        "period": "May, 2016 --- August, 2016",
-        "role": "Intern",
-        "logo": "uc-berkeley.png",
-        "institute": {
-          "name": "UC Berkeley",
-          "url": null
-        },
-        "lab": {
-          "name": "Bid Lab",
-          "url": "http://bid.berkeley.edu/"
-        },
-        "advisors": [
-          {
-            "name": "Bjoern Hartmann",
-            "url": "http://people.eecs.berkeley.edu/~bjoern/"
-          }
-        ]
-      },
-      {
-        "period": "May, 2015 --- August, 2015",
-        "role": "Intern",
-        "logo": "stanford.png",
-        "institute": {
-          "name": "Stanford University",
-          "url": "https://stanford.edu"
-        },
-        "lab": {
-          "name": "HCI Group",
-          "url": "http://hci.stanford.edu/"
-        },
-        "advisors": [
-          {
-            "name": "Michael Bernstein",
-            "url": "http://hci.stanford.edu/msb/"
-          }
-        ]
-      },
-      {
-        "period": "October, 2014 --- May, 2015",
-        "role": "RA",
-        "logo": "ut.png",
-        "institute": {
-          "name": "University of Tokyo",
-          "url": null
-        },
-        "lab": {
-          "name": "IIS Lab",
-          "url": "http://iis-lab.org/"
-        },
-        "advisors": [
-          {
-            "name": "Koji Yatani",
-            "url": "http://iis-lab.org/member/koji-yatani/"
-          }
-        ]
-      },
-      {
-        "period": "December, 2014 --- March, 2015",
-        "role": "Intern",
-        "logo": "aist.png",
-        "institute": {
-          "name": "AIST",
-          "url": null
-        },
-        "lab": {
-          "name": "Media Interaction",
-          "url": "https://staff.aist.go.jp/m.goto/MIG/index-j.html"
-        },
-        "advisors": [
-          {
-            "name": "Jun Kato",
-            "url": "http://junkato.jp/"
-          }
-        ]
-      }
-    ],
-    "content/output/projects/refazer.json": {
-      "id": "refazer",
-      "name": "Refazer",
-      "description": "Learning Syntactic Program Transformations from Examples",
-      "title": "Learning Syntactic Program Transformations from Examples",
-      "authors": "Reudismam Rolim, Gustavo Soares, Loris D’Antoni, Oleksandr Polozov, Sumit Gulwani, Rohit Gheyi, Ryo Suzuki, and Bjoern Hartmann",
-      "image": "refazer.png",
-      "conference": {
-        "name": "ICSE 2017",
-        "url": "http://icse2017.gatech.edu/"
-      },
-      "pdf": "icse-2017-refazer.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
-      "arxiv": "https://arxiv.org/abs/1608.09000",
-      "dir": "content/output/projects",
-      "base": "refazer.json",
-      "ext": ".json",
-      "sourceBase": "refazer.md",
       "sourceExt": ".md"
     },
     "content/output/publications.json": [
@@ -573,26 +573,42 @@
         "keywords": "crowd work, crowdsourcing, micro-internships"
       }
     ],
-    "content/output/projects/atelier.json": {
-      "id": "atelier",
-      "name": "Atelier",
-      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "authors": "Ryo Suzuki, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and Michael S. Bernstein",
-      "image": "atelier.jpg",
+    "content/output/projects/refazer.json": {
+      "id": "refazer",
+      "name": "Refazer",
+      "description": "Learning Syntactic Program Transformations from Examples",
+      "title": "Learning Syntactic Program Transformations from Examples",
+      "authors": "Reudismam Rolim, Gustavo Soares, Loris D’Antoni, Oleksandr Polozov, Sumit Gulwani, Rohit Gheyi, Ryo Suzuki, and Bjoern Hartmann",
+      "image": "refazer.png",
       "conference": {
-        "name": "CHI 2016",
-        "url": "https://chi2016.acm.org/wp/"
+        "name": "ICSE 2017",
+        "url": "http://icse2017.gatech.edu/"
       },
-      "pdf": "chi-2016-atelier.pdf",
-      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
-      "slide": "chi-2016-atelier-slide.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
-      "arxiv": "https://arxiv.org/abs/1602.06634",
+      "pdf": "icse-2017-refazer.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
+      "arxiv": "https://arxiv.org/abs/1608.09000",
       "dir": "content/output/projects",
-      "base": "atelier.json",
+      "base": "refazer.json",
       "ext": ".json",
-      "sourceBase": "atelier.md",
+      "sourceBase": "refazer.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/morphio.json": {
+      "id": "morphio",
+      "name": "MorphIO",
+      "description": "Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+      "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+      "authors": "Ryosuke Nakayama*, Ryo Suzuki*, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi (* equally contributed)",
+      "image": "morphio.png",
+      "conference": {
+        "name": "DIS 2019",
+        "url": "https://dis2019.com/"
+      },
+      "pdf": "dis-2019-morphio.pdf",
+      "dir": "content/output/projects",
+      "base": "morphio.json",
+      "ext": ".json",
+      "sourceBase": "morphio.md",
       "sourceExt": ".md"
     },
     "content/output/projects/dynablock.json": {
