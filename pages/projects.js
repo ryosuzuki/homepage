@@ -21,16 +21,16 @@ for (let id of ids) {
 class Projects extends React.Component {
 
   componentDidMount() {
-    $(document).on('click' , '.project' , function(event) {
-      let id = $(this).data('id')
-      console.log(id)
-      $(`#${id}`)
-      .modal({
-        transition: 'fade down',
-        duration: 300,
-      })
-      .modal('show');
-    })
+    // $(document).on('click' , '.project' , function(event) {
+    //   let id = $(this).data('id')
+    //   console.log(id)
+    //   $(`#${id}`)
+    //   .modal({
+    //     transition: 'fade down',
+    //     duration: 300,
+    //   })
+    //   .modal('show');
+    // })
   }
 
   render() {
@@ -41,7 +41,9 @@ class Projects extends React.Component {
           return (
             <div className="project ui vertical segment grid" data-id={ project.id } >
               <div className="four wide column">
-                <img className="ui rounded image" src={ `/static/images/${ project.image }` } />
+                <a href={ `/static/images/${ project.image }` }  data-lightbox="roadtrip">
+                  <img className="ui rounded images" src={ `/static/images/${ project.image }` } />
+                </a>
                 {/* <video autoplay="" loop="loop" muted="" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
                   <source src={`/static/videos/${ project.id }.webm`} type="video/webm" />
                 </video> */}
