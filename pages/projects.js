@@ -21,16 +21,6 @@ for (let id of ids) {
 class Projects extends React.Component {
 
   componentDidMount() {
-    // $(document).on('click' , '.project' , function(event) {
-    //   let id = $(this).data('id')
-    //   console.log(id)
-    //   $(`#${id}`)
-    //   .modal({
-    //     transition: 'fade down',
-    //     duration: 300,
-    //   })
-    //   .modal('show');
-    // })
   }
 
   render() {
@@ -41,7 +31,7 @@ class Projects extends React.Component {
           return (
             <div className="project ui vertical segment grid" data-id={ project.id } >
               <div className="four wide column">
-                <a href={ `/static/images/${ project.image }` }  data-lightbox="roadtrip">
+                <a href={ `/${ project.id }` }>
                   <img className="ui rounded images" src={ `/static/images/${ project.image }` } />
                 </a>
                 {/* <video autoplay="" loop="loop" muted="" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
@@ -50,7 +40,9 @@ class Projects extends React.Component {
               </div>
               <div className="twelve wide column">
                 <h1 className="ui header" style={{ marginBottom: '10px' }}>
+                  <a href={ `/${ project.id }` }>
                   <span>{ project.name }</span>
+                  </a>
                   <span className="ui big label">{ project.conference.name }</span>
                 </h1>
                 <h2 style={{ margin: '5px 0' }}>{ project.description }</h2>

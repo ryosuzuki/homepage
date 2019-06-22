@@ -17,7 +17,7 @@ import Timeline from './timeline'
 
 class Index extends React.Component {
   componentDidMount() {
-    $('a').attr('target', 'blank');
+    // $('a').attr('target', 'blank');
   }
 
   render() {
