@@ -24,7 +24,7 @@ class Project extends React.Component {
           <div id="project" className="ten wide column centered">
 
             <div id="breadcrumb" className="ui breadcrumb">
-              <a className="section" href="/">Home</a>
+              <a className="section" href="/">Ryo Suzuki</a>
               <i className="right angle icon divider"></i>
               <a className="active section">{ project.name }</a>
             </div>
