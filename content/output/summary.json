@@ -1,35 +1,5 @@
 {
   "fileMap": {
-    "content/output/activities.json": {
-      "title": "<strong>Organizer:",
-      "dir": "content/output",
-      "base": "activities.json",
-      "ext": ".json",
-      "sourceBase": "activities.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/atelier.json": {
-      "id": "atelier",
-      "name": "Atelier",
-      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "authors": "Ryo Suzuki, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and Michael S. Bernstein",
-      "image": "atelier.jpg",
-      "conference": {
-        "name": "CHI 2016",
-        "url": "https://chi2016.acm.org/wp/"
-      },
-      "pdf": "chi-2016-atelier.pdf",
-      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
-      "slide": "chi-2016-atelier-slide.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
-      "arxiv": "https://arxiv.org/abs/1602.06634",
-      "dir": "content/output/projects",
-      "base": "atelier.json",
-      "ext": ".json",
-      "sourceBase": "atelier.md",
-      "sourceExt": ".md"
-    },
     "content/output/experience.json": [
       {
         "period": "May, 2019 --- Current",
@@ -193,12 +163,124 @@
         ]
       }
     ],
+    "content/output/activities.json": {
+      "title": "<strong>Organizer:",
+      "dir": "content/output",
+      "base": "activities.json",
+      "ext": ".json",
+      "sourceBase": "activities.md",
+      "sourceExt": ".md"
+    },
     "content/output/fellowship.json": {
       "title": "JST ACT-I (Mentor: Takeo Igarashi), 2018",
       "dir": "content/output",
       "base": "fellowship.json",
       "ext": ".json",
       "sourceBase": "fellowship.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/atelier.json": {
+      "id": "atelier",
+      "name": "Atelier",
+      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "authors": "Ryo Suzuki, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and Michael S. Bernstein",
+      "image": "atelier.jpg",
+      "conference": {
+        "name": "CHI 2016",
+        "url": "https://chi2016.acm.org/wp/"
+      },
+      "pdf": "chi-2016-atelier.pdf",
+      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
+      "slide": "chi-2016-atelier-slide.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
+      "arxiv": "https://arxiv.org/abs/1602.06634",
+      "dir": "content/output/projects",
+      "base": "atelier.json",
+      "ext": ".json",
+      "sourceBase": "atelier.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/mixed-initiative.json": {
+      "id": "mixed-initiative",
+      "name": "Mixed-Initiative Code Feedback",
+      "description": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
+      "title": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
+      "authors": "Andrew Head*, Elena Glassman*, Gustavo Soares*, Ryo Suzuki, Lucas Figueredo, Loris D’Antoni, Bjoern Hartmann (* equally contributed)",
+      "image": "mixed-initiative.png",
+      "conference": {
+        "name": "L@S 2017",
+        "url": "http://learningatscale.acm.org/las2017"
+      },
+      "pdf": "las-2017-mixed.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3051467",
+      "dir": "content/output/projects",
+      "base": "mixed-initiative.json",
+      "ext": ".json",
+      "sourceBase": "mixed-initiative.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/refazer.json": {
+      "id": "refazer",
+      "name": "Refazer",
+      "description": "Learning Syntactic Program Transformations from Examples",
+      "title": "Learning Syntactic Program Transformations from Examples",
+      "authors": "Reudismam Rolim, Gustavo Soares, Loris D’Antoni, Oleksandr Polozov, Sumit Gulwani, Rohit Gheyi, Ryo Suzuki, and Bjoern Hartmann",
+      "image": "refazer.png",
+      "conference": {
+        "name": "ICSE 2017",
+        "url": "http://icse2017.gatech.edu/"
+      },
+      "pdf": "icse-2017-refazer.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
+      "arxiv": "https://arxiv.org/abs/1608.09000",
+      "dir": "content/output/projects",
+      "base": "refazer.json",
+      "ext": ".json",
+      "sourceBase": "refazer.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/flux-marker.json": {
+      "id": "flux-marker",
+      "name": "FluxMarker",
+      "description": "Enhancing Tactile Graphics with Dynamic Tactile Markers for Blind People",
+      "title": "FluxMarker: Enhancing Tactile Graphics with Dynamic Tactile Markers",
+      "authors": "Ryo Suzuki, Abigale Stangl, Mark D. Gross, Tom Yeh",
+      "image": "fluxmarker.png",
+      "conference": {
+        "name": "ASSETS 2017",
+        "url": "https://assets17.sigaccess.org/"
+      },
+      "pdf": "assets-2017-fluxmarker.pdf",
+      "video": "https://www.youtube.com/watch?v=VbwIZ9V6i_g",
+      "slide": "assets-2017-fluxmarker-slide.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3132548",
+      "arxiv": "https://arxiv.org/abs/1708.03783",
+      "dir": "content/output/projects",
+      "base": "flux-marker.json",
+      "ext": ".json",
+      "sourceBase": "flux-marker.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/pep.json": {
+      "id": "pep",
+      "name": "PEP",
+      "description": "3D Printed Electronic Papercrafts - An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
+      "title": "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
+      "authors": "Hyunjoo Oh, Tung D. Ta, Ryo Suzuki, Mark D. Gross, Yoshihiro Kawahara, Lining Yao",
+      "image": "pep.png",
+      "conference": {
+        "name": "CHI 2018",
+        "url": "https://chi2018.acm.org/"
+      },
+      "pdf": "chi-2018-pep.pdf",
+      "video": "https://vimeo.com/252080903",
+      "short-video": "https://www.youtube.com/watch?v=DTd863suDN0",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3174015",
+      "dir": "content/output/projects",
+      "base": "pep.json",
+      "ext": ".json",
+      "sourceBase": "pep.md",
       "sourceExt": ".md"
     },
     "content/output/news.json": [
@@ -258,215 +340,6 @@
         "text": "I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)"
       }
     ],
-    "content/output/projects/mixed-initiative.json": {
-      "id": "mixed-initiative",
-      "name": "Mixed-Initiative Code Feedback",
-      "description": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
-      "title": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
-      "authors": "Andrew Head*, Elena Glassman*, Gustavo Soares*, Ryo Suzuki, Lucas Figueredo, Loris D’Antoni, Bjoern Hartmann (* equally contributed)",
-      "image": "mixed-initiative.png",
-      "conference": {
-        "name": "L@S 2017",
-        "url": "http://learningatscale.acm.org/las2017"
-      },
-      "pdf": "las-2017-mixed.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=3051467",
-      "dir": "content/output/projects",
-      "base": "mixed-initiative.json",
-      "ext": ".json",
-      "sourceBase": "mixed-initiative.md",
-      "sourceExt": ".md"
-    },
-    "content/output/posters.json": [
-      {
-        "author": "Ryo Suzuki, Gustavo Soares, Elena Glassman, Andrew Head, Loris D'Antoni, and Bjoern Hartmann,",
-        "title": "Exploring the Design Space of Automatically Synthesized Hints for Introductory Programming Assignments",
-        "pdf": "chi-2017-lbw.pdf",
-        "poster": "chi-2017-lbw-poster.pdf",
-        "booktitle": "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
-        "series": "CHI EA '17",
-        "year": 2017,
-        "isbn": "978-1-4503-4656-6",
-        "location": "Denver, Colorado, USA",
-        "pages": "2951--2958",
-        "numpages": 8,
-        "url": "http://doi.acm.org/10.1145/3027063.3053187",
-        "doi": "10.1145/3027063.3053187",
-        "acmid": 3053187,
-        "publisher": "ACM",
-        "address": "New York, NY, USA",
-        "keywords": "automated feedback, program synthesis, programming education"
-      },
-      {
-        "author": "Stanford Crowd Research Collective",
-        "title": "Daemo: A Self-Governed Crowdsourcing Marketplace",
-        "pdf": "uist-2015-daemo.pdf",
-        "booktitle": "Adjunct Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology",
-        "series": "UIST '15 Adjunct",
-        "year": 2015,
-        "isbn": "978-1-4503-3780-9",
-        "location": "Daegu, Kyungpook, Republic of Korea",
-        "pages": "101--102",
-        "numpages": 2,
-        "url": "http://doi.acm.org/10.1145/2815585.2815739",
-        "doi": "10.1145/2815585.2815739",
-        "acmid": 2815739,
-        "publisher": "ACM",
-        "address": "New York, NY, USA",
-        "keywords": "crowd research, crowd work., crowdsourcing"
-      },
-      {
-        "author": "Ryo Suzuki,",
-        "title": "Toward a Community Enhanced Programming Education",
-        "pdf": "chi-2015-workshop.pdf",
-        "slide": "chi-2015-workshop-slide.pdf",
-        "booktitle": "ACM CHI 2015 Symposium on Emerging Japanese HCI Research Collection",
-        "series": "CHI '15 Workshop",
-        "year": 2015,
-        "location": "Seoul, Korea",
-        "publisher": "ACM",
-        "address": "New York, NY, USA"
-      },
-      {
-        "author": "Ryo Suzuki,",
-        "title": "Interactive and Collaborative Source Code Annotation",
-        "pdf": "icse-2015-cumiki.pdf",
-        "poster": "icse-2015-cumiki-poster.pdf",
-        "booktitle": "Proceedings of the 37th International Conference on Software Engineering - Volume 2",
-        "series": "ICSE '15 Poster",
-        "year": 2015,
-        "location": "Florence, Italy",
-        "pages": "799--800",
-        "numpages": 2,
-        "url": "http://dl.acm.org/citation.cfm?id=2819009.2819173",
-        "acmid": 2819173,
-        "publisher": "IEEE Press",
-        "address": "Piscataway, NJ, USA"
-      },
-      {
-        "author": "Ryo Suzuki,",
-        "title": "Network Thresholds and Multiple Equilibria in the Diffusion of Content-Based Platforms",
-        "pdf": "wine-2014-network.pdf",
-        "poster": "wine-2014-network-poster.pdf",
-        "booktitle": "International Conference on Web and Internet Economics",
-        "series": "WINE '14 Poster",
-        "year": 2014,
-        "location": "Beijing, China",
-        "publisher": "Springer",
-        "address": "New York, NY, USA"
-      }
-    ],
-    "content/output/projects/flux-marker.json": {
-      "id": "flux-marker",
-      "name": "FluxMarker",
-      "description": "Enhancing Tactile Graphics with Dynamic Tactile Markers for Blind People",
-      "title": "FluxMarker: Enhancing Tactile Graphics with Dynamic Tactile Markers",
-      "authors": "Ryo Suzuki, Abigale Stangl, Mark D. Gross, Tom Yeh",
-      "image": "fluxmarker.png",
-      "conference": {
-        "name": "ASSETS 2017",
-        "url": "https://assets17.sigaccess.org/"
-      },
-      "pdf": "assets-2017-fluxmarker.pdf",
-      "video": "https://www.youtube.com/watch?v=VbwIZ9V6i_g",
-      "slide": "assets-2017-fluxmarker-slide.pdf",
-      "acm-dl": "https://dl.acm.org/citation.cfm?id=3132548",
-      "arxiv": "https://arxiv.org/abs/1708.03783",
-      "dir": "content/output/projects",
-      "base": "flux-marker.json",
-      "ext": ".json",
-      "sourceBase": "flux-marker.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/pep.json": {
-      "id": "pep",
-      "name": "PEP",
-      "description": "3D Printed Electronic Papercrafts - An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
-      "title": "PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-based Electronic Devices",
-      "authors": "Hyunjoo Oh, Tung D. Ta, Ryo Suzuki, Mark D. Gross, Yoshihiro Kawahara, Lining Yao",
-      "image": "pep.png",
-      "conference": {
-        "name": "CHI 2018",
-        "url": "https://chi2018.acm.org/"
-      },
-      "pdf": "chi-2018-pep.pdf",
-      "video": "https://vimeo.com/252080903",
-      "short-video": "https://www.youtube.com/watch?v=DTd863suDN0",
-      "acm-dl": "https://dl.acm.org/citation.cfm?id=3174015",
-      "dir": "content/output/projects",
-      "base": "pep.json",
-      "ext": ".json",
-      "sourceBase": "pep.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/tabby.json": {
-      "id": "tabby",
-      "name": "Tabby",
-      "description": "Explorable Design for 3D Printing Textures",
-      "title": "Tabby: Explorable Design for 3D Printing Textures",
-      "authors": "Ryo Suzuki, Koji Yatani, Mark D. Gross, Tom Yeh",
-      "image": "tabby.png",
-      "conference": {
-        "name": "Pacific Graphics 2018",
-        "url": "http://sweb.cityu.edu.hk/pg2018/"
-      },
-      "pdf": "pg-2018-tabby.pdf",
-      "video": "https://www.youtube.com/watch?v=rRgw8lH74CA",
-      "acm-dl": "https://diglib.eg.org/handle/10.2312/pg20181273",
-      "slide": "pg-2018-tabby-slide.pdf",
-      "dir": "content/output/projects",
-      "base": "tabby.json",
-      "ext": ".json",
-      "sourceBase": "tabby.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/reactile.json": {
-      "id": "reactile",
-      "name": "Reactile",
-      "description": "Programming Swarm User Interfaces through Direct Physical Manipulation",
-      "title": "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation",
-      "authors": "Ryo Suzuki, Jun Kato, Mark D. Gross, Tom Yeh",
-      "image": "reactile.jpg",
-      "conference": {
-        "name": "CHI 2018",
-        "url": "https://chi2018.acm.org/"
-      },
-      "pdf": "chi-2018-reactile.pdf",
-      "video": "https://www.youtube.com/watch?v=Gb7brajKCVE",
-      "short-video": "https://www.youtube.com/watch?v=YT7vMJZjohU",
-      "slide": "chi-2018-reactile-slide.pdf",
-      "acm-dl": "https://dl.acm.org/citation.cfm?id=3173773",
-      "github": "https://github.com/ryosuzuki/reactile",
-      "abstract": "We explore a new approach to programming swarm user in- terfaces (Swarm UI) by leveraging direct physical manipu- lation. Existing Swarm UI applications are written using a robot programming framework: users work on a computer screen and think in terms of low-level controls. In contrast, our approach allows programmers to work in physical space by directly manipulating objects and think in terms of high- level interface design. Inspired by current UI programming practices, we introduce a four-step workflow—create elements, abstract attributes, specify behaviors, and propagate changes— for Swarm UI programming. We propose a set of direct physi- cal manipulation techniques to support each step in this work- flow. To demonstrate these concepts, we developed Reac- tile, a Swarm UI programming environment that actuates a swarm of small magnets and displays spatial information of program states using a DLP projector. Two user studies—an in-class survey with 148 students and a lab interview with eight participants—confirm that our approach is intuitive and understandable for programming Swarm UIs.",
-      "dir": "content/output/projects",
-      "base": "reactile.json",
-      "ext": ".json",
-      "sourceBase": "reactile.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/trace-diff.json": {
-      "id": "trace-diff",
-      "name": "TraceDiff",
-      "description": "Debugging Unexpected Code Behavior Using Trace Divergences",
-      "title": "TraceDiff: Debugging Unexpected Code Behavior Using Trace Divergences",
-      "authors": "Ryo Suzuki, Gustavo Soares, Andrew Head, Elena Glassman, Ruan Reis, Melina Mongiovi, Loris D’Antoni, Bjoern Hartmann",
-      "image": "tracediff.png",
-      "conference": {
-        "name": "VL/HCC 2017",
-        "url": "https://sites.google.com/site/vlhcc"
-      },
-      "pdf": "vlhcc-2017-tracediff.pdf",
-      "slide": "vlhcc-2017-tracediff-slide.pdf",
-      "github": "https://github.com/ryosuzuki/trace-diff",
-      "demo": "https://ryosuzuki.github.io/trace-diff/",
-      "ieee": "http://ieeexplore.ieee.org/document/8103457/",
-      "arxiv": "https://arxiv.org/abs/1708.03786a",
-      "dir": "content/output/projects",
-      "base": "trace-diff.json",
-      "ext": ".json",
-      "sourceBase": "trace-diff.md",
-      "sourceExt": ".md"
-    },
     "content/output/publications.json": [
       {
         "author": "Ryo Suzuki, Jun Kato, Mark D. Gross, Tom Yeh",
@@ -573,42 +446,151 @@
         "keywords": "crowd work, crowdsourcing, micro-internships"
       }
     ],
-    "content/output/projects/refazer.json": {
-      "id": "refazer",
-      "name": "Refazer",
-      "description": "Learning Syntactic Program Transformations from Examples",
-      "title": "Learning Syntactic Program Transformations from Examples",
-      "authors": "Reudismam Rolim, Gustavo Soares, Loris D’Antoni, Oleksandr Polozov, Sumit Gulwani, Rohit Gheyi, Ryo Suzuki, and Bjoern Hartmann",
-      "image": "refazer.png",
+    "content/output/projects/tabby.json": {
+      "id": "tabby",
+      "name": "Tabby",
+      "description": "Explorable Design for 3D Printing Textures",
+      "title": "Tabby: Explorable Design for 3D Printing Textures",
+      "authors": "Ryo Suzuki, Koji Yatani, Mark D. Gross, Tom Yeh",
+      "image": "tabby.png",
       "conference": {
-        "name": "ICSE 2017",
-        "url": "http://icse2017.gatech.edu/"
+        "name": "Pacific Graphics 2018",
+        "url": "http://sweb.cityu.edu.hk/pg2018/"
       },
-      "pdf": "icse-2017-refazer.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
-      "arxiv": "https://arxiv.org/abs/1608.09000",
+      "pdf": "pg-2018-tabby.pdf",
+      "video": "https://www.youtube.com/watch?v=rRgw8lH74CA",
+      "acm-dl": "https://diglib.eg.org/handle/10.2312/pg20181273",
+      "slide": "pg-2018-tabby-slide.pdf",
       "dir": "content/output/projects",
-      "base": "refazer.json",
+      "base": "tabby.json",
       "ext": ".json",
-      "sourceBase": "refazer.md",
+      "sourceBase": "tabby.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/morphio.json": {
-      "id": "morphio",
-      "name": "MorphIO",
-      "description": "Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
-      "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
-      "authors": "Ryosuke Nakayama*, Ryo Suzuki*, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi (* equally contributed)",
-      "image": "morphio.png",
+    "content/output/projects/trace-diff.json": {
+      "id": "trace-diff",
+      "name": "TraceDiff",
+      "description": "Debugging Unexpected Code Behavior Using Trace Divergences",
+      "title": "TraceDiff: Debugging Unexpected Code Behavior Using Trace Divergences",
+      "authors": "Ryo Suzuki, Gustavo Soares, Andrew Head, Elena Glassman, Ruan Reis, Melina Mongiovi, Loris D’Antoni, Bjoern Hartmann",
+      "image": "tracediff.png",
       "conference": {
-        "name": "DIS 2019",
-        "url": "https://dis2019.com/"
+        "name": "VL/HCC 2017",
+        "url": "https://sites.google.com/site/vlhcc"
       },
-      "pdf": "dis-2019-morphio.pdf",
+      "pdf": "vlhcc-2017-tracediff.pdf",
+      "slide": "vlhcc-2017-tracediff-slide.pdf",
+      "github": "https://github.com/ryosuzuki/trace-diff",
+      "demo": "https://ryosuzuki.github.io/trace-diff/",
+      "ieee": "http://ieeexplore.ieee.org/document/8103457/",
+      "arxiv": "https://arxiv.org/abs/1708.03786a",
       "dir": "content/output/projects",
-      "base": "morphio.json",
+      "base": "trace-diff.json",
       "ext": ".json",
-      "sourceBase": "morphio.md",
+      "sourceBase": "trace-diff.md",
+      "sourceExt": ".md"
+    },
+    "content/output/posters.json": [
+      {
+        "author": "Ryo Suzuki, Gustavo Soares, Elena Glassman, Andrew Head, Loris D'Antoni, and Bjoern Hartmann,",
+        "title": "Exploring the Design Space of Automatically Synthesized Hints for Introductory Programming Assignments",
+        "pdf": "chi-2017-lbw.pdf",
+        "poster": "chi-2017-lbw-poster.pdf",
+        "booktitle": "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
+        "series": "CHI EA '17",
+        "year": 2017,
+        "isbn": "978-1-4503-4656-6",
+        "location": "Denver, Colorado, USA",
+        "pages": "2951--2958",
+        "numpages": 8,
+        "url": "http://doi.acm.org/10.1145/3027063.3053187",
+        "doi": "10.1145/3027063.3053187",
+        "acmid": 3053187,
+        "publisher": "ACM",
+        "address": "New York, NY, USA",
+        "keywords": "automated feedback, program synthesis, programming education"
+      },
+      {
+        "author": "Stanford Crowd Research Collective",
+        "title": "Daemo: A Self-Governed Crowdsourcing Marketplace",
+        "pdf": "uist-2015-daemo.pdf",
+        "booktitle": "Adjunct Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology",
+        "series": "UIST '15 Adjunct",
+        "year": 2015,
+        "isbn": "978-1-4503-3780-9",
+        "location": "Daegu, Kyungpook, Republic of Korea",
+        "pages": "101--102",
+        "numpages": 2,
+        "url": "http://doi.acm.org/10.1145/2815585.2815739",
+        "doi": "10.1145/2815585.2815739",
+        "acmid": 2815739,
+        "publisher": "ACM",
+        "address": "New York, NY, USA",
+        "keywords": "crowd research, crowd work., crowdsourcing"
+      },
+      {
+        "author": "Ryo Suzuki,",
+        "title": "Toward a Community Enhanced Programming Education",
+        "pdf": "chi-2015-workshop.pdf",
+        "slide": "chi-2015-workshop-slide.pdf",
+        "booktitle": "ACM CHI 2015 Symposium on Emerging Japanese HCI Research Collection",
+        "series": "CHI '15 Workshop",
+        "year": 2015,
+        "location": "Seoul, Korea",
+        "publisher": "ACM",
+        "address": "New York, NY, USA"
+      },
+      {
+        "author": "Ryo Suzuki,",
+        "title": "Interactive and Collaborative Source Code Annotation",
+        "pdf": "icse-2015-cumiki.pdf",
+        "poster": "icse-2015-cumiki-poster.pdf",
+        "booktitle": "Proceedings of the 37th International Conference on Software Engineering - Volume 2",
+        "series": "ICSE '15 Poster",
+        "year": 2015,
+        "location": "Florence, Italy",
+        "pages": "799--800",
+        "numpages": 2,
+        "url": "http://dl.acm.org/citation.cfm?id=2819009.2819173",
+        "acmid": 2819173,
+        "publisher": "IEEE Press",
+        "address": "Piscataway, NJ, USA"
+      },
+      {
+        "author": "Ryo Suzuki,",
+        "title": "Network Thresholds and Multiple Equilibria in the Diffusion of Content-Based Platforms",
+        "pdf": "wine-2014-network.pdf",
+        "poster": "wine-2014-network-poster.pdf",
+        "booktitle": "International Conference on Web and Internet Economics",
+        "series": "WINE '14 Poster",
+        "year": 2014,
+        "location": "Beijing, China",
+        "publisher": "Springer",
+        "address": "New York, NY, USA"
+      }
+    ],
+    "content/output/projects/reactile.json": {
+      "id": "reactile",
+      "name": "Reactile",
+      "description": "Programming Swarm User Interfaces through Direct Physical Manipulation",
+      "title": "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation",
+      "authors": "Ryo Suzuki, Jun Kato, Mark D. Gross, Tom Yeh",
+      "image": "reactile.jpg",
+      "conference": {
+        "name": "CHI 2018",
+        "url": "https://chi2018.acm.org/"
+      },
+      "pdf": "chi-2018-reactile.pdf",
+      "video": "https://www.youtube.com/watch?v=Gb7brajKCVE",
+      "short-video": "https://www.youtube.com/watch?v=YT7vMJZjohU",
+      "slide": "chi-2018-reactile-slide.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3173773",
+      "github": "https://github.com/ryosuzuki/reactile",
+      "abstract": "We explore a new approach to programming swarm user in- terfaces (Swarm UI) by leveraging direct physical manipu- lation. Existing Swarm UI applications are written using a robot programming framework: users work on a computer screen and think in terms of low-level controls. In contrast, our approach allows programmers to work in physical space by directly manipulating objects and think in terms of high- level interface design. Inspired by current UI programming practices, we introduce a four-step workflow—create elements, abstract attributes, specify behaviors, and propagate changes— for Swarm UI programming. We propose a set of direct physi- cal manipulation techniques to support each step in this work- flow. To demonstrate these concepts, we developed Reac- tile, a Swarm UI programming environment that actuates a swarm of small magnets and displays spatial information of program states using a DLP projector. Two user studies—an in-class survey with 148 students and a lab interview with eight participants—confirm that our approach is intuitive and understandable for programming Swarm UIs.",
+      "dir": "content/output/projects",
+      "base": "reactile.json",
+      "ext": ".json",
+      "sourceBase": "reactile.md",
       "sourceExt": ".md"
     },
     "content/output/projects/dynablock.json": {
@@ -632,6 +614,25 @@
       "base": "dynablock.json",
       "ext": ".json",
       "sourceBase": "dynablock.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/morphio.json": {
+      "id": "morphio",
+      "name": "MorphIO",
+      "description": "Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+      "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+      "authors": "Ryosuke Nakayama*, Ryo Suzuki*, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi (* equally contributed)",
+      "image": "morphio.png",
+      "conference": {
+        "name": "DIS 2019",
+        "url": "https://dis2019.com/"
+      },
+      "pdf": "dis-2019-morphio.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3322337",
+      "dir": "content/output/projects",
+      "base": "morphio.json",
+      "ext": ".json",
+      "sourceBase": "morphio.md",
       "sourceExt": ".md"
     }
   },
