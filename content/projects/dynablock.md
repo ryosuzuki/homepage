@@ -23,15 +23,17 @@ talk: https://www.youtube.com/watch?v=R3FRUtOIiCQ
 
 [**The ACM Symposium on User Interface Software and Technology (UIST 2018)**](http://uist.acm.org/uist2018/)
 
-Links: [**[PDF](http://ryosuzuki.org/publications/uist-2018-dynablock.pdf)**]
+Links:
+[**[PDF](http://ryosuzuki.org/publications/uist-2018-dynablock.pdf)**]
 [**[ACM DL](https://dl.acm.org/citation.cfm?id=3242659)**]
+[**[Video](https://www.youtube.com/watch?v=7nPlr3O9xu8)**]
 [**[Slide](http://ryosuzuki.org/publications/uist-2018-dynablock-slide.pdf)**]
 [**[Talk](https://www.youtube.com/watch?v=R3FRUtOIiCQ)**]
 
 
-<div class="video-container">
-  <iframe class="embed" width="100%" height="315" src="https://www.youtube.com/embed/7nPlr3O9xu8?autoplay=1&mute=1&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/dynablock/top.mp4" type="video/mp4"></source>
+</video>
 
 
 # Abstract
@@ -59,24 +61,23 @@ This paper introduces Dynamic 3D Printing, a fast and re- constructable shape fo
   </div>
 </div>
 
-# Introduction
+# Dynamic 3D Printing
 
 What if 3D printers could form a physical object in seconds? What if the object, once it is no longer needed, could quickly and easily be disassembled and reconstructed as a new object? Today’s 3D printers take hours to print objects, and output a single static object. However, we envision a future in which 3D printing could instantly create objects from reusable and reconstructable materials.
 
-<video poster="/static/projects/dynablock/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/dynablock/top.mp4" type="video/mp4"></source>
-</video>
-
 This paper develops this vision by proposing Dynamic 3D Printing, a class of systems for rapid and reconstructable shape formation. Dynamic 3D Printing assembles digital material elements to form recon- structable physical objects. Each element can be connected with and disconnected from neighboring elements, and ele- ments can be formed into an arbitrary three-dimensional phys- ical object. Dynamic 3D printing differs from existing 3D printing in speed and reconstructability: Dynamic 3D printing forms shapes in seconds, rather than minutes. In addition, because individual elements can be disconnected, the shape can be easily disassembled into its basic building blocks once the object is no longer needed.
 
-# Dynamic 3D Printing
 We define Dynamic 3D Printing as a class of systems that have the following properties:
-1) Immediate: The system can form a physical shape in sec- onds.
-2) Reconstructable: Rendered shapes can be disassembled and reconstructed by hand or with the system, and the blocks are reusable.
-3) Arbitrary Shapes: It can create arbitrary three dimensional shapes.
-4) Graspable: The output shapes and structure are graspable and solid.
 
-## Parallel Assembler
+- Immediate: The system can form a physical shape in sec- onds.
+
+- Reconstructable: Rendered shapes can be disassembled and reconstructed by hand or with the system, and the blocks are reusable.
+
+- Arbitrary Shapes: It can create arbitrary three dimensional shapes.
+
+- Graspable: The output shapes and structure are graspable and solid.
+
+# Parallel Assembler
 
 <div class="figures ui stackable one column grid">
   <div class="figure column">
@@ -86,7 +87,7 @@ We define Dynamic 3D Printing as a class of systems that have the following prop
 
 Dynamic 3D printing deploys a large number of small dis- crete material elements, which are assembled to form arbitrary shaped macro-scale objects. Individual elements are passive, which requires an external actuator to perform the assembly. As illustrated in the above Figure, the assembler consists of an N x N grid of motorized pins and linear actuators. The elements, which are the same size as the pins, are stacked on top of the pins (Figure 3 A). When stacked, the elements are connected in vertical direction, while discon- nected with nearby elements in horizontal direction. Similar to existing pin-based shape displays, the assembler can incrementally generate 2.5D shapes by individually moving pins to push elements to the surface.
 
-<video poster="/static/projects/dynablock/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/dynablock/mechanism.mp4" type="video/mp4"></source>
 </video>
 
@@ -148,7 +149,9 @@ With these capabilities, a 3D printer would become an inter- active medium, rath
 Dynamic 3D printing would enable a new design workflow for digital fabrication. One notable advantage of dynamic 3D printing is the capability of connecting and disconnecting building blocks through direct manipulation. The user can also define variables or abstract attributes for parametric design through direct and gestural interaction. By leveraging this capability, the user could interactively design and fabri- cate in a physical space, similar to the man-machine dialogue proposed by Frazer et al. and later tangible CAD interfaces.
 
 
+## Video Preview
 
-
-
+<div class="video-container">
+  <iframe class="embed" width="100%" height="315" src="https://www.youtube.com/embed/7nPlr3O9xu8?autoplay=1&mute=1&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
