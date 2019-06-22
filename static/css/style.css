@@ -24,15 +24,21 @@
   margin-bottom: 5px;
 }
 
-
-
 #project p {
   text-align: justify;
 }
 
 .images img {
   height: 200px;
+}
 
+.link {
+  color: #1d5884 !important;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .video-container {
