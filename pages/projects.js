@@ -2,6 +2,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
 import summary from '../content/output/summary.json'
+import Link from 'next/link'
 
 // import { Link } from '../routes'
 
@@ -31,18 +32,18 @@ class Projects extends React.Component {
           return (
             <div className="project ui vertical segment grid" data-id={ project.id } >
               <div className="four wide column">
-                <a href={ `/${ project.id }` }>
-                  <img className="ui rounded images" src={ `/static/images/${ project.image }` } />
-                </a>
+                <Link href={ `/${ project.id }` }>
+                  <img className="ui rounded images link" src={ `/static/images/${ project.image }` } />
+                </Link>
                 {/* <video autoplay="" loop="loop" muted="" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
                   <source src={`/static/videos/${ project.id }.webm`} type="video/webm" />
                 </video> */}
               </div>
               <div className="twelve wide column">
                 <h1 className="ui header" style={{ marginBottom: '10px' }}>
-                  <a href={ `/${ project.id }` }>
-                  <span>{ project.name }</span>
-                  </a>
+                  <Link href={ `/${ project.id }` }>
+                    <span className="link">{ project.name }</span>
+                  </Link>
                   <span className="ui big label">{ project.conference.name }</span>
                 </h1>
                 <h2 style={{ margin: '5px 0' }}>{ project.description }</h2>
