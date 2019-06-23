@@ -32,7 +32,7 @@ class Projects extends React.Component {
           return (
             <div className="project ui vertical segment grid" data-id={ project.id } >
               <div className="four wide column">
-                <Link href={ `/${ project.id }` }>
+                <Link href={ `/${ project.id }` }  as={ process.env.BACKEND_URL + project.id }>
                   <img className="ui rounded images link" src={ `/static/images/${ project.image }` } />
                 </Link>
                 {/* <video autoplay="" loop="loop" muted="" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
