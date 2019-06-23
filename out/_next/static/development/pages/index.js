@@ -20607,7 +20607,7 @@ function (_React$Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
@@ -20668,11 +20668,10 @@ function (_React$Component) {
           "data-id": project.id
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
           className: "four wide column"
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-          href: "/project?id=".concat(project.id),
-          as: process.env.BACKEND_URL + project.id
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+          href: "/".concat(project.id)
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-          className: "ui rounded images link",
+          className: "ui rounded images",
           src: "/static/images/".concat(project.image)
         }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
           className: "twelve wide column"
@@ -20681,11 +20680,9 @@ function (_React$Component) {
           style: {
             marginBottom: '10px'
           }
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
           href: "/".concat(project.id)
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-          className: "link"
-        }, project.name)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, project.name)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
           className: "ui big label"
         }, project.conference.name)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
           style: {
@@ -20895,7 +20892,6 @@ function (_React$Component) {
 
 
 /* harmony default export */ __webpack_exports__["default"] = (Projects);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
