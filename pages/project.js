@@ -18,6 +18,7 @@ class Project extends React.Component {
 
     return (
       <div>
+        <title>{ project.title }</title>
         <div className="ui stackable grid" style={{ marginTop: '20px' }}>
           <div className="one wide column"></div>
 

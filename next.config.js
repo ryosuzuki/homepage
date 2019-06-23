@@ -5,10 +5,29 @@ const debug = process.env.NODE_ENV !== "production"
 
 module.exports = withCSS({
   exportPathMap: function () {
-    return {
-      '/': { page: '/' },
-      '/:id' : { page: '/project' }
+    const ids = [
+      'morphio',
+      'dynablock',
+      'tabby',
+      'reactile',
+      'pep',
+      'flux-marker',
+      'trace-diff',
+      'mixed-initiative',
+      'refazer',
+      'atelier'
+    ]
+
+    let pages = {}
+    for (let id of ids) {
+      pages[id] = {
+        page: 'project',
+        query: { id: id }
+      }
     }
+    return Object.assign({}, pages, {
+      '/': { page: '/' }
+    })
   },
   assetPrefix: !debug ? '/homepage/' : '',
   webpack: (config, options) => {

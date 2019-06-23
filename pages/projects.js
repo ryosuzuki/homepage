@@ -32,18 +32,18 @@ class Projects extends React.Component {
           return (
             <div className="project ui vertical segment grid" data-id={ project.id } >
               <div className="four wide column">
-                <Link href={ `/${ project.id }` }  as={ process.env.BACKEND_URL + project.id }>
-                  <img className="ui rounded images link" src={ `/static/images/${ project.image }` } />
-                </Link>
+                <a href={ `/${ project.id }` }>
+                  <img className="ui rounded images" src={ `/static/images/${ project.image }` } />
+                </a>
                 {/* <video autoplay="" loop="loop" muted="" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
                   <source src={`/static/videos/${ project.id }.webm`} type="video/webm" />
                 </video> */}
               </div>
               <div className="twelve wide column">
                 <h1 className="ui header" style={{ marginBottom: '10px' }}>
-                  <Link href={ `/${ project.id }` }>
-                    <span className="link">{ project.name }</span>
-                  </Link>
+                  <a href={ `/${ project.id }` }>
+                    <span>{ project.name }</span>
+                  </a>
                   <span className="ui big label">{ project.conference.name }</span>
                 </h1>
                 <h2 style={{ margin: '5px 0' }}>{ project.description }</h2>

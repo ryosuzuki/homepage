@@ -33,7 +33,7 @@ Links:
 
 # Abstract
 
-We introduce MorphIO, entirely soft sensing and actuation modules for programming by demonstration of soft robots and shape-changing interfaces. MorphIO’s hardware consists of a soft pneumatic actuator containing a conductive sponge sensor. This allows both input and output of three-dimensional defor- mation of a soft material. Leveraging this capability, MorphIO enables a user to record and later playback physical motion of programmable shape-changing materials. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection. We demonstrate several application scenarios, including tangi- ble character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects. Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm.
+We introduce **MorphIO, entirely soft sensing and actuation modules** for programming by demonstration of soft robots and shape-changing interfaces. MorphIO’s hardware consists of a **soft pneumatic actuator containing a conductive sponge sensor**. This allows both input and output of three-dimensional deformation of a soft material. Leveraging this capability, MorphIO enables a user to **record and later playback physical motion** of programmable shape-changing materials. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection. We demonstrate several application scenarios, including tangible character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects. Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm.
 
 <div class="figures ui stackable three column grid">
   <div class="figure column">
@@ -59,7 +59,7 @@ We introduce MorphIO, entirely soft sensing and actuation modules for programmin
 
 # Introduction
 
-**Programmable soft materials** have a great impact in many application fields, such as soft robots, material interfaces, and haptics.
+**Programmable soft materials** have a great potential for many application domains, such as soft robotics, material interfaces, accessibility, and haptic interfaces.
 **However, programming of such materials is hard.**
 The dominant programming paradigm of soft robots and material interfaces is largely confined within a digital screen, leaving little room for users to interactively explore physical motion through tangible interaction. In such a workflow—compiling code on a digital screen then trans- ferring it into the physical object—users need to repeatedly switch between the digital and physical worlds. This leaves a large gulf of execution in their programming experiences.
 Thus, the traditional programming paradigm significantly limits the user’s ability to experiment with the design of expressive motion. Moreover, due to this barrier, such an opportunity is largely limited to highly skilled programmers and researchers who are proficient in hardware programming.
@@ -68,7 +68,7 @@ Thus, the traditional programming paradigm significantly limits the user’s abi
 # MorphIO
 
 This paper introduces **MorphIO, entirely soft sensing and actuation modules** for programming by demonstration of soft robots and shape-changing interfaces.
-MorphIO’s hardware consists of a soft pneumatic actuator containing a conductive sponge sensor. This allows for integrated and entirely soft shape-changing modules that can both sense and actuate a variety of three-dimensional deformations. Leveraging this capability, MorphIO enables the user to program behaviors by recording and later playing back physical motions through tangible interaction. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection, then synthesize multiple recorded motions to achieve more complex behaviors, such as bending, gripping, and walking.
+MorphIO’s hardware consists of a soft pneumatic actuator containing a conductive sponge sensor. This allows for integrated and entirely soft shape-changing modules that can both sense and actuate a variety of three-dimensional deformations. Leveraging this capability, MorphIO enables the user to program behaviors by **recording and later playing back physical motions** through tangible interaction. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection, then **synthesize multiple recorded motions to achieve more complex behaviors**, such as bending, gripping, and walking.
 
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">

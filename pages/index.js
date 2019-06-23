@@ -24,6 +24,7 @@ class Index extends React.Component {
 
     return (
       <div>
+        <title>Ryo Suzuki, University of Colorado Boulder</title>
         <div className="ui stackable grid">
           <div className="one wide column"></div>
 

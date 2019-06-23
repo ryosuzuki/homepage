@@ -149,9 +149,10 @@ With these capabilities, a 3D printer would become an inter- active medium, rath
 Dynamic 3D printing would enable a new design workflow for digital fabrication. One notable advantage of dynamic 3D printing is the capability of connecting and disconnecting building blocks through direct manipulation. The user can also define variables or abstract attributes for parametric design through direct and gestural interaction. By leveraging this capability, the user could interactively design and fabri- cate in a physical space, similar to the man-machine dialogue proposed by Frazer et al. and later tangible CAD interfaces.
 
 
-## Video Preview
+# Video Preview
 
 <div class="video-container">
   <iframe class="embed" width="100%" height="315" src="https://www.youtube.com/embed/7nPlr3O9xu8?autoplay=1&mute=1&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 
