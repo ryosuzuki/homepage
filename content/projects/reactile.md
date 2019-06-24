@@ -3,41 +3,41 @@ id: reactile
 name: Reactile
 description: Programming Swarm User Interfaces through Direct Physical Manipulation
 title: "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation"
-authors: Ryo Suzuki, Jun Kato, Mark D. Gross, Tom Yeh
+authors:
+  - Ryo Suzuki
+  - Jun Kato
+  - Mark D. Gross
+  - Tom Yeh
+year: 2018
+booktitle: In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18)
+publisher: ACM, New York, NY, USA
+pages: Paper 199, 13 pages
+doi: https://doi.org/10.1145/3173574.3173773
 image: reactile.jpg
 conference:
   name: CHI 2018
+  fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2018)
   url: https://chi2018.acm.org/
 pdf: chi-2018-reactile.pdf
 video: https://www.youtube.com/watch?v=Gb7brajKCVE
+embed: https://www.youtube.com/embed/Gb7brajKCVE
 short-video: https://www.youtube.com/watch?v=YT7vMJZjohU
 slide: chi-2018-reactile-slide.pdf
 acm-dl: https://dl.acm.org/citation.cfm?id=3173773
 github: https://github.com/ryosuzuki/reactile
+pageCount: 12
+slideCount: 0
 ---
-
-# Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation
-
-**Ryo Suzuki**, Jun Kato, Mark D. Gross, Tom Yeh
-
-[**The ACM CHI Conference on Human Factors in Computing Systems (CHI 2018)**](https://chi2018.acm.org/)
-
-Links:
-[**[PDF](http://ryosuzuki.org/publications/chi-2018-reactile.pdf)**]
-[**[ACM DL](https://dl.acm.org/citation.cfm?id=3173773)**]
-[**[Video](https://www.youtube.com/watch?v=Gb7brajKCVE)**]
-[**[Slide](http://ryosuzuki.org/publications/chi-2018-reactile-slide.pdf)**]
-[**[GitHub](https://github.com/ryosuzuki/reactile)**]
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/reactile/top.mp4" type="video/mp4"></source>
 </video>
 
-## Abstract
+# Abstract
 
 We explore a new approach to programming swarm user interfaces (Swarm UI) by leveraging direct physical manipulation. Existing Swarm UI applications are written using a robot programming framework: users work on a computer screen and think in terms of low-level controls. In contrast, our approach allows programmers to work in physical space by directly manipulating objects and think in terms of high- level interface design. Inspired by current UI programming practices, we introduce a four-step workflow—create elements, abstract attributes, specify behaviors, and propagate changes—for Swarm UI programming. We propose a set of direct physi- cal manipulation techniques to support each step in this work- flow. To demonstrate these concepts, we developed Reac- tile, a Swarm UI programming environment that actuates a swarm of small magnets and displays spatial information of program states using a DLP projector. Two user studies—an in-class survey with 148 students and a lab interview with eight participants—confirm that our approach is intuitive and understandable for programming Swarm UIs.
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/reactile/figure-1-1.png" data-lightbox="lightbox"><img src="/static/projects/reactile/figure-1-1.png" /></a>
   </div>
@@ -50,7 +50,7 @@ We explore a new approach to programming swarm user interfaces (Swarm UI) by lev
 </div>
 
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/reactile/figure-2-1.png" data-lightbox="lightbox"><img src="/static/projects/reactile/figure-2-1.png" /></a>
   </div>
@@ -75,7 +75,7 @@ This paper introduces Reactile, a programming environment for Swarm UI applicati
 The goal of Reactile is to explore a new approach to programming Swarm UI applications. To design an appropriate workflow for Swarm UI programming, we look into existing UI programming paradigm for inspiration. The common workflow of UI programming can be decomposed into four basic steps: create elements, abstract attributes, specify behaviors, and propagate changes. Based on these insights, we propose the following four-step workflow for Swarm UI programming: 1) creates shapes, 2) abstracts shape attributes as variables, 3) specifies data-bindings be- tween dynamic attributes, and 4) the system changes shapes in response to user inputs. With this workflow, a programmer can think in terms of high-level interface and interaction design to build interactive Swarm UI appli- cations, compared to existing, low-level, robot programming approaches.
 
 
-<div class="figures ui stackable one column grid">
+<div class="figures ui one column grid">
   <div class="figure column">
     <a href="/static/projects/reactile/figure-3.png" data-lightbox="lightbox"><img src="/static/projects/reactile/figure-3.png" /></a>
   </div>
@@ -85,7 +85,7 @@ The workflow of Swarm UI programming is inspired by the existing UI programming 
 As we see in well-known design patterns for interactive UI ap- plications such as reactive programming paradigm, the Model-View-Controller, and the observer pattern, they share a com- mon workflow consisting of four basic elements: 1) create elements, 2) abstract attributes, 3) specify behaviors, and 4) propagate changes.
 
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/reactile/figure-1-4.png" data-lightbox="lightbox"><img src="/static/projects/reactile/figure-1-4.png" /></a>
   </div>
@@ -97,7 +97,7 @@ As we see in well-known design patterns for interactive UI ap- plications such a
   </div>
 </div>
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/reactile/figure-2-4.png" data-lightbox="lightbox"><img src="/static/projects/reactile/figure-2-4.png" /></a>
   </div>
@@ -129,14 +129,4 @@ Our PCB design is a 4-layer board, and each layer contains a set of coils, each 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/reactile/mechanism.mp4" type="video/mp4"></source>
 </video>
-
-
-
-
-# Video Preview
-
-<div class="video-container">
-  <iframe class="embed" width="100%" height="315" src="https://www.youtube.com/embed/Gb7brajKCVE?autoplay=1&mute=1&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 

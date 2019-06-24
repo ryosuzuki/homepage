@@ -3,33 +3,42 @@ id: dynablock
 name: Dynablock
 description: Dynamic 3D Printing for Instant and Reconstructable Shape Formation
 title: 'Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation'
-authors: Ryo Suzuki, Junichi Yamaoka, Daniel Leithinger, Tom Yeh Mark D. Gross, Yoshihiro Kawahara, Yasuaki Kakehi
+authors:
+  - Ryo Suzuki
+  - Junichi Yamaoka
+  - Daniel Leithinger
+  - Tom Yeh
+  - Mark D. Gross
+  - Yoshihiro Kawahara
+  - Yasuaki Kakehi
+year: 2018
+booktitle: In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (UIST '18)
+publisher: ACM, New York, NY, USA
+pages: 99-111
+doi: https://doi.org/10.1145/3242587.3242659
 image: dynablock.jpg
 conference:
   name: UIST 2018
+  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2018)
   url: http://uist.acm.org/uist2018
 pdf: uist-2018-dynablock.pdf
 video: https://www.youtube.com/watch?v=7nPlr3O9xu8
+embed: https://www.youtube.com/embed/7nPlr3O9xu8
 short-video: https://www.youtube.com/watch?v=92eGI-gYYc4
 slide: uist-2018-dynablock-slide.pdf
 acm-dl: https://dl.acm.org/citation.cfm?id=3242659
 talk: https://www.youtube.com/watch?v=R3FRUtOIiCQ
-
+pageCount: 12
+slideCount: 52
 ---
-
-# Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation
-
-**Ryo Suzuki**, Junichi Yamaoka, Daniel Leithinger, Tom Yeh Mark D. Gross, Yoshihiro Kawahara, Yasuaki Kakehi
-
-[**The ACM Symposium on User Interface Software and Technology (UIST 2018)**](http://uist.acm.org/uist2018/)
-
+<!--
 Links:
 [**[PDF](http://ryosuzuki.org/publications/uist-2018-dynablock.pdf)**]
 [**[ACM DL](https://dl.acm.org/citation.cfm?id=3242659)**]
 [**[Video](https://www.youtube.com/watch?v=7nPlr3O9xu8)**]
 [**[Slide](http://ryosuzuki.org/publications/uist-2018-dynablock-slide.pdf)**]
 [**[Talk](https://www.youtube.com/watch?v=R3FRUtOIiCQ)**]
-
+ -->
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/dynablock/top.mp4" type="video/mp4"></source>
@@ -40,7 +49,7 @@ Links:
 
 This paper introduces Dynamic 3D Printing, a fast and re- constructable shape formation system. Dynamic 3D Printing assembles an arbitrary three-dimensional shape from a large number of small physical elements. It can also disassemble the shape back to elements and reconstruct a new shape. Dynamic 3D Printing combines the capabilities of 3D printers and shape displays: Like conventional 3D printing, it can generate arbi- trary and graspable three-dimensional shapes, while allowing shapes to be rapidly formed and reformed as in a shape display. To demonstrate the idea, we describe the design and imple- mentation of Dynablock, a working prototype of a dynamic 3D printer. Dynablock can form a three-dimensional shape in seconds by assembling 3,000 9 mm blocks, leveraging a 24 x 16 pin-based shape display as a parallel assembler. Dynamic 3D printing is a step toward achieving our long term vision in which 3D printing becomes an interactive medium, rather than the means for fabrication that it is today. In this paper we explore possibilities for this vision by illustrating application scenarios that are difficult to achieve with conventional 3D printing or shape display systems.
 
-<div class="figures ui stackable two column grid">
+<div class="figures ui two column grid">
   <div class="figure column">
     <a href="/static/projects/dynablock/figure-1-1.jpg" data-lightbox="lightbox"><img src="/static/projects/dynablock/figure-1-1.jpg" /></a>
   </div>
@@ -49,7 +58,7 @@ This paper introduces Dynamic 3D Printing, a fast and re- constructable shape fo
   </div>
 </div>
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/dynablock/figure-2-1.jpg" data-lightbox="lightbox"><img src="/static/projects/dynablock/figure-2-1.jpg" /></a>
   </div>
@@ -79,7 +88,7 @@ We define Dynamic 3D Printing as a class of systems that have the following prop
 
 # Parallel Assembler
 
-<div class="figures ui stackable one column grid">
+<div class="figures ui one column grid">
   <div class="figure column">
     <a href="/static/projects/dynablock/figure-3-1.png" data-lightbox="lightbox"><img src="/static/projects/dynablock/figure-3-1.png" /></a>
   </div>
@@ -92,7 +101,7 @@ Dynamic 3D printing deploys a large number of small dis- crete material elements
 </video>
 
 
-<div class="figures ui stackable two column grid">
+<div class="figures ui two column grid">
   <div class="figure column">
     <a href="/static/projects/dynablock/figure-4-1.png" data-lightbox="lightbox"><img src="/static/projects/dynablock/figure-4-1.png" /></a>
   </div>
@@ -107,7 +116,7 @@ Dynamic 3D printing deploys a large number of small dis- crete material elements
 The assembler consists of a 24 x 16 array of motor-driven pins. Each pin moves up and down, driven by a small DC motor (TTMotors TGPP06-D700) and a 3D printed lead screw (2 mm pitch, 4 starts, 120 mm in length). TGPP06-D700 is 6 mm in diameter and 29 mm in length and can rotate 47 rpm with 1:700 gear ratio. The 2 mm 4 starts lead screw can travel 12 mm per second without load, and each motor consumes approximately 60 mA. The pins are 3D printed with a nut at the bottom to travel along the lead screw. Each pin is 120 mm long and has a 7mm square cross section with a 5 mm diameter hole from top to bottom, and an N45 disk magnet (φ 3mm x 2.4 mm thickness) is attached at the top. Guide grids at the top prevent pins from rotating and ensure that pins travel vertically. The 24 x 16 guide grids have 7.5 mm square holes with 10.16 mm pitch and are cut from a 5 mm acrylic plate. We fabricated the pins, the lead screws, and blocks with an inkjet 3D printer (Keyence Agilista 3200) with water soluble support material. In total, we fabricated 384 (= 24 x 16) pins and lead screws, and 3,072 (= 24 x 16 x 8 layers) blocks. To create the magnetic blocks, we embedded spherical magnets in each block by hand and inserted disk magnets using a bench vice.
 
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/dynablock/figure-5-1.png" data-lightbox="lightbox"><img src="/static/projects/dynablock/figure-5-1.png" /></a>
   </div>
@@ -119,7 +128,7 @@ The assembler consists of a 24 x 16 array of motor-driven pins. Each pin moves u
   </div>
 </div>
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/dynablock/figure-7-1.png" data-lightbox="lightbox"><img src="/static/projects/dynablock/figure-7-1.png" /></a>
   </div>
@@ -137,10 +146,13 @@ The assembler consists of a 24 x 16 array of motor-driven pins. Each pin moves u
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/dynablock/claytronics.mp4" type="video/mp4"></source>
 </video>
+[Video Credit: Carnegie Mellon University, Claytronics Vision]
+
+<br/>
 
 With these capabilities, a 3D printer would become an inter- active medium, rather than merely a fabrication device. For example, such a 3D printer could be used in a Virtual Real- ity or Augmented Reality application to dynamically form a tangible object or controller to provide haptic feedback and engage users physically. For children, it could dynamically form a physical educational manipulative, such as a molec- ular or architectural model, to learn and explore topics, for example in a science museum. Designers could use it to ren- der a physical product to present to clients and interactively change the product’s design through direct manipulation. In this vision, Dynamic 3D printing is an environment in which the user thinks, designs, explores, and communicates through dynamic and interactive physical representation.
 
-<div class="figures ui stackable one column grid">
+<div class="figures ui one column grid">
   <div class="figure column">
     <a href="/static/projects/dynablock/figure-8-1.png" data-lightbox="lightbox"><img src="/static/projects/dynablock/figure-8-1.png" /></a>
   </div>
@@ -149,10 +161,5 @@ With these capabilities, a 3D printer would become an inter- active medium, rath
 Dynamic 3D printing would enable a new design workflow for digital fabrication. One notable advantage of dynamic 3D printing is the capability of connecting and disconnecting building blocks through direct manipulation. The user can also define variables or abstract attributes for parametric design through direct and gestural interaction. By leveraging this capability, the user could interactively design and fabri- cate in a physical space, similar to the man-machine dialogue proposed by Frazer et al. and later tangible CAD interfaces.
 
 
-# Video Preview
-
-<div class="video-container">
-  <iframe class="embed" width="100%" height="315" src="https://www.youtube.com/embed/7nPlr3O9xu8?autoplay=1&mute=1&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 

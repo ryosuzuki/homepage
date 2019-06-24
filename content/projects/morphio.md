@@ -3,28 +3,31 @@ id: morphio
 name: MorphIO
 description: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction
 title: 'MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction'
-authors: Ryosuke Nakayama*, Ryo Suzuki*, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi (* equally contributed)
-image: morphio.png
+authors:
+  - Ryosuke Nakayama
+  - Ryo Suzuki
+  - Satoshi Nakamaru
+  - Ryuma Niiyama
+  - Yoshihiro Kawahara
+  - Yasuaki Kakehi
+note: (the first two authors equally contributed)
+year: 2018
+booktitle: In Proceedings of the 2019 on Designing Interactive Systems Conference (DIS '19)
+publisher: ACM, New York, NY, USA
+pages: 975-986
+doi: https://doi.org/10.1145/3322276.3322337
 conference:
   name: DIS 2019
+  fullname: The ACM conference on Designing Interactive Systems (DIS 2019) - Best Paper Award
   url: https://dis2019.com/
+image: morphio.png
 pdf: dis-2019-morphio.pdf
+video: https://www.youtube.com/watch?v=[id]
+embed: https://www.youtube.com/embed/[id]
 acm-dl: https://dl.acm.org/citation.cfm?id=3322337
+pageCount: 12
+slideCount: 0
 ---
-
-# MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction
-
-Ryosuke Nakayama\*, **Ryo Suzuki\* **, Satoshi Nakamaru, Ryuma Niiyama, Yoshihiro Kawahara, Yasuaki Kakehi
-<br/>
-(the first two authors equally contributed)
-
-[**The ACM conference on Designing Interactive Systems (DIS 2019)**](https://dis2019.com/)
---- **Best Paper Award**
-
-Links:
-[**[PDF](http://ryosuzuki.org/publications/dis-2019-morphio.pdf)**]
-[**[ACM DL](https://dl.acm.org/citation.cfm?id=3322337)**]
-[**[Video](https://www.youtube.com/watch?v=7nPlr3O9xu8)**]
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/morphio/top.mp4" type="video/mp4"></source>
@@ -35,7 +38,7 @@ Links:
 
 We introduce **MorphIO, entirely soft sensing and actuation modules** for programming by demonstration of soft robots and shape-changing interfaces. MorphIO’s hardware consists of a **soft pneumatic actuator containing a conductive sponge sensor**. This allows both input and output of three-dimensional deformation of a soft material. Leveraging this capability, MorphIO enables a user to **record and later playback physical motion** of programmable shape-changing materials. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection. We demonstrate several application scenarios, including tangible character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects. Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm.
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-1-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-1-1.png" /></a>
   </div>
@@ -48,7 +51,7 @@ We introduce **MorphIO, entirely soft sensing and actuation modules** for progra
 </div>
 
 
-<div class="figures ui stackable two column grid">
+<div class="figures ui two column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-1-4.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-1-4.png" /></a>
   </div>
@@ -96,7 +99,7 @@ The programming workflow with MorphIO is the following:
 
 The MorphIO system consists of the following components: A sensor and actuation unit, a sensing and actuation control unit, a microcontroller, software to control these units, and a visual interface for users to control behaviors. Figure illustrates the overview architecture of MorphIO.
 
-<div class="figures ui stackable two column grid">
+<div class="figures ui two column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-6-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-6-1.png" /></a>
   </div>
@@ -110,7 +113,7 @@ The MorphIO system consists of the following components: A sensor and actuation 
 
 Our main contribution is a design and fabrication method for **a conductive sponge sensor** that can be embedded into an air chamber in the pneumatic actuator. The conductive sponge sensor leverages the porous structure to **sense the three-dimensional deformation by measuring the internal resistance value**; when contracted, the resistance value be- tween the top and bottom surfaces drops, and when extended, it increases. In contrast to existing sensing techniques, an elastic sponge allows for a higher degree of freedom in sensing capability (e.g., stretching, bending, and compression) without sacrificing the softness of the interface.
 
-<div class="figures ui stackable two column grid">
+<div class="figures ui two column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-2-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-2-1.png" /></a>
   </div>
@@ -130,7 +133,7 @@ Our main contribution is a design and fabrication method for **a conductive spon
 Moreover, our **modular design** and **graphical interface** allows for easy experiments involving multiple units. For example, the system can visualize multiple recorded sensor values, so that the user can see, customize, and synthesize recorded motion to construct more complex behaviors. These hardware and software designs were informed by our formative study, wherein we interviewed five experienced researchers from the robotics and HCI communities.
 
 
-<div class="figures ui stackable two column grid">
+<div class="figures ui two column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-3-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-3-1.png" /></a>
   </div>
@@ -139,7 +142,7 @@ Moreover, our **modular design** and **graphical interface** allows for easy exp
   </div>
 </div>
 
-<div class="figures ui stackable one column grid">
+<div class="figures ui one column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-4-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-4-1.png" /></a>
   </div>
@@ -163,7 +166,7 @@ To fabricate an elastic sponge, we first prepare 6.0 g of elastomer prepolymer s
   <source src="/static/projects/morphio/fabrication.mp4" type="video/mp4"></source>
 </video>
 
-<div class="figures ui stackable four column grid">
+<div class="figures ui four column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-5-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-5-1.png" /></a>
   </div>
@@ -179,7 +182,7 @@ To fabricate an elastic sponge, we first prepare 6.0 g of elastomer prepolymer s
 </div>
 
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-5-5.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-5-5.png" /></a>
   </div>
@@ -197,7 +200,7 @@ To fabricate an elastic sponge, we first prepare 6.0 g of elastomer prepolymer s
 
 We demonstrate several possible applications scenarios with MorphIO. 1) Tangible character animation, 2) Animating existing soft objects, 3) Remote manipulation of soft grippers, 4) Locomotion experimentation with soft robots.
 
-<div class="figures ui stackable four column grid">
+<div class="figures ui four column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-10-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-10-1.png" /></a>
   </div>
@@ -212,7 +215,7 @@ We demonstrate several possible applications scenarios with MorphIO. 1) Tangible
   </div>
 </div>
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-11-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-11-1.png" /></a>
   </div>
@@ -239,7 +242,7 @@ We conducted a user evaluation study to understand the bene- fits and limitation
 
 To answer these questions, we conducted a controlled experiment where we compared MorphIO (left) with the current programming approach. We chose Arduino IDE (right) as a base condition for the comparison, as this is the most common programming approach identified through our formative study. We provide three basic tasks to construct a program. For each task, the participants were asked to program three differ- ent emotions—happiness, anger, and sadness—of an animated character. We chose these emotions based on Ekman’s basic emotions for communication.
 
-<div class="figures ui stackable three column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-12-1.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-12-1.png" /></a>
   </div>
@@ -261,16 +264,11 @@ We believe this approach’s potential for lowering the barrier and opening new 
 We envision the future where people can interactively explore various behaviors through tangible interactions, **just like sculpting behaviors with clay**.
 
 
-<div class="figures ui stackable one column grid">
+<div class="figures ui one column grid">
   <div class="figure column">
     <a href="/static/projects/morphio/figure-14.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-14.png" /></a>
   </div>
 </div>
 
 
-# Video Preview
-
-<div class="video-container">
-  <iframe class="embed" width="100%" height="315" src="https://www.youtube.com/embed/[id]?autoplay=1&mute=1&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 

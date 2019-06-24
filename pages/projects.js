@@ -40,14 +40,17 @@ class Projects extends React.Component {
                 </video> */}
               </div>
               <div className="twelve wide column">
-                <h1 className="ui header" style={{ marginBottom: '10px' }}>
-                  <a href={ `/${ project.id }` }>
-                    <span>{ project.name }</span>
-                  </a>
-                  <span className="ui big label">{ project.conference.name }</span>
-                </h1>
-                <h2 style={{ margin: '5px 0' }}>{ project.description }</h2>
+                <a href={ `/${ project.id }` }>
+                  <h1 className="ui header" style={{ marginBottom: '10px' }}>
+                      <span>{ project.name }</span>
+                    <span className="ui big label">{ project.conference.name }</span>
+                  </h1>
+                  <h2 style={{ margin: '5px 0' }}>
+                    { project.description }
+                  </h2>
+                </a>
                 <p>{ project.authors }</p>
+                {/*
                 <a href={ '/publications/' + project.pdf } target="blank" style={{ marginRight: '5px', display: project.pdf ? 'inline' : 'none' }}>[PDF]</a>
                 <a href={ project.video } target="blank" style={{ marginRight: '5px', display: project.video ? 'inline' : 'none' }}>[Video]</a>
                 <a href={ project['short-video'] } target="blank" style={{ marginRight: '5px', display: project['short-video'] ? 'inline' : 'none' }}>[Short Video]</a>
@@ -56,6 +59,7 @@ class Projects extends React.Component {
                 <a href={ project['acm-dl'] } target="blank" style={{ marginRight: '5px', display: project['acm-dl'] ? 'inline' : 'none' }}>[ACM DL]</a>
                 <a href={ project['ieee'] } target="blank" style={{ marginRight: '5px', display: project['ieee'] ? 'inline' : 'none' }}>[IEEE]</a>
                 <a href={ project['talk'] } target="blank" style={{ marginRight: '5px', display: project['talk'] ? 'inline' : 'none' }}>[Talk]</a>
+                */}
               </div>
 
               <div id={ project.id } className="ui modal">
