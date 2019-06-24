@@ -20485,7 +20485,7 @@ function (_React$Component) {
         playsInline: true,
         "webkit-playsinline": ""
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("source", {
-        src: "/static/videos/top.webm",
+        src: "/static/webm/top.webm",
         type: "video/webm"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("source", {
         src: "/static/videos/top.mp4",
@@ -20682,6 +20682,9 @@ function (_React$Component) {
           onclick: "this.play()",
           onmouseover: "this.play()"
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("source", {
+          src: "/static/webm/".concat(project.id, ".webm"),
+          type: "video/webm"
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("source", {
           src: "/static/videos/".concat(project.id, ".mp4"),
           type: "video/webm"
         }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
