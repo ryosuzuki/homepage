@@ -121,7 +121,7 @@ class Project extends React.Component {
               })}
             </div>
             { project.slideCount > 0 &&
-              <a href={ project.slide } target="_blank">Slide PDF</a>
+              <a href={ `/publications/${project.slide}` } target="_blank">Slide PDF</a>
             }
             { project.slideCount === 0 &&
               <p>coming soon</p>
