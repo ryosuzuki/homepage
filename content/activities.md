@@ -1,5 +1,5 @@
 
-**Organizer:** UIST 2017 (Web and Social Media Chair)
+**Organizer:** UIST 2016 (Web and Social Media Chair)
 
 **Review:** CHI 2016--2019, UIST 2017--2019, SCF 2019
 

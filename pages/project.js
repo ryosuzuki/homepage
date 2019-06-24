@@ -37,7 +37,7 @@ class Project extends React.Component {
               project.authors
               .map((author) => (author === 'Ryo Suzuki') ? <strong>{author}</strong> : <span>{author}</span>)
               .reduce((prev, curr) => [prev, ', ', curr])
-            } { project.note }
+            } &nbsp; <span style={{ color: 'gray' }}>{ project.note }</span>
             </p>
             <p className="meta">
               <a href={ project.conference.url }>
@@ -112,7 +112,7 @@ class Project extends React.Component {
             <h1>Slide</h1>
             <div class="figures ui six column grid">
               { [...Array(project.slideCount)].map((v, i) => {
-                const src = `/static/projects/${project.name}/slide-${i+1}.png`
+                const src = `/static/projects/${project.id}/slide-${i+1}.png`
                 return (
                   <a class="slide column" href={src} data-lightbox="lightbox">
                     <img src={src} />
@@ -120,6 +120,12 @@ class Project extends React.Component {
                 )
               })}
             </div>
+            { project.slideCount > 0 &&
+              <a href={ project.slide } target="_blank">Slide PDF</a>
+            }
+            { project.slideCount === 0 &&
+              <p>coming soon</p>
+            }
 
           </div>
           <div className="one wide column"></div>

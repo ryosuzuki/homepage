@@ -29,7 +29,7 @@ demo: https://ryosuzuki.github.io/trace-diff/
 ieee: http://ieeexplore.ieee.org/document/8103457/
 arxiv: https://arxiv.org/abs/1708.03786a
 pageCount: 9
-slideCount: 0
+slideCount: 77
 related:
   title: Exploring the Design Space of Automatically Synthesized Hints for Introductory Programming Assignments
   authors:

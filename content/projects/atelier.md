@@ -25,5 +25,5 @@ slide: chi-2016-atelier-slide.pdf
 acm-dl: http://dl.acm.org/citation.cfm?id=2858121
 arxiv: https://arxiv.org/abs/1602.06634
 pageCount: 12
-slideCount: 0
+slideCount: 56
 ---

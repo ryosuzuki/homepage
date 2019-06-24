@@ -1,8 +1,27 @@
 [
   {
+    "date": "2019-06-27",
+    "image": "uist-2019.png",
+    "text": "Won [**Best Paper Award**](https://dis2019.com/overview/#track-4-shape-changing-interfaces) for [**DIS 2019**](https://dis2019.com/) (Top 1%)."
+  },
+  {
+    "date": "2019-06-21",
+    "image": "uist-2019.png",
+    "text": "One [**UIST 2019**](http://uist.acm.org/uist2019/) full-paper is accepted (23%)."
+  },
+  {
+    "date": "2019-05-20",
+    "image": "uist-2019.png",
+    "text": "Start intern at [**Adobe Research**](https://research.adobe.com/) in Seattle."
+  },
+  {
     "date": "2019-03-26",
     "image": "dis-2019.png",
     "text": "One [**DIS 2019**](https://dis2019.com/) full-paper is accepted (25%)."
+  },
+  {
+    "date": "2018-08-15",
+    "text": "Award [**JST ACT-I**](https://www.jst.go.jp/kisoken/act-i/en/project/111C001/111C001_2018.html) funding (mentor [**Takeo Igarashi**](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/))."
   },
   {
     "date": "2018-08-06",
@@ -13,6 +32,10 @@
     "date": "2018-08-03",
     "image": "pg-2018.png",
     "text": "One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (26%)."
+  },
+  {
+    "date": "2017-12-14",
+    "text": "Start intern at [**University of Tokyo**](http://www.jst.go.jp/erato/kawahara/)."
   },
   {
     "date": "2017-12-11",
@@ -45,6 +68,10 @@
     "text": "One [**ICSE 2017**](http://icse2017.gatech.edu/) full-paper is accepted (19%)."
   },
   {
+    "date": "2019-05-23",
+    "text": "Start intern at [**UC Berkeley**](http://bid.berkeley.edu/)."
+  },
+  {
     "date": "2016-01-15",
     "image": "chi-2016.png",
     "text": "One [**CHI 2016**](https://chi2016.acm.org/wp/) full-paper is accepted (23%)."
@@ -53,5 +80,13 @@
     "date": "2015-10-01",
     "image": "uist-2016.jpg",
     "text": "I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)"
+  },
+  {
+    "date": "2019-05-18",
+    "text": "Start intern at [**Stanford**](https://hci.stanford.edu/)."
+  },
+  {
+    "date": "2014-10-15",
+    "text": "The first day to start HCI research (previously economics/game theory)"
   }
 ]

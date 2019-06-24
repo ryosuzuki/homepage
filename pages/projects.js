@@ -49,52 +49,14 @@ class Projects extends React.Component {
                     { project.description }
                   </h2>
                 </a>
-                <p>{ project.authors }</p>
-                {/*
-                <a href={ '/publications/' + project.pdf } target="blank" style={{ marginRight: '5px', display: project.pdf ? 'inline' : 'none' }}>[PDF]</a>
-                <a href={ project.video } target="blank" style={{ marginRight: '5px', display: project.video ? 'inline' : 'none' }}>[Video]</a>
-                <a href={ project['short-video'] } target="blank" style={{ marginRight: '5px', display: project['short-video'] ? 'inline' : 'none' }}>[Short Video]</a>
-                <a href={ '/publications/' + project.slide } target="blank" style={{ marginRight: '5px', display: project.slide ? 'inline' : 'none' }}>[Slide]</a>
-                <a href={ project.github } target="blank" style={{ marginRight: '5px', display: project.github ? 'inline' : 'none' }}>[GitHub]</a>
-                <a href={ project['acm-dl'] } target="blank" style={{ marginRight: '5px', display: project['acm-dl'] ? 'inline' : 'none' }}>[ACM DL]</a>
-                <a href={ project['ieee'] } target="blank" style={{ marginRight: '5px', display: project['ieee'] ? 'inline' : 'none' }}>[IEEE]</a>
-                <a href={ project['talk'] } target="blank" style={{ marginRight: '5px', display: project['talk'] ? 'inline' : 'none' }}>[Talk]</a>
-                */}
+                <p>
+                  {
+                    project.authors
+                    .map((author) => (author === 'Ryo Suzuki') ? <strong>{author}</strong> : <span>{author}</span>)
+                    .reduce((prev, curr) => [prev, ', ', curr])
+                  }  &nbsp; <span style={{ color: 'gray' }}>{ project.note }</span>
+                </p>
               </div>
-
-              <div id={ project.id } className="ui modal">
-                <div className="content">
-                  <h1>{ project.title }</h1>
-                  <div className="ui horizontal divider"></div>
-                  <div className="authors">
-                    <h3>Authors</h3>
-                    <div className="authors ui very relaxed horizontal divided list">
-                      <div className="item">
-                        { project.authors }
-                      </div>
-                    </div>
-                  </div>
-                  <div className="ui horizontal divider"></div>
-                  <div className="video">
-                    <h3>Video Preview</h3>
-                    <div className="video-container">
-                      <iframe id="video" width="560" height="300" src="https://www.youtube.com/embed/-JcezIL3UKQ" frameBorder="0" allowFullScreen={true}></iframe>
-                    </div>
-                  </div>
-                  <div className="ui horizontal divider"></div>
-                  <div className="abstract">
-                    <h3>Abstract</h3>
-                    { project.abstract }
-                  </div>
-                </div>
-                <div className="actions">
-                  <div className="ui approve button">Approve</div>
-                  <div className="ui button">Neutral</div>
-                  <div className="ui cancel button">Cancel</div>
-                </div>
-              </div>
-
-
             </div>
           )
         })}

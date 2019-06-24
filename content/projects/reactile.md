@@ -26,7 +26,7 @@ slide: chi-2018-reactile-slide.pdf
 acm-dl: https://dl.acm.org/citation.cfm?id=3173773
 github: https://github.com/ryosuzuki/reactile
 pageCount: 12
-slideCount: 0
+slideCount: 56
 ---
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">

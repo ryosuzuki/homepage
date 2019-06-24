@@ -24,7 +24,7 @@ embed: https://www.youtube.com/embed/rRgw8lH74CA
 acm-dl: https://diglib.eg.org/handle/10.2312/pg20181273
 slide: pg-2018-tabby-slide.pdf
 pageCount: 4
-slideCount: 0
+slideCount: 40
 ---
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
