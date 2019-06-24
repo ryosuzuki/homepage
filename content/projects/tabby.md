@@ -13,7 +13,6 @@ booktitle: The Pacific Conference on Computer Graphics and Applications (Pacific
 publisher: The Eurographics Association
 pages: 1-4
 doi: https://doi.org/10.2312/pg.20181273
-image: tabby.png
 conference:
   name: Pacific Graphics 2018
   fullname: The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)
@@ -25,6 +24,7 @@ acm-dl: https://diglib.eg.org/handle/10.2312/pg20181273
 slide: pg-2018-tabby-slide.pdf
 pageCount: 4
 slideCount: 40
+# image: tabby.png
 ---
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">

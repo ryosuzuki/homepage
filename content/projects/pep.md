@@ -12,7 +12,6 @@ authors:
   - Lining Yao
 year: 2018
 booktitle: In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18)
-image: pep.png
 publisher: ACM, New York, NY, USA
 pages: Paper 441, 12 pages
 doi: https://doi.org/10.1145/3173574.3174015
@@ -27,5 +26,6 @@ short-video: https://www.youtube.com/watch?v=DTd863suDN0
 acm-dl: https://dl.acm.org/citation.cfm?id=3174015
 pageCount: 12
 slideCount: 0
+# image: pep.png
 ---
 

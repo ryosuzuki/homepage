@@ -17,7 +17,6 @@ booktitle: In Proceedings of the Fourth (2017) ACM Conference on Learning @ Scal
 publisher: ACM, New York, NY, USA
 pages: 89-98
 doi: https://doi.org/10.1145/3051457.3051467
-image: mixed-initiative.png
 conference:
   name: L@S 2017
   fullname: The ACM Conference on Learning at Scale (L@S 2017)
@@ -26,5 +25,5 @@ pdf: las-2017-mixed.pdf
 acm-dl: http://dl.acm.org/citation.cfm?id=3051467
 pageCount: 10
 slideCount: 62
-
+image: mixed-initiative.png
 ---

@@ -16,7 +16,6 @@ booktitle: In Proceedings of the 31st Annual ACM Symposium on User Interface Sof
 publisher: ACM, New York, NY, USA
 pages: 99-111
 doi: https://doi.org/10.1145/3242587.3242659
-image: dynablock.jpg
 conference:
   name: UIST 2018
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2018)
@@ -30,6 +29,7 @@ acm-dl: https://dl.acm.org/citation.cfm?id=3242659
 talk: https://www.youtube.com/watch?v=R3FRUtOIiCQ
 pageCount: 12
 slideCount: 52
+# image: dynablock.jpg
 ---
 <!--
 Links:

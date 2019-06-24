@@ -13,7 +13,6 @@ booktitle: In Proceedings of the 2018 CHI Conference on Human Factors in Computi
 publisher: ACM, New York, NY, USA
 pages: Paper 199, 13 pages
 doi: https://doi.org/10.1145/3173574.3173773
-image: reactile.jpg
 conference:
   name: CHI 2018
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2018)
@@ -27,6 +26,7 @@ acm-dl: https://dl.acm.org/citation.cfm?id=3173773
 github: https://github.com/ryosuzuki/reactile
 pageCount: 12
 slideCount: 56
+# image: reactile.jpg
 ---
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">

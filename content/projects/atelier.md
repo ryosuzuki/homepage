@@ -13,7 +13,6 @@ year: 2016
 booktitle: In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16)
 publisher: ACM, New York, NY, USA
 pages: 2645-2656
-image: atelier.jpg
 conference:
   name: CHI 2016
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2016)
@@ -26,4 +25,5 @@ acm-dl: http://dl.acm.org/citation.cfm?id=2858121
 arxiv: https://arxiv.org/abs/1602.06634
 pageCount: 12
 slideCount: 56
+image: atelier.jpg
 ---

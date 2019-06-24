@@ -17,7 +17,6 @@
   "booktitle": "In Proceedings of the 39th International Conference on Software Engineering (ICSE '17)",
   "publisher": "IEEE Press, Piscataway, NJ, USA",
   "pages": "404-415",
-  "image": "refazer.png",
   "conference": {
     "name": "ICSE 2017",
     "fullname": "The International Conference on Software Engineering (ICSE 2017)",
@@ -28,6 +27,7 @@
   "arxiv": "https://arxiv.org/abs/1608.09000",
   "pageCount": 12,
   "slideCount": 0,
+  "image": "refazer.png",
   "bodyContent": "",
   "bodyHtml": "",
   "dir": "content/output/projects",

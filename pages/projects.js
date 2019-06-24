@@ -30,16 +30,20 @@ class Projects extends React.Component {
         <h1>Full Papers</h1>
         { projects.map((project) => {
           return (
-            <div className="project ui vertical segment grid" data-id={ project.id } >
-              <div className="four wide column">
+            <div className="project ui vertical segment stackable grid" data-id={ project.id } >
+              <div className="six wide column">
+                { project.image &&
                 <a href={ `/${ project.id }` }>
                   <img className="ui rounded images" src={ `/static/images/${ project.image }` } />
                 </a>
-                {/* <video autoplay="" loop="loop" muted="" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
-                  <source src={`/static/videos/${ project.id }.webm`} type="video/webm" />
-                </video> */}
+                }
+                { !project.image &&
+                <video autoplay="" loop="loop" muted="true" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
+                  <source src={`/static/videos/${ project.id }.mp4`} type="video/webm" />
+                </video>
+                }
               </div>
-              <div className="twelve wide column">
+              <div className="ten wide column">
                 <a href={ `/${ project.id }` }>
                   <h1 className="ui header" style={{ marginBottom: '10px' }}>
                       <span>{ project.name }</span>
@@ -54,7 +58,7 @@ class Projects extends React.Component {
                     project.authors
                     .map((author) => (author === 'Ryo Suzuki') ? <strong>{author}</strong> : <span>{author}</span>)
                     .reduce((prev, curr) => [prev, ', ', curr])
-                  }  &nbsp; <span style={{ color: 'gray' }}>{ project.note }</span>
+                  } &nbsp; <span style={{ color: 'gray' }}>{ project.note }</span>
                 </p>
               </div>
             </div>

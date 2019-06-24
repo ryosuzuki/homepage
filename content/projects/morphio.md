@@ -20,13 +20,13 @@ conference:
   name: DIS 2019
   fullname: The ACM conference on Designing Interactive Systems (DIS 2019) - Best Paper Award
   url: https://dis2019.com/
-image: morphio.png
 pdf: dis-2019-morphio.pdf
 video: https://www.youtube.com/watch?v=[id]
 embed: https://www.youtube.com/embed/[id]
 acm-dl: https://dl.acm.org/citation.cfm?id=3322337
 pageCount: 12
 slideCount: 0
+# image: morphio.png
 ---
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">

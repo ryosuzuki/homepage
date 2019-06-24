@@ -13,7 +13,6 @@ booktitle: In Proceedings of the 19th International ACM SIGACCESS Conference on 
 publisher: ACM, New York, NY, USA
 pages: 190-199
 doi: https://doi.org/10.1145/3132525.3132548
-image: fluxmarker.png
 conference:
   name: ASSETS 2017
   fullname: The International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2017)
@@ -26,6 +25,7 @@ acm-dl: https://dl.acm.org/citation.cfm?id=3132548
 arxiv: https://arxiv.org/abs/1708.03783
 pageCount: 10
 slideCount: 53
+# image: fluxmarker.png
 ---
 
 # Abstract
