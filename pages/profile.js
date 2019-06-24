@@ -16,7 +16,7 @@ class Profile extends React.Component {
           </h1>
 
           <video id="top-video" poster="/static/images/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-            <source src="/static/videos/top.webm" type="video/webm"></source>
+            <source src="/static/webm/top.webm" type="video/webm"></source>
             <source src="/static/videos/top.mp4" type="video/mp4"></source>
           </video>
 
