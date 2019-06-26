@@ -30,7 +30,7 @@ class Projects extends React.Component {
                 { !project.image &&
                 <video autoplay="" loop="loop" muted="true" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
                   <source src={`/static/webm/${project.id}.webm`} type="video/webm"></source>
-                  <source src={`/static/videos/${project.id}.mp4`} type="video/webm" />
+                  <source src={`/static/videos/${project.id}.mp4`} type="video/mp4" />
                 </video>
                 }
               </div>
