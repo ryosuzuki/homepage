@@ -30,7 +30,7 @@ slideCount: 52
 # image: morphio.png
 ---
 
-<video poster="/static/projects/morphio/video-poster/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/top.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/top.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/top.mp4" type="video/mp4"></source>
 </video>
@@ -76,14 +76,14 @@ This paper introduces **MorphIO, entirely soft sensing and actuation modules** f
 MorphIO’s hardware consists of a soft pneumatic actuator containing a conductive sponge sensor. This allows for integrated and entirely soft shape-changing modules that can both sense and actuate a variety of three-dimensional deformations. Leveraging this capability, MorphIO enables the user to program behaviors by **recording and later playing back physical motions** through tangible interaction. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection, then **synthesize multiple recorded motions to achieve more complex behaviors**, such as bending, gripping, and walking.
 
 
-<video poster="/static/projects/morphio/video-poster/module.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/module.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/module.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/module.mp4" type="video/mp4"></source>
 </video>
 
 <br/>
 
-<video poster="/static/projects/morphio/video-poster/bear.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/bear.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/bear.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/bear.mp4" type="video/mp4"></source>
 </video>
@@ -127,7 +127,7 @@ Our main contribution is a design and fabrication method for **a conductive spon
 </div>
 
 
-<video poster="/static/projects/morphio/video-poster/mechanism.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/mechanism.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/mechanism.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/mechanism.mp4" type="video/mp4"></source>
 </video>
@@ -147,12 +147,12 @@ Moreover, our **modular design** and **graphical interface** allows for easy exp
   </div>
 </div>
 
-<video poster="/static/projects/morphio/video-poster/unit-x2.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/unit-x2.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/unit-x2.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/unit-x2.mp4" type="video/mp4"></source>
 </video>
 
-<video poster="/static/projects/morphio/video-poster/unit-x3.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/unit-x3.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/unit-x3.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/unit-x3.mp4" type="video/mp4"></source>
 </video>
@@ -178,7 +178,7 @@ Moreover, our **modular design** and **graphical interface** allows for easy exp
 The fabrication process follows three steps: 1) Fabricate an elastic sponge, 2) impregnate into conductive ink, and 3) attach electrodes and wires.
 To fabricate an elastic sponge, we first prepare 6.0 g of elastomer prepolymer solution and 29.1 g of sodium-chloride, then mix them together by using a planetary centrifugal mixer. The mixed solution is injected into a 3D printed cylindrical mold (16mm diameter, 40mm height). Then we dry the material with an oven at 100 C degrees for one hour. Once dried, we immerse the sponge in water, so that the sodium chloride can melt, leaving a porous structure within the elastomer sponge.
 
-<video poster="/static/projects/morphio/video-poster/fabrication.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/fabrication.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/fabrication.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/fabrication.mp4" type="video/mp4"></source>
 </video>
@@ -244,7 +244,7 @@ We demonstrate several possible applications scenarios with MorphIO. 1) Tangible
   </div>
 </div>
 
-<video poster="/static/projects/morphio/video-poster/locomotion.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/morphio/video-poster/locomotion.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/locomotion.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/locomotion.mp4" type="video/mp4"></source>
 </video>

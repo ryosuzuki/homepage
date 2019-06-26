@@ -41,7 +41,8 @@ Links:
  -->
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/dynablock/top.mp4" type="video/mp4"></source>
+  <source src="/static/projects/dynablock/webm/top.webm" type="video/webm"></source>
+  <source src="/static/projects/dynablock/video/top.mp4" type="video/mp4"></source>
 </video>
 
 
@@ -97,7 +98,8 @@ We define Dynamic 3D Printing as a class of systems that have the following prop
 Dynamic 3D printing deploys a large number of small dis- crete material elements, which are assembled to form arbitrary shaped macro-scale objects. Individual elements are passive, which requires an external actuator to perform the assembly. As illustrated in the above Figure, the assembler consists of an N x N grid of motorized pins and linear actuators. The elements, which are the same size as the pins, are stacked on top of the pins (Figure 3 A). When stacked, the elements are connected in vertical direction, while discon- nected with nearby elements in horizontal direction. Similar to existing pin-based shape displays, the assembler can incrementally generate 2.5D shapes by individually moving pins to push elements to the surface.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/dynablock/mechanism.mp4" type="video/mp4"></source>
+  <source src="/static/projects/dynablock/webm/mechanism.webm" type="video/webm"></source>
+  <source src="/static/projects/dynablock/video/mechanism.mp4" type="video/mp4"></source>
 </video>
 
 
@@ -144,7 +146,8 @@ The assembler consists of a 24 x 16 array of motor-driven pins. Each pin moves u
 # Future Vision
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/dynablock/claytronics.mp4" type="video/mp4"></source>
+  <source src="/static/projects/dynablock/webm/claytronics.webm" type="video/webm"></source>
+  <source src="/static/projects/dynablock/video/claytronics.mp4" type="video/mp4"></source>
 </video>
 [Video Credit: Carnegie Mellon University, Claytronics Vision]
 
