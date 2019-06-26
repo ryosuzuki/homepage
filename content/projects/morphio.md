@@ -31,7 +31,8 @@ slideCount: 52
 ---
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/top.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/webm/top.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/top.mp4" type="video/mp4"></source>
 </video>
 
 
@@ -76,13 +77,15 @@ MorphIO’s hardware consists of a soft pneumatic actuator containing a conducti
 
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/module.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/videos/module.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/module.mp4" type="video/mp4"></source>
 </video>
 
 <br/>
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/bear.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/webm/bear.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/bear.mp4" type="video/mp4"></source>
 </video>
 
 
@@ -125,7 +128,8 @@ Our main contribution is a design and fabrication method for **a conductive spon
 
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/mechanism.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/webm/mechanism.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/mechanism.mp4" type="video/mp4"></source>
 </video>
 
 
@@ -144,11 +148,13 @@ Moreover, our **modular design** and **graphical interface** allows for easy exp
 </div>
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/unit-x2.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/webm/unit-x2.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/unit-x2.mp4" type="video/mp4"></source>
 </video>
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/unit-x3.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/webm/unit-x3.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/unit-x3.mp4" type="video/mp4"></source>
 </video>
 
 
@@ -173,7 +179,8 @@ The fabrication process follows three steps: 1) Fabricate an elastic sponge, 2) 
 To fabricate an elastic sponge, we first prepare 6.0 g of elastomer prepolymer solution and 29.1 g of sodium-chloride, then mix them together by using a planetary centrifugal mixer. The mixed solution is injected into a 3D printed cylindrical mold (16mm diameter, 40mm height). Then we dry the material with an oven at 100 C degrees for one hour. Once dried, we immerse the sponge in water, so that the sodium chloride can melt, leaving a porous structure within the elastomer sponge.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/fabrication.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/webm/fabrication.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/fabrication.mp4" type="video/mp4"></source>
 </video>
 
 <div class="figures ui four column grid">
@@ -238,7 +245,8 @@ We demonstrate several possible applications scenarios with MorphIO. 1) Tangible
 </div>
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/morphio/locomotion.mp4" type="video/mp4"></source>
+  <source src="/static/projects/morphio/webm/locomotion.webm" type="video/webm"></source>
+  <source src="/static/projects/morphio/videos/locomotion.mp4" type="video/mp4"></source>
 </video>
 
 
