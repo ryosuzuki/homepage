@@ -40,7 +40,7 @@ class Project extends React.Component {
             } &nbsp; <span style={{ color: 'gray' }}>{ project.note }</span>
             </p>
             <p className="meta">
-              <a href={ project.conference.url }>
+              <a href={ project.conference.url } target="_blank">
                 <b>{ project.conference.fullname }</b>
               </a>
             </p>

@@ -21,11 +21,12 @@ conference:
   fullname: The ACM conference on Designing Interactive Systems (DIS 2019) - Best Paper Award
   url: https://dis2019.com/
 pdf: dis-2019-morphio.pdf
-video: https://www.youtube.com/watch?v=[id]
-embed: https://www.youtube.com/embed/[id]
+slide: dis-2019-morphio-slide.pdf
+video: https://www.youtube.com/watch?v=ZkCcazfFD-M
+embed: https://www.youtube.com/embed/ZkCcazfFD-M
 acm-dl: https://dl.acm.org/citation.cfm?id=3322337
 pageCount: 12
-slideCount: 0
+slideCount: 52
 # image: morphio.png
 ---
 
@@ -141,6 +142,15 @@ Moreover, our **modular design** and **graphical interface** allows for easy exp
     <a href="/static/projects/morphio/figure-3-2.png" data-lightbox="lightbox"><img src="/static/projects/morphio/figure-3-2.png" /></a>
   </div>
 </div>
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/morphio/unit-x2.mp4" type="video/mp4"></source>
+</video>
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/morphio/unit-x3.mp4" type="video/mp4"></source>
+</video>
+
 
 <div class="figures ui one column grid">
   <div class="figure column">
