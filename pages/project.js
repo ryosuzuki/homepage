@@ -65,7 +65,19 @@ class Project extends React.Component {
 
             <h1 style={{ display: project.embed ? 'block' : 'none' }}>Video Preview</h1>
             <div class="video-container" style={{ display: project.embed ? 'block' : 'none' }} >
-              <iframe class="embed" width="100%" height="315" src={`${project.embed}?autoplay=1&mute=1&rel=0&loop=1`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe
+                class="embed"
+                width="100%"
+                height="315"
+                src={`${project.embed}?autoplay=1&mute=1&rel=0&loop=1`}
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen={true}
+                mozAllowFullScreen={true}
+                msAllowFullScreen={true}
+                oAllowFullScreen={true}
+                webkitAllowFullScreen={true}
+              ></iframe>
             </div>
 
             <h1>Publication</h1>
