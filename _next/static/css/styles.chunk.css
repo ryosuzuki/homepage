@@ -102,6 +102,7 @@ a:hover {
 }
 
 .paper.column {
+  height: 100%;
   padding-left: 0.5% !important;
   padding-right: 0.5% !important;
 }
