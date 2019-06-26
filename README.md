@@ -31,3 +31,9 @@ https://www.ps2pdf.com/convert-video-to-webm
 
 To convert from pdf to png
 https://ezgif.com/pdf-to-png
+
+To create a video poster
+```
+ffmpeg -i static/video/top.mp4 image.png -map 1 -map 0 -c copy
+```
+

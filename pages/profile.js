@@ -15,9 +15,9 @@ class Profile extends React.Component {
             </div>
           </h1>
 
-          <video id="top-video" poster="/static/images/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+          <video id="top-video" poster="/static/posters/top.png" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
             <source src="/static/webm/top.webm" type="video/webm"></source>
-            <source src="/static/videos/top.mp4" type="video/mp4"></source>
+            <source src="/static/video/top.mp4" type="video/mp4"></source>
           </video>
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>

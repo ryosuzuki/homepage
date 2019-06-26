@@ -28,9 +28,9 @@ class Projects extends React.Component {
                 </a>
                 }
                 { !project.image &&
-                <video autoplay="" loop="loop" muted="true" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
+                <video poster={`/static/posters/${project.id}.png`} autoplay="" loop="loop" muted="true" playsinline="" width="100%" onclick="this.play()" onmouseover="this.play()">
                   <source src={`/static/webm/${project.id}.webm`} type="video/webm"></source>
-                  <source src={`/static/videos/${project.id}.mp4`} type="video/mp4" />
+                  <source src={`/static/video/${project.id}.mp4`} type="video/mp4" />
                 </video>
                 }
               </div>
