@@ -1,0 +1,7 @@
+File from: [static/projects/morphio/slide-original/*.{png}]
+
+File to: [-]
+
+Compression algorithm: [-]
+
+Description:  Directory is empty!: 

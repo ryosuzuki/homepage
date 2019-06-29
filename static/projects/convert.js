@@ -18,7 +18,8 @@ console.log(type)
 
 let i = 1
 for (let file of files) {
-  let name = `${type}-${i}.png`
+  let id = i < 10 ? '0' + i.toString(): i.toString()
+  let name = `${type}-${id}.jpg`
   fs.renameSync(`${dir}/${file}`, `${dir}/${name}`)
   i++
 }

@@ -95,39 +95,49 @@ class Project extends React.Component {
             </div>
             }
 
-            <div>
-              <a class="paper-thumbnail" href={ `/publications/${project.pdf}`} target="_blank">
-                <div class="figures ui six column grid">
-                  { [...Array(project.pageCount)].map((v, i) => {
-                    return (
-                      <img class="paper column" src={`/static/projects/${project.id}/paper-${i+1}.png`} />
-                    )
-                  })}
-                </div>
-              </a>
+            <div class="figures ui six column grid">
+              { [...Array(project.pageCount)].map((v, i) => {
+                const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
+                const src = `/static/projects/${project.id}/paper-original/paper-${id}.jpg`
+                const min = `/static/projects/${project.id}/paper/paper-${id}.jpg`
+                return (
+                  <a class="paper column" href={src} data-lightbox="lightbox">
+                    <img src={min} />
+                  </a>
+                )
+              })}
             </div>
+            { project.pageCount > 0 &&
+              <a href={ `/publications/${project.pdf}` } target="_blank">Paper PDF</a>
+            }
 
             { project.related &&
-            <div>
-              <a class="paper-thumbnail" href={ `/publications/${project.related.pdf}`} target="_blank">
+              <div>
                 <div class="figures ui six column grid">
                   { [...Array(project.related.pageCount)].map((v, i) => {
+                    const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
+                    const src = `/static/projects/${project.id}/paper-original/paper-${project.related.suffix}-${id}.jpg`
+                    const min = `/static/projects/${project.id}/paper/paper-${project.related.suffix}-${id}.jpg`
                     return (
-                      <img class="paper column" src={`/static/projects/${project.id}/paper-${project.related.suffix}-${i+1}.png`} />
+                      <a class="paper column" href={src} data-lightbox="lightbox">
+                        <img src={min} />
+                      </a>
                     )
                   })}
                 </div>
-              </a>
-            </div>
+                <a href={ `/publications/${project.pdf}` } target="_blank">Paper PDF</a>
+              </div>
             }
 
             <h1>Slide</h1>
             <div class="figures ui six column grid">
               { [...Array(project.slideCount)].map((v, i) => {
-                const src = `/static/projects/${project.id}/slide-${i+1}.png`
+                const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
+                const src = `/static/projects/${project.id}/slide-original/slide-${id}.jpg`
+                const min = `/static/projects/${project.id}/slide/slide-${id}.jpg`
                 return (
                   <a class="slide column" href={src} data-lightbox="lightbox">
-                    <img src={src} />
+                    <img src={min} />
                   </a>
                 )
               })}
