@@ -20,9 +20,10 @@ conference:
   name: UIST 2019
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2019)
   url: http://uist.acm.org/uist2019
+pdf: uist-2019-shapebots.pdf
 pageCount: 0
 slideCount: 0
 # image: dynablock.jpg
 ---
 
-(Conditionally accepted to UIST 2019. The details are coming soon)
+(Accepted to UIST 2019. The details are coming soon)

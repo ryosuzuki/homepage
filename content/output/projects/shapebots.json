@@ -22,10 +22,11 @@
     "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2019)",
     "url": "http://uist.acm.org/uist2019"
   },
+  "pdf": "uist-2019-shapebots.pdf",
   "pageCount": 0,
   "slideCount": 0,
-  "bodyContent": "(Conditionally accepted to UIST 2019. The details are coming soon)",
-  "bodyHtml": "<p>(Conditionally accepted to UIST 2019. The details are coming soon)</p>\n",
+  "bodyContent": "(Accepted to UIST 2019. The details are coming soon)",
+  "bodyHtml": "<p>(Accepted to UIST 2019. The details are coming soon)</p>\n",
   "dir": "content/output/projects",
   "base": "shapebots.json",
   "ext": ".json",
