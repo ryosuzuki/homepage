@@ -1,3 +1,20 @@
+- author: Ryo Suzuki,
+  title: 'Collective Shape-changing Interfaces'
+  pdf: uist-2019-dc.pdf
+  booktitle: Adjunct Proceedings of the 32nd Annual ACM Symposium on User Interface Software & Technology
+  series: UIST '19 Doctoral Consortium
+  year: 2019
+  isbn: 978-1-4503-4656-6
+  location: New Orleans, Louisiana, USA
+  pages: 2951--2958
+  numpages: 2
+  url: http://doi.acm.org/xxx
+  doi: xxx/xxx
+  acmid: 3053187
+  publisher: ACM
+  address: New York, NY, USA
+  keywords: inflatables, shape-changing interfaces,large-scale interactions
+
 - author: Ryo Suzuki, Ryosuke Nakayama, Dan Liu, Yasuaki Kakehi, Mark D. Gross, and Daniel Leithinger,
   title: 'ShapeTiles: Modular and Reconfigurable Room-scaleShape Displays through Retractable Inflatable Actuators'
   pdf: uist-2019-shapetiles.pdf
@@ -15,7 +32,6 @@
   publisher: ACM
   address: New York, NY, USA
   keywords: inflatables, shape-changing interfaces,large-scale interactions
-
 
 - author: Ryo Suzuki, Gustavo Soares, Elena Glassman, Andrew Head, Loris D'Antoni, and Bjoern Hartmann,
   title: 'Exploring the Design Space of Automatically Synthesized Hints for Introductory Programming Assignments'
