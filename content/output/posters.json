@@ -2,7 +2,7 @@
   {
     "author": "Ryo Suzuki,",
     "title": "Collective Shape-changing Interfaces",
-    "pdf": "uist-2019-dc.pdf",
+    "pdf": "uist-2019-collective.pdf",
     "booktitle": "Adjunct Proceedings of the 32nd Annual ACM Symposium on User Interface Software & Technology",
     "series": "UIST '19 Doctoral Consortium",
     "year": 2019,
@@ -14,7 +14,7 @@
     "acmid": 3053187,
     "publisher": "ACM",
     "address": "New York, NY, USA",
-    "keywords": "inflatables, shape-changing interfaces,large-scale interactions"
+    "keywords": "shape-changing interfaces"
   },
   {
     "author": "Ryo Suzuki, Ryosuke Nakayama, Dan Liu, Yasuaki Kakehi, Mark D. Gross, and Daniel Leithinger,",
