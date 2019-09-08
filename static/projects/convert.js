@@ -1,12 +1,12 @@
 /*
 Step 1:
-Convert PDF to PNG with https://ezgif.com/pdf-to-png/
+Convert PDF to PNG with https://ezgif.com/pdf-to-jpg/
 
 Step 2:
 Run `node convert.js directory slide`
 
 Step 3:
-Got slide-1.png, slide-2.png, slide-3.png, ....
+Got slide-1.jpg, slide-2.jpg, slide-3.jpg, ....
 */
 
 const fs = require('fs')

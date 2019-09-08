@@ -7,7 +7,7 @@ const files = fs.readdirSync(dir)
 console.log(files)
 console.log(type)
 
-let i = 0
+let i = 1
 for (let file of files) {
   let id = i < 10 ? '0' + i.toString(): i.toString()
   let out = `${dir}/../${type}/${type}-${id}.jpg`
