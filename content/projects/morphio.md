@@ -4,8 +4,8 @@ name: MorphIO
 description: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction
 title: 'MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction'
 authors:
-  - Ryosuke Nakayama
-  - Ryo Suzuki
+  - Ryosuke Nakayama*
+  - Ryo Suzuki*
   - Satoshi Nakamaru
   - Ryuma Niiyama
   - Yoshihiro Kawahara

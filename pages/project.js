@@ -35,7 +35,7 @@ class Project extends React.Component {
             <p className="meta">
             {
               project.authors
-              .map((author) => (author === 'Ryo Suzuki') ? <strong>{author}</strong> : <span>{author}</span>)
+              .map((author) => (author.includes('Ryo Suzuki')) ? <strong>{author}</strong> : <span>{author}</span>)
               .reduce((prev, curr) => [prev, ', ', curr])
             } &nbsp; <span style={{ color: 'gray' }}>{ project.note }</span>
             </p>
@@ -47,6 +47,7 @@ class Project extends React.Component {
             <p className="meta">
               Links: &nbsp;
               <a className="ui label" href={ '/publications/' + project.pdf } target="_blank" style={{ marginRight: '5px', display: project.pdf ? 'inline' : 'none' }}>PDF</a>
+              <a className="ui label" href={ '/publications/' + project.poster } target="_blank" style={{ marginRight: '5px', display: project.poster ? 'inline' : 'none' }}>Poster</a>
               <a className="ui label" href={ project.video } target="_blank" style={{ marginRight: '5px', display: project.video ? 'inline' : 'none' }}>Video</a>
               <a className="ui label" href={ project['short-video'] } target="_blank" style={{ marginRight: '5px', display: project['short-video'] ? 'inline' : 'none' }}>Short Video</a>
               <a className="ui label" href={ '/publications/' + project.slide } target="_blank" style={{ marginRight: '5px', display: project.slide ? 'inline' : 'none' }}>Slide</a>
