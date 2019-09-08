@@ -62,7 +62,7 @@ class Profile extends React.Component {
             <div className="item">
               <a href="mailto:ryo.suzuki@colorado.edu" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-envelope fa-fw" />
-                ryo.suzuki@colorado.edu
+                Email
               </a>
             </div>
             <div className="item">
@@ -75,6 +75,12 @@ class Profile extends React.Component {
               <a href="https://twitter.com/ryosuzk" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fab fa-twitter fa-fw" />
                 ryosuzk
+              </a>
+            </div>
+            <div className="item">
+              <a href="https://twitter.com/HCI_Comics" target="_blank" style={{ fontSize: '1.2em' }}>
+                <i className="fab fa-twitter fa-fw" />
+                HCI_Comics (ja)
               </a>
             </div>
             <div className="item">
