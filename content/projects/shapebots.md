@@ -36,6 +36,7 @@ slideCount: 0
 We introduce *shape-changing swarm robots*. A swarm of self-transformable robots can both individually and collectively change their configuration to display information, actuate objects, act as tangible controllers, visualize data, and provide physical affordances. ShapeBots is a concept prototype of shape-changing swarm robots. Each robot can change its shape by leveraging small linear actuators that are thin (2.5 cm) and highly extendable (up to 20cm) in both horizontal and vertical directions. The modular design of each actuator enables various shapes and geometries of self-transformation. We illustrate potential application scenarios and discuss how this type of interface opens up possibilities for the future of ubiquitous and distributed shape-changing interfaces.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/top.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/top.mp4" type="video/mp4"></source>
 </video>
 
@@ -85,6 +86,7 @@ This paper specifically focuses on the user interface aspect of such systems, wh
 **ShapeBots are self-transformable swarm robots** with modular linear actuators. To enable a large deformation capability of tiny swarm robots, we developed a miniature reel-based linear actuator that is thin (2.5 cm) and fits into the small footprint (3 cm x 3 cm), while able to extend up to 20 cm in both horizontal and vertical directions.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/unit.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/unit.mp4" type="video/mp4"></source>
 </video>
 
@@ -109,6 +111,7 @@ This paper specifically focuses on the user interface aspect of such systems, wh
 The modular design of each linear actuator unit enables the construction of various shapes and geometries of individual shape transformation (e.g., horizontal lines, vertical lines, curved lines, 2D area expan- sion, and 3D volumetric change). Based on these capabilities, we demonstrate application scenarios showing how a swarm of distributed self-transformable robots can support everyday interactions.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/transformation.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/transformation.mp4" type="video/mp4"></source>
 </video>
 
@@ -118,6 +121,7 @@ The modular design of each linear actuator unit enables the construction of vari
 To track the position and orientation of the swarm robots, we used computer vision and a fiducial marker attached to the bottom of the robot. We used the ArUco fiducial marker printed on a sheet of paper and taped to the bottom of the robot. Our prototype used a 1.5 cm x 1.5 cm size marker with a 4 x 4 grid pattern, which can provide up to 50 unique patterns. For tracking software, we used the OpenCV library and ArUco python module. It can track the position of the markers at 60 frames per second.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/tracking.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/tracking.mp4" type="video/mp4"></source>
 </video>
 
@@ -153,6 +157,7 @@ One interesting application area is to use these **robots as dynamic physical me
 For example, ShapeBots on the USA map physicalize map data; each robot changes its height to show the population of the state it is on. Users can interact with the dataset by placing a new robot or moving a robot to a different state, and the robots update their physical forms to represent the respective population.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/dataphys.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/dataphys.mp4" type="video/mp4"></source>
 </video>
 
@@ -171,6 +176,7 @@ For example, ShapeBots on the USA map physicalize map data; each robot changes i
 Similarly, ShapeBots can provide a physical preview of a CAD design. ShapeBots physicalizes the actual size of the box. The design and physical rendering are tightly coupled; as the user changes the height of the box in CAD software, the ShapeBots change heights accordingly. The user can change the parameters of the design by moving robots in the physical space, and these changes are reflected in the CAD design.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/cad.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/cad.mp4" type="video/mp4"></source>
 </video>
 
@@ -205,6 +211,7 @@ Another practical aspect of ShapeBots is the ability to actuate objects and act 
 In these scenarios, these robots can help as an **ambient assistant for everyday life**.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/cleaning.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/cleaning.mp4" type="video/mp4"></source>
 </video>
 
@@ -223,6 +230,7 @@ In these scenarios, these robots can help as an **ambient assistant for everyday
 By leveraging the capability of locomotion and height change of each robot, ShapeBots can create a dynamic fence to hide or encompass existing objects for affordances. For example, when the user pours hot coffee into a cup, the robots surround the cup and change their heights to create a vertical fence. The vertical fence visually and physically provides the affordance to indicate that the coffee is too hot and not ready to drink. Once it is ready, the robots start dispersing and allow the user to grab it. These scenarios illustrate how the distributed shape-changing robots can provide a new type of affordance, which we call **distributed dynamic physical affordances**.
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/affordance.webm" type="video/webm"></source>
   <source src="/static/projects/shapebots/video/affordance.mp4" type="video/mp4"></source>
 </video>
 
