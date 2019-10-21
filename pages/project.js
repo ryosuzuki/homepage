@@ -58,13 +58,7 @@ class Project extends React.Component {
             </p>
             <br/>
 
-            <ReactMarkdown
-              source={project.bodyContent}
-              escapeHtml={false}
-              linkTarget="_blank"
-            />
-
-            <h1 style={{ display: project.embed ? 'block' : 'none' }}>Video Preview</h1>
+            { /* <h1 style={{ display: project.embed ? 'block' : 'none' }}>Video Preview</h1> */ }
             <div class="video-container" style={{ display: project.embed ? 'block' : 'none' }} >
               <iframe
                 class="embed"
@@ -81,6 +75,12 @@ class Project extends React.Component {
               ></iframe>
             </div>
 
+            <ReactMarkdown
+              source={project.bodyContent}
+              escapeHtml={false}
+              linkTarget="_blank"
+            />
+
             <h1>Publication</h1>
             <div class="ui placeholder segment">
               <p>
@@ -96,6 +96,9 @@ class Project extends React.Component {
             </div>
             }
 
+            { project.pageCount > 0 &&
+              <a href={ `/publications/${project.pdf}` } target="_blank">Download PDF</a>
+            }
             <div class="figures ui six column grid">
               { [...Array(project.pageCount)].map((v, i) => {
                 const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
@@ -108,13 +111,11 @@ class Project extends React.Component {
                 )
               })}
             </div>
-            { project.pageCount > 0 &&
-              <a href={ `/publications/${project.pdf}` } target="_blank">Paper PDF</a>
-            }
 
             { project.related &&
               <div>
                 <div class="figures ui six column grid">
+                  <a href={ `/publications/${project.pdf}` } target="_blank">Download Paper PDF</a>
                   { [...Array(project.related.pageCount)].map((v, i) => {
                     const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
                     const src = `/static/projects/${project.id}/paper-original/paper-${project.related.suffix}-${id}.jpg`
@@ -126,11 +127,16 @@ class Project extends React.Component {
                     )
                   })}
                 </div>
-                <a href={ `/publications/${project.pdf}` } target="_blank">Paper PDF</a>
               </div>
             }
 
             <h1>Slide</h1>
+            { project.slideCount > 0 &&
+              <a href={ `/publications/${project.slide}` } target="_blank">Download Slide PDF</a>
+            }
+            { project.slideCount === 0 &&
+              <p>coming soon</p>
+            }
             <div class="figures ui six column grid">
               { [...Array(project.slideCount)].map((v, i) => {
                 const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
@@ -143,12 +149,6 @@ class Project extends React.Component {
                 )
               })}
             </div>
-            { project.slideCount > 0 &&
-              <a href={ `/publications/${project.slide}` } target="_blank">Slide PDF</a>
-            }
-            { project.slideCount === 0 &&
-              <p>coming soon</p>
-            }
 
           </div>
           <div className="one wide column"></div>

@@ -30,15 +30,15 @@ slideCount: 52
 # image: morphio.png
 ---
 
+# Abstract
+
+We introduce **MorphIO, entirely soft sensing and actuation modules** for programming by demonstration of soft robots and shape-changing interfaces. MorphIO’s hardware consists of a **soft pneumatic actuator containing a conductive sponge sensor**. This allows both input and output of three-dimensional deformation of a soft material. Leveraging this capability, MorphIO enables a user to **record and later playback physical motion** of programmable shape-changing materials. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection. We demonstrate several application scenarios, including tangible character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects. Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm.
+
+
 <video poster="/static/projects/morphio/video-poster/top.png" preload="metadata" autoplay loop muted playsinline webkit-playsinline="">
   <source src="/static/projects/morphio/webm/top.webm" type="video/webm"></source>
   <source src="/static/projects/morphio/video/top.mp4" type="video/mp4"></source>
 </video>
-
-
-# Abstract
-
-We introduce **MorphIO, entirely soft sensing and actuation modules** for programming by demonstration of soft robots and shape-changing interfaces. MorphIO’s hardware consists of a **soft pneumatic actuator containing a conductive sponge sensor**. This allows both input and output of three-dimensional deformation of a soft material. Leveraging this capability, MorphIO enables a user to **record and later playback physical motion** of programmable shape-changing materials. In addition, the modular design of MorphIO’s unit allows the user to construct various shapes and topologies through magnetic connection. We demonstrate several application scenarios, including tangible character animation, locomotion experiment of a soft robot, and prototyping tools for animated soft objects. Our user study with six participants confirms the benefits of MorphIO, as compared to the existing programming paradigm.
 
 <div class="figures ui three column grid">
   <div class="figure column">

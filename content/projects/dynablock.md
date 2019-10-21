@@ -27,6 +27,7 @@ short-video: https://www.youtube.com/watch?v=92eGI-gYYc4
 slide: uist-2018-dynablock-slide.pdf
 acm-dl: https://dl.acm.org/citation.cfm?id=3242659
 talk: https://www.youtube.com/watch?v=R3FRUtOIiCQ
+poster: uist-2018-dynablock-poster.pdf
 pageCount: 12
 slideCount: 52
 # image: dynablock.jpg
@@ -40,15 +41,14 @@ Links:
 [**[Talk](https://www.youtube.com/watch?v=R3FRUtOIiCQ)**]
  -->
 
+# Abstract
+
+This paper introduces Dynamic 3D Printing, a fast and re- constructable shape formation system. Dynamic 3D Printing assembles an arbitrary three-dimensional shape from a large number of small physical elements. It can also disassemble the shape back to elements and reconstruct a new shape. Dynamic 3D Printing combines the capabilities of 3D printers and shape displays: Like conventional 3D printing, it can generate arbi- trary and graspable three-dimensional shapes, while allowing shapes to be rapidly formed and reformed as in a shape display. To demonstrate the idea, we describe the design and imple- mentation of Dynablock, a working prototype of a dynamic 3D printer. Dynablock can form a three-dimensional shape in seconds by assembling 3,000 9 mm blocks, leveraging a 24 x 16 pin-based shape display as a parallel assembler. Dynamic 3D printing is a step toward achieving our long term vision in which 3D printing becomes an interactive medium, rather than the means for fabrication that it is today. In this paper we explore possibilities for this vision by illustrating application scenarios that are difficult to achieve with conventional 3D printing or shape display systems.
+
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/dynablock/webm/top.webm" type="video/webm"></source>
   <source src="/static/projects/dynablock/video/top.mp4" type="video/mp4"></source>
 </video>
-
-
-# Abstract
-
-This paper introduces Dynamic 3D Printing, a fast and re- constructable shape formation system. Dynamic 3D Printing assembles an arbitrary three-dimensional shape from a large number of small physical elements. It can also disassemble the shape back to elements and reconstruct a new shape. Dynamic 3D Printing combines the capabilities of 3D printers and shape displays: Like conventional 3D printing, it can generate arbi- trary and graspable three-dimensional shapes, while allowing shapes to be rapidly formed and reformed as in a shape display. To demonstrate the idea, we describe the design and imple- mentation of Dynablock, a working prototype of a dynamic 3D printer. Dynablock can form a three-dimensional shape in seconds by assembling 3,000 9 mm blocks, leveraging a 24 x 16 pin-based shape display as a parallel assembler. Dynamic 3D printing is a step toward achieving our long term vision in which 3D printing becomes an interactive medium, rather than the means for fabrication that it is today. In this paper we explore possibilities for this vision by illustrating application scenarios that are difficult to achieve with conventional 3D printing or shape display systems.
 
 <div class="figures ui two column grid">
   <div class="figure column">
