@@ -33,7 +33,7 @@ Step 4:
 Create `paper-original` directory and put them into it
 
 Step 5:
-Create `paper` directory for resized images
+Run `mkdir static/projects/name/paper`
 
 Step 6:
 Run `node static/project/resize.js static/projects/name/paper-original paper`

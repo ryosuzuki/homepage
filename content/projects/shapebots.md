@@ -21,13 +21,14 @@ conference:
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2019)
   url: http://uist.acm.org/uist2019
 pdf: uist-2019-shapebots.pdf
+slide: uist-2019-shapebots-slide.pdf
 video: https://www.youtube.com/watch?v=cwPaof0kKdM
 embed: https://www.youtube.com/embed/cwPaof0kKdM
 github: https://github.com/ryosuzuki/shapebots
 poster: uist-2019-shapebots-poster.pdf
 demo: https://ryosuzuki.github.io/shapebots-simulator/
 pageCount: 13
-slideCount: 0
+slideCount: 42
 # image: dynablock.jpg
 ---
 
