@@ -29,7 +29,7 @@ acm-dl: https://dl.acm.org/citation.cfm?id=3242659
 talk: https://www.youtube.com/watch?v=R3FRUtOIiCQ
 poster: uist-2018-dynablock-poster.pdf
 pageCount: 12
-slideCount: 52
+slideCount: 53
 # image: dynablock.jpg
 ---
 <!--

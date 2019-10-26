@@ -194,16 +194,6 @@ Similarly, ShapeBots can provide a physical preview of a CAD design. ShapeBots p
   </div>
 </div>
 
-<div>
-ShapeBots can also act as an interactive physical display. The following figures show how ShapeBots can render different shapes.
-We highlight the advantage of ShapeBots for rendering contours compared to non self-transformable swarm robots. Using a software simulation, we demonstrate how ShapeBots renders an SVG input at different swarm sizes. You can also [**play with the explorable online simulator (https://ryosuzuki.github.io/shapebots-simulator/)**](https://ryosuzuki.github.io/shapebots-simulator/) to see how these robots can render the shape.
-
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/shapebots/video/explorable.mp4" type="video/mp4"></source>
-</video>
-</div>
-
-
 # Applications: Robots as Ambient Assistants
 
 Another practical aspect of ShapeBots is the ability to actuate objects and act as physical constraints. As an example, the video shows two robots extending their linear actuators to wipe debris off a table, clearing a workspace for the user.
@@ -245,6 +235,14 @@ By leveraging the capability of locomotion and height change of each robot, Shap
     <a href="/static/projects/shapebots/figure-10-3.jpg" data-lightbox="lightbox"><img src="/static/projects/shapebots/figure-10-3.jpg" /></a>
   </div>
 </div>
+
+ShapeBots can also act as an interactive physical display. The following figures show how ShapeBots can render different shapes.
+We highlight the advantage of ShapeBots for rendering contours compared to non self-transformable swarm robots. Using a software simulation, we demonstrate how ShapeBots renders an SVG input at different swarm sizes. You can also play with the [**explorable online simulator**](https://ryosuzuki.github.io/shapebots-simulator/) to see how these robots can render the shape ↓
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/shapebots/video/explorable.webm" type="video/webm"></source>
+  <source src="/static/projects/shapebots/video/explorable.mp4" type="video/mp4"></source>
+</video>
 
 
 
