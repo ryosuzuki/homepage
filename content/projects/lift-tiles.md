@@ -10,7 +10,7 @@ authors:
   - Yasuaki Kakehi
   - Mark D. Gross
   - Daniel Leithinger
-year: 2019
+year: 2020
 booktitle: In Proceedings of the 14th ACM International Conference on Tangible, Embedded and Embodied Interaction (TEI '20)
 publisher: ACM, New York, NY, USA
 conference:
@@ -19,8 +19,9 @@ conference:
   url: https://tei.acm.org/2020/
 video: https://www.youtube.com/watch?v=SYCmftQCilU
 embed: https://www.youtube.com/embed/SYCmftQCilU
+pdf: tei-2020-lift-tiles.pdf
 poster: uist-2019-lift-tiles-poster.pdf
-pageCount: 0
+pageCount: 8
 slideCount: 0
 related:
   title: 'LiftTiles: Modular and Reconfigurable Room-scale Shape Displays through Retractable Inflatable Actuators'

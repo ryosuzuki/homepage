@@ -28,8 +28,34 @@ class Profile extends React.Component {
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>
+            <div class="ui segment">
+              <p>
+                <b style={{ color: '#00B5AD' }}>I'm on the job market this year, open to both academia and industry. Please feel free to contact me.</b>
+
+              </p>
+              <p>
+                <a href="/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                  <i className="far fa-file-pdf fa-fw" />
+                  Research Statement
+                </b></a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                  <i className="far fa-file-pdf fa-fw" />
+                  Teaching Statement
+                </b></a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="/cv.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                  <i className="far fa-file-pdf fa-fw" />
+                  Resume/CV
+                </b></a>
+              </p>
+            </div>
             <p>
-              I make <b>a dynamic medium</b> for <b>human-computer interaction</b>. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
+              My research focus lies in <b>the intersection between Human-Computer Interaction (HCI) and robotics</b>. During my PhD, I have developed a novel physical interface made of <b>swarm and soft robots at all scales</b> (i.e., from mm- to m-scale). By leveraging techniques from both robotics and HCI, my research explores how we can make the <b>physical environment more adaptive</b> with context-aware swarm robotic assistant that can be embedded into our everyday life.
+            </p>
+              {/*
+                I make <b>a dynamic medium</b> for <b>human-computer interaction</b>. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
+              */}
               {/*
                 a dynamic medium for creative thought
                 a dynamic medium to enhance creativity
@@ -44,23 +70,23 @@ class Profile extends React.Component {
                 2) <b>authoring tools</b>: how to support designing and authoring a dynamic content through more direct and intuitive ways of programming, and
                 3) <b>representations</b>: how to represent ideas for more understandable ways and how to design interaction for such dynamic representations.
               */}
-              <br/>
-            </p>
           </div>
 
-          <div className="ui horizontal list" style={{ marginTop: '10px' }}>
+          <div className="ui horizontal list" style={{ marginTop: '20px' }}>
             <div className="item">
               <a href="https://scholar.google.com/citations?user=klWjaQIAAAAJ" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fas fa-graduation-cap fa-fw" />
                 Google Scholar
               </a>
             </div>
+            {/*
             <div className="item">
               <a href="/cv.pdf" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-file fa-fw" />
                 Resume/CV
               </a>
             </div>
+            */}
             <div className="item">
               <a href="mailto:ryo.suzuki@colorado.edu" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-envelope fa-fw" />
