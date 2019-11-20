@@ -27,12 +27,12 @@ slideCount: 40
 # image: tabby.png
 ---
 
+# Abstract
+This paper presents **Tabby, an interactive and explorable design tool for 3D printing textures**. Tabby allows texture design with direct manipulation in the following workflow: 1) select a target surface, 2) sketch and manipulate a texture with 2D drawings, and then 3) generate 3D printing textures onto an arbitrary curved surface. To enable efficient texture creation, Tabby leverages an auto-completion approach which automates the tedious, repetitive process of applying texture, while allowing flexible customization. Our user evaluation study with seven participants confirms that Tabby can effectively support the design exploration of different patterns for both novice and experienced users.
+
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/tabby/top.mp4" type="video/mp4"></source>
 </video>
-
-# Abstract
-This paper presents **Tabby, an interactive and explorable design tool for 3D printing textures**. Tabby allows texture design with direct manipulation in the following workflow: 1) select a target surface, 2) sketch and manipulate a texture with 2D drawings, and then 3) generate 3D printing textures onto an arbitrary curved surface. To enable efficient texture creation, Tabby leverages an auto-completion approach which automates the tedious, repetitive process of applying texture, while allowing flexible customization. Our user evaluation study with seven participants confirms that Tabby can effectively support the design exploration of different patterns for both novice and experienced users.
 
 <div class="figures ui four column grid">
   <div class="figure column">

@@ -114,8 +114,8 @@ class Project extends React.Component {
 
             { project.related &&
               <div>
+                <a href={ `/publications/${project.related.pdf}` } target="_blank">Download Paper PDF</a>
                 <div class="figures ui six column grid">
-                  <a href={ `/publications/${project.pdf}` } target="_blank">Download Paper PDF</a>
                   { [...Array(project.related.pageCount)].map((v, i) => {
                     const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
                     const src = `/static/projects/${project.id}/paper-original/paper-${project.related.suffix}-${id}.jpg`

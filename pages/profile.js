@@ -34,12 +34,12 @@ class Profile extends React.Component {
 
               </p>
               <p>
-                <a href="/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                <a href="/static/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
                   <i className="far fa-file-pdf fa-fw" />
                   Research Statement
                 </b></a>
                 &nbsp;&nbsp;&nbsp;
-                <a href="/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                <a href="/static/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
                   <i className="far fa-file-pdf fa-fw" />
                   Teaching Statement
                 </b></a>
