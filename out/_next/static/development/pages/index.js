@@ -13123,32 +13123,42 @@ function (_React$Component) {
         href: "http://hcc.colorado.edu/",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("b", null, "Human-Computer Interaction Group"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "ui segment"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("b", {
+        class: "ui segment",
         style: {
-          color: '#00B5AD'
+          borderColor: '#2ECC40'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        style: {
+          marginBottom: '-5px'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("b", {
+        style: {
+          color: '#2ECC40'
         }
       }, "I'm on the job market this year, open to both academia and industry. Please feel free to contact me.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "/static/jobs/Teaching_Statement.pdf",
+        className: "ui inverted green button",
+        href: "/static/jobs/Research_Statement.pdf",
         target: "_blank",
         style: {
-          color: '#00B5AD'
+          marginTop: '20px'
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "far fa-file-pdf fa-fw"
       }), "Research Statement")), "\xA0\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "ui inverted green button",
         href: "/static/jobs/Teaching_Statement.pdf",
         target: "_blank",
         style: {
-          color: '#00B5AD'
+          marginTop: '20px'
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "far fa-file-pdf fa-fw"
       }), "Teaching Statement")), "\xA0\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "ui inverted green button",
         href: "/cv.pdf",
         target: "_blank",
         style: {
-          color: '#00B5AD'
+          marginTop: '20px'
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "far fa-file-pdf fa-fw"
@@ -13453,7 +13463,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2Fryosuzuki%2Fhomepage%2Fpages%2Findex.js ***!
   \*******************************************************************************************************************************************/
@@ -13476,5 +13486,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
