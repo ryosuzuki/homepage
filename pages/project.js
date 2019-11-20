@@ -46,15 +46,69 @@ class Project extends React.Component {
             </p>
             <p className="meta">
               Links: &nbsp;
-              <a className="ui label" href={ '/publications/' + project.pdf } target="_blank" style={{ marginRight: '5px', display: project.pdf ? 'inline' : 'none' }}>PDF</a>
-              <a className="ui label" href={ '/publications/' + project.poster } target="_blank" style={{ marginRight: '5px', display: project.poster ? 'inline' : 'none' }}>Poster</a>
-              <a className="ui label" href={ project.video } target="_blank" style={{ marginRight: '5px', display: project.video ? 'inline' : 'none' }}>Video</a>
-              <a className="ui label" href={ project['short-video'] } target="_blank" style={{ marginRight: '5px', display: project['short-video'] ? 'inline' : 'none' }}>Short Video</a>
-              <a className="ui label" href={ '/publications/' + project.slide } target="_blank" style={{ marginRight: '5px', display: project.slide ? 'inline' : 'none' }}>Slide</a>
-              <a className="ui label" href={ project.github } target="_blank" style={{ marginRight: '5px', display: project.github ? 'inline' : 'none' }}>GitHub</a>
-              <a className="ui label" href={ project['acm-dl'] } target="_blank" style={{ marginRight: '5px', display: project['acm-dl'] ? 'inline' : 'none' }}>ACM DL</a>
-              <a className="ui label" href={ project['ieee'] } target="_blank" style={{ marginRight: '5px', display: project['ieee'] ? 'inline' : 'none' }}>IEEE</a>
-              <a className="ui label" href={ project['talk'] } target="_blank" style={{ marginRight: '5px', display: project['talk'] ? 'inline' : 'none' }}>Talk</a>
+              <a className="ui inverted secondary button" href={ '/publications/' + project.pdf } target="_blank" style={{ marginRight: '5px', display: project.pdf ? 'inline' : 'none' }}>
+                <b>
+                <i className="far fa-file-pdf" />
+                &nbsp;&nbsp;
+                PDF
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ '/publications/' + project.poster } target="_blank" style={{ marginRight: '5px', display: project.poster ? 'inline' : 'none' }}>
+                <b>
+                <i className="far fa-file-pdf" />
+                &nbsp;&nbsp;
+                Poster
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ '/publications/' + project.slide } target="_blank" style={{ marginRight: '5px', display: project.slide ? 'inline' : 'none' }}>
+                <b>
+                <i class="far fa-file-pdf" />
+                &nbsp;&nbsp;
+                Slide
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ project.video } target="_blank" style={{ marginRight: '5px', display: project.video ? 'inline' : 'none' }}>
+                <b>
+                <i className="fas fa-video" />
+                &nbsp;&nbsp;
+                Video
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ project['short-video'] } target="_blank" style={{ marginRight: '5px', display: project['short-video'] ? 'inline' : 'none' }}>
+                <b>
+                <i className="fas fa-video" />
+                &nbsp;&nbsp;
+                30s Video
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ project.github } target="_blank" style={{ marginRight: '5px', display: project.github ? 'inline' : 'none' }}>
+                <b>
+                <i class="fab fa-github" />
+                &nbsp;&nbsp;
+                GitHub
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ project['acm-dl'] } target="_blank" style={{ marginRight: '5px', display: project['acm-dl'] ? 'inline' : 'none' }}>
+                <b>
+                <i class="fas fa-link"></i>
+                &nbsp;&nbsp;
+                ACM DL
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ project['ieee'] } target="_blank" style={{ marginRight: '5px', display: project['ieee'] ? 'inline' : 'none' }}>
+                <b>
+                <i class="fas fa-link"></i>
+                &nbsp;&nbsp;
+                IEEE
+                </b>
+              </a>
+              <a className="ui inverted secondary button" href={ project['talk'] } target="_blank" style={{ marginRight: '5px', display: project['talk'] ? 'inline' : 'none' }}>
+                <b>
+                <i class="fas fa-chalkboard-teacher" />
+                &nbsp;&nbsp;
+                Talk
+                </b>
+              </a>
             </p>
             <br/>
 
@@ -97,7 +151,13 @@ class Project extends React.Component {
             }
 
             { project.pageCount > 0 &&
-              <a href={ `/publications/${project.pdf}` } target="_blank">Download PDF</a>
+              <a className="ui inverted secondary button" href={ `/publications/${project.pdf}` } target="_blank">
+                <b>
+                <i className="far fa-file-pdf" />
+                &nbsp;&nbsp;
+                Download PDF
+                </b>
+              </a>
             }
             <div class="figures ui six column grid">
               { [...Array(project.pageCount)].map((v, i) => {
@@ -114,7 +174,13 @@ class Project extends React.Component {
 
             { project.related &&
               <div>
-                <a href={ `/publications/${project.related.pdf}` } target="_blank">Download Paper PDF</a>
+                <a className="ui inverted secondary button" href={ `/publications/${project.related.pdf}` } target="_blank">
+                  <b>
+                  <i className="far fa-file-pdf" />
+                  &nbsp;&nbsp;
+                  Download Paper PDF
+                  </b>
+                </a>
                 <div class="figures ui six column grid">
                   { [...Array(project.related.pageCount)].map((v, i) => {
                     const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
@@ -132,7 +198,13 @@ class Project extends React.Component {
 
             <h1>Slide</h1>
             { project.slideCount > 0 &&
-              <a href={ `/publications/${project.slide}` } target="_blank">Download Slide PDF</a>
+              <a className="ui inverted secondary button" href={ `/publications/${project.slide}` } target="_blank">
+                <b>
+                <i className="far fa-file-pdf" />
+                &nbsp;&nbsp;
+                Download Slide PDF
+                </b>
+              </a>
             }
             { project.slideCount === 0 &&
               <p>coming soon</p>

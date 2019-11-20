@@ -28,23 +28,23 @@ class Profile extends React.Component {
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>
-            <div class="ui segment">
-              <p>
-                <b style={{ color: '#00B5AD' }}>I'm on the job market this year, open to both academia and industry. Please feel free to contact me.</b>
+            <div class="ui segment" style={{ borderColor: '#2ECC40' }}>
+              <p style={{ marginBottom: '-5px'}}>
+                <b style={{ color: '#2ECC40' }}>I'm on the job market this year, open to both academia and industry. Please feel free to contact me.</b>
 
               </p>
               <p>
-                <a href="/static/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                <a className="ui inverted green button" href="/static/jobs/Research_Statement.pdf" target="_blank" style={{ marginTop: '20px'}}><b>
                   <i className="far fa-file-pdf fa-fw" />
                   Research Statement
                 </b></a>
                 &nbsp;&nbsp;&nbsp;
-                <a href="/static/jobs/Teaching_Statement.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                <a className="ui inverted green button" href="/static/jobs/Teaching_Statement.pdf" target="_blank" style={{ marginTop: '20px'}}><b>
                   <i className="far fa-file-pdf fa-fw" />
                   Teaching Statement
                 </b></a>
                 &nbsp;&nbsp;&nbsp;
-                <a href="/cv.pdf" target="_blank" style={{ color: '#00B5AD' }}><b>
+                <a className="ui inverted green button" href="/cv.pdf" target="_blank" style={{ marginTop: '20px'}}><b>
                   <i className="far fa-file-pdf fa-fw" />
                   Resume/CV
                 </b></a>
