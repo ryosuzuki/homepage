@@ -20574,78 +20574,96 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, project.conference.fullname))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
         className: "meta"
       }, "Links: \xA0", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
+        className: "ui inverted secondary button",
         href: '/publications/' + project.pdf,
         target: "_blank",
         style: {
           marginRight: '5px',
           display: project.pdf ? 'inline' : 'none'
         }
-      }, "PDF"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "far fa-file-pdf"
+      }), "\xA0\xA0 PDF")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: '/publications/' + project.poster,
         target: "_blank",
         style: {
           marginRight: '5px',
           display: project.poster ? 'inline' : 'none'
         }
-      }, "Poster"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
-        href: project.video,
-        target: "_blank",
-        style: {
-          marginRight: '5px',
-          display: project.video ? 'inline' : 'none'
-        }
-      }, "Video"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
-        href: project['short-video'],
-        target: "_blank",
-        style: {
-          marginRight: '5px',
-          display: project['short-video'] ? 'inline' : 'none'
-        }
-      }, "Short Video"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "far fa-file-pdf"
+      }), "\xA0\xA0 Poster")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: '/publications/' + project.slide,
         target: "_blank",
         style: {
           marginRight: '5px',
           display: project.slide ? 'inline' : 'none'
         }
-      }, "Slide"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        class: "far fa-file-pdf"
+      }), "\xA0\xA0 Slide")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
+        href: project.video,
+        target: "_blank",
+        style: {
+          marginRight: '5px',
+          display: project.video ? 'inline' : 'none'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fas fa-video"
+      }), "\xA0\xA0 Video")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
+        href: project['short-video'],
+        target: "_blank",
+        style: {
+          marginRight: '5px',
+          display: project['short-video'] ? 'inline' : 'none'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fas fa-video"
+      }), "\xA0\xA0 30s Video")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: project.github,
         target: "_blank",
         style: {
           marginRight: '5px',
           display: project.github ? 'inline' : 'none'
         }
-      }, "GitHub"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        class: "fab fa-github"
+      }), "\xA0\xA0 GitHub")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: project['acm-dl'],
         target: "_blank",
         style: {
           marginRight: '5px',
           display: project['acm-dl'] ? 'inline' : 'none'
         }
-      }, "ACM DL"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        class: "fas fa-link"
+      }), "\xA0\xA0 ACM DL")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: project['ieee'],
         target: "_blank",
         style: {
           marginRight: '5px',
           display: project['ieee'] ? 'inline' : 'none'
         }
-      }, "IEEE"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "ui label",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        class: "fas fa-link"
+      }), "\xA0\xA0 IEEE")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: project['talk'],
         target: "_blank",
         style: {
           marginRight: '5px',
           display: project['talk'] ? 'inline' : 'none'
         }
-      }, "Talk")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        class: "fas fa-chalkboard-teacher"
+      }), "\xA0\xA0 Talk"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         class: "video-container",
         style: {
           display: project.embed ? 'block' : 'none'
@@ -20677,9 +20695,12 @@ function (_React$Component) {
         href: project.related.doi,
         target: "_blank"
       }, project.related.doi))), project.pageCount > 0 && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: "/publications/".concat(project.pdf),
         target: "_blank"
-      }, "Download PDF"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "far fa-file-pdf"
+      }), "\xA0\xA0 Download PDF")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         class: "figures ui six column grid"
       }, Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_2__["default"])(Array(project.pageCount)).map(function (v, i) {
         var id = i + 1 < 10 ? "0".concat(i + 1) : "".concat(i + 1);
@@ -20693,9 +20714,12 @@ function (_React$Component) {
           src: min
         }));
       })), project.related && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: "/publications/".concat(project.related.pdf),
         target: "_blank"
-      }, "Download Paper PDF"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "far fa-file-pdf"
+      }), "\xA0\xA0 Download Paper PDF")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         class: "figures ui six column grid"
       }, Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_2__["default"])(Array(project.related.pageCount)).map(function (v, i) {
         var id = i + 1 < 10 ? "0".concat(i + 1) : "".concat(i + 1);
@@ -20709,9 +20733,12 @@ function (_React$Component) {
           src: min
         }));
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", null, "Slide"), project.slideCount > 0 && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "ui inverted secondary button",
         href: "/publications/".concat(project.slide),
         target: "_blank"
-      }, "Download Slide PDF"), project.slideCount === 0 && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", null, "coming soon"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("b", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "far fa-file-pdf"
+      }), "\xA0\xA0 Download Slide PDF")), project.slideCount === 0 && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", null, "coming soon"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         class: "figures ui six column grid"
       }, Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_2__["default"])(Array(project.slideCount)).map(function (v, i) {
         var id = i + 1 < 10 ? "0".concat(i + 1) : "".concat(i + 1);
@@ -20767,7 +20794,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 0:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fproject&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2Fryosuzuki%2Fhomepage%2Fpages%2Fproject.js ***!
   \****************************************************************************************************************************************************/
@@ -20790,5 +20817,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=project.js.map
