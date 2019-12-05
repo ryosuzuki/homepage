@@ -44,6 +44,11 @@ class Profile extends React.Component {
                   Teaching Statement
                 </b></a>
                 &nbsp;&nbsp;&nbsp;
+                <a className="ui inverted green button" href="/static/jobs/Diversity_Statement.pdf" target="_blank" style={{ marginTop: '20px'}}><b>
+                  <i className="far fa-file-pdf fa-fw" />
+                  Diversity Statement
+                </b></a>
+                &nbsp;&nbsp;&nbsp;
                 <a className="ui inverted green button" href="/cv.pdf" target="_blank" style={{ marginTop: '20px'}}><b>
                   <i className="far fa-file-pdf fa-fw" />
                   Resume/CV
