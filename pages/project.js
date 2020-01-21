@@ -178,7 +178,7 @@ class Project extends React.Component {
                   <b>
                   <i className="far fa-file-pdf" />
                   &nbsp;&nbsp;
-                  Download Paper PDF
+                  Download PDF
                   </b>
                 </a>
                 <div class="figures ui six column grid">

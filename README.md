@@ -18,6 +18,12 @@ npm run push
 ```
 
 
+```
+git fetch origin
+git reset --hard origin/master
+```
+
+
 ## Create Paper Thumbnails
 
 Step 1:
