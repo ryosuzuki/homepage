@@ -58,13 +58,13 @@ Large-scale shape-changing interfaces have great potential, but creating such sy
 
 <div class="figures ui three column grid">
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-1-1.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-1-1.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-1-1.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-1-1.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-1-2.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-1-2.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-1-2.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-1-2.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-1-3.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-1-3.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-1-3.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-1-3.jpg" /></a>
   </div>
 </div>
 
@@ -168,27 +168,32 @@ Each actuator is modular and can connect with the air supply of neighboring actu
 Also, due to the relatively compact size and small weight of the modules, various ar- chitectural surfaces can be considered for installation, such as placed on the floor or installed sideways from a wall. The actuators can be arranged in a grid, a line, or as individ- ual, loosely arranged units. Figure 10 depicts a few example configurations, which can also be reconfigured by the person installing them or the end user. An individual actuator can be picked up and moved, which may let the user handle it like a traditional piece of furniture, but could also open up new possibilities for interaction, such as actuators with a motorized base that reconfigures the arrangement according to the current use case.
 
 
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/lift-tiles/video/tile-animation.webm" type="video/webm"></source>
+  <source src="/static/projects/lift-tiles/video/tile-animation.mp4" type="video/mp4"></source>
+</video>
+
 <div class="figures ui three column grid">
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-6-1.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-6-1.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-6-1.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-6-1.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-6-2.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-6-2.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-6-2.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-6-2.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-6-3.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-6-3.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-6-3.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-6-3.jpg" /></a>
   </div>
 </div>
 
 <div class="figures ui three column grid">
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-7-1.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-7-1.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-7-1.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-7-1.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-7-2.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-7-2.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-7-2.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-7-2.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-7-3.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-7-3.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-7-3.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-7-3.jpg" /></a>
   </div>
 </div>
 
@@ -207,34 +212,25 @@ To gauge how well LiftTiles is suited to our goal of supporting rapid prototypin
 
 - **Landscape Haptics for VR**: While hand-sized shape displays have rendered haptic sensations for VR [34]), we propose to render furniture-size props, walls, and game elements that users can feel through walking and touching while experi- encing immersive VR scenes. Similar to the applications pro- posed by HapticTurk [3], TurkDeck [4], and TilePop [44], In this application, the haptics increases the feeling of presence in games by providing room-scale dynamic haptic feedback. Also, this can aid the design process by rendering full-scale object mock-ups of large objects like a car.
 
-
-
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
-  <source src="/static/projects/lift-tiles/video/tile-animation.webm" type="video/webm"></source>
-  <source src="/static/projects/lift-tiles/video/tile-animation.mp4" type="video/mp4"></source>
-</video>
-
-<div class="figures ui four column grid">
-  <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-8-1.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-1.png" /></a>
-  </div>
-  <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-8-2.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-2.png" /></a>
-  </div>
-  <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-8-3.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-3.png" /></a>
-  </div>
-  <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-8-4.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-4.png" /></a>
-  </div>
-</div>
-
-
 - **Shape-changing Wall**: By leveraging the block’s compact form factor, we also prototyped a horizontal shape-changing wall to adapt to user needs and display information. The wall becomes a space separator to make a temporary meet- ing space, while it can also act as public signage by displaying an arrow shape to guide a passer-by.
 
 - **Deployable Pop-Up Structure**: As the actuators are compact compared to traditional furniture and walls, they can be deployed in temporary use cases such as festivals, trade shows, concerts, and disaster relief. In these applications, the actuators are shipped in a compact box and laid out in an empty room, similar to tiles. After connecting them to a compressor and control computer, the operator selects a use case and the blocks render a layout of chairs, beds, tables, and partitions.
 
 
+<div class="figures ui four column grid">
+  <div class="figure column">
+    <a href="/static/projects/lift-tiles/figure-8-1.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-1.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/lift-tiles/figure-8-2.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-2.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/lift-tiles/figure-8-3.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-3.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/lift-tiles/figure-8-4.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-8-4.jpg" /></a>
+  </div>
+</div>
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/lift-tiles/video/wall-animation.webm" type="video/webm"></source>
@@ -244,16 +240,16 @@ To gauge how well LiftTiles is suited to our goal of supporting rapid prototypin
 
 <div class="figures ui four column grid">
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-2-1.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-2-1.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-2-1.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-2-1.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-2-2.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-2-2.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-2-2.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-2-2.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-9-1.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-9-1.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-9-1.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-9-1.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/lift-tiles/figure-9-2.png" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-9-2.png" /></a>
+    <a href="/static/projects/lift-tiles/figure-9-2.jpg" data-lightbox="lightbox"><img src="/static/projects/lift-tiles/figure-9-2.jpg" /></a>
   </div>
 </div>
 
