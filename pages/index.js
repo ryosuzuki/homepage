@@ -35,7 +35,7 @@ class Index extends React.Component {
             <section id="container">
               <Projects />
 
-              <div class="ui divider"></div>
+              <div className="ui divider"></div>
               <div id="posters">
                 <h1>Posters and Demos</h1>
                 <div className="ui vertical segment">
@@ -59,14 +59,14 @@ class Index extends React.Component {
                 </div>
               </div>
 
-              <div class="ui divider"></div>
+              <div className="ui divider"></div>
               <div id="press">
                 <h1>Selected Press Coverage</h1>
                 <div className="ui vertical segment">
-                <div class="ui bulleted list">
+                <div className="ui bulleted list">
                   { press.map((item) => {
                     return (
-                      <div class="item">
+                      <div className="item">
                         <a href={ item.url } target="_blank">
                           [{ item.date }] <b>{ item.media }</b> <i>{ item.title }</i>
                         </a>
@@ -75,14 +75,14 @@ class Index extends React.Component {
                   })}
                 </div>
               </div>
-              <div class="ui divider"></div>
+              <div className="ui divider"></div>
               <div id="activities">
                 <h1>Professional Activities</h1>
                 <div className="ui vertical segment">
                   <ReactMarkdown source={ activities.bodyContent } />
                 </div>
               </div>
-              <div class="ui divider"></div>
+              <div className="ui divider"></div>
               <div id="fellowship">
                 <h1>Funding and Fellowship</h1>
                 <div className="ui vertical segment">
@@ -101,7 +101,7 @@ class Index extends React.Component {
             <Timeline />
 
             <br />
-            <a class="twitter-timeline" height="1500px" href="https://twitter.com/ryosuzk?ref_src=twsrc%5Etfw">Tweets by @ryosuzk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a className="twitter-timeline" height="1500px" href="https://twitter.com/ryosuzk?ref_src=twsrc%5Etfw">Tweets by @ryosuzk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
 
 

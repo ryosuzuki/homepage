@@ -63,7 +63,7 @@ class Project extends React.Component {
               </a>
               <a className="ui inverted secondary button" href={ '/publications/' + project.slide } target="_blank" style={{ marginRight: '5px', display: project.slide ? 'inline' : 'none' }}>
                 <b>
-                <i class="far fa-file-pdf" />
+                <i className="far fa-file-pdf" />
                 &nbsp;&nbsp;
                 Slide
                 </b>
@@ -84,28 +84,28 @@ class Project extends React.Component {
               </a>
               <a className="ui inverted secondary button" href={ project.github } target="_blank" style={{ marginRight: '5px', display: project.github ? 'inline' : 'none' }}>
                 <b>
-                <i class="fab fa-github" />
+                <i className="fab fa-github" />
                 &nbsp;&nbsp;
                 GitHub
                 </b>
               </a>
               <a className="ui inverted secondary button" href={ project['acm-dl'] } target="_blank" style={{ marginRight: '5px', display: project['acm-dl'] ? 'inline' : 'none' }}>
                 <b>
-                <i class="fas fa-link"></i>
+                <i className="fas fa-link"></i>
                 &nbsp;&nbsp;
                 ACM DL
                 </b>
               </a>
               <a className="ui inverted secondary button" href={ project['ieee'] } target="_blank" style={{ marginRight: '5px', display: project['ieee'] ? 'inline' : 'none' }}>
                 <b>
-                <i class="fas fa-link"></i>
+                <i className="fas fa-link"></i>
                 &nbsp;&nbsp;
                 IEEE
                 </b>
               </a>
               <a className="ui inverted secondary button" href={ project['talk'] } target="_blank" style={{ marginRight: '5px', display: project['talk'] ? 'inline' : 'none' }}>
                 <b>
-                <i class="fas fa-chalkboard-teacher" />
+                <i className="fas fa-chalkboard-teacher" />
                 &nbsp;&nbsp;
                 Talk
                 </b>
@@ -114,9 +114,9 @@ class Project extends React.Component {
             <br/>
 
             { /* <h1 style={{ display: project.embed ? 'block' : 'none' }}>Video Preview</h1> */ }
-            <div class="video-container" style={{ display: project.embed ? 'block' : 'none' }} >
+            <div className="video-container" style={{ display: project.embed ? 'block' : 'none' }} >
               <iframe
-                class="embed"
+                className="embed"
                 width="100%"
                 height="315"
                 src={`${project.embed}?`}
@@ -139,14 +139,14 @@ class Project extends React.Component {
             <div className="ui vertical segment"></div>
 
             <h1>Publication</h1>
-            <div class="ui placeholder segment">
+            <div className="ui placeholder segment">
               <p>
                 { project.authors.join(', ').replace(/, ([^,]*)$/, ', and $1') }. { project.year }. <b>{ project.title }</b>. <i>{ project.booktitle }</i>. { project.publisher }, { project.pages }.<br/>DOI: <a href={ project.doi } target="_blank">{ project.doi }</a>
               </p>
             </div>
 
             { project.related &&
-            <div class="ui placeholder segment">
+            <div className="ui placeholder segment">
               <p>
                 { project.related.authors.join(', ').replace(/, ([^,]*)$/, ', and $1') }. { project.related.year }. <b>{ project.related.title }</b>. <i>{ project.related.booktitle }</i>. { project.related.publisher }, { project.related.pages }.<br/>DOI: <a href={ project.related.doi } target="_blank">{ project.related.doi }</a>
               </p>
@@ -164,13 +164,13 @@ class Project extends React.Component {
                 </b>
               </a>
             }
-            <div class="figures ui six column grid">
+            <div className="figures ui six column grid">
               { [...Array(project.pageCount)].map((v, i) => {
                 const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
                 const src = `/static/projects/${project.id}/paper-original/paper-${id}.jpg`
                 const min = `/static/projects/${project.id}/paper/paper-${id}.jpg`
                 return (
-                  <a class="paper column" href={src} data-lightbox="lightbox">
+                  <a className="paper column" key={i} href={src} data-lightbox="lightbox">
                     <img src={min} />
                   </a>
                 )
@@ -186,13 +186,13 @@ class Project extends React.Component {
                   Download PDF
                   </b>
                 </a>
-                <div class="figures ui six column grid">
+                <div className="figures ui six column grid">
                   { [...Array(project.related.pageCount)].map((v, i) => {
                     const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
                     const src = `/static/projects/${project.id}/paper-original/paper-${project.related.suffix}-${id}.jpg`
                     const min = `/static/projects/${project.id}/paper/paper-${project.related.suffix}-${id}.jpg`
                     return (
-                      <a class="paper column" href={src} data-lightbox="lightbox">
+                      <a className="paper column" key={i} href={src} data-lightbox="lightbox">
                         <img src={min} />
                       </a>
                     )
@@ -219,35 +219,37 @@ class Project extends React.Component {
             <br />
             <br />
 
-            <div class="figures ui six column grid">
+            <div className="figures ui six column grid">
               { [...Array(project.slideCount)].map((v, i) => {
                 const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
                 const src = `/static/projects/${project.id}/slide-original/slide-${id}.jpg`
                 const min = `/static/projects/${project.id}/slide/slide-${id}.jpg`
                 return (
-                  <a class="slide column" href={src} data-lightbox="lightbox">
+                  <a className="slide column" key={i} href={src} data-lightbox="lightbox">
                     <img src={min} />
                   </a>
                 )
               })}
             </div>
 
-
-            <h1>Selected Press Coverage</h1>
-            <div class="ui bulleted list">
-              { press.filter((item) => {
-                return item.tag === project.id
-              }).map((item) => {
-                return (
-                  <div class="item">
-                    <a href={ item.url } target="_blank">
-                      <b>{ item.media }</b> <i>{ item.title }</i>
-                    </a>
-                  </div>
-                )
-              })}
-            </div>
-
+            { press.filter((item) => item.tag == project.id ).length > 0 &&
+              <div>
+                <h1>Selected Press Coverage</h1>
+                <div className="ui bulleted list">
+                  { press.filter((item) => {
+                    return item.tag === project.id
+                  }).map((item, i) => {
+                    return (
+                      <div className="item" key={i}>
+                        <a href={ item.url } target="_blank">
+                          <b>{ item.media }</b> <i>{ item.title }</i>
+                        </a>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            }
 
           </div>
           <div className="one wide column"></div>
