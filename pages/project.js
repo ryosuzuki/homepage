@@ -2,6 +2,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
 import summary from '../content/output/summary.json'
+import press from '../content/output/press.json'
 // import {Router} from '../routes'
 
 import Link from 'next/link'
@@ -135,6 +136,8 @@ class Project extends React.Component {
               linkTarget="_blank"
             />
 
+            <div className="ui vertical segment"></div>
+
             <h1>Publication</h1>
             <div class="ui placeholder segment">
               <p>
@@ -149,6 +152,8 @@ class Project extends React.Component {
               </p>
             </div>
             }
+
+            <br />
 
             { project.pageCount > 0 &&
               <a className="ui inverted secondary button" href={ `/publications/${project.pdf}` } target="_blank">
@@ -197,6 +202,7 @@ class Project extends React.Component {
             }
 
             <h1>Slide</h1>
+
             { project.slideCount > 0 &&
               <a className="ui inverted secondary button" href={ `/publications/${project.slide}` } target="_blank">
                 <b>
@@ -209,6 +215,10 @@ class Project extends React.Component {
             { project.slideCount === 0 &&
               <p>coming soon</p>
             }
+
+            <br />
+            <br />
+
             <div class="figures ui six column grid">
               { [...Array(project.slideCount)].map((v, i) => {
                 const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
@@ -221,6 +231,23 @@ class Project extends React.Component {
                 )
               })}
             </div>
+
+
+            <h1>Selected Press Coverage</h1>
+            <div class="ui bulleted list">
+              { press.filter((item) => {
+                return item.tag === project.id
+              }).map((item) => {
+                return (
+                  <div class="item">
+                    <a href={ item.url } target="_blank">
+                      <b>{ item.media }</b> <i>{ item.title }</i>
+                    </a>
+                  </div>
+                )
+              })}
+            </div>
+
 
           </div>
           <div className="one wide column"></div>

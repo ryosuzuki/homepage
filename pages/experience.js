@@ -21,7 +21,7 @@ class Experience extends React.Component {
                   <br />
                 </div>
                 <div className="description">
-                  <a href={ item.lab.url }>
+                  <a href={ item.lab.url } target="_blank">
                     <b>{ item.lab.name }</b>
                   </a>
                 </div>
@@ -31,7 +31,7 @@ class Experience extends React.Component {
                   { item.advisors.map((advisor) => {
                     return (
                       <div className="item">
-                        <a href={ advisor.url } >
+                        <a href={ advisor.url } target="_blank">
                          { advisor.name }
                         </a>
                       </div>

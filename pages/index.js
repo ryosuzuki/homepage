@@ -7,6 +7,7 @@ import fellowship from '../content/output/fellowship.json'
 import activities from '../content/output/activities.json'
 import publications from '../content/output/publications.json'
 import posters from '../content/output/posters.json'
+import press from '../content/output/press.json'
 
 
 import Profile from './profile'
@@ -59,6 +60,22 @@ class Index extends React.Component {
               </div>
 
               <div class="ui divider"></div>
+              <div id="press">
+                <h1>Selected Press Coverage</h1>
+                <div className="ui vertical segment">
+                <div class="ui bulleted list">
+                  { press.map((item) => {
+                    return (
+                      <div class="item">
+                        <a href={ item.url } target="_blank">
+                          [{ item.date }] <b>{ item.media }</b> <i>{ item.title }</i>
+                        </a>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+              <div class="ui divider"></div>
               <div id="activities">
                 <h1>Professional Activities</h1>
                 <div className="ui vertical segment">
@@ -67,10 +84,11 @@ class Index extends React.Component {
               </div>
               <div class="ui divider"></div>
               <div id="fellowship">
-                <h1>Scholarship and Fellowship</h1>
+                <h1>Funding and Fellowship</h1>
                 <div className="ui vertical segment">
                   <ReactMarkdown source={ fellowship.bodyContent } />
                 </div>
+              </div>
               </div>
             </section>
 

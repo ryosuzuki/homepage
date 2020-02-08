@@ -1,6 +1,6 @@
 [
   {
-    "period": "August, 2015 --- Current",
+    "period": "August, 2015 --- May, 2020",
     "role": "RA",
     "logo": "cu-boulder.png",
     "institute": {
@@ -27,6 +27,24 @@
     ]
   },
   {
+    "period": "May, 2020 --- August, 2020",
+    "role": "Intern",
+    "logo": "microsoft.png",
+    "institute": {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/"
+    },
+    "lab": {
+      "name": "EPIC Group",
+      "url": "https://www.microsoft.com/en-us/research/group/epic/"
+    },
+    "advisors": [
+      {
+        "name": "(to appear)"
+      }
+    ]
+  },
+  {
     "period": "May, 2019 --- August, 2019",
     "role": "Intern",
     "logo": "adobe.png",
@@ -36,7 +54,7 @@
     },
     "lab": {
       "name": "Creative Intelligence Lab",
-      "url": "http://hcc.colorado.edu/"
+      "url": "https://research.adobe.com/"
     },
     "advisors": [
       {
@@ -106,7 +124,7 @@
   {
     "period": "May, 2015 --- August, 2015",
     "role": "Intern",
-    "logo": "stanford.png",
+    "logo": "stanford-2.png",
     "institute": {
       "name": "Stanford University",
       "url": "https://stanford.edu"
