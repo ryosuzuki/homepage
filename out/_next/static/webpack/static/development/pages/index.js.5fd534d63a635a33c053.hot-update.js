@@ -1,0 +1,15 @@
+webpackHotUpdate("static/development/pages/index.js",{
+
+/***/ "./content/output/experience.json":
+/*!****************************************!*\
+  !*** ./content/output/experience.json ***!
+  \****************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
+/***/ (function(module) {
+
+module.exports = [{"period":"August, 2015 --- Current","role":"RA","logo":"cu-boulder.png","institute":{"name":"CU Boulder","url":"https://colorado.edu"},"lab":{"name":"THING Lab","url":"https://www.colorado.edu/atlas/thing-lab"},"advisors":[{"name":"Daniel Lightinger","url":"http://leithinger.com/"},{"name":"Mark D. Gross","url":"http://mdgross.net/"},{"name":"Tom Yeh","url":"http://tomyeh.info/"}]},{"period":"May, 2020 --- August, 2020","role":"Intern","logo":"microsoft.png","institute":{"name":"Microsoft Research","url":null}},{"period":"May, 2019 --- August, 2019","role":"Intern","logo":"adobe.png","institute":{"name":"Adobe Research","url":"https://colorado.edu"},"lab":{"name":"Creative Intelligence Lab","url":"https://research.adobe.com/"},"advisors":[{"name":"Rubaiat Habib","url":"https://rubaiathabib.me/"},{"name":"Li-Yi Wei","url":"https://www.liyiwei.org/"},{"name":"Stephen Diverdi","url":"http://www.stephendiverdi.com/"},{"name":"Danny Kaufman","url":"http://dannykaufman.io/"}]},{"period":"December, 2017 --- October, 2018","role":"Intern","logo":"ut.png","institute":{"name":"University of Tokyo","url":"https://colorado.edu"},"lab":{"name":"ERATO UIN","url":"http://www.jst.go.jp/erato/kawahara"},"advisors":[{"name":"Yasuaki Kakehi","url":"http://www.xlab.sfc.keio.ac.jp/"},{"name":"Yoshihiro Kawahara","url":"http://www.akg.t.u-tokyo.ac.jp/"},{"name":"Ryuma Niiyama","url":"https://scholar.google.co.jp/citations?user=0NMf5sgAAAAJ&hl=en"}]},{"period":"May, 2016 --- August, 2016","role":"Intern","logo":"uc-berkeley.png","institute":{"name":"UC Berkeley","url":null},"lab":{"name":"BiD Lab","url":"http://bid.berkeley.edu/"},"advisors":[{"name":"Bjoern Hartmann","url":"http://people.eecs.berkeley.edu/~bjoern/"}]},{"period":"May, 2015 --- August, 2015","role":"Intern","logo":"stanford.png","institute":{"name":"Stanford University","url":"https://stanford.edu"},"lab":{"name":"HCI Group","url":"http://hci.stanford.edu/"},"advisors":[{"name":"Michael Bernstein","url":"http://hci.stanford.edu/msb/"}]},{"period":"October, 2014 --- May, 2015","role":"RA","logo":"ut.png","institute":{"name":"University of Tokyo","url":null},"lab":{"name":"IIS Lab","url":"http://iis-lab.org/"},"advisors":[{"name":"Koji Yatani","url":"http://iis-lab.org/member/koji-yatani/"}]},{"period":"December, 2014 --- March, 2015","role":"Intern","logo":"aist.png","institute":{"name":"AIST","url":null},"lab":{"name":"Media Interaction","url":"https://staff.aist.go.jp/m.goto/MIG/index-j.html"},"advisors":[{"name":"Jun Kato","url":"http://junkato.jp/"}]}];
+
+/***/ })
+
+})
+//# sourceMappingURL=index.js.5fd534d63a635a33c053.hot-update.js.map
