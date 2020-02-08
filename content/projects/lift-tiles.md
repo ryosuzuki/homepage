@@ -20,9 +20,10 @@ conference:
 video: https://www.youtube.com/watch?v=0LHeTkOMR84
 embed: https://www.youtube.com/embed/0LHeTkOMR84
 pdf: tei-2020-lift-tiles.pdf
+slide: tei-2020-lift-tiles-slide.pdf
 poster: uist-2019-lift-tiles-poster.pdf
 pageCount: 9
-slideCount: 0
+slideCount: 37
 related:
   title: 'LiftTiles: Modular and Reconfigurable Room-scale Shape Displays through Retractable Inflatable Actuators'
   authors:

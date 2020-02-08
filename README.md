@@ -30,7 +30,7 @@ Step 1:
 Convert PDF to JPG with https://ezgif.com/pdf-to-jpg/
 
 Step 2:
-Run `node static/projects/convert.js directory paper`
+Run `node static/projects/convert.js [directory] paper`
 
 Step 3:
 Then, you can get `paper-01.jpg`, `paper-02.jpg`, `paper-03.jpg`, ....
@@ -39,10 +39,10 @@ Step 4:
 Create `paper-original` directory and put them into it
 
 Step 5:
-Run `mkdir static/projects/name/paper`
+Run `mkdir static/projects/[name]/paper`
 
 Step 6:
-Run `node static/project/resize.js static/projects/name/paper-original paper`
+Run `node static/project/resize.js static/projects/[name]/paper-original paper`
 
 Step 7:
 Then, you can get the resized paper images
@@ -54,13 +54,22 @@ Step 1:
 Convert PDF to JPG with https://ezgif.com/pdf-to-jpg/
 
 Step 2:
-Run `node static/projects/convert.js directory slide`
+Run `node static/projects/convert.js [directory] slide`
 
 Step 3:
 Then, you can get `slide-01.jpg`, `slide-02.jpg`, `slide-03.jpg`, ....
 
 Step 4:
 Create `slide-original` directory and put them into it
+
+Step 5:
+Run `mkdir static/projects/[name]/slide`
+
+Step 6:
+Run `node static/project/resize.js static/projects/[name]/slide-original slide`
+
+Step 7:
+Then, you can get the resized paper images
 
 
 ## Prepare for the Videos
