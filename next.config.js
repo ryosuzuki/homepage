@@ -6,6 +6,7 @@ const debug = process.env.NODE_ENV !== "production"
 module.exports = withCSS({
   exportPathMap: function () {
     const ids = [
+      'roomshift',
       'lift-tiles',
       'shapebots',
       'morphio',
