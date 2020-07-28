@@ -1,7 +1,17 @@
+- date: '2020-07-28'
+  text: '**PhD Dissertation** is submitted and approved.'
+- date: '2020-07-01'
+  text: One [**IROS 2020**](https://www.iros2020.org/) full-paper is accepted (47%).
+- date: '2020-06-24'
+  text: One [**UIST 2020**](http://uist.acm.org/uist2020/) full-paper is accepted (21%).
+- date: '2020-05-18'
+  text: Start intern at [**Microsoft Research**](https://www.microsoft.com/en-us/research/) Redmond.
+- date: '2020-05-13'
+  text: '**PhD Defense** ... and Passed! :)'
 - date: '2019-12-12'
   text: One [**CHI 2020**](https://chi2020.acm.org/) full-paper is accepted (24%).
 - date: '2019-11-25'
-  text: Traveling to Boston to visit MIT CSAIL and Media Lab
+  text: Traveling to Boston to visit **MIT CSAIL** and **Media Lab**
 - date: '2019-10-19'
   image: 'uist-2019.png'
   text: Traveling to New Orleans for [**UIST 2019**](http://uist.acm.org/uist2019/)

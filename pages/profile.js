@@ -58,7 +58,7 @@ class Profile extends React.Component {
             </div>
             */}
             <p>
-              My research focus lies in <b>the intersection between Human-Computer Interaction (HCI) and robotics</b>. During my PhD, I have developed a novel physical interface made of <b>swarm and soft robots at all scales</b> (i.e., from mm- to m-scale). By leveraging techniques from both robotics and HCI, my research explores how we can make the <b>physical environment more adaptive</b> with context-aware swarm robotic assistant that can be embedded into our everyday life.
+              My research interest lies on the intersection between <b>Human-Computer Interaction (HCI)</b> and <b>Robotics</b>. During my PhD, I have developed novel <b>shape-changing interfaces</b> that leverage <b>swarm and soft robots at various scales</b> (i.e., from mm- to m-scale). My research explores how we can make the <b>physical environment more adaptive</b> with context-aware swarm robotic assistant that can be embedded into our everyday life.
             </p>
               {/*
                 I make <b>a dynamic medium</b> for <b>human-computer interaction</b>. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.

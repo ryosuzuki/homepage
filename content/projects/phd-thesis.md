@@ -14,7 +14,7 @@ conference:
   fullname: PhD Dissertation
 pdf: phd-dissertation.pdf
 slide: phd-defense-slide.pdf
-talk: https://www.youtube.com/watch?v=rRgw8lH74CA
+talk: https://www.youtube.com/watch?v=FHmp7BIhXJI
 pageCount: 252
 slideCount: 200
 related:
@@ -234,5 +234,45 @@ This thesis makes contributions to the field of Human-Computer Interaction in th
     <a href="/static/projects/phd-thesis/figure-10-16.jpg" data-lightbox="lightbox"><img src="/static/projects/phd-thesis/figure-10-16.jpg" /></a>
   </div>
 </div>
+
+# PhD Dissertation Defense
+
+<div class="video-container" style="display: block">
+  <iframe
+    class="embed"
+    width="100%"
+    height="315"
+    src="https://www.youtube.com/embed/FHmp7BIhXJI"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen={true}
+    mozAllowFullScreen={true}
+    msAllowFullScreen={true}
+    oAllowFullScreen={true}
+    webkitAllowFullScreen={true}
+  ></iframe>
+</div>
+
+<br/>
+
+Thesis Committee:
+
+- **Daniel Leithinger** (CU Boulder, chair)
+
+
+- **Mark Gross** (CU Boulder)
+
+
+- **Tom Yeh** (CU Boulder)
+
+
+- **Hiroshi Ishii** (MIT Media Lab)
+
+
+- **Takeo Igarashi** (The University of Tokyo)
+
+<br/>
+
+Date: May 13th, 2020
 
 

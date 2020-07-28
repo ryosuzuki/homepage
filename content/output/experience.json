@@ -1,6 +1,6 @@
 [
   {
-    "period": "August, 2015 --- May, 2020",
+    "period": "August, 2015 --- August, 2020",
     "role": "RA",
     "logo": "cu-boulder.png",
     "institute": {
@@ -40,7 +40,16 @@
     },
     "advisors": [
       {
-        "name": ""
+        "name": "Mar Gonzalez Franco",
+        "url": "https://www.microsoft.com/en-us/research/people/margon/"
+      },
+      {
+        "name": "Eyal Ofek",
+        "url": "https://www.microsoft.com/en-us/research/people/eyalofek/"
+      },
+      {
+        "name": "Ken Hinckley",
+        "url": "https://www.microsoft.com/en-us/research/people/kenh/"
       }
     ]
   },

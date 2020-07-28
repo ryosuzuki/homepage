@@ -1,4 +1,4 @@
-- period: August, 2015 --- May, 2020
+- period: August, 2015 --- August, 2020
   role: RA
   logo: cu-boulder.png
   institute:
@@ -24,7 +24,12 @@
     name: EPIC Group
     url: https://www.microsoft.com/en-us/research/group/epic/
   advisors:
-    - name: ''
+    - name: Mar Gonzalez Franco
+      url: https://www.microsoft.com/en-us/research/people/margon/
+    - name: Eyal Ofek
+      url: https://www.microsoft.com/en-us/research/people/eyalofek/
+    - name: Ken Hinckley
+      url: https://www.microsoft.com/en-us/research/people/kenh/
 - period: May, 2019 --- August, 2019
   role: Intern
   logo: adobe.png
