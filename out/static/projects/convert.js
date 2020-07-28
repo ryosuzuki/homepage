@@ -19,6 +19,14 @@ console.log(type)
 let i = 1
 for (let file of files) {
   let id = i < 10 ? '0' + i.toString(): i.toString()
+  if (files.length >= 100) {
+    id = i.toString()
+    if (i < 10) {
+      id = '00' + i.toString()
+    } else if (i < 100) {
+      id = '0' + i.toString()
+    }
+  }
   let name = `${type}-${id}.jpg`
   fs.renameSync(`${dir}/${file}`, `${dir}/${name}`)
   i++
