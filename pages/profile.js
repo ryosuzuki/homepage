@@ -86,14 +86,12 @@ class Profile extends React.Component {
                 Google Scholar
               </a>
             </div>
-            {/*
             <div className="item">
               <a href="/cv.pdf" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-file fa-fw" />
-                Resume/CV
+                CV
               </a>
             </div>
-            */}
             <div className="item">
               <a href="mailto:ryo.suzuki@colorado.edu" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-envelope fa-fw" />

@@ -45,6 +45,23 @@ cp -rf out/* ../gh-pages
 ```
 
 
+## Change Log for gh-pages
+
+Modify `env-config.js`
+
+```
+  'process.env.BACKEND_URL': prod ? '/gh-pages' : ''
+```
+
+
+Modify `next.config.js`
+
+```
+  assetPrefix: !debug ? '/gh-pages/' : '',
+```
+
+
+
 
 ## Create Paper Thumbnails
 

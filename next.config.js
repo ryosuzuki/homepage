@@ -33,7 +33,7 @@ module.exports = withCSS({
       '/': { page: '/' }
     })
   },
-  assetPrefix: !debug ? '/homepage/' : '',
+  assetPrefix: !debug ? '/gh-pages/' : '',
   webpack: (config, options) => {
     config.plugins.push(
       new webpack.ProvidePlugin({
