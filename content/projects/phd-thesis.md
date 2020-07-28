@@ -34,7 +34,7 @@ related:
 ---
 
 # Abstract
-This thesis explores dynamic and collective shape construction as a new way to **physicalize** digital information for interactive physical displays --- i.e., **shape-changing displays** enabled by a swarm of collective elements. Through physical form of digital objects, the user can directly touch, grasp, and manipulate digital information through rich tangible and embodied interactions, but at the same time, such physical objects can dynamically change their shape for an interactive computer display and interface through collective shape construction and transformation with a swarm of elements. The goal of this thesis is to envision and illustrate how such an interface might support human activities by transforming physical forms at various sizes, from millimeter to meter scale.
+This thesis explores dynamic and collective shape construction as a new way to **physicalize** digital information for interactive physical displays --- i.e., **shape-changing displays enabled by a swarm of collective elements**. Through physical form of digital objects, the user can directly touch, grasp, and manipulate digital information through rich tangible and embodied interactions, but at the same time, such physical objects can dynamically change their shape for an interactive computer display and interface through collective shape construction and transformation with a swarm of elements. The goal of this thesis is to envision and illustrate how such an interface might support human activities by transforming physical forms at various sizes, from millimeter to meter scale.
 
 <div class="figures ui one column grid">
   <div class="figure column">
@@ -106,6 +106,11 @@ Finally, unlike autonomous systems, interactive systems must consider the intera
     <a href="/static/projects/phd-thesis/figure-5.jpg" data-lightbox="lightbox"><img src="/static/projects/phd-thesis/figure-5.jpg" /></a>
   </div>
 </div>
+<div class="figures ui one column grid">
+  <div class="figure column">
+    <a href="/static/projects/phd-thesis/figure-7.jpg" data-lightbox="lightbox"><img src="/static/projects/phd-thesis/figure-7.jpg" /></a>
+  </div>
+</div>
 
 This thesis addresses these questions by investigating how collective shape construction and transformation can be used for {\it interactive computer interfaces}.
 To this end, this thesis introduces **collective shape-changing interfaces**, a new class of shape-changing interfaces constructed by a swarm of discrete physical elements.
@@ -140,11 +145,7 @@ explore, illustrate, and demonstrate what kind of applications are achievable fo
     <a href="/static/projects/phd-thesis/figure-9.jpg" data-lightbox="lightbox"><img src="/static/projects/phd-thesis/figure-9.jpg" /></a>
   </div>
 </div>
-<div class="figures ui one column grid">
-  <div class="figure column">
-    <a href="/static/projects/phd-thesis/figure-7.jpg" data-lightbox="lightbox"><img src="/static/projects/phd-thesis/figure-7.jpg" /></a>
-  </div>
-</div>
+
 
 This new class of shape-changing interfaces promises to address some of the limitations of the current shape-changing interfaces. For example, a swarm of modular elements enables us to decompose the large, monolithic shape-changing objects into a set of simple, distributed elements. This significantly contributes to the deployability of the system in everyday environments. In addition, the swarm behaviors enable us to make unbounded shape transformations for expressive representation.
 Through my explorations of various proof-of-concept prototypes, I demonstrate how we can push the boundary of the current shape-changing interfaces by leveraging the collective behaviors of both active and passive elements.
