@@ -2,26 +2,48 @@
 
 ## Installation
 
-```
+```sh
 node server.js
 ```
 
-```
+```sh
 npm run watch
 ```
 
 
 To deploy
+
 ```sh
 npm run deploy
 npm run push
 ```
 
-
-```
+```sh
 git fetch origin
 git reset --hard origin/master
 ```
+
+
+To add a new project
+
+add new project id in `next.config.js`
+
+```
+const ids = [
+  '[new-project]'
+  'roomshift',
+  'lift-tiles',
+  'shapebots',
+  ...
+]
+```
+
+
+## Test
+```
+cp -rf out/* ../gh-pages
+```
+
 
 
 ## Create Paper Thumbnails

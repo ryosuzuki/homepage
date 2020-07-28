@@ -19,7 +19,7 @@ module.exports = withCSS({
       'mixed-initiative',
       'refazer',
       'atelier',
-      'phd-dissertation'
+      'phd-thesis'
     ]
 
     let pages = {}
