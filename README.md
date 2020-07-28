@@ -40,6 +40,16 @@ const ids = [
 
 
 ## Test
+
+make sure to git pull before working on
+
+```
+cd ../gh-pages
+git pull origin master
+```
+
+
+
 ```
 cp -rf out/* ../gh-pages
 ```
