@@ -24,10 +24,11 @@ class Profile extends React.Component {
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              I am a Ph.D. student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, Department of Computer Science, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
+              I am a Ph.D. candidate at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, Department of Computer Science, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>
+            {/*
             <div class="ui segment" style={{ borderColor: '#2ECC40' }}>
               <p style={{ marginBottom: '-5px'}}>
                 <b style={{ color: '#2ECC40' }}>I'm on the job market this year, open to both academia and industry. Please feel free to contact me.</b>
@@ -55,6 +56,7 @@ class Profile extends React.Component {
                 </b></a>
               </p>
             </div>
+            */}
             <p>
               My research focus lies in <b>the intersection between Human-Computer Interaction (HCI) and robotics</b>. During my PhD, I have developed a novel physical interface made of <b>swarm and soft robots at all scales</b> (i.e., from mm- to m-scale). By leveraging techniques from both robotics and HCI, my research explores how we can make the <b>physical environment more adaptive</b> with context-aware swarm robotic assistant that can be embedded into our everyday life.
             </p>

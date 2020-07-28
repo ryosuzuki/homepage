@@ -18,7 +18,8 @@ module.exports = withCSS({
       'trace-diff',
       'mixed-initiative',
       'refazer',
-      'atelier'
+      'atelier',
+      'phd-dissertation'
     ]
 
     let pages = {}

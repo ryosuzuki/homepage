@@ -166,7 +166,16 @@ class Project extends React.Component {
             }
             <div className="figures ui six column grid">
               { [...Array(project.pageCount)].map((v, i) => {
-                const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
+                let id = i+1 < 10 ? `0${i+1}` : `${i+1}`
+                if (project.slideCount >= 100) {
+                  if (i + 1 < 10) {
+                    id = `00${i+1}`
+                  } else if (i + 1 < 100) {
+                    id = `0${i+1}`
+                  } else {
+                    id = `${i+1}`
+                  }
+                }
                 const src = `/static/projects/${project.id}/paper-original/paper-${id}.jpg`
                 const min = `/static/projects/${project.id}/paper/paper-${id}.jpg`
                 return (
@@ -221,7 +230,16 @@ class Project extends React.Component {
 
             <div className="figures ui six column grid">
               { [...Array(project.slideCount)].map((v, i) => {
-                const id = i+1 < 10 ? `0${i+1}` : `${i+1}`
+                let id = i+1 < 10 ? `0${i+1}` : `${i+1}`
+                if (project.slideCount >= 100) {
+                  if (i + 1 < 10) {
+                    id = `00${i+1}`
+                  } else if (i + 1 < 100) {
+                    id = `0${i+1}`
+                  } else {
+                    id = `${i+1}`
+                  }
+                }
                 const src = `/static/projects/${project.id}/slide-original/slide-${id}.jpg`
                 const min = `/static/projects/${project.id}/slide/slide-${id}.jpg`
                 return (

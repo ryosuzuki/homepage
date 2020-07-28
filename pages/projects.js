@@ -17,6 +17,31 @@ class Projects extends React.Component {
   render() {
     return (
       <div id="projects" >
+        <h1>PhD Dissertation</h1>
+        <div className="project ui vertical segment stackable grid" data-id="" >
+          <div className="six wide column">
+            <a href={ `/phd-thesis` }>
+              <img className="ui rounded images" src={ `/static/images/collective.jpg` } />
+            </a>
+
+          </div>
+          <div className="ten wide column">
+            <a href={ `phd-thesis` }>
+              <h1 className="ui header" style={{ marginBottom: '10px' }}>
+                Collective Shape-changing Interfaces
+                {/*<span className="ui big label">PhD Thesis</span>*/}
+              </h1>
+              <h2 style={{ margin: '5px 0' }}>
+              Dynamic Shape Construction and Transformation with Collective Elements
+              </h2>
+            </a>
+            <p>
+              <strong>Ryo Suzuki</strong>
+            </p>
+          </div>
+        </div>
+
+
         <h1>Full Papers</h1>
         { projects.map((project) => {
           return (
