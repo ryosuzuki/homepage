@@ -16,7 +16,7 @@ pdf: phd-dissertation.pdf
 slide: phd-defense.pdf
 talk: https://www.youtube.com/watch?v=FHmp7BIhXJI
 pageCount: 250
-slideCount: 200
+slideCount: 199
 related:
   title: Collective Shape-changing Interfaces
   authors:
