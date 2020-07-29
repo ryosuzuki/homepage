@@ -8,12 +8,12 @@ authors:
 year: 2020
 booktitle: PhD Dissertation
 publisher: University of Colorado Boulder
-pages: 1-287
+pages: 1-289
 conference:
   name: PhD Dissertation
   fullname: PhD Dissertation
 pdf: phd-dissertation.pdf
-slide: phd-defense-slide.pdf
+slide: phd-defense.pdf
 talk: https://www.youtube.com/watch?v=FHmp7BIhXJI
 pageCount: 252
 slideCount: 200
