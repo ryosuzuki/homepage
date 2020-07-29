@@ -1,13 +1,15 @@
 - date: '2020-07-28'
-  text: '**PhD Dissertation** is submitted and approved.'
+  text: '[**PhD Dissertation**](https://ryosuzuki.org/publications/phd-dissertation.pdf) is submitted and officially graduated.'
 - date: '2020-07-01'
   text: One [**IROS 2020**](https://www.iros2020.org/) full-paper is accepted (47%).
 - date: '2020-06-24'
   text: One [**UIST 2020**](http://uist.acm.org/uist2020/) full-paper is accepted (21%).
 - date: '2020-05-18'
-  text: Start intern at [**Microsoft Research**](https://www.microsoft.com/en-us/research/) Redmond.
+  text: 'Start intern at [**Microsoft Research**](https://www.microsoft.com/en-us/research/) (mentor: [**Mar Gonzalez Franco**](https://www.microsoft.com/en-us/research/people/margon/)).'
 - date: '2020-05-13'
-  text: '**PhD Defense** ... and Passed! :)'
+  text: '**[PhD Defense](https://ryosuzuki.org/phd-thesis) ... and Passed! :)** (committee: D Leithinger, M Gross, T Yeh, H Ishii, T Igarashi)'
+- date: '2020-02-14---05-13'
+  text: 'Traveling for on-site job interviews (UW, UCSB, Boston, Virginia Tech, Calgary)'
 - date: '2019-12-12'
   text: One [**CHI 2020**](https://chi2020.acm.org/) full-paper is accepted (24%).
 - date: '2019-11-25'
@@ -32,7 +34,7 @@
   text: Won [**Best Paper Award**](https://dis2019.com/overview/#track-4-shape-changing-interfaces) for [**DIS 2019**](https://dis2019.com/) (Top 1%).
 - date: '2019-05-20'
   image: 'uist-2019.png'
-  text: Start intern at [**Adobe Research**](https://research.adobe.com/) in Seattle.
+  text: 'Start intern at [**Adobe Research**](https://research.adobe.com/) (mentor: [**Rubaiat Habib**](https://rubaiathabib.me/)).'
 - date: '2019-03-26'
   image: 'dis-2019.png'
   text: One [**DIS 2019**](https://dis2019.com/) full-paper is accepted (25%).
@@ -45,7 +47,7 @@
   image: 'pg-2018.png'
   text: One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (26%).
 - date: '2017-12-14'
-  text: Start intern at [**University of Tokyo**](http://www.jst.go.jp/erato/kawahara/).
+  text: 'Start intern at [**The University of Tokyo**](http://www.jst.go.jp/erato/kawahara/) (mentor: [**Yasuaki Kakehi**](http://xlab.iii.u-tokyo.ac.jp/)).'
 - date: '2017-12-11'
   image: 'chi-2018.png'
   text: Two [**CHI 2018**](https://chi2018.acm.org/) full-papers are accepted (25%).
@@ -66,7 +68,7 @@
   text: One [**ICSE 2017**](http://icse2017.gatech.edu/) full-paper is accepted
     (19%).
 - date: '2016-05-23'
-  text: Start intern at [**UC Berkeley**](http://bid.berkeley.edu/).
+  text: 'Start intern at [**UC Berkeley**](http://bid.berkeley.edu/) (mentor: [**Bjoern Hartmann**](http://people.eecs.berkeley.edu/~bjoern/)).'
 - date: '2016-01-15'
   image: 'chi-2016.png'
   text: One [**CHI 2016**](https://chi2016.acm.org/wp/) full-paper is accepted
@@ -75,6 +77,6 @@
   image: 'uist-2016.jpg'
   text: I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)
 - date: '2015-05-18'
-  text: Start intern at [**Stanford**](https://hci.stanford.edu/).
+  text: 'Start intern at [**Stanford**](https://hci.stanford.edu/) (mentor: [**Michael Bernstein**](https://hci.stanford.edu/msb/)).'
 - date: '2014-10-15'
-  text: The very first day of starting my HCI research
+  text: 'The very first day of starting my HCI research (mentor: [**Koji Yatani**](http://iis-lab.org/member/koji-yatani/))'

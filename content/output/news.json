@@ -1,7 +1,7 @@
 [
   {
     "date": "2020-07-28",
-    "text": "**PhD Dissertation** is submitted and approved."
+    "text": "[**PhD Dissertation**](https://ryosuzuki.org/publications/phd-dissertation.pdf) is submitted and officially graduated."
   },
   {
     "date": "2020-07-01",
@@ -13,11 +13,15 @@
   },
   {
     "date": "2020-05-18",
-    "text": "Start intern at [**Microsoft Research**](https://www.microsoft.com/en-us/research/) Redmond."
+    "text": "Start intern at [**Microsoft Research**](https://www.microsoft.com/en-us/research/) (mentor: [**Mar Gonzalez Franco**](https://www.microsoft.com/en-us/research/people/margon/))."
   },
   {
     "date": "2020-05-13",
-    "text": "**PhD Defense** ... and Passed! :)"
+    "text": "**[PhD Defense](https://ryosuzuki.org/phd-thesis) ... and Passed! :)** (committee: D Leithinger, M Gross, T Yeh, H Ishii, T Igarashi)"
+  },
+  {
+    "date": "2020-02-14---05-13",
+    "text": "Traveling for on-site job interviews (UW, UCSB, Boston, Virginia Tech, Calgary)"
   },
   {
     "date": "2019-12-12",
@@ -60,7 +64,7 @@
   {
     "date": "2019-05-20",
     "image": "uist-2019.png",
-    "text": "Start intern at [**Adobe Research**](https://research.adobe.com/) in Seattle."
+    "text": "Start intern at [**Adobe Research**](https://research.adobe.com/) (mentor: [**Rubaiat Habib**](https://rubaiathabib.me/))."
   },
   {
     "date": "2019-03-26",
@@ -83,7 +87,7 @@
   },
   {
     "date": "2017-12-14",
-    "text": "Start intern at [**University of Tokyo**](http://www.jst.go.jp/erato/kawahara/)."
+    "text": "Start intern at [**The University of Tokyo**](http://www.jst.go.jp/erato/kawahara/) (mentor: [**Yasuaki Kakehi**](http://xlab.iii.u-tokyo.ac.jp/))."
   },
   {
     "date": "2017-12-11",
@@ -117,7 +121,7 @@
   },
   {
     "date": "2016-05-23",
-    "text": "Start intern at [**UC Berkeley**](http://bid.berkeley.edu/)."
+    "text": "Start intern at [**UC Berkeley**](http://bid.berkeley.edu/) (mentor: [**Bjoern Hartmann**](http://people.eecs.berkeley.edu/~bjoern/))."
   },
   {
     "date": "2016-01-15",
@@ -131,10 +135,10 @@
   },
   {
     "date": "2015-05-18",
-    "text": "Start intern at [**Stanford**](https://hci.stanford.edu/)."
+    "text": "Start intern at [**Stanford**](https://hci.stanford.edu/) (mentor: [**Michael Bernstein**](https://hci.stanford.edu/msb/))."
   },
   {
     "date": "2014-10-15",
-    "text": "The very first day of starting my HCI research"
+    "text": "The very first day of starting my HCI research (mentor: [**Koji Yatani**](http://iis-lab.org/member/koji-yatani/))"
   }
 ]
