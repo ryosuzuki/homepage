@@ -36,7 +36,10 @@ class Projects extends React.Component {
               </h2>
             </a>
             <p>
-              <strong>Ryo Suzuki</strong>
+              <br/>
+              <strong>Ryo Suzuki</strong><br/>
+              PhD Dissertation of the University of Colorado Boulder
+              <br/>
             </p>
           </div>
         </div>
