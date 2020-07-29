@@ -16,7 +16,7 @@ pdf: phd-dissertation.pdf
 slide: phd-defense.pdf
 talk: https://www.youtube.com/watch?v=FHmp7BIhXJI
 pageCount: 250
-slideCount: 199
+slideCount: 198
 related:
   title: Collective Shape-changing Interfaces
   authors:
@@ -47,7 +47,7 @@ To achieve this goal, this thesis introduces **collective shape-changing interfa
 
 # Introduction
 
-What if computer displays can represent information not only {\it graphically} but also *physically*? What if such physical forms of information could be as malleable and programmable as the pixels on a computer screen? If so, it could be used as a dynamic physical medium to interact with the digital world.
+What if computer displays can represent information not only *graphically* but also *physically*? What if such physical forms of information could be as malleable and programmable as the pixels on a computer screen? If so, it could be used as a dynamic physical medium to interact with the digital world.
 
 Ivan Sutherland, a founder of virtual and augmented reality, once envisioned that the future of computer displays would be *"a room within which the computer can control the existence of matter"*
 This radical vision has inspired many researchers over the decades, as such technologies could open up a new
@@ -112,7 +112,7 @@ Finally, unlike autonomous systems, interactive systems must consider the intera
   </div>
 </div>
 
-This thesis addresses these questions by investigating how collective shape construction and transformation can be used for {\it interactive computer interfaces}.
+This thesis addresses these questions by investigating how collective shape construction and transformation can be used for *interactive computer interfaces*.
 To this end, this thesis introduces **collective shape-changing interfaces**, a new class of shape-changing interfaces constructed by a swarm of discrete physical elements.
 The main contribution of this thesis is the first exploration of this new class of shape-changing interfaces in the following four domains:
 
@@ -274,6 +274,6 @@ Thesis Committee:
 
 <br/>
 
-Date: May 13th, 2020
+Defense Date: May 13th, 2020
 
 

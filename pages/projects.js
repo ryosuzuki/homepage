@@ -38,7 +38,7 @@ class Projects extends React.Component {
             <p>
               <br/>
               <strong>Ryo Suzuki</strong><br/>
-              PhD Dissertation of the University of Colorado Boulder
+              PhD Dissertation (University of Colorado Boulder)
               <br/>
             </p>
           </div>
