@@ -185,6 +185,24 @@ This thesis makes contributions to the field of Human-Computer Interaction in th
 
 <br/>
 
+# Future Vision
+
+<div class="video-container" style="display: block">
+  <iframe
+    class="embed"
+    width="100%"
+    height="315"
+    src="https://www.youtube.com/embed/_huMQVBAJsY"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen={true}
+    mozAllowFullScreen={true}
+    msAllowFullScreen={true}
+    oAllowFullScreen={true}
+    webkitAllowFullScreen={true}
+  ></iframe>
+</div>
+
 <div class="figures ui four column grid">
   <div class="figure column">
     <a href="/static/projects/phd-thesis/figure-10-1.jpg" data-lightbox="lightbox"><img src="/static/projects/phd-thesis/figure-10-1.jpg" /></a>
