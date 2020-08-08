@@ -29,7 +29,7 @@ class Profile extends React.Component {
             </p>
             <div class="ui segment" style={{ borderColor: '#191970' }}>
               <p style={{ marginBottom: '-5px', color: '#191970'}}>
-                I am actively looking for <b>PhD, masters, postdocs, or interns</b>, across disciplines (e.g., <b>Industrial Design, Mechanical Engineering, Material Science, Electrical Engineering, Architectural Design, and Computer Science</b>). If you are interested, please feel free to send me an email. We could start from some possible collaborative projects. :)
+                I am actively looking for <b>PhDs, masters, postdocs, or interns</b>, who are interested in joining or collaborating with us, across disciplines (e.g., <b>Industrial Design, Mechanical Engineering, Material Science, Electrical Engineering, Architectural Design, and Computer Science</b>). If you are interested, please feel free to send me an email. We could start from some possible collaborative projects. :)
               </p>
             </div>
 
