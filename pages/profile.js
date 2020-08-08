@@ -24,8 +24,8 @@ class Profile extends React.Component {
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>, starting Fall 2020.
-              I am part of <a href="https://ilab.cpsc.ucalgary.ca/" target="_blank"><b>Interactions Lab</b></a>, the <b>HCI Group</b> at UCalgary.
+              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>, starting in Fall 2020.
+              I am part of <a href="https://ilab.cpsc.ucalgary.ca/" target="_blank"><b>HCI Group</b></a> at UCalgary.
             </p>
             <div class="ui segment" style={{ borderColor: '#191970' }}>
               <p style={{ marginBottom: '-5px', color: '#191970'}}>

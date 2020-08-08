@@ -8,10 +8,10 @@
     name: HCI Group
     url: https://ilab.cpsc.ucalgary.ca/
   advisors:
-    - name: Assistant Professor
+    - name: Computer Science
       url: https://science.ucalgary.ca/computer-science
 - period: August, 2015 --- August, 2020
-  role: RA
+  role: Research Assistnat
   logo: cu-boulder.png
   institute:
     name: CU Boulder
@@ -27,7 +27,7 @@
     - name: Tom Yeh
       url: http://tomyeh.info/
 - period: May, 2020 --- August, 2020
-  role: Intern
+  role: Research Intern
   logo: microsoft.png
   institute:
     name: Microsoft Research
@@ -45,7 +45,7 @@
     - name: Ken Hinckley
       url: https://www.microsoft.com/en-us/research/people/kenh/
 - period: May, 2019 --- August, 2019
-  role: Intern
+  role: Research Intern
   logo: adobe.png
   institute:
     name: Adobe Research
@@ -63,7 +63,7 @@
     - name: Danny Kaufman
       url: http://dannykaufman.io/
 - period: December, 2017 --- October, 2018
-  role: Intern
+  role: Visiting Researcher
   logo: ut.png
   institute:
     name: University of Tokyo
@@ -79,7 +79,7 @@
     - name: Ryuma Niiyama
       url: https://scholar.google.co.jp/citations?user=0NMf5sgAAAAJ&hl=en
 - period: May, 2016 --- August, 2016
-  role: Intern
+  role: Research Intern
   logo: uc-berkeley.png
   institute:
     name: UC Berkeley
@@ -91,7 +91,7 @@
     - name: Bjoern Hartmann
       url: http://people.eecs.berkeley.edu/~bjoern/
 - period: May, 2015 --- August, 2015
-  role: Intern
+  role: Research Intern
   logo: stanford-2.png
   institute:
     name: Stanford University
@@ -103,7 +103,7 @@
     - name: Michael Bernstein
       url: http://hci.stanford.edu/msb/
 - period: October, 2014 --- May, 2015
-  role: RA
+  role: Research Assistant
   logo: ut.png
   institute:
     name: University of Tokyo
@@ -115,7 +115,7 @@
     - name: Koji Yatani
       url: http://iis-lab.org/member/koji-yatani/
 - period: December, 2014 --- March, 2015
-  role: Intern
+  role: Research Intern
   logo: aist.png
   institute:
     name: AIST

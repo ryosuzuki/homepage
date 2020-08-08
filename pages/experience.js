@@ -7,12 +7,16 @@ class Experience extends React.Component {
   render() {
     return (
       <div id="updates" className="ui relaxed divided list">
-        <h3>Employments</h3>
-        { items.map((item) => {
+        { items.map((item, i) => {
           const advisors = item.advisors || []
           return (
             <div className="item" style={{ padding: '20px 0' }}>
-
+              { i == 0 &&
+                <h3>Current Affiliation</h3>
+              }
+              { i == 1 &&
+                <h3>Previous Affiliation</h3>
+              }
               <div className="ui mini image">
                 <img src={ `/static/images/${item.logo}` } />
               </div>
@@ -28,6 +32,7 @@ class Experience extends React.Component {
                 </div>
               </div>
               <div className="content">
+                <p style={{ marginTop: "10px", marginBottom: "-5px" }}>{ item.role }</p>
                 <div className="ui list">
                   { advisors.map((advisor) => {
                     return (
