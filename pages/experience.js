@@ -7,8 +7,9 @@ class Experience extends React.Component {
   render() {
     return (
       <div id="updates" className="ui relaxed divided list">
-        <h3>Research Experience</h3>
+        <h3>Employments</h3>
         { items.map((item) => {
+          const advisors = item.advisors || []
           return (
             <div className="item" style={{ padding: '20px 0' }}>
 
@@ -28,7 +29,7 @@ class Experience extends React.Component {
               </div>
               <div className="content">
                 <div className="ui list">
-                  { item.advisors.map((advisor) => {
+                  { advisors.map((advisor) => {
                     return (
                       <div className="item">
                         <a href={ advisor.url } target="_blank">

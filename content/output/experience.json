@@ -1,5 +1,24 @@
 [
   {
+    "period": "August, 2020 --- Current",
+    "role": "Assistant Professor",
+    "logo": "ucalgary.png",
+    "institute": {
+      "name": "University of Calgary",
+      "url": "https://www.ucalgary.ca/"
+    },
+    "lab": {
+      "name": "HCI Group",
+      "url": "https://ilab.cpsc.ucalgary.ca/"
+    },
+    "advisors": [
+      {
+        "name": "Assistant Professor",
+        "url": "https://science.ucalgary.ca/computer-science"
+      }
+    ]
+  },
+  {
     "period": "August, 2015 --- August, 2020",
     "role": "RA",
     "logo": "cu-boulder.png",
@@ -46,6 +65,10 @@
       {
         "name": "Eyal Ofek",
         "url": "https://www.microsoft.com/en-us/research/people/eyalofek/"
+      },
+      {
+        "name": "Mike Sinclair",
+        "url": "https://www.microsoft.com/en-us/research/people/sinclair/"
       },
       {
         "name": "Ken Hinckley",

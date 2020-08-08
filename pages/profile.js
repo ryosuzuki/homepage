@@ -10,7 +10,7 @@ class Profile extends React.Component {
             <div className="content">
               Ryo Suzuki
               <div className="sub header" style={{ fontSize: '1.5rem'}}>
-                University of Colorado Boulder
+                <b>University of Calgary</b>, Assistant Professor in Computer Science
               </div>
             </div>
           </h1>
@@ -24,10 +24,15 @@ class Profile extends React.Component {
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              I am a Ph.D. candidate at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, Department of Computer Science, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
-               { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
-                */ }
+              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>, starting Fall 2020.
+              I am part of <a href="https://ilab.cpsc.ucalgary.ca/" target="_blank"><b>Interactions Lab</b></a>, the <b>HCI Group</b> at UCalgary.
             </p>
+            <div class="ui segment" style={{ borderColor: '#191970' }}>
+              <p style={{ marginBottom: '-5px', color: '#191970'}}>
+                I am actively looking for <b>PhD, masters, postdocs, or interns</b>, across disciplines (e.g., <b>Industrial Design, Mechanical Engineering, Material Science, Electrical Engineering, Architectural Design, and Computer Science</b>). If you are interested, please feel free to send me an email. We could start from some possible collaborative projects. :)
+              </p>
+            </div>
+
             {/*
             <div class="ui segment" style={{ borderColor: '#2ECC40' }}>
               <p style={{ marginBottom: '-5px'}}>
@@ -59,6 +64,12 @@ class Profile extends React.Component {
             */}
             <p>
               My research interest lies on the intersection between <b>Human-Computer Interaction (HCI)</b> and <b>Robotics</b>. During my PhD, I have developed novel <b>shape-changing interfaces</b> that leverage <b>swarm and soft robots at various scales</b> (i.e., from mm- to m-scale). My research explores how we can make the <b>physical environment more adaptive</b> with context-aware swarm robotic assistant that can be embedded into our everyday life.
+            </p>
+            <p>
+              Previously, I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
+               { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
+                */ }
+
             </p>
               {/*
                 I make <b>a dynamic medium</b> for <b>human-computer interaction</b>. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
