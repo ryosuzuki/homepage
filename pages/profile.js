@@ -104,7 +104,7 @@ class Profile extends React.Component {
               </a>
             </div>
             <div className="item">
-              <a href="mailto:ryo.suzuki@colorado.edu" target="_blank" style={{ fontSize: '1.2em' }}>
+              <a href="mailto:ryo.suzuki@ucalgary.ca" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-envelope fa-fw" />
                 Email
               </a>

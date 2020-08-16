@@ -12,7 +12,7 @@ class Footer extends React.Component {
             <div className="content">
               <h1 style={{ fontSize: '1.5rem' }}>Ryo Suzuki</h1>
               <div className="sub header">
-                Ph.D. Student at University of Colorado Boulder
+                Assistant Professor at University of Calgary
               </div>
             </div>
             </a>
@@ -31,9 +31,9 @@ class Footer extends React.Component {
               </a>
             </div>
             <div className="item">
-              <a href="mailto:ryo.suzuki@colorado.edu" target="_blank" style={{ fontSize: '1.2em' }}>
+              <a href="mailto:ryo.suzuki@ucalgary.ca" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="far fa-envelope fa-fw" />
-                ryo.suzuki@colorado.edu
+                ryo.suzuki@ucalgary.ca
               </a>
             </div>
             <br/>
