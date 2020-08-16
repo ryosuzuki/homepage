@@ -17,6 +17,9 @@ conference:
   fullname: The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2020)
   url: https://www.iros2020.org/
 pdf: iros-2020-pufferbot.pdf
+video: https://www.youtube.com/watch?v=XtPepCxWcBg
+embed: https://www.youtube.com/embed/XtPepCxWcBg
+# arxiv: https://arxiv.org/abs/xxx
 pageCount: 6
 slideCount: 0
 ---
