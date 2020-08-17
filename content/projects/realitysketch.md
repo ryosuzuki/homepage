@@ -20,6 +20,9 @@ conference:
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2020)
   url: https://uist.acm.org/uist2020/
 pdf: uist-2020-realitysketch.pdf
+# video: https://www.youtube.com/watch?v=XtPepCxWcBg
+# embed: https://www.youtube.com/embed/XtPepCxWcBg
+# arxiv: https://arxiv.org/abs/xxx
 pageCount: 16
 slideCount: 0
 ---
@@ -28,7 +31,9 @@ slideCount: 0
 
 We present RealitySketch, an augmented reality interface for sketching interactive graphics and visualizations. In recent years, an increasing number of AR sketching tools enable users to draw and embed sketches in the real world. However, with the current tools, sketched contents are inherently static, floating in mid air without responding to the real world. This paper introduces a new way to embed *dynamic* and *responsive* graphics in the real world. In RealitySketch, the user draws graphical elements on a mobile AR screen and binds them with physical objects in real-time and improvisational ways, so that the sketched elements dynamically move with the corre- sponding physical motion. The user can also quickly visualize and analyze real-world phenomena through responsive graph plots or interactive visualizations. This paper contributes to a set of interaction techniques that enable capturing, parameter- izing, and visualizing real-world motion without pre-defined programs and configurations. Finally, we demonstrate our tool with several application scenarios, including physics educa- tion, sports training, and in-situ tangible interfaces.
 
-
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/top.mp4" type="video/mp4"></source>
+</video>
 
 <div class="figures ui three column grid">
   <div class="figure column">
@@ -45,21 +50,12 @@ We present RealitySketch, an augmented reality interface for sketching interacti
 
 # Introduction
 
-Over the last decades, interactive and dynamic sketching has been one of the central themes in human-computer interac- tion (HCI) research. Since Sutherland first demonstrated the power of interactive sketching for computer-aided design, HCI researchers have explored ways to sketch dynamic contents that can interactively respond to user input, thus enabling us to think and communicate through a dynamic visual medium. The applications of such tools are vast, including mathematics and physics education [63, 91], animated art creation, and interactive data visualization. Through these research outcomes, we have now developed a rich vocabulary of dynamic sketching techniques to fluidly create interactive, animated contents in real-time.
+Over the last decades, interactive and dynamic sketching has been one of the central themes in human-computer interac- tion (HCI) research. Since Sutherland first demonstrated the power of interactive sketching for computer-aided design, HCI researchers have explored ways to sketch dynamic contents that can interactively respond to user input, thus enabling us to think and communicate through a dynamic visual medium. The applications of such tools are vast, including mathematics and physics education, animated art creation, and interactive data visualization. Through these research outcomes, we have now developed a rich vocabulary of dynamic sketching techniques to fluidly create interactive, animated contents in real-time.
 
 With the advent of augmented and mixed reality interfaces, we now have a unique opportunity to expand such practices beyond screen-based interactions towards reality- based interactions. In fact, there is an increasing number of tools that provide sketching interfaces for aug- mented reality, from commercial products like Just a Line, Vuforia Chalk, and DoodleLens to research projects like SymbiosisSketch and Mobi3DSketch. These tools allow users to sketch digital elements and embed them in the real world. However, a key limitation is that the sketched content is static --- it does not respond, change, and animate based on user actions or real-world phenomena.
 
 
-
-
-<div class="figures ui one column grid">
-  <div class="figure column">
-    <a href="/static/projects/realitysketch/figure-2.png" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-2.png" /></a>
-  </div>
-</div>
-
-
-What if, instead, these sketched elements could **dynamically respond** when the real world changes? For example, imagine a line sketched onto a physical pendulum that moves as the pendulum swings. This capability would allow us to directly manipulate the sketch through tangible interactions or capture and visualize the pendulum motion to understand the underlying phenomenon.
+What if, instead, these sketched elements could *dynamically respond* when the real world changes? For example, imagine a line sketched onto a physical pendulum that moves as the pendulum swings. This capability would allow us to directly manipulate the sketch through tangible interactions or capture and visualize the pendulum motion to understand the underlying phenomenon.
 
 As a first step toward this goal, we present **RealitySketch, an end-user sketching tool to support real-time creation and sharing of embedded interactive graphics and visualization in AR**. To create graphics, the user sketches on a phone or tablet screen, which embeds interactive visualizations into a scene. The sketched elements can be bound to physical objects such that they respond dynamically as the real world changes.
 
@@ -77,6 +73,11 @@ The goal of this paper is to provide a way to embed dynamic and responsive graph
 
 The important aspect of embedded and responsive graphics is that graphics must interact with the real-world. Here, the “real- world” means either the environment itself, a physical phe- nomenon, or a user’s tangible and gestural interactions. In the context of AR and tangible user interfaces, there are many non- sketched examples of such embedded and responsive graphics.
 
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/sketch.mp4" type="video/mp4"></source>
+</video>
+
+<br/>
 
 <div class="figures ui three column grid">
   <div class="figure column">
@@ -92,10 +93,6 @@ The important aspect of embedded and responsive graphics is that graphics must i
 
 To enable that, RealitySketch leverages mobile augmented reality (ARKit) to embed sketches in the real world. The user sketches with a finger or a pen on a touchscreen, where the sketched elements are overlaid onto a camera view of the real world.
 
-Rather than 2D sketches that are based on the device screen coordinates, all sketched elements have a 3D geometry and position in real world coordinates, anchored in 3D space. This way, the user can move the device to see from a different perspective and the sketches stay correctly anchored to the real objects.
-
-To enable this functionality, our system leverages ARKit and SceneKit for both surface detection and object placement in the 3D scene. Therefore, the first step is to detect a horizontal or vertical surface, as all interactions (e.g., tracking an object, sketching elements, placing a graph) are based on a reference surface in a 3D scene. Once the surface is detected, the user can start using the system.
-
 Our approach proposes the following four-step workflow:
 
 1. **Object tracking**: the user specifies a visual entity (e.g., a physical object, a skeletal joint) to track in the real-world scene
@@ -107,8 +104,9 @@ Our approach proposes the following four-step workflow:
 3. **Parameter binding**: the user binds these variables to the graphical properties of sketched elements (e.g., length, angle, etc.) to define their dynamic behavior as the real-world variables change
 
 
-4. **Visualization**: the user can also interact, analyze, and visualize real-world movements through several visualization effects. We contextualize our approach in the larger design space of dynamic graphics authoring approaches.
+4. **Visualization**: the user can also interact, analyze, and visualize real-world movements through several visualization effects.
 
+We contextualize our approach in the larger design space of dynamic graphics authoring approaches.
 The main contribution of this paper is a set of interaction techniques that enable these steps without *pre-defined programs* and configurations --- rather, the system lets the user perform in real-time and improvisational ways.
 
 
@@ -119,6 +117,11 @@ For embedded and responsive graphics, the graphical elements need to be tightly 
 To specify an object, the user enters the selection mode and then taps an object on the screen. Once selected, our system highlights the selected object with a white contour line and starts tracking the object in the 3D scene.
 
 In our current implementation, the system tracks objects based on color tracking implemented with OpenCV. When the user taps an object on the screen, the algorithm gets the HSV value at the x and y position. Then the system captures similar colors at each frame based on a certain upper and lower threshold range. This color tracking was fast enough for most of our applications (e.g., 20-30 FPS with iPad Pro 11 inch 2018).
+
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/tracking.mp4" type="video/mp4"></source>
+</video>
 
 <div class="figures ui three column grid">
   <div class="figure column">
@@ -141,6 +144,10 @@ First, when entering the sketching mode, the user can start drawing a line segme
 
 RealitySketch employs simple heuristics to determine the na- ture (e.g., static vs. dynamic, distance vs angle, free move vs constraints, etc) of the line segment. If the start or end point of the line segment is close to an existing tracked object, then the system binds the end point to the tracked object. Thus, for example, if the user draws a line between two tracked objects, then both ends attach to an object. In that case, the line segment captures the distance between those two objects.
 
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/sketch.mp4" type="video/mp4"></source>
+</video>
 
 <div class="figures ui three column grid">
   <div class="figure column">
@@ -174,6 +181,10 @@ To make the existing line segments responsive, the user can bind variables betwe
 Similarly, the user can define a constraint by typing a function of existing variable. For example, consider the user wants to draw the bisector of the angle formed by a dynamic line segment. The user can first draw a line and an arc between the line and the base line.
 
 
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/bind.mp4" type="video/mp4"></source>
+</video>
+
 <div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/realitysketch/figure-7-1.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-7-1.jpg" /></a>
@@ -199,6 +210,16 @@ Similarly, the user can define a constraint by typing a function of existing var
   </div>
 </div>
 
+## Different Angles and Perspectives
+
+Rather than 2D sketches that are based on the device screen coordinates, all sketched elements have a 3D geometry and position in real world coordinates, anchored in 3D space. This way, the user can move the device to see from a different perspective and the sketches stay correctly anchored to the real objects.
+
+To enable this functionality, our system leverages ARKit and SceneKit for both surface detection and object placement in the 3D scene.
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/multi-angle.mp4" type="video/mp4"></source>
+</video>
+
 <div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/realitysketch/figure-9-1.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-9-1.jpg" /></a>
@@ -212,13 +233,16 @@ Similarly, the user can define a constraint by typing a function of existing var
 </div>
 
 
-
-## Visualizations
+## Recording and Visualizations
 
 RealitySketch can also make responsive visualization based on graph plotting of a parameter. In the graph placing mode, the user can place a 2D graph and change its size by dragging and dropping onto the surface. By default, the x-axis of the graph is time. By binding an existing variable to the graph, it starts visualizing the time series data of the variable.
 
 To bind the variable, the user can simply tap a label of the graph, and then, enter the variable the user defined. For example, if the user binds the angle variable of the pendulum to the y-axis of the chart, the graph will dynami- cally plot the angle of the pendulum when it starts swinging. By adding multiple variables separated with a comma (e.g., a,b,c), the user can also plot multiple param- eters in the same graph. The user can also change the x-axis from time to a variable by tapping the x-axis and entering a second variable. For example, the user can define an angle and y distance of a point of a circle. By binding x-axis as the angle and y-axis as the perpendicular length, the system can plot the relationship between the angle and corresponding sine value.
 
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/visualizations.mp4" type="video/mp4"></source>
+</video>
 
 <div class="figures ui three column grid">
   <div class="figure column">
@@ -232,11 +256,6 @@ To bind the variable, the user can simply tap a label of the graph, and then, en
   </div>
 </div>
 
-
-## Recording
-
-In RealitySketch, the user can sketch on both real-time and pre- recorded scenes. For real-time sketching, the user can just start sketching once the surface detection is finished. For recorded scenes, RealitySketch first allows users to capture and record the video with an internal recording feature. The recorded video is embedded with additional meta information at each time frame, such as the current camera position, the current origin point, and the position of detected surface. Based on this recorded information, RealitySketch can reconstruct the 3D scene, which is associated with the recorded camera view of each time frame. Thus, the user can sketch, annotate, or visualize on top of the RealitySketch’s recorded video, while controlling the timeline of the internal video player. Due to these constraints, this recording feature does not work with conventional videos.
-
 <div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/realitysketch/figure-10-1.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-10-1.jpg" /></a>
@@ -248,6 +267,7 @@ In RealitySketch, the user can sketch on both real-time and pre- recorded scenes
     <a href="/static/projects/realitysketch/figure-10-3.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-10-3.jpg" /></a>
   </div>
 </div>
+
 
 
 
@@ -266,10 +286,20 @@ We have explored and demonstrated the following application scenarios
 
 4. **In-situ Tangible User Interfaces**
 
+<div class="figures ui one column grid">
+  <div class="figure column">
+    <a href="/static/projects/realitysketch/figure-2.png" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-2.png" /></a>
+  </div>
+</div>
+
 
 ## Augmented Physics Experiments
 
 In science education, a classroom experiment is an integral part of learning physics because the real-world experiment provides students an opportunity to connect their knowledge with physical phenomena. RealitySketch can become a powerful tool to support these experiments by leveraging real-time visualization capability. Figure 15 illustrates how our tool can help students understand the pulley system. In this scenario, by tracking the movement of two points (i.e., the point of the person grabs and the point of the load), the students can visualize the traveling distance of each point. In this way, they can see the load distance movement is shorter than the distance the person pulls.
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/physics.mp4" type="video/mp4"></source>
+</video>
 
 <div class="figures ui three column grid">
   <div class="figure column">
@@ -309,6 +339,11 @@ For educational applications, we can think of the following three setups of how 
 
 3. **Remote learning**: In this case, a teacher only records the video of the experiment, then share the recorded video with the students. The student can download and visualize with their own app, so that it provides a fun and interactive experiment to support online and remote learning.
 
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/concept.mp4" type="video/mp4"></source>
+</video>
+
 <div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/realitysketch/figure-18-1.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-18-1.jpg" /></a>
@@ -341,6 +376,10 @@ RealitySketch could be also useful to analyze and visualize the motion for sport
 
 Also, many sports and exercises may require a proper form and posture. For example, in baseball batting, golf shot, and a tennis swing, a player’s form, such as a body angle, can be important, which the tool can help visualize through sketched guided lines. These features could be particularly useful for exercise instructions. For example, in yoga practice, bike riding, or weight lifting training, there are recommended angles to be followed to maximize the performance benefits. In these cases, the improvisational measurement of the posture can help the user to see and check if correctly done.
 
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/sports.mp4" type="video/mp4"></source>
+</video>
+
 <div class="figures ui three column grid">
   <div class="figure column">
     <a href="/static/projects/realitysketch/figure-14-1.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-14-1.jpg" /></a>
@@ -370,8 +409,9 @@ Also, many sports and exercises may require a proper form and posture. For examp
 ## In-situ Tangible User Interfaces
 The parameterized value can be used for many different pur- poses to enable responsive visual outputs. So far, we have mostly focused on animation of the simple basic geometry (e.g., line segments, arc) or build-in visualization outputs (e.g., graph plot). However, the dynamic parameter value can be also used for other outputs via binding, as we discussed in the previous sections (e.g., pre-defined vs user-defined section).
 
-
-One promising application domain of this is to use these dy- namic parameter values as an input of changing a property of existing virtual objects. For example, if one can connect a parameter value to a size property of a virtual 3D model, then the size of the model can dynamically change when the value changes. This use case is particularly useful for in-situ creation of tangible controllers. For example, a colored token can become a tangible slider to change the size of the object. The system could bind these values based on a proper naming rule
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/dino.mp4" type="video/mp4"></source>
+</video>
 
 <div class="figures ui three column grid">
   <div class="figure column">
@@ -384,6 +424,13 @@ One promising application domain of this is to use these dy- namic parameter val
     <a href="/static/projects/realitysketch/figure-11-3.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-11-3.jpg" /></a>
   </div>
 </div>
+
+
+One promising application domain of this is to use these dy- namic parameter values as an input of changing a property of existing virtual objects. For example, if one can connect a parameter value to a size property of a virtual 3D model, then the size of the model can dynamically change when the value changes. This use case is particularly useful for in-situ creation of tangible controllers. For example, a colored token can become a tangible slider to change the size of the object. The system could bind these values based on a proper naming rule
+
+<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+  <source src="/static/projects/realitysketch/video/shark.mp4" type="video/mp4"></source>
+</video>
 
 <div class="figures ui three column grid">
   <div class="figure column">
