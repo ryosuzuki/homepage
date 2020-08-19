@@ -111,7 +111,7 @@ The main contribution of this paper is a set of interaction techniques that enab
 
 
 
-## Object Tracking
+## Step 1: Track an Ojbect
 
 For embedded and responsive graphics, the graphical elements need to be tightly coupled with physical objects and environ- ments. Thus, capturing and tracking an object is vital to make the graphics dynamically change and move.
 To specify an object, the user enters the selection mode and then taps an object on the screen. Once selected, our system highlights the selected object with a white contour line and starts tracking the object in the 3D scene.
@@ -136,7 +136,7 @@ In our current implementation, the system tracks objects based on color tracking
 </div>
 
 
-## Parameterization using Line Segments
+## Step 2: Sketch to Parameterize
 
 Next, the user parameterizes the real world to define and cap- ture the dynamic value of interest. In this paper, we specifically focus on parameterization that can be done through simple sketching interactions using line segments.
 
@@ -173,7 +173,7 @@ RealitySketch employs simple heuristics to determine the na- ture (e.g., static 
   </div>
 </div>
 
-## Parameter Binding
+## Step 3: Bind Parameters to Make Them Responsive
 
 To make the existing line segments responsive, the user can bind variables between two elements. The parameter of a static line segment can be bound to another variable. For example, suppose the user has a variable named angle for a dynamic line segment. When the user taps the label of another angle of the static line segment, the system shows a popup to let the user enter the variable name. If the entered variable name matches an existing name, the angle of the static line segment will be dynamically bound to the existing parameter
 
@@ -210,7 +210,7 @@ Similarly, the user can define a constraint by typing a function of existing var
   </div>
 </div>
 
-## Different Angles and Perspectives
+## Step 4: Move and Animate
 
 Rather than 2D sketches that are based on the device screen coordinates, all sketched elements have a 3D geometry and position in real world coordinates, anchored in 3D space. This way, the user can move the device to see from a different perspective and the sketches stay correctly anchored to the real objects.
 
@@ -233,7 +233,7 @@ To enable this functionality, our system leverages ARKit and SceneKit for both s
 </div>
 
 
-## Recording and Visualizations
+## Step 5: Record and Visualize
 
 RealitySketch can also make responsive visualization based on graph plotting of a parameter. In the graph placing mode, the user can place a 2D graph and change its size by dragging and dropping onto the surface. By default, the x-axis of the graph is time. By binding an existing variable to the graph, it starts visualizing the time series data of the variable.
 
@@ -269,6 +269,8 @@ To bind the variable, the user can simply tap a label of the graph, and then, en
 </div>
 
 
+<br/>
+<div class="ui divider"></div>
 
 
 # Application Scenarios
@@ -292,8 +294,10 @@ We have explored and demonstrated the following application scenarios
   </div>
 </div>
 
+<br/>
 
-## Augmented Physics Experiments
+
+## Application 1: Augmented Physics Experiments
 
 In science education, a classroom experiment is an integral part of learning physics because the real-world experiment provides students an opportunity to connect their knowledge with physical phenomena. RealitySketch can become a powerful tool to support these experiments by leveraging real-time visualization capability. Figure 15 illustrates how our tool can help students understand the pulley system. In this scenario, by tracking the movement of two points (i.e., the point of the person grabs and the point of the load), the students can visualize the traveling distance of each point. In this way, they can see the load distance movement is shorter than the distance the person pulls.
 
@@ -325,8 +329,9 @@ In science education, a classroom experiment is an integral part of learning phy
   </div>
 </div>
 
+<br/>
 
-## Interactive and Explorable Concept Explanation
+## Application 2: Interactive and Explorable Concept Explanation
 
 RealitySketch is also useful to help teachers explain concepts that may be difficult to understand with static graphs, and to let students explore them through tangible interactions. Some examples are shown in the above Figure (Top: demonstrating an area of a triangle remains the same with horizontal movement; a bisector line of a triangle always intersect at the middle point. Bottom: showing how a sine curve is generated from plotting the angle and perpendicular distance of a rotating point.)
 
@@ -368,9 +373,10 @@ For educational applications, we can think of the following three setups of how 
   </div>
 </div>
 
+<br/>
 
 
-## Improvised Visualization for Sports and Exercises
+## Application 3: Improvised Visualization for Sports and Exercises
 
 RealitySketch could be also useful to analyze and visualize the motion for sports training and exercises because they often em- ploy the physical movements. For example, sports practices, like a golf shot, baseball pitching, and basketball shooting, would be an interesting example to visualize the trajectory of the ball. Similar to the previous example of showing the trajectory of a ball, it is useful to quickly see the path through stroboscopic effects. In addition to showing the trajectory, the system can also capture and compare multiple attempts to let the user analyze what works and what does not.
 
@@ -405,8 +411,9 @@ Also, many sports and exercises may require a proper form and posture. For examp
 </div>
 
 
+<br/>
 
-## In-situ Tangible User Interfaces
+## Application 4: In-situ Tangible User Interfaces
 The parameterized value can be used for many different pur- poses to enable responsive visual outputs. So far, we have mostly focused on animation of the simple basic geometry (e.g., line segments, arc) or build-in visualization outputs (e.g., graph plot). However, the dynamic parameter value can be also used for other outputs via binding, as we discussed in the previous sections (e.g., pre-defined vs user-defined section).
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
@@ -456,6 +463,8 @@ One promising application domain of this is to use these dy- namic parameter val
   </div>
 </div>
 
+<br/>
+
 # Future Vision
 
 We believe there are a lot of future work and a broad design space of embedded and responsive sketching.
@@ -472,7 +481,7 @@ These practices are often utilized in the screen-based sketching interfaces. For
 On the other end of the spectrum, user-defined behavior lets the user decide how the sketched elements move, behave, and animate on the fly. For example, consider an example of visualizing pendulum motion. In this example, the user should be able to specify how and which parameter (e.g., angle) will be visualized. In the previous works, Apparatus leverages the user-defined behavior to create interactive diagrams. In this example, the user has full control of how it behaves, based on the user-defined constraints and parameter bindings, which is also known as constraint-based programming. These practices are also utilized to create interactive 2D animation, design exploration, and dynamic data visualization, as it is useful to let the user explicitly specify how it behaves.
 
 
-We envision the future where the user can draw these dynamic pictures by sketching, something similar to *Harold's Purple Crayon*.
+We envision the future where the user can draw these dynamic pictures by sketching, like *Harold's purple crayon*.
 We hope this paper opens up new opportunities for embedded and responsive sketching and in- spires the HCI community to further explore such interactions to realize the full potential of augmented- and mixed-reality (AR/MR) as a dynamic, computational medium.
 
 <div class="figures ui three column grid">
@@ -485,5 +494,8 @@ We hope this paper opens up new opportunities for embedded and responsive sketch
   <div class="figure column">
     <a href="/static/projects/realitysketch/figure-21-3.jpg" data-lightbox="lightbox"><img src="/static/projects/realitysketch/figure-21-3.jpg" /></a>
   </div>
+  <p style="width: 100%; text-align: center">
+    Image Credit: <a href="https://en.wikipedia.org/wiki/Harold_and_the_Purple_Crayon" target="_blank">Harold and the Purple Crayon</a>
+  </p>
 </div>
 

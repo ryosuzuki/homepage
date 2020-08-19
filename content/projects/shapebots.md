@@ -27,6 +27,7 @@ embed: https://www.youtube.com/embed/cwPaof0kKdM
 github: https://github.com/ryosuzuki/shapebots
 poster: uist-2019-shapebots-poster.pdf
 demo: https://ryosuzuki.github.io/shapebots-simulator/
+arxiv: https://arxiv.org/abs/1909.03372
 pageCount: 13
 slideCount: 53
 # image: dynablock.jpg

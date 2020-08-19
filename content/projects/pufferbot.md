@@ -19,7 +19,7 @@ conference:
 pdf: iros-2020-pufferbot.pdf
 video: https://www.youtube.com/watch?v=XtPepCxWcBg
 embed: https://www.youtube.com/embed/XtPepCxWcBg
-# arxiv: https://arxiv.org/abs/xxx
+arxiv: https://arxiv.org/abs/2008.07615
 pageCount: 6
 slideCount: 0
 ---
@@ -161,7 +161,7 @@ The Pufferfish weights 600 grams and can expand or collapse in 6 seconds (we tes
   </div>
 </div>
 
-## Protecting Humans
+## Protecting Humans / Human-Robot Communication
 
 Aerial robots and humans are increasingly occupying shared spaces, whether through collaboration in the work- place or users partaking in leisure activities (e.g., a hobbyist piloting an aerial robot in their neighbourhood). While human safety is critical in these situations, developing autonomous/semi-autonomous systems capable of mitigating all risk of collisions remains an open problem, with some risks arising from humans themselves (e.g., a wandering human who is not paying attention or one who is attempting to test the robot’s behaviors might incite a collision with the robot). In these scenarios, PufferBot may reduce the risk of human injury in contacting the robot’s spinning propellers, disperse the force of the robot during a collision over a wider surface area, and provide a compliance mechanism that helps mitigate impact force.
 

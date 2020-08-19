@@ -103,6 +103,13 @@ class Project extends React.Component {
                 IEEE
                 </b>
               </a>
+              <a className="ui inverted secondary button" href={ project.arxiv } target="_blank" style={{ marginRight: '5px', display: project.arxiv ? 'inline' : 'none' }}>
+                <b>
+                <i className="fas fa-link" />
+                &nbsp;&nbsp;
+                arXiv
+                </b>
+              </a>
               <a className="ui inverted secondary button" href={ project['talk'] } target="_blank" style={{ marginRight: '5px', display: project['talk'] ? 'inline' : 'none' }}>
                 <b>
                 <i className="fas fa-chalkboard-teacher" />
