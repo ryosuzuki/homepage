@@ -1,280 +1,13 @@
 {
   "fileMap": {
-    "content/output/news.json": [
-      {
-        "date": "2020-08-07",
-        "text": "Joining the [**University of Calgary**](https://www.ucalgary.ca/) as an Assisatnat Professor in CS and [**HCI Group**](https://ilab.cpsc.ucalgary.ca/) starting in Fall 2020."
-      },
-      {
-        "date": "2020-07-28",
-        "text": "[**PhD Dissertation**](https://ryosuzuki.org/publications/phd-dissertation.pdf) is submitted and officially graduated! :)"
-      },
-      {
-        "date": "2020-07-01",
-        "text": "One [**IROS 2020**](https://www.iros2020.org/) full-paper is accepted (47%)."
-      },
-      {
-        "date": "2020-06-24",
-        "text": "One [**UIST 2020**](http://uist.acm.org/uist2020/) full-paper is accepted (21%)."
-      },
-      {
-        "date": "2020-05-18",
-        "text": "Start intern at [**Microsoft Research**](https://www.microsoft.com/en-us/research/) (mentor: [**Mar Gonzalez Franco**](https://www.microsoft.com/en-us/research/people/margon/))."
-      },
-      {
-        "date": "2020-05-13",
-        "text": "**[PhD Defense](https://ryosuzuki.org/phd-thesis) ... and Passed! :)** (committee: D Leithinger, M Gross, T Yeh, H Ishii, T Igarashi)"
-      },
-      {
-        "date": "2020-02-14---05-13",
-        "text": "Traveling for on-site job interviews (UW, UCSB, Boston, Virginia Tech, Calgary)"
-      },
-      {
-        "date": "2019-12-12",
-        "text": "One [**CHI 2020**](https://chi2020.acm.org/) full-paper is accepted (24%)."
-      },
-      {
-        "date": "2019-11-25",
-        "text": "Traveling to Boston to visit **MIT CSAIL** and **Media Lab**"
-      },
-      {
-        "date": "2019-10-19",
-        "image": "uist-2019.png",
-        "text": "Traveling to New Orleans for [**UIST 2019**](http://uist.acm.org/uist2019/)"
-      },
-      {
-        "date": "2019-10-10",
-        "image": "uist-2019.png",
-        "text": "Became a **PhD candidate** (committee: D Leithinger, M Gross, T Yeh, H Ishii, T Igarashi, E Do)"
-      },
-      {
-        "date": "2019-10-08",
-        "image": "uist-2019.png",
-        "text": "One [**TEI 2020**](https://tei.acm.org/2020/) full-paper is accepted (28%)."
-      },
-      {
-        "date": "2019-08-02",
-        "image": "uist-2019.png",
-        "text": "One [**UIST 2019**](http://uist.acm.org/uist2019/) poster and and doctoral consortium paper are accepted."
-      },
-      {
-        "date": "2019-07-01",
-        "image": "uist-2019.png",
-        "text": "One [**UIST 2019**](http://uist.acm.org/uist2019/) full-paper is accepted (24%)."
-      },
-      {
-        "date": "2019-06-27",
-        "image": "uist-2019.png",
-        "text": "Won [**Best Paper Award**](https://dis2019.com/overview/#track-4-shape-changing-interfaces) for [**DIS 2019**](https://dis2019.com/) (Top 1%)."
-      },
-      {
-        "date": "2019-05-20",
-        "image": "uist-2019.png",
-        "text": "Start intern at [**Adobe Research**](https://research.adobe.com/) (mentor: [**Rubaiat Habib**](https://rubaiathabib.me/))."
-      },
-      {
-        "date": "2019-03-26",
-        "image": "dis-2019.png",
-        "text": "One [**DIS 2019**](https://dis2019.com/) full-paper is accepted (25%)."
-      },
-      {
-        "date": "2018-08-15",
-        "text": "Award [**JST ACT-I**](https://www.jst.go.jp/kisoken/act-i/en/project/111C001/111C001_2018.html) funding (mentor [**Takeo Igarashi**](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/))."
-      },
-      {
-        "date": "2018-08-06",
-        "image": "uist-2018.png",
-        "text": "One [**UIST 2018**](https://uist.acm.org/uist2018/) full-paper is accepted (21%)."
-      },
-      {
-        "date": "2018-08-03",
-        "image": "pg-2018.png",
-        "text": "One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (26%)."
-      },
-      {
-        "date": "2017-12-14",
-        "text": "Start intern at [**The University of Tokyo**](http://www.jst.go.jp/erato/kawahara/) (mentor: [**Yasuaki Kakehi**](http://xlab.iii.u-tokyo.ac.jp/))."
-      },
-      {
-        "date": "2017-12-11",
-        "image": "chi-2018.png",
-        "text": "Two [**CHI 2018**](https://chi2018.acm.org/) full-papers are accepted (25%)."
-      },
-      {
-        "date": "2017-06-27",
-        "image": "vlhcc-2017.png",
-        "text": "One [**VL/HCC 2017**](https://sites.google.com/site/vlhcc2017/) full-paper are accepted (29%)."
-      },
-      {
-        "date": "2017-06-21",
-        "image": "assets-2017.png",
-        "text": "One [**ASSETS 2017**](https://assets17.sigaccess.org/) full-paper are accepted (26%)."
-      },
-      {
-        "date": "2017-02-11",
-        "image": "chi-2017.png",
-        "text": "One [**CHI 2017**](https://chi2017.acm.org/) LBW paper is accepted (38%)."
-      },
-      {
-        "date": "2016-12-16",
-        "image": "",
-        "text": "One [**L@S 2017**](http://learningatscale.acm.org/las2017/) full paper is accepted (22%)."
-      },
-      {
-        "date": "2016-12-12",
-        "image": "icse-2017.png",
-        "text": "One [**ICSE 2017**](http://icse2017.gatech.edu/) full-paper is accepted (19%)."
-      },
-      {
-        "date": "2016-05-23",
-        "text": "Start intern at [**UC Berkeley**](http://bid.berkeley.edu/) (mentor: [**Bjoern Hartmann**](http://people.eecs.berkeley.edu/~bjoern/))."
-      },
-      {
-        "date": "2016-01-15",
-        "image": "chi-2016.png",
-        "text": "One [**CHI 2016**](https://chi2016.acm.org/wp/) full-paper is accepted (23%)."
-      },
-      {
-        "date": "2015-10-01",
-        "image": "uist-2016.jpg",
-        "text": "I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)"
-      },
-      {
-        "date": "2015-05-18",
-        "text": "Start intern at [**Stanford**](https://hci.stanford.edu/) (mentor: [**Michael Bernstein**](https://hci.stanford.edu/msb/))."
-      },
-      {
-        "date": "2014-10-15",
-        "text": "The very first day of starting my HCI research (mentor: [**Koji Yatani**](http://iis-lab.org/member/koji-yatani/))"
-      }
-    ],
-    "content/output/press.json": [
-      {
-        "date": "2020-01",
-        "tag": "lift-tiles",
-        "media": "Arduino Blog",
-        "title": "Prototype room-scale, shape-changing interfaces with LiftTiles",
-        "url": "https://blog.arduino.cc/2020/01/27/prototype-room-scale-shape-changing-interfaces-with-lifttiles/"
-      },
-      {
-        "date": "2020-01",
-        "tag": "lift-tiles",
-        "media": "TechXplore",
-        "title": "LiftTiles: Actuator-based Building Blocks for Shape-changing Interfaces",
-        "url": "https://techxplore.com/news/2020-01-lifttiles-actuator-based-blocks-shape-changing-interfaces.html"
-      },
-      {
-        "date": "2020-01",
-        "tag": "shapebots",
-        "media": "ITMedia News",
-        "title": "A Swarm of Self-transforming Robots to Assist People",
-        "url": "https://www.itmedia.co.jp/news/articles/2001/15/news032.html"
-      },
-      {
-        "date": "2019-10",
-        "tag": "lift-tiles",
-        "media": "Hackster.io",
-        "title": "LiftTiles Turn Walls and Floors Into Reconfigurable Structures on Demand",
-        "url": "https://www.hackster.io/news/lifttiles-turn-walls-and-floors-into-reconfigurable-structures-on-demand-4a226d58bc74"
-      },
-      {
-        "date": "2019-10",
-        "tag": "lift-tiles",
-        "media": "Element 14",
-        "title": "Engineers Develop LiftTiles, a Scale Shape-changing Interface",
-        "url": "https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/10/25/engineers-develop-lifttiles-a-scale-shape-changing-interface?CMP=SOM-PRG-TWITTER-BLOG-CATWELL-LIFT-TILES-COMM"
-      },
-      {
-        "date": "2019-11",
-        "tag": "shapebots",
-        "media": "Bouncy",
-        "title": "Swarm Robots that can Change Shape to Visualize Data",
-        "url": "https://bouncy.news/53532?fbclid=IwAR0jyfBKo8LJ3aiUidDfZUsQqJ5-oSMxRuiZyJju0g_F6A_hi1tOeboPM4E"
-      },
-      {
-        "date": "2019-10",
-        "tag": "shapebots",
-        "media": "Hackster.io",
-        "title": "Swarming Robots Can Change Their Configuration to Handle Different Tasks",
-        "url": "https://www.hackster.io/news/shapebots-swarming-robots-can-change-their-configuration-to-handle-different-tasks-59a5ae926e1d"
-      },
-      {
-        "date": "2019-09",
-        "tag": "shapebots",
-        "media": "TechXplore",
-        "title": "ShapeBots: A Swarm of Shape-shifting Robots that Visually Display Data",
-        "url": "https://techxplore.com/news/2019-09-shapebots-swarm-shape-shifting-robots-visually.html"
-      },
-      {
-        "date": "2019-09",
-        "tag": "shapebots",
-        "media": "Hackaday",
-        "title": "Tiny Robots that Grow Taller and Wider",
-        "url": "https://hackaday.com/2019/10/04/tiny-robots-that-grow-taller-and-wider/"
-      },
-      {
-        "date": "2019-09",
-        "media": "Robotic Gizmo",
-        "title": "ShapeBots: Shape-changing Swarm Robots",
-        "url": "https://www.roboticgizmos.com/shapebots/"
-      },
-      {
-        "date": "2019-09",
-        "tag": "shapebots",
-        "media": "Gadgetify",
-        "title": "ShapeBots: Shape Changing Swarm Robots",
-        "url": "http://www.gadgetify.com/shapebots/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "3DPrint.com",
-        "title": "Dynablock: 3D Prints That Assemble and Disassemble in Seconds",
-        "url": "https://3dprint.com/227781/3d-prints-that-assemble-in-seconds/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "Hackster.io",
-        "title": "The Dynamic 3D Printing That Assembles and Disassembles Objects in Seconds",
-        "url": "https://www.hackster.io/news/dynablock-the-dynamic-3d-printing-that-assembles-and-disassembles-objects-in-seconds-a7f7d4bf6cad"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "Arduino Blog",
-        "title": "Create Shapes Over and Over with the Dynablock 3D Printer",
-        "url": "https://blog.arduino.cc/2018/10/22/create-shapes-over-and-over-with-the-dynablock-3d-printer/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "3DRuck.com",
-        "title": "Dynablock: Dynamic 3D Printer Creates Objects in Seconds",
-        "url": "https://3druck.com/forschung/dynablock-dynamischer-3d-drucker-erstellt-objekte-in-sekunden-2776738/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "World Business Satellite",
-        "title": "Repeatable 3D Printer",
-        "url": "https://txbiz.tv-tokyo.co.jp/wbs/trend_tamago/post_168589/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "Nikkei Newspaper",
-        "title": "Modeling 3D Objects with Magnet-Embedded Blocks",
-        "url": "https://active.nikkeibp.co.jp/atclact/active/17/071100318/101600559/"
-      },
-      {
-        "date": "2016-06",
-        "tag": "atelier",
-        "media": "Wired",
-        "title": "It’s Not Just Robots: Skilled Jobs Are Going to Meatware",
-        "url": "https://www.wired.com/2016/06/its-not-just-robots-skilled-jobs-are-going-to-meatware/"
-      }
-    ],
+    "content/output/fellowship.json": {
+      "title": "Funding",
+      "dir": "content/output",
+      "base": "fellowship.json",
+      "ext": ".json",
+      "sourceBase": "fellowship.md",
+      "sourceExt": ".md"
+    },
     "content/output/projects/atelier.json": {
       "id": "atelier",
       "name": "Atelier",
@@ -309,14 +42,6 @@
       "base": "atelier.json",
       "ext": ".json",
       "sourceBase": "atelier.md",
-      "sourceExt": ".md"
-    },
-    "content/output/activities.json": {
-      "title": "<strong>Program Committee",
-      "dir": "content/output",
-      "base": "activities.json",
-      "ext": ".json",
-      "sourceBase": "activities.md",
       "sourceExt": ".md"
     },
     "content/output/experience.json": [
@@ -532,6 +257,281 @@
         ]
       }
     ],
+    "content/output/press.json": [
+      {
+        "date": "2020-01",
+        "tag": "lift-tiles",
+        "media": "Arduino Blog",
+        "title": "Prototype room-scale, shape-changing interfaces with LiftTiles",
+        "url": "https://blog.arduino.cc/2020/01/27/prototype-room-scale-shape-changing-interfaces-with-lifttiles/"
+      },
+      {
+        "date": "2020-01",
+        "tag": "lift-tiles",
+        "media": "TechXplore",
+        "title": "LiftTiles: Actuator-based Building Blocks for Shape-changing Interfaces",
+        "url": "https://techxplore.com/news/2020-01-lifttiles-actuator-based-blocks-shape-changing-interfaces.html"
+      },
+      {
+        "date": "2020-01",
+        "tag": "shapebots",
+        "media": "ITMedia News",
+        "title": "A Swarm of Self-transforming Robots to Assist People",
+        "url": "https://www.itmedia.co.jp/news/articles/2001/15/news032.html"
+      },
+      {
+        "date": "2019-10",
+        "tag": "lift-tiles",
+        "media": "Hackster.io",
+        "title": "LiftTiles Turn Walls and Floors Into Reconfigurable Structures on Demand",
+        "url": "https://www.hackster.io/news/lifttiles-turn-walls-and-floors-into-reconfigurable-structures-on-demand-4a226d58bc74"
+      },
+      {
+        "date": "2019-10",
+        "tag": "lift-tiles",
+        "media": "Element 14",
+        "title": "Engineers Develop LiftTiles, a Scale Shape-changing Interface",
+        "url": "https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/10/25/engineers-develop-lifttiles-a-scale-shape-changing-interface?CMP=SOM-PRG-TWITTER-BLOG-CATWELL-LIFT-TILES-COMM"
+      },
+      {
+        "date": "2019-11",
+        "tag": "shapebots",
+        "media": "Bouncy",
+        "title": "Swarm Robots that can Change Shape to Visualize Data",
+        "url": "https://bouncy.news/53532?fbclid=IwAR0jyfBKo8LJ3aiUidDfZUsQqJ5-oSMxRuiZyJju0g_F6A_hi1tOeboPM4E"
+      },
+      {
+        "date": "2019-10",
+        "tag": "shapebots",
+        "media": "Hackster.io",
+        "title": "Swarming Robots Can Change Their Configuration to Handle Different Tasks",
+        "url": "https://www.hackster.io/news/shapebots-swarming-robots-can-change-their-configuration-to-handle-different-tasks-59a5ae926e1d"
+      },
+      {
+        "date": "2019-09",
+        "tag": "shapebots",
+        "media": "TechXplore",
+        "title": "ShapeBots: A Swarm of Shape-shifting Robots that Visually Display Data",
+        "url": "https://techxplore.com/news/2019-09-shapebots-swarm-shape-shifting-robots-visually.html"
+      },
+      {
+        "date": "2019-09",
+        "tag": "shapebots",
+        "media": "Hackaday",
+        "title": "Tiny Robots that Grow Taller and Wider",
+        "url": "https://hackaday.com/2019/10/04/tiny-robots-that-grow-taller-and-wider/"
+      },
+      {
+        "date": "2019-09",
+        "media": "Robotic Gizmo",
+        "title": "ShapeBots: Shape-changing Swarm Robots",
+        "url": "https://www.roboticgizmos.com/shapebots/"
+      },
+      {
+        "date": "2019-09",
+        "tag": "shapebots",
+        "media": "Gadgetify",
+        "title": "ShapeBots: Shape Changing Swarm Robots",
+        "url": "http://www.gadgetify.com/shapebots/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "3DPrint.com",
+        "title": "Dynablock: 3D Prints That Assemble and Disassemble in Seconds",
+        "url": "https://3dprint.com/227781/3d-prints-that-assemble-in-seconds/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "Hackster.io",
+        "title": "The Dynamic 3D Printing That Assembles and Disassembles Objects in Seconds",
+        "url": "https://www.hackster.io/news/dynablock-the-dynamic-3d-printing-that-assembles-and-disassembles-objects-in-seconds-a7f7d4bf6cad"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "Arduino Blog",
+        "title": "Create Shapes Over and Over with the Dynablock 3D Printer",
+        "url": "https://blog.arduino.cc/2018/10/22/create-shapes-over-and-over-with-the-dynablock-3d-printer/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "3DRuck.com",
+        "title": "Dynablock: Dynamic 3D Printer Creates Objects in Seconds",
+        "url": "https://3druck.com/forschung/dynablock-dynamischer-3d-drucker-erstellt-objekte-in-sekunden-2776738/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "World Business Satellite",
+        "title": "Repeatable 3D Printer",
+        "url": "https://txbiz.tv-tokyo.co.jp/wbs/trend_tamago/post_168589/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "Nikkei Newspaper",
+        "title": "Modeling 3D Objects with Magnet-Embedded Blocks",
+        "url": "https://active.nikkeibp.co.jp/atclact/active/17/071100318/101600559/"
+      },
+      {
+        "date": "2016-06",
+        "tag": "atelier",
+        "media": "Wired",
+        "title": "It’s Not Just Robots: Skilled Jobs Are Going to Meatware",
+        "url": "https://www.wired.com/2016/06/its-not-just-robots-skilled-jobs-are-going-to-meatware/"
+      }
+    ],
+    "content/output/news.json": [
+      {
+        "date": "2020-08-07",
+        "text": "Joining the [**University of Calgary**](https://www.ucalgary.ca/) as an Assisatnat Professor in CS and [**HCI Group**](https://ilab.cpsc.ucalgary.ca/) starting in Fall 2020."
+      },
+      {
+        "date": "2020-07-28",
+        "text": "[**PhD Dissertation**](https://ryosuzuki.org/publications/phd-dissertation.pdf) is submitted and officially graduated! :)"
+      },
+      {
+        "date": "2020-07-01",
+        "text": "One [**IROS 2020**](https://www.iros2020.org/) full-paper is accepted (47%)."
+      },
+      {
+        "date": "2020-06-24",
+        "text": "One [**UIST 2020**](http://uist.acm.org/uist2020/) full-paper is accepted (21%)."
+      },
+      {
+        "date": "2020-05-18",
+        "text": "Start intern at [**Microsoft Research**](https://www.microsoft.com/en-us/research/) (mentor: [**Mar Gonzalez Franco**](https://www.microsoft.com/en-us/research/people/margon/))."
+      },
+      {
+        "date": "2020-05-13",
+        "text": "**[PhD Defense](https://ryosuzuki.org/phd-thesis) ... and Passed! :)** (committee: D Leithinger, M Gross, T Yeh, H Ishii, T Igarashi)"
+      },
+      {
+        "date": "2020-02-14---05-13",
+        "text": "Traveling for on-site job interviews (UW, UCSB, Boston, Virginia Tech, Calgary)"
+      },
+      {
+        "date": "2019-12-12",
+        "text": "One [**CHI 2020**](https://chi2020.acm.org/) full-paper is accepted (24%)."
+      },
+      {
+        "date": "2019-11-25",
+        "text": "Traveling to Boston to visit **MIT CSAIL** and **Media Lab**"
+      },
+      {
+        "date": "2019-10-19",
+        "image": "uist-2019.png",
+        "text": "Traveling to New Orleans for [**UIST 2019**](http://uist.acm.org/uist2019/)"
+      },
+      {
+        "date": "2019-10-10",
+        "image": "uist-2019.png",
+        "text": "Became a **PhD candidate** (committee: D Leithinger, M Gross, T Yeh, H Ishii, T Igarashi, E Do)"
+      },
+      {
+        "date": "2019-10-08",
+        "image": "uist-2019.png",
+        "text": "One [**TEI 2020**](https://tei.acm.org/2020/) full-paper is accepted (28%)."
+      },
+      {
+        "date": "2019-08-02",
+        "image": "uist-2019.png",
+        "text": "One [**UIST 2019**](http://uist.acm.org/uist2019/) poster and and doctoral consortium paper are accepted."
+      },
+      {
+        "date": "2019-07-01",
+        "image": "uist-2019.png",
+        "text": "One [**UIST 2019**](http://uist.acm.org/uist2019/) full-paper is accepted (24%)."
+      },
+      {
+        "date": "2019-06-27",
+        "image": "uist-2019.png",
+        "text": "Won [**Best Paper Award**](https://dis2019.com/overview/#track-4-shape-changing-interfaces) for [**DIS 2019**](https://dis2019.com/) (Top 1%)."
+      },
+      {
+        "date": "2019-05-20",
+        "image": "uist-2019.png",
+        "text": "Start intern at [**Adobe Research**](https://research.adobe.com/) (mentor: [**Rubaiat Habib**](https://rubaiathabib.me/))."
+      },
+      {
+        "date": "2019-03-26",
+        "image": "dis-2019.png",
+        "text": "One [**DIS 2019**](https://dis2019.com/) full-paper is accepted (25%)."
+      },
+      {
+        "date": "2018-08-15",
+        "text": "Award [**JST ACT-I**](https://www.jst.go.jp/kisoken/act-i/en/project/111C001/111C001_2018.html) funding (mentor [**Takeo Igarashi**](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/))."
+      },
+      {
+        "date": "2018-08-06",
+        "image": "uist-2018.png",
+        "text": "One [**UIST 2018**](https://uist.acm.org/uist2018/) full-paper is accepted (21%)."
+      },
+      {
+        "date": "2018-08-03",
+        "image": "pg-2018.png",
+        "text": "One [**Pacific Graphics 2018**](http://sweb.cityu.edu.hk/pg2018/) short-paper is accepted (26%)."
+      },
+      {
+        "date": "2017-12-14",
+        "text": "Start intern at [**The University of Tokyo**](http://www.jst.go.jp/erato/kawahara/) (mentor: [**Yasuaki Kakehi**](http://xlab.iii.u-tokyo.ac.jp/))."
+      },
+      {
+        "date": "2017-12-11",
+        "image": "chi-2018.png",
+        "text": "Two [**CHI 2018**](https://chi2018.acm.org/) full-papers are accepted (25%)."
+      },
+      {
+        "date": "2017-06-27",
+        "image": "vlhcc-2017.png",
+        "text": "One [**VL/HCC 2017**](https://sites.google.com/site/vlhcc2017/) full-paper are accepted (29%)."
+      },
+      {
+        "date": "2017-06-21",
+        "image": "assets-2017.png",
+        "text": "One [**ASSETS 2017**](https://assets17.sigaccess.org/) full-paper are accepted (26%)."
+      },
+      {
+        "date": "2017-02-11",
+        "image": "chi-2017.png",
+        "text": "One [**CHI 2017**](https://chi2017.acm.org/) LBW paper is accepted (38%)."
+      },
+      {
+        "date": "2016-12-16",
+        "image": "",
+        "text": "One [**L@S 2017**](http://learningatscale.acm.org/las2017/) full paper is accepted (22%)."
+      },
+      {
+        "date": "2016-12-12",
+        "image": "icse-2017.png",
+        "text": "One [**ICSE 2017**](http://icse2017.gatech.edu/) full-paper is accepted (19%)."
+      },
+      {
+        "date": "2016-05-23",
+        "text": "Start intern at [**UC Berkeley**](http://bid.berkeley.edu/) (mentor: [**Bjoern Hartmann**](http://people.eecs.berkeley.edu/~bjoern/))."
+      },
+      {
+        "date": "2016-01-15",
+        "image": "chi-2016.png",
+        "text": "One [**CHI 2016**](https://chi2016.acm.org/wp/) full-paper is accepted (23%)."
+      },
+      {
+        "date": "2015-10-01",
+        "image": "uist-2016.jpg",
+        "text": "I will serve as a web and social media chair for [**UIST 2016**](http://uist.acm.org/uist2016/)"
+      },
+      {
+        "date": "2015-05-18",
+        "text": "Start intern at [**Stanford**](https://hci.stanford.edu/) (mentor: [**Michael Bernstein**](https://hci.stanford.edu/msb/))."
+      },
+      {
+        "date": "2014-10-15",
+        "text": "The very first day of starting my HCI research (mentor: [**Koji Yatani**](http://iis-lab.org/member/koji-yatani/))"
+      }
+    ],
     "content/output/posters.json": [
       {
         "author": "Ryo Suzuki,",
@@ -682,12 +682,12 @@
       "sourceBase": "pep.md",
       "sourceExt": ".md"
     },
-    "content/output/fellowship.json": {
-      "title": "Funding",
+    "content/output/activities.json": {
+      "title": "<strong>Program Committee",
       "dir": "content/output",
-      "base": "fellowship.json",
+      "base": "activities.json",
       "ext": ".json",
-      "sourceBase": "fellowship.md",
+      "sourceBase": "activities.md",
       "sourceExt": ".md"
     },
     "content/output/projects/flux-marker.json": {
@@ -723,6 +723,42 @@
       "base": "flux-marker.json",
       "ext": ".json",
       "sourceBase": "flux-marker.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/refazer.json": {
+      "id": "refazer",
+      "name": "Refazer",
+      "description": "Learning Syntactic Program Transformations from Examples",
+      "title": "Learning Syntactic Program Transformations from Examples",
+      "authors": [
+        "Reudismam Rolim",
+        "Gustavo Soares",
+        "Loris D'Antoni",
+        "Oleksandr Polozov",
+        "Sumit Gulwani",
+        "Rohit Gheyi",
+        "Ryo Suzuki",
+        "Björn Hartmann"
+      ],
+      "yera": 2017,
+      "booktitle": "In Proceedings of the 39th International Conference on Software Engineering (ICSE '17)",
+      "publisher": "IEEE Press, Piscataway, NJ, USA",
+      "pages": "404-415",
+      "conference": {
+        "name": "ICSE 2017",
+        "fullname": "The International Conference on Software Engineering (ICSE 2017)",
+        "url": "http://icse2017.gatech.edu/"
+      },
+      "pdf": "icse-2017-refazer.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
+      "arxiv": "https://arxiv.org/abs/1608.09000",
+      "pageCount": 12,
+      "slideCount": 0,
+      "image": "refazer.png",
+      "dir": "content/output/projects",
+      "base": "refazer.json",
+      "ext": ".json",
+      "sourceBase": "refazer.md",
       "sourceExt": ".md"
     },
     "content/output/projects/mixed-initiative.json": {
@@ -762,40 +798,38 @@
       "sourceBase": "mixed-initiative.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/refazer.json": {
-      "id": "refazer",
-      "name": "Refazer",
-      "description": "Learning Syntactic Program Transformations from Examples",
-      "title": "Learning Syntactic Program Transformations from Examples",
+    "content/output/projects/tabby.json": {
+      "id": "tabby",
+      "name": "Tabby",
+      "description": "Explorable Design for 3D Printing Textures",
+      "title": "Tabby: Explorable Design for 3D Printing Textures",
       "authors": [
-        "Reudismam Rolim",
-        "Gustavo Soares",
-        "Loris D'Antoni",
-        "Oleksandr Polozov",
-        "Sumit Gulwani",
-        "Rohit Gheyi",
         "Ryo Suzuki",
-        "Björn Hartmann"
+        "Koji Yatani",
+        "Mark D. Gross",
+        "Tom Yeh"
       ],
-      "yera": 2017,
-      "booktitle": "In Proceedings of the 39th International Conference on Software Engineering (ICSE '17)",
-      "publisher": "IEEE Press, Piscataway, NJ, USA",
-      "pages": "404-415",
+      "year": 2018,
+      "booktitle": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
+      "publisher": "The Eurographics Association",
+      "pages": "1-4",
+      "doi": "https://doi.org/10.2312/pg.20181273",
       "conference": {
-        "name": "ICSE 2017",
-        "fullname": "The International Conference on Software Engineering (ICSE 2017)",
-        "url": "http://icse2017.gatech.edu/"
+        "name": "Pacific Graphics 2018",
+        "fullname": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
+        "url": "http://sweb.cityu.edu.hk/pg2018/"
       },
-      "pdf": "icse-2017-refazer.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
-      "arxiv": "https://arxiv.org/abs/1608.09000",
-      "pageCount": 12,
-      "slideCount": 0,
-      "image": "refazer.png",
+      "pdf": "pg-2018-tabby.pdf",
+      "video": "https://www.youtube.com/watch?v=rRgw8lH74CA",
+      "embed": "https://www.youtube.com/embed/rRgw8lH74CA",
+      "acm-dl": "https://diglib.eg.org/handle/10.2312/pg20181273",
+      "slide": "pg-2018-tabby-slide.pdf",
+      "pageCount": 4,
+      "slideCount": 40,
       "dir": "content/output/projects",
-      "base": "refazer.json",
+      "base": "tabby.json",
       "ext": ".json",
-      "sourceBase": "refazer.md",
+      "sourceBase": "tabby.md",
       "sourceExt": ".md"
     },
     "content/output/projects/trace-diff.json": {
@@ -856,38 +890,176 @@
       "sourceBase": "trace-diff.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/tabby.json": {
-      "id": "tabby",
-      "name": "Tabby",
-      "description": "Explorable Design for 3D Printing Textures",
-      "title": "Tabby: Explorable Design for 3D Printing Textures",
+    "content/output/projects/reactile.json": {
+      "id": "reactile",
+      "name": "Reactile",
+      "description": "Programming Swarm User Interfaces through Direct Physical Manipulation",
+      "title": "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation",
       "authors": [
         "Ryo Suzuki",
-        "Koji Yatani",
+        "Jun Kato",
         "Mark D. Gross",
         "Tom Yeh"
       ],
       "year": 2018,
-      "booktitle": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
-      "publisher": "The Eurographics Association",
-      "pages": "1-4",
-      "doi": "https://doi.org/10.2312/pg.20181273",
+      "booktitle": "In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "Paper 199, 13 pages",
+      "doi": "https://doi.org/10.1145/3173574.3173773",
       "conference": {
-        "name": "Pacific Graphics 2018",
-        "fullname": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
-        "url": "http://sweb.cityu.edu.hk/pg2018/"
+        "name": "CHI 2018",
+        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2018)",
+        "url": "https://chi2018.acm.org/"
       },
-      "pdf": "pg-2018-tabby.pdf",
-      "video": "https://www.youtube.com/watch?v=rRgw8lH74CA",
-      "embed": "https://www.youtube.com/embed/rRgw8lH74CA",
-      "acm-dl": "https://diglib.eg.org/handle/10.2312/pg20181273",
-      "slide": "pg-2018-tabby-slide.pdf",
-      "pageCount": 4,
-      "slideCount": 40,
+      "pdf": "chi-2018-reactile.pdf",
+      "video": "https://www.youtube.com/watch?v=Gb7brajKCVE",
+      "embed": "https://www.youtube.com/embed/Gb7brajKCVE",
+      "short-video": "https://www.youtube.com/watch?v=YT7vMJZjohU",
+      "slide": "chi-2018-reactile-slide.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3173773",
+      "github": "https://github.com/ryosuzuki/reactile",
+      "pageCount": 12,
+      "slideCount": 56,
       "dir": "content/output/projects",
-      "base": "tabby.json",
+      "base": "reactile.json",
       "ext": ".json",
-      "sourceBase": "tabby.md",
+      "sourceBase": "reactile.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/dynablock.json": {
+      "id": "dynablock",
+      "name": "Dynablock",
+      "description": "Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
+      "title": "Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
+      "authors": [
+        "Ryo Suzuki",
+        "Junichi Yamaoka",
+        "Daniel Leithinger",
+        "Tom Yeh",
+        "Mark D. Gross",
+        "Yoshihiro Kawahara",
+        "Yasuaki Kakehi"
+      ],
+      "year": 2018,
+      "booktitle": "In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (UIST '18)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "99-111",
+      "doi": "https://doi.org/10.1145/3242587.3242659",
+      "conference": {
+        "name": "UIST 2018",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2018)",
+        "url": "http://uist.acm.org/uist2018"
+      },
+      "pdf": "uist-2018-dynablock.pdf",
+      "video": "https://www.youtube.com/watch?v=7nPlr3O9xu8",
+      "embed": "https://www.youtube.com/embed/7nPlr3O9xu8",
+      "short-video": "https://www.youtube.com/watch?v=92eGI-gYYc4",
+      "slide": "uist-2018-dynablock-slide.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3242659",
+      "talk": "https://www.youtube.com/watch?v=R3FRUtOIiCQ",
+      "poster": "uist-2018-dynablock-poster.pdf",
+      "pageCount": 12,
+      "slideCount": 53,
+      "dir": "content/output/projects",
+      "base": "dynablock.json",
+      "ext": ".json",
+      "sourceBase": "dynablock.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/lift-tiles.json": {
+      "id": "lift-tiles",
+      "name": "LiftTiles",
+      "description": "Constructive Building Blocks for Prototyping Room-scale Shape-changing Interfaces",
+      "title": "LiftTiles: Constructive Building Blocks for Prototyping Room-scale Shape-changing Interfaces",
+      "authors": [
+        "Ryo Suzuki",
+        "Ryosuke Nakayama",
+        "Dan Liu",
+        "Yasuaki Kakehi",
+        "Mark D. Gross",
+        "Daniel Leithinger"
+      ],
+      "year": 2020,
+      "booktitle": "In Proceedings of the 14th ACM International Conference on Tangible, Embedded and Embodied Interaction (TEI '20)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "143–151",
+      "doi": "https://doi.org/10.1145/3374920.3374941",
+      "conference": {
+        "name": "TEI 2020",
+        "fullname": "The ACM International Conference on Tangible, Embedded and Embodied Interaction (TEI 2020)",
+        "url": "https://tei.acm.org/2020/"
+      },
+      "video": "https://www.youtube.com/watch?v=0LHeTkOMR84",
+      "embed": "https://www.youtube.com/embed/0LHeTkOMR84",
+      "pdf": "tei-2020-lift-tiles.pdf",
+      "slide": "tei-2020-lift-tiles-slide.pdf",
+      "poster": "uist-2019-lift-tiles-poster.pdf",
+      "pageCount": 9,
+      "slideCount": 37,
+      "related": {
+        "title": "LiftTiles: Modular and Reconfigurable Room-scale Shape Displays through Retractable Inflatable Actuators",
+        "authors": [
+          "Ryo Suzuki",
+          "Ryosuke Nakayama",
+          "Dan Liu",
+          "Yasuaki Kakehi",
+          "Mark D. Gross",
+          "Daniel Leithinger"
+        ],
+        "year": 2019,
+        "booktitle": "In Adjunct Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST '19)",
+        "publisher": "ACM, New York, NY, USA",
+        "pages": "1-3",
+        "doi": "https://doi.org/10.1145/3332167.3357105",
+        "url": "http://uist.acm.org/uist2019",
+        "pdf": "uist-2019-lift-tiles.pdf",
+        "suffix": "adjunct",
+        "pageCount": 3
+      },
+      "dir": "content/output/projects",
+      "base": "lift-tiles.json",
+      "ext": ".json",
+      "sourceBase": "lift-tiles.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/shapebots.json": {
+      "id": "shapebots",
+      "name": "ShapeBots",
+      "description": "Shape-changing Swarm Robots",
+      "title": "ShapeBots: Shape-changing Swarm Robots",
+      "authors": [
+        "Ryo Suzuki",
+        "Clement Zheng",
+        "Yasuaki Kakehi",
+        "Tom Yeh",
+        "Ellen Yi-Luen Do",
+        "Mark D. Gross",
+        "Daniel Leithinger"
+      ],
+      "year": 2019,
+      "booktitle": "In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST '19)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "1-13",
+      "doi": "https://doi.org/10.1145/3332165.3347911",
+      "conference": {
+        "name": "UIST 2019",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2019)",
+        "url": "http://uist.acm.org/uist2019"
+      },
+      "pdf": "uist-2019-shapebots.pdf",
+      "slide": "uist-2019-shapebots-slide.pdf",
+      "video": "https://www.youtube.com/watch?v=cwPaof0kKdM",
+      "embed": "https://www.youtube.com/embed/cwPaof0kKdM",
+      "github": "https://github.com/ryosuzuki/shapebots",
+      "poster": "uist-2019-shapebots-poster.pdf",
+      "demo": "https://ryosuzuki.github.io/shapebots-simulator/",
+      "arxiv": "https://arxiv.org/abs/1909.03372",
+      "pageCount": 13,
+      "slideCount": 53,
+      "dir": "content/output/projects",
+      "base": "shapebots.json",
+      "ext": ".json",
+      "sourceBase": "shapebots.md",
       "sourceExt": ".md"
     },
     "content/output/publications.json": [
@@ -996,177 +1168,6 @@
         "keywords": "crowd work, crowdsourcing, micro-internships"
       }
     ],
-    "content/output/projects/lift-tiles.json": {
-      "id": "lift-tiles",
-      "name": "LiftTiles",
-      "description": "Constructive Building Blocks for Prototyping Room-scale Shape-changing Interfaces",
-      "title": "LiftTiles: Constructive Building Blocks for Prototyping Room-scale Shape-changing Interfaces",
-      "authors": [
-        "Ryo Suzuki",
-        "Ryosuke Nakayama",
-        "Dan Liu",
-        "Yasuaki Kakehi",
-        "Mark D. Gross",
-        "Daniel Leithinger"
-      ],
-      "year": 2020,
-      "booktitle": "In Proceedings of the 14th ACM International Conference on Tangible, Embedded and Embodied Interaction (TEI '20)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "143–151",
-      "doi": "https://doi.org/10.1145/3374920.3374941",
-      "conference": {
-        "name": "TEI 2020",
-        "fullname": "The ACM International Conference on Tangible, Embedded and Embodied Interaction (TEI 2020)",
-        "url": "https://tei.acm.org/2020/"
-      },
-      "video": "https://www.youtube.com/watch?v=0LHeTkOMR84",
-      "embed": "https://www.youtube.com/embed/0LHeTkOMR84",
-      "pdf": "tei-2020-lift-tiles.pdf",
-      "slide": "tei-2020-lift-tiles-slide.pdf",
-      "poster": "uist-2019-lift-tiles-poster.pdf",
-      "pageCount": 9,
-      "slideCount": 37,
-      "related": {
-        "title": "LiftTiles: Modular and Reconfigurable Room-scale Shape Displays through Retractable Inflatable Actuators",
-        "authors": [
-          "Ryo Suzuki",
-          "Ryosuke Nakayama",
-          "Dan Liu",
-          "Yasuaki Kakehi",
-          "Mark D. Gross",
-          "Daniel Leithinger"
-        ],
-        "year": 2019,
-        "booktitle": "In Adjunct Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST '19)",
-        "publisher": "ACM, New York, NY, USA",
-        "pages": "1-3",
-        "doi": "https://doi.org/10.1145/3332167.3357105",
-        "url": "http://uist.acm.org/uist2019",
-        "pdf": "uist-2019-lift-tiles.pdf",
-        "suffix": "adjunct",
-        "pageCount": 3
-      },
-      "dir": "content/output/projects",
-      "base": "lift-tiles.json",
-      "ext": ".json",
-      "sourceBase": "lift-tiles.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/dynablock.json": {
-      "id": "dynablock",
-      "name": "Dynablock",
-      "description": "Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
-      "title": "Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
-      "authors": [
-        "Ryo Suzuki",
-        "Junichi Yamaoka",
-        "Daniel Leithinger",
-        "Tom Yeh",
-        "Mark D. Gross",
-        "Yoshihiro Kawahara",
-        "Yasuaki Kakehi"
-      ],
-      "year": 2018,
-      "booktitle": "In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (UIST '18)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "99-111",
-      "doi": "https://doi.org/10.1145/3242587.3242659",
-      "conference": {
-        "name": "UIST 2018",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2018)",
-        "url": "http://uist.acm.org/uist2018"
-      },
-      "pdf": "uist-2018-dynablock.pdf",
-      "video": "https://www.youtube.com/watch?v=7nPlr3O9xu8",
-      "embed": "https://www.youtube.com/embed/7nPlr3O9xu8",
-      "short-video": "https://www.youtube.com/watch?v=92eGI-gYYc4",
-      "slide": "uist-2018-dynablock-slide.pdf",
-      "acm-dl": "https://dl.acm.org/citation.cfm?id=3242659",
-      "talk": "https://www.youtube.com/watch?v=R3FRUtOIiCQ",
-      "poster": "uist-2018-dynablock-poster.pdf",
-      "pageCount": 12,
-      "slideCount": 53,
-      "dir": "content/output/projects",
-      "base": "dynablock.json",
-      "ext": ".json",
-      "sourceBase": "dynablock.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/reactile.json": {
-      "id": "reactile",
-      "name": "Reactile",
-      "description": "Programming Swarm User Interfaces through Direct Physical Manipulation",
-      "title": "Reactile: Programming Swarm User Interfaces through Direct Physical Manipulation",
-      "authors": [
-        "Ryo Suzuki",
-        "Jun Kato",
-        "Mark D. Gross",
-        "Tom Yeh"
-      ],
-      "year": 2018,
-      "booktitle": "In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "Paper 199, 13 pages",
-      "doi": "https://doi.org/10.1145/3173574.3173773",
-      "conference": {
-        "name": "CHI 2018",
-        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2018)",
-        "url": "https://chi2018.acm.org/"
-      },
-      "pdf": "chi-2018-reactile.pdf",
-      "video": "https://www.youtube.com/watch?v=Gb7brajKCVE",
-      "embed": "https://www.youtube.com/embed/Gb7brajKCVE",
-      "short-video": "https://www.youtube.com/watch?v=YT7vMJZjohU",
-      "slide": "chi-2018-reactile-slide.pdf",
-      "acm-dl": "https://dl.acm.org/citation.cfm?id=3173773",
-      "github": "https://github.com/ryosuzuki/reactile",
-      "pageCount": 12,
-      "slideCount": 56,
-      "dir": "content/output/projects",
-      "base": "reactile.json",
-      "ext": ".json",
-      "sourceBase": "reactile.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/shapebots.json": {
-      "id": "shapebots",
-      "name": "ShapeBots",
-      "description": "Shape-changing Swarm Robots",
-      "title": "ShapeBots: Shape-changing Swarm Robots",
-      "authors": [
-        "Ryo Suzuki",
-        "Clement Zheng",
-        "Yasuaki Kakehi",
-        "Tom Yeh",
-        "Ellen Yi-Luen Do",
-        "Mark D. Gross",
-        "Daniel Leithinger"
-      ],
-      "year": 2019,
-      "booktitle": "In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST '19)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "1-13",
-      "doi": "https://doi.org/10.1145/3332165.3347911",
-      "conference": {
-        "name": "UIST 2019",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2019)",
-        "url": "http://uist.acm.org/uist2019"
-      },
-      "pdf": "uist-2019-shapebots.pdf",
-      "slide": "uist-2019-shapebots-slide.pdf",
-      "video": "https://www.youtube.com/watch?v=cwPaof0kKdM",
-      "embed": "https://www.youtube.com/embed/cwPaof0kKdM",
-      "github": "https://github.com/ryosuzuki/shapebots",
-      "poster": "uist-2019-shapebots-poster.pdf",
-      "demo": "https://ryosuzuki.github.io/shapebots-simulator/",
-      "pageCount": 13,
-      "slideCount": 53,
-      "dir": "content/output/projects",
-      "base": "shapebots.json",
-      "ext": ".json",
-      "sourceBase": "shapebots.md",
-      "sourceExt": ".md"
-    },
     "content/output/projects/morphio.json": {
       "id": "morphio",
       "name": "MorphIO",
@@ -1202,40 +1203,6 @@
       "base": "morphio.json",
       "ext": ".json",
       "sourceBase": "morphio.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/roomshift.json": {
-      "id": "roomshift",
-      "name": "RoomShift",
-      "description": "Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
-      "title": "RoomShift: Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
-      "authors": [
-        "Ryo Suzuki",
-        "Hooman Hedayati",
-        "Clement Zheng",
-        "James Bohn",
-        "Daniel Szafir",
-        "Ellen Yi-Luen Do",
-        "Mark D Gross",
-        "Daniel Leithinger"
-      ],
-      "year": 2020,
-      "booktitle": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI '20)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "Paper 396, 11 pages",
-      "doi": "https://doi.org/10.1145/3313831.3376523",
-      "conference": {
-        "name": "CHI 2020",
-        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2020)",
-        "url": "https://chi2020.acm.org/"
-      },
-      "pdf": "chi-2020-roomshift.pdf",
-      "pageCount": 11,
-      "slideCount": 0,
-      "dir": "content/output/projects",
-      "base": "roomshift.json",
-      "ext": ".json",
-      "sourceBase": "roomshift.md",
       "sourceExt": ".md"
     },
     "content/output/projects/phd-thesis.json": {
@@ -1301,12 +1268,48 @@
       },
       "pdf": "iros-2020-pufferbot.pdf",
       "video": "https://www.youtube.com/watch?v=XtPepCxWcBg",
+      "embed": "https://www.youtube.com/embed/XtPepCxWcBg",
+      "arxiv": "https://arxiv.org/abs/2008.07615",
       "pageCount": 6,
       "slideCount": 0,
       "dir": "content/output/projects",
       "base": "pufferbot.json",
       "ext": ".json",
       "sourceBase": "pufferbot.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/roomshift.json": {
+      "id": "roomshift",
+      "name": "RoomShift",
+      "description": "Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
+      "title": "RoomShift: Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
+      "authors": [
+        "Ryo Suzuki",
+        "Hooman Hedayati",
+        "Clement Zheng",
+        "James Bohn",
+        "Daniel Szafir",
+        "Ellen Yi-Luen Do",
+        "Mark D Gross",
+        "Daniel Leithinger"
+      ],
+      "year": 2020,
+      "booktitle": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI '20)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "Paper 396, 11 pages",
+      "doi": "https://doi.org/10.1145/3313831.3376523",
+      "conference": {
+        "name": "CHI 2020",
+        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2020)",
+        "url": "https://chi2020.acm.org/"
+      },
+      "pdf": "chi-2020-roomshift.pdf",
+      "pageCount": 11,
+      "slideCount": 0,
+      "dir": "content/output/projects",
+      "base": "roomshift.json",
+      "ext": ".json",
+      "sourceBase": "roomshift.md",
       "sourceExt": ".md"
     },
     "content/output/projects/realitysketch.json": {
@@ -1333,6 +1336,8 @@
         "url": "https://uist.acm.org/uist2020/"
       },
       "pdf": "uist-2020-realitysketch.pdf",
+      "video": "https://www.youtube.com/watch?v=L0p-BNU9rXU",
+      "embed": "https://www.youtube.com/embed/L0p-BNU9rXU",
       "pageCount": 16,
       "slideCount": 0,
       "dir": "content/output/projects",
