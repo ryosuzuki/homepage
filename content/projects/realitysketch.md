@@ -20,8 +20,8 @@ conference:
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2020)
   url: https://uist.acm.org/uist2020/
 pdf: uist-2020-realitysketch.pdf
-# video: https://www.youtube.com/watch?v=XtPepCxWcBg
-# embed: https://www.youtube.com/embed/XtPepCxWcBg
+video: https://www.youtube.com/watch?v=L0p-BNU9rXU
+embed: https://www.youtube.com/embed/L0p-BNU9rXU
 # arxiv: https://arxiv.org/abs/xxx
 pageCount: 16
 slideCount: 0
