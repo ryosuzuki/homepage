@@ -22,7 +22,7 @@ conference:
 pdf: uist-2020-realitysketch.pdf
 video: https://www.youtube.com/watch?v=L0p-BNU9rXU
 embed: https://www.youtube.com/embed/L0p-BNU9rXU
-# arxiv: https://arxiv.org/abs/xxx
+arxiv: https://arxiv.org/abs/2008.08688
 pageCount: 16
 slideCount: 0
 ---

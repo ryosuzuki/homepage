@@ -25,6 +25,7 @@ conference:
 # embed: https://www.youtube.com/embed/SYCmftQCilU
 pdf: chi-2020-roomshift.pdf
 # poster: uist-2019-lift-tiles-poster.pdf
+arxiv: https://arxiv.org/abs/2008.08695
 pageCount: 11
 slideCount: 0
 
