@@ -2,7 +2,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
-const ids = ['pufferbot', 'roomshift', 'lift-tiles', 'shapebots', 'morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
+const ids = ['realitysketch', 'pufferbot', 'roomshift', 'lift-tiles', 'shapebots', 'morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
 
 let projects = []
 for (let id of ids) {
@@ -70,6 +70,7 @@ class Projects extends React.Component {
                       <span>{ project.name }</span>
                     <span className="ui big label">{ project.conference.name }</span>
                     <span className="ui teal large label" style={{ display: ['morphio'].includes(project.id) ? 'inline-block' : 'none' }}>Best Paper Award</span>
+                    <span className="ui teal large label" style={{ display: ['realitysketch'].includes(project.id) ? 'inline-block' : 'none' }}>Honorable Mention Award</span>
                   </h1>
                   <h2 style={{ margin: '5px 0' }}>
                     { project.description }

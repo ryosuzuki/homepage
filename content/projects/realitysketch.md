@@ -17,7 +17,7 @@ pages: 1-16
 doi: https://doi.org/10.1145/3379337.3415892
 conference:
   name: UIST 2020
-  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2020)
+  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2020) - Honorable Mention Award
   url: https://uist.acm.org/uist2020/
 pdf: uist-2020-realitysketch.pdf
 video: https://www.youtube.com/watch?v=L0p-BNU9rXU
