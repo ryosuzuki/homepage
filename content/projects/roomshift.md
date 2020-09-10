@@ -21,8 +21,9 @@ conference:
   name: CHI 2020
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2020)
   url: https://chi2020.acm.org/
-# video: https://www.youtube.com/watch?v=SYCmftQCilU
-# embed: https://www.youtube.com/embed/SYCmftQCilU
+video: https://www.youtube.com/watch?v=6_PAirnlDnk
+embed: https://www.youtube.com/embed/6_PAirnlDnk
+short-video: https://www.youtube.com/watch?v=4OWU60gTOFE
 pdf: chi-2020-roomshift.pdf
 # poster: uist-2019-lift-tiles-poster.pdf
 arxiv: https://arxiv.org/abs/2008.08695
@@ -32,7 +33,6 @@ slideCount: 0
 # image: dynablock.jpg
 ---
 
-video coming soon.
 
 # Abstract
 
