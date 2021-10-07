@@ -24,7 +24,7 @@ class Profile extends React.Component {
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>, starting in Fall 2020.
+              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>, starting in Winter 2021.
               I am part of <a href="https://ilab.cpsc.ucalgary.ca/" target="_blank"><b>HCI Group</b></a> at UCalgary.
             </p>
             <div class="ui segment" style={{ borderColor: '#191970' }}>
@@ -63,7 +63,7 @@ class Profile extends React.Component {
             </div>
             */}
             <p>
-              My research interest lies on the intersection between <b>Human-Computer Interaction (HCI)</b> and <b>Robotics</b>. During my PhD, I have developed novel <b>shape-changing interfaces</b> that leverage <b>swarm and soft robots at various scales</b> (i.e., from mm- to m-scale). My research explores how we can make the <b>physical environment more adaptive</b> with context-aware swarm robotic assistant that can be embedded into our everyday life.
+              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b> and <b>Robotics</b>. I lead <b>Programmable Reality Lab</b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, tangible, and shape-changing interfaces</b>.
             </p>
             <p>
               Previously, I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>

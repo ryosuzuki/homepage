@@ -2,7 +2,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
-const ids = ['realitysketch', 'pufferbot', 'roomshift', 'lift-tiles', 'shapebots', 'morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
+const ids = ['hapticbots', 'realitysketch', 'pufferbot', 'roomshift', 'lift-tiles', 'shapebots', 'morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
 
 let projects = []
 for (let id of ids) {

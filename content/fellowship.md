@@ -1,6 +1,22 @@
 
 ## Funding
 
+**Mitacs Globalink Research Award**, $6,000
+https://www.mitacs.ca/en/programs/globalink/globalink-research-award
+
+**Mitacs Globalink Research Internship Funding**
+https://www.mitacs.ca/en/programs/globalink/globalink-research-internship
+
+**Snap Creative Challenge Funding**, $15,000
+https://www.snapcreativechallenge.com/
+
+**NSERC USRA**, $6,000 x 2
+
+**Tohoku University Research Institute of Electrical Communication, Cooperative Research Projects**, $18,000
+https://www.riec.tohoku.ac.jp/en/nation-wide/koubo/r3/
+
+**NSERC Discovery Grant Funding**, $145,000
+
 **Innovation Research Funding** - Ministry of Internal Affairs and Communications in Japan, 2020
 (*Title: Adaptive Physical Environments with Distributed Swarm Robots. , $30,000*)
 

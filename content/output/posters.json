@@ -1,5 +1,22 @@
 [
   {
+    "author": "Martin Nisser, Leon Cheng, Yashaswini Makaram, Ryo Suzuki, Stefanie Mueller",
+    "title": "Programmable Polarities: Actuating Interactive Prototypes withProgrammable Electromagnets",
+    "pdf": "uist-2021-programmable.pdf",
+    "booktitle": "Adjunct Proceedings of the 34th Annual ACM Symposium on User Interface Software & Technology",
+    "series": "UIST '21 Demo",
+    "year": 2021,
+    "isbn": "978-1-4503-4656-6",
+    "location": "New Orleans, Louisiana, USA",
+    "pages": "2951--2958",
+    "numpages": 2,
+    "doi": "xxx/xxx",
+    "acmid": 3053187,
+    "publisher": "ACM",
+    "address": "New York, NY, USA",
+    "keywords": "modular self-reconfigurable robots"
+  },
+  {
     "author": "Ryo Suzuki,",
     "title": "Collective Shape-changing Interfaces",
     "pdf": "uist-2019-collective.pdf",
