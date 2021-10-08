@@ -19,13 +19,13 @@ conference:
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2021)
   url: http://uist.acm.org/uist2021
 pdf: uist-2021-hapticbots.pdf
-slide: uist-2019-hapticbots-slide.pdf
+slide: uist-2021-hapticbots-slide.pdf
 video: https://www.youtube.com/watch?v=HTiZgOESJyQ
 embed: https://www.youtube.com/embed/HTiZgOESJyQ
 github: https://github.com/ryosuzuki/hapticbots
 arxiv: https://arxiv.org/abs/2108.10829
 pageCount: 13
-slideCount: 53
+slideCount: 21
 # image: dynablock.jpg
 ---
 
@@ -39,12 +39,9 @@ HapticBots introduces a novel encountered-type haptic approach for Virtual Reali
 </video>
 
 
-<div class="figures ui two column grid">
+<div class="figures ui one column grid">
   <div class="figure column">
-    <a href="/static/projects/hapticbots/figure-1-2.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-1-2.jpg" /></a>
-  </div>
-  <div class="figure column">
-    <a href="/static/projects/hapticbots/figure-1-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-1-1.jpg" /></a>
+    <a href="/static/projects/hapticbots/figure-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-1.jpg" /></a>
   </div>
 </div>
 
@@ -61,22 +58,51 @@ HapticBots introduces a novel encountered-type haptic approach for Virtual Reali
 </div>
 
 
-# Introduction
+
+
+<div class="figures ui three column grid">
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-3-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-3-1.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-3-2.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-3-2.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-3-3.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-3-3.jpg" /></a>
+  </div>
+</div>
+
+
+# Distributed Encountered-type Haptics
 
 This paper introduces a novel encountered-type haptics approach, which we call **distributed encountered-type haptics**. Distributed encountered-type haptics employ multiple shape-changing mobile robots to simulate a consistent physical object that the user can encounter through hands or fngers. By synchronously controlling multiple robots, these robots can approximate diferent objects and surfaces distributed in a large interaction area.
 
 
-<div class="figures ui one column grid">
+<div class="figures ui three column grid">
   <div class="figure column">
-    <a href="/static/projects/hapticbots/figure-3.png" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-3.png" /></a>
+    <a href="/static/projects/hapticbots/figure-4-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-4-1.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-4-2.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-4-2.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-4-3.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-4-3.jpg" /></a>
   </div>
 </div>
 
+
+<div class="figures ui one column grid">
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-5.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-5.jpg" /></a>
+  </div>
+</div>
+
+
 Our proposed approach enables deployable, scalable, and general- purpose encountered-type haptics for VR, providing a number of advantages compared to the existing approaches, including shape displays, robotic arms, and non-transformable mobile robots.
 
-1. *Deployable*: Each mobile robot is light and compact, making the system portable and easy to deploy.
-2. *Scalable*: Since each robot is simple and modular, it can scale to increase the number of touch-points and covered area. Moreover, the use of multiple robots can reduce the average distance that a robot needs to travel, which reduces the robots’ speed requirements.
-3. *General-purpose*: Finally, the shape-changing capability of each robot can signifcantly increase the expressive- ness of haptic rendering by transforming itself to closely match with the virtual object on-demand and in real-time. This allows for greater fexibility needed for general-purpose applications.
+1. **Deployable**: Each mobile robot is light and compact, making the system portable and easy to deploy.
+2. **Scalable**: Since each robot is simple and modular, it can scale to increase the number of touch-points and covered area. Moreover, the use of multiple robots can reduce the average distance that a robot needs to travel, which reduces the robots’ speed requirements.
+3. **General-purpose**: Finally, the shape-changing capability of each robot can signifcantly increase the expressive- ness of haptic rendering by transforming itself to closely match with the virtual object on-demand and in real-time. This allows for greater fexibility needed for general-purpose applications.
 
 <div class="figures ui one column grid">
   <div class="figure column">
@@ -95,28 +121,65 @@ To demonstrate this idea, we built HapticBots, an open source 1 tabletop shape- 
 
 <div class="figures ui two column grid">
   <div class="figure column">
-    <a href="/static/projects/hapticbots/figure-5-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-5-1.jpg" /></a>
+    <a href="/static/projects/hapticbots/figure-7-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-7-1.jpg" /></a>
   </div>
   <div class="figure column">
-    <a href="/static/projects/hapticbots/figure-5-2.png" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-5-2.png" /></a>
+    <a href="/static/projects/hapticbots/figure-7-2.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-7-2.jpg" /></a>
   </div>
 </div>
 
-<div class="figures ui two column grid">
-  <div class="figure column">
-    <a href="/static/projects/hapticbots/figure-6-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-6-1.jpg" /></a>
-  </div>
-  <div class="figure column">
-    <a href="/static/projects/hapticbots/figure-6-2.png" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-6-2.png" /></a>
-  </div>
-</div>
+
 
 Our HapticBots’ hardware design is inspired by ShapeBots [50], but as far as we know, our system is the frst exploration of using multiple tabletop shape-changing robots for VR haptics. Apply- ing to VR haptics introduces a set of challenging requirements, which led to a new distributed haptics system design as well as to new hardware for each of the robots: 1) Efcient path planning integrated with real-time hand tracking: The system coordinates the movements of all robots with the user’s hand. We track and anticipate potential touch points at a high frame rate (60 FPS) and guide the robots to encounter the user’s hands in a just in time fashion. 2) Precise height and tilt control: In contrast to ShapeBots’ open-loop system, HapticBots enables more precise height and tilt control with embedded encoders and closed-loop control system to render surfaces with varying normal angles. 3) Actuator robust- ness: We vastly improved actuator force by around 70x (21.8N vs. 0.3N holding force of [50]) to provide meaningful force feedback. In addition to these technical contributions, we developed various VR applications to demonstrate the new possibilities for encoun- tered haptics, including remote collaboration, medical training, 3D modeling, and entertainment.
+
+
+<div class="figures ui three column grid">
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-11-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-11-1.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-11-2.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-11-2.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-11-3.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-11-3.jpg" /></a>
+  </div>
+</div>
+
+
+<div class="figures ui three column grid">
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-12-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-12-1.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-12-2.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-12-2.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-12-3.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-12-3.jpg" /></a>
+  </div>
+</div>
+
 
 <video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/hapticbots/video/transformation.webm" type="video/webm"></source>
   <source src="/static/projects/hapticbots/video/transformation.mp4" type="video/mp4"></source>
 </video>
+
+
+<div class="figures ui two column grid">
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-9.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-9.jpg" /></a>
+  </div>
+</div>
+
+<div class="figures ui two column grid">
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-8-1.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-8-1.jpg" /></a>
+  </div>
+  <div class="figure column">
+    <a href="/static/projects/hapticbots/figure-8-2.jpg" data-lightbox="lightbox"><img src="/static/projects/hapticbots/figure-8-2.jpg" /></a>
+  </div>
+</div>
+
 
 Our system consists of multiple coordinated height-changing robots and the associated VR software. Each robot is made of 1) custom-built shape-changing mechanisms with reel-based actuators, and 2) an off-the-shelf mobile robot (Sony Toio) that can move on a mat printed with a pattern for position tracking. For the VR system, we used Oculus Quest HMD and its hand tracking capability for interaction. The software system synchronizes virtual scenes with physical environment (e.g., each robot’s position, orientation, and height), so that the robots can provide a haptic sensation in a timely manner. This section describes the design and implementation of the both hardware and software systems, then provides technical evaluation of HapticBots prototype.
 
