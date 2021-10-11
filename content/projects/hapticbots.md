@@ -20,8 +20,10 @@ conference:
   url: http://uist.acm.org/uist2021
 pdf: uist-2021-hapticbots.pdf
 slide: uist-2021-hapticbots-slide.pdf
-video: https://www.youtube.com/watch?v=HTiZgOESJyQ
-embed: https://www.youtube.com/embed/HTiZgOESJyQ
+acm-dl: https://doi.org/10.1145/3472749.3474821
+video: https://www.youtube.com/watch?v=s5NVJMYhfjk
+short-video: https://www.youtube.com/watch?v=HTiZgOESJyQ
+embed: https://www.youtube.com/embed/s5NVJMYhfjk
 github: https://github.com/ryosuzuki/hapticbots
 arxiv: https://arxiv.org/abs/2108.10829
 pageCount: 13
@@ -33,7 +35,7 @@ slideCount: 21
 
 HapticBots introduces a novel encountered-type haptic approach for Virtual Reality (VR) based on multiple tabletop-size shape-changing robots. These robots move on a tabletop and change their height and orientation to haptically render various surfaces and objects on-demand. Compared to previous encountered-type haptic approaches like shape displays or robotic arms, our proposed approach has an advantage in deployability, scalability, and generalizability---these robots can be easily deployed due to their compact form factor. They can support multiple concurrent touch points in a large area thanks to the distributed nature of the robots. We propose and evaluate a novel set of interactions enabled by these robots which include: 1) rendering haptics for VR objects by providing just-in- time touch-points on the user’s hand, 2) simulating continuous surfaces with the concurrent height and position change, and 3) enabling the user to pick up and move VR objects through graspable proxy objects. Finally, we demonstrate HapticBots with various ap- plications, including remote collaboration, education and training, design and 3D modeling, and gaming and entertainment.
 
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/hapticbots/video-poster/top.jpg" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/hapticbots/video/top.mp4" type="video/mp4"></source>
 </video>
 
@@ -70,7 +72,7 @@ Diferent approaches have been developed for encountered-type haptics: from groun
 # Distributed Encountered-type Haptics
 
 
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/hapticbots/video-poster/surface.jpg" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/hapticbots/video/surface.mp4" type="video/mp4"></source>
 </video>
 
@@ -139,7 +141,7 @@ To demonstrate this idea, we built HapticBots, an open source 1 tabletop shape- 
 Our HapticBots’ hardware design is inspired by ShapeBots, but as far as we know, our system is the frst exploration of using multiple tabletop shape-changing robots for VR haptics. Apply- ing to VR haptics introduces a set of challenging requirements, which led to a new distributed haptics system design as well as to new hardware for each of the robots: 1) Efcient path planning integrated with real-time hand tracking: The system coordinates the movements of all robots with the user’s hand. We track and anticipate potential touch points at a high frame rate (60 FPS) and guide the robots to encounter the user’s hands in a just in time fashion. 2) Precise height and tilt control: In contrast to ShapeBots’ open-loop system, HapticBots enables more precise height and tilt control with embedded encoders and closed-loop control system to render surfaces with varying normal angles. 3) Actuator robust- ness: We vastly improved actuator force by around 70x (21.8N vs. 0.3N holding force of ShapeBots) to provide meaningful force feedback. In addition to these technical contributions, we developed various VR applications to demonstrate the new possibilities for encoun- tered haptics, including remote collaboration, medical training, 3D modeling, and entertainment.
 
 
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/hapticbots/video-poster/robot.jpg" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/hapticbots/video/robot.mp4" type="video/mp4"></source>
 </video>
 
@@ -173,7 +175,7 @@ For the reel, we use an of-the-shelf metal tape measure reel (Crescent Lufkin CS
   </div>
 </div>
 
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/hapticbots/video-poster/surface-3.jpg" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/hapticbots/video/surface-3.mp4" type="video/mp4"></source>
 </video>
 
@@ -206,7 +208,7 @@ For the virtual reality environment and gestural tracking, we use an Oculus Ques
 We use the Unity game engine to render a virtual environment. As each robot moves along the planar surface, it constantly changes its height and orien- tation to best ft the virtual surface above it. To obtain the target height and surface normal of the robot, the system uses a vertical ray casting to measure the height of the virtual contact point given its position on the desk.
 
 
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/hapticbots/video-poster/control.jpg" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/hapticbots/video/control.mp4" type="video/mp4"></source>
 </video>
 
@@ -226,7 +228,7 @@ We use the Unity game engine to render a virtual environment. As each robot move
 VR is an accessible way to create realistic training setups to improve skills or prepare for complex situations before they happen in real life. With its fast encounter-type approach, users of HapticBots can train their muscle memory to learn where diferent physical elements such as the interface of a fight cockpit are located (Figure 2). HapticBots can simulate continuous surfaces, and the robots can follow the user’s fngers as they move and even elevate them during palpation diagnostics. These features could be relevant for medical education and surgery training.
 
 
-<video preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
+<video poster="/static/projects/hapticbots/video-poster/applications.jpg" preload="metadata" autoPlay loop muted playsInline webkit-playsinline="">
   <source src="/static/projects/hapticbots/video/applications.mp4" type="video/mp4"></source>
 </video>
 
