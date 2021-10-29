@@ -63,14 +63,15 @@ class Profile extends React.Component {
             </div>
             */}
             <p>
-              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b> and <b>Robotics</b>. I lead <b>Programmable Reality Lab</b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, tangible, and shape-changing interfaces</b>.
+              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b> and <b>Robotics</b>. I direct <b><a href="https://programmable-reality-lab.github.io/" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, tangible, and shape-changing interfaces</b>.
             </p>
+
             <p>
               Previously, I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
-
             </p>
+
               {/*
                 I make <b>a dynamic medium</b> for <b>human-computer interaction</b>. More specifically, I explore a novel computational medium that can potentially augment and transform our ways of thinking, designing, understanding, creating, communicating, and exploring ideas. I believe such a computational medium will not be only limited on a computer screen, but will become <b>a whole environment</b>, including space and physical objects, that can dynamically change and leverage our entire bodies to explore ideas, just like what we do in a science museum.
               */}
@@ -140,6 +141,10 @@ class Profile extends React.Component {
               </a>
             </div>
 
+            <a id="lab" href="https://programmable-reality-lab.github.io/" target="_blank">
+              <h1>Programmable Reality Lab</h1>
+              <img src="/static/images/lab-1.jpg"></img>
+            </a>
 
           </div>
 
