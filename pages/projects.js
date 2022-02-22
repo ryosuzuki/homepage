@@ -2,7 +2,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
-const ids = ['hapticbots', 'realitysketch', 'pufferbot', 'roomshift', 'lift-tiles', 'shapebots', 'morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
+const ids = ['ar-and-robotics', 'electro-voxel', 'hapticbots', 'realitysketch', 'pufferbot', 'roomshift', 'lift-tiles', 'shapebots', 'morphio', 'dynablock', 'tabby', 'reactile', 'pep', 'flux-marker', 'trace-diff', 'mixed-initiative', 'refazer', 'atelier']
 
 let projects = []
 for (let id of ids) {
@@ -47,11 +47,15 @@ class Projects extends React.Component {
 
         <h1>Full Papers</h1>
         { projects.map((project) => {
+          let link = `/${ project.id }`
+          if (project.external) {
+            link = project.external
+          }
           return (
             <div className="project ui vertical segment stackable grid" data-id={ project.id } >
               <div className="six wide column">
                 { project.image &&
-                <a href={ `/${ project.id }` }>
+                <a href={ link } target="_blank">
                   <img className="ui rounded images" src={ `/static/images/${ project.image }` } />
                 </a>
                 }
@@ -65,7 +69,7 @@ class Projects extends React.Component {
                 }
               </div>
               <div className="ten wide column">
-                <a href={ `/${ project.id }` }>
+                <a href={ link } target="_blank">
                   <h1 className="ui header" style={{ marginBottom: '10px' }}>
                       <span>{ project.name }</span>
                     <span className="ui big label">{ project.conference.name }</span>
