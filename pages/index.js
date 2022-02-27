@@ -61,7 +61,7 @@ class Index extends React.Component {
 
               <div className="ui divider"></div>
               <div id="press">
-                <h1>Selected Press Coverage</h1>
+                <h1>Press Coverage</h1>
                 <div className="ui vertical segment">
                 <div className="ui bulleted list">
                   { press.map((item) => {

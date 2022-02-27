@@ -1,4 +1,4 @@
-**Program Committee**: CHI 2022, TEI 2022, UIST 2021, ISMAR 2021, VRST 2021, TEI 2021, GI 2020
+**Program Committee**: UIST 2022, CHI 2022, TEI 2022, UIST 2021, ISMAR 2021, VRST 2021, TEI 2021, GI 2020
 
 **Journal Editorial Board**: ACM Transactions of Human-Robot Interaction, Frontiers in Virtual Reality Haptics
 

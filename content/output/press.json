@@ -1,5 +1,159 @@
 [
   {
+    "date": "2022-02",
+    "tag": "electro-voxel",
+    "media": "Engadget",
+    "title": "Scientists create cube robots that can shapeshift in space",
+    "url": "https://www.engadget.com/shapeshifting-robots-space-exploration-mit-csail-electrovoxels-140026431.html"
+  },
+  {
+    "date": "2022-02",
+    "tag": "electro-voxel",
+    "media": "TechXplore",
+    "title": "Robotic cubes: Self-reconfiguring ElectroVoxels use embedded electromagnets to test applications for space exploration",
+    "url": "https://techxplore.com/news/2022-02-robotic-cubes-self-reconfiguring-electrovoxels-embedded.html"
+  },
+  {
+    "date": "2022-02",
+    "tag": "electro-voxel",
+    "media": "TechEBlog",
+    "title": "MIT Researchers Develop Shape-Shifting ElectroVoxel Robots for Space Exploration",
+    "url": "https://www.techeblog.com/mit-electrovoxel-shape-shifting-robot-space/"
+  },
+  {
+    "date": "2022-02",
+    "tag": "electro-voxel",
+    "media": "IEEE Spectrum",
+    "title": "Video Friday: Your weekly selection of awesome robot videos",
+    "url": "https://spectrum.ieee.org/video-friday-lunar-rover"
+  },
+  {
+    "date": "2022-02",
+    "tag": "electro-voxel",
+    "media": "Arduino Blog",
+    "title": "ElectroVoxel robots reconfigure themselves using magnets",
+    "url": "https://blog.arduino.cc/2022/02/08/electrovoxel-robots-reconfigure-themselves-using-magnets/"
+  },
+  {
+    "date": "2022-02",
+    "tag": "electro-voxel",
+    "media": "Hackster.io",
+    "title": "These Magnetic Robots Assemble Like Voltron",
+    "url": "https://www.hackster.io/news/these-magnetic-robots-assemble-like-voltron-37e4b1f4ec5d"
+  },
+  {
+    "date": "2021-11",
+    "tag": "snap",
+    "media": "UCalgary News",
+    "title": "“Touchable spoken words” bring the fantastic to life",
+    "url": "https://science.ucalgary.ca/news/touchable-spoken-words-bring-fantastic-life"
+  },
+  {
+    "date": "2021-07",
+    "tag": "roomshift",
+    "media": "IEEE Computer Graphics and Applications",
+    "title": "Cover Story of “Real Virtual Reality” (vol. 41)",
+    "url": "https://www.computer.org/csdl/magazine/cg/2021/04/09487526/1vg3mB6LNJe"
+  },
+  {
+    "date": "2021-03",
+    "tag": "realitysketch",
+    "media": "IT Media News",
+    "title": "Evolution of “AR Drawing”? RealitySketch, a sketching technology that works with objects in reality",
+    "url": "https://www.itmedia.co.jp/news/articles/2103/18/news027.html"
+  },
+  {
+    "date": "2020-12",
+    "tag": "realitysketch",
+    "media": "TechXplore",
+    "title": "RealitySketch: An AR interface to create responsive sketches",
+    "url": "https://techxplore.com/news/2020-12-realitysketch-ar-interface-responsive.html"
+  },
+  {
+    "date": "2020-10",
+    "tag": "pufferbot",
+    "media": "ACM TechNews",
+    "title": "Pufferfish-inspired robot could improve drone safety",
+    "url": "https://cacm.acm.org/news/248245-pufferfish-inspired-robot-could-improve-drone-safety/fulltext"
+  },
+  {
+    "date": "2020-10",
+    "tag": "pufferbot",
+    "media": "Interesting Engineering",
+    "title": "Pufferfish Mimicking Drones to Improve Aerial Safety",
+    "url": "https://interestingengineering.com/pufferfish-mimicking-drones-to-improve-aerial-safety"
+  },
+  {
+    "date": "2020-10",
+    "tag": "pufferbot",
+    "media": "New Atlas",
+    "title": "Drone draws on the pufferfish to protect itself and others",
+    "url": "https://newatlas.com/drones/pufferbot-drone"
+  },
+  {
+    "date": "2020-10",
+    "tag": "roomshift",
+    "media": "Techable",
+    "title": "University of Colorado researchers unveil ’RoomShift’ to move props in VR space in real life",
+    "url": "https://techable.jp/archives/139024"
+  },
+  {
+    "date": "2020-10",
+    "tag": "roomshift",
+    "media": "Hackster.io",
+    "title": "Putting the Reality in Virtual Reality",
+    "url": "https://www.hackster.io/news/putting-the-reality-in-virtual-reality-8c21db67e605"
+  },
+  {
+    "date": "2020-09",
+    "tag": "pufferbot",
+    "media": "Hackster.io",
+    "title": "PufferBot Is an Aerial Robot That Can Change Shape In-Flight",
+    "url": "https://www.hackster.io/news/pufferbot-is-an-aerial-robot-that-can-change-shape-in-flight-0be9c211ce07"
+  },
+  {
+    "date": "2020-09",
+    "tag": "roomshift",
+    "media": "TechXplore",
+    "title": "RoomShift: A room-scale haptic and dynamic environment for VR applications",
+    "url": "https://techxplore.com/news/2020-09-roomshift-room-scale-haptic-dynamic-environment.html"
+  },
+  {
+    "date": "2020-09",
+    "tag": "pufferbot",
+    "media": "Engineering 360",
+    "title": "Team builds drone inspired by the pufferfish",
+    "url": "https://insights.globalspec.com/article/15041/team-builds-drone-inspired-by-the-pufferfish"
+  },
+  {
+    "date": "2020-09",
+    "tag": "roomshift",
+    "media": "TechXplore",
+    "title": "PufferBot: A flying robot with an expandable body",
+    "url": "https://techxplore.com/news/2020-09-pufferbot-robot-body.html"
+  },
+  {
+    "date": "2020-09",
+    "tag": "roomshift",
+    "media": "Yahoo News Japan",
+    "title": "The University of Colorado Announced ”RoomShift” where Robot Rearranges Furniture to Create Virtual Spaces in a Realistic Way",
+    "url": "https://www.itmedia.co.jp/news/articles/2009/07/news097.html"
+  },
+  {
+    "date": "2020-09",
+    "tag": "roomshift",
+    "media": "IT Media News",
+    "title": "RoomShift: Reconfigurable Environments for Virtual Reality",
+    "url": "https://www.itmedia.co.jp/news/articles/2009/07/news097.html"
+  },
+  {
+    "date": "2020-02",
+    "tag": "pufferbot",
+    "media": "IT Media News",
+    "title": "Giant whistle module expands the room with the University of Colorado and other ”LiftTiles” developments",
+    "url": "https://www.itmedia.co.jp/news/articles/2002/26/news029.html"
+  },
+  {
     "date": "2020-01",
     "tag": "lift-tiles",
     "media": "Arduino Blog",
