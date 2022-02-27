@@ -55,8 +55,8 @@ class Projects extends React.Component {
             <div className="project ui vertical segment stackable grid" data-id={ project.id } >
               <div className="six wide column">
                 { project.image &&
-                <a href={ link } target="_blank">
-                  <img className="ui rounded images" src={ `/static/images/${ project.image }` } />
+                <a href={ link } target="_blank" className="cover-image-container">
+                  <img className="ui rounded images cover-image" src={ `/static/images/${ project.image }` } />
                 </a>
                 }
                 { !project.image &&

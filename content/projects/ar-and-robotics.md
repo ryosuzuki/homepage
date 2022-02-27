@@ -15,4 +15,5 @@ conference:
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
   url: https://chi2022.acm.org/
 external: https://ilab.ucalgary.ca/ar-and-robotics/
+image: ar-and-robitics.jpg
 ---
