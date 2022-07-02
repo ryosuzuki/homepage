@@ -1,0 +1,31 @@
+{
+  "id": "sketched-reality",
+  "name": "Sketched Reality",
+  "description": "Exploring Bi-Directional Interactions Between Virtual Sketches and Actuated Tangible Interfaces Based on AR Sketching and Tabletop Mobile Robots",
+  "title": "Sketched Reality: Exploring Bi-Directional Interactions Between Virtual Sketches and Actuated Tangible Interfaces Based on AR Sketching and Tabletop Mobile Robots",
+  "authors": [
+    "Hiroki Kaimoto",
+    "Kyzyl Monteiro",
+    "Mehrad Faridan",
+    "Jiatong Li",
+    "Samin Farajian",
+    "Yasuaki Kakehi",
+    "Ken Nakagaki",
+    "Ryo Suzuki"
+  ],
+  "year": 2022,
+  "booktitle": "In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)",
+  "publisher": "ACM, New York, NY, USA",
+  "conference": {
+    "name": "UIST 2022",
+    "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2022)",
+    "url": "http://uist.acm.org/uist2022"
+  },
+  "bodyContent": "",
+  "bodyHtml": "",
+  "dir": "content/output/projects",
+  "base": "sketched-reality.json",
+  "ext": ".json",
+  "sourceBase": "sketched-reality.md",
+  "sourceExt": ".md"
+}

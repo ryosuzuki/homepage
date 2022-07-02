@@ -1,0 +1,21 @@
+---
+id: selective-self-assembly
+name: Selective Self-Assembly
+description: Selective Self-Assembly using Re-Programmable Magnetic Pixels
+title: 'Selective Self-Assembly using Re-Programmable Magnetic Pixels'
+authors:
+  - Martin Nisser
+  - Yashaswini Makaram
+  - Faraz Faruqi
+  - Ryo Suzuki
+  - Stefanie Mueller
+year: 2022
+booktitle: In Proceedings of 2022 IEEE/RSJ In- ternational Conference on Intelligent Robots and Systems (IROS '22)
+publisher: ACM, New York, NY, USA
+conference:
+  name: IROS 2022
+  fullname: In Proceedings of 2022 IEEE/RSJ In- ternational Conference on Intelligent Robots and Systems (IROS 2022)
+  url: https://iros2022.org/
+---
+
+
