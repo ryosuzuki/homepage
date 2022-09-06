@@ -1,23 +1,59 @@
 [
   {
+    "author": "Mehrad Faridan, Marcus Friedel, Ryo Suzuki",
+    "title": "UltraBots: Large-Area Mid-Air Haptics for VR with Robotically Actuated Ultrasound Transducers",
+    "pdf": "uist-2022-ultrabots.pdf",
+    "booktitle": "Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software & Technology",
+    "series": "UIST '22 SIC",
+    "year": 2022,
+    "location": "Bend, Oregon",
+    "numpages": 3,
+    "doi": "xxx/xxx",
+    "publisher": "ACM",
+    "address": "New York, NY, USA",
+    "pages": "1--3"
+  },
+  {
+    "author": "Marcus Friedel, Ehud Sharlin, Ryo Suzuki",
+    "title": "HapticLever: Kinematic Force Feedback using a 3D Pantograph",
+    "pdf": "uist-2022-hapticlever.pdf",
+    "booktitle": "Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software & Technology",
+    "series": "UIST '22 Poster",
+    "year": 2022,
+    "location": "Bend, Oregon",
+    "numpages": 3,
+    "doi": "xxx/xxx",
+    "publisher": "ACM",
+    "address": "New York, NY, USA",
+    "pages": "1--3"
+  },
+  {
     "author": "Ryo Suzuki, Rubaiat Habib, Li-Yi Wei, Stephen Diverdi, Wilmot Li, Daniel Leithinger",
-    "title": "Real- itySketch: Augmented Reality Sketching for Real-time Embedded and Responsive Visualiza- tions",
+    "title": "RealitySketch: Augmented Reality Sketching for Real-time Embedded and Responsive Visualiza- tions",
+    "pdf": "siggraph-asia-2021-realitysketch.pdf",
     "booktitle": "Adjunct Proceedings of the 34th Annual ACM Symposium on User Interface Software & Technology",
     "series": "SIGGRAPH Asia '21 Real-time Live!",
     "year": 2021,
     "location": "Tokyo, Japan",
     "numpages": 1,
-    "doi": "xxx/xxx"
+    "doi": "xxx/xxx",
+    "publisher": "ACM",
+    "address": "New York, NY, USA",
+    "pages": "1--1"
   },
   {
     "author": "Samin Farajian, Hiroki Kaimoto, Ryo Suzuki",
     "title": "Swarm Fabrication: Reconfigurable 3D Printers and Drawing Plotters Made of Swarm Robots",
+    "pdf": "uist-2021-swarm-fabrication.pdf",
     "booktitle": "Adjunct Proceedings of the 34th Annual ACM Symposium on User Interface Software & Technology",
     "series": "UIST '21 SIC",
     "year": 2021,
     "location": "New Orleans, Louisiana, USA",
     "numpages": 2,
-    "doi": "xxx/xxx"
+    "doi": "xxx/xxx",
+    "publisher": "ACM",
+    "address": "New York, NY, USA",
+    "pages": "1--2"
   },
   {
     "author": "Martin Nisser, Leon Cheng, Yashaswini Makaram, Ryo Suzuki, Stefanie Mueller",

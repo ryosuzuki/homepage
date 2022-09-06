@@ -6,6 +6,8 @@ const debug = process.env.NODE_ENV !== "production"
 module.exports = withCSS({
   exportPathMap: function () {
     const ids = [
+      'sketched-reality',
+      'realitytalk',
       'hapticbots',
       'realitysketch',
       'pufferbot',

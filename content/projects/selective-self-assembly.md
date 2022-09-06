@@ -16,6 +16,7 @@ conference:
   name: IROS 2022
   fullname: In Proceedings of 2022 IEEE/RSJ In- ternational Conference on Intelligent Robots and Systems (IROS 2022)
   url: https://iros2022.org/
+external: https://hcie.csail.mit.edu/research/selective/selective.html
 ---
 
 

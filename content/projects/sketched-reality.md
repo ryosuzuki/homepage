@@ -1,8 +1,8 @@
 ---
 id: sketched-reality
 name: Sketched Reality
-description: Exploring Bi-Directional Interactions Between Virtual Sketches and Actuated Tangible Interfaces Based on AR Sketching and Tabletop Mobile Robots
-title: 'Sketched Reality: Exploring Bi-Directional Interactions Between Virtual Sketches and Actuated Tangible Interfaces Based on AR Sketching and Tabletop Mobile Robots'
+description: Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI
+title: 'Sketched Reality: Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI'
 authors:
   - Hiroki Kaimoto
   - Kyzyl Monteiro 
@@ -19,7 +19,15 @@ conference:
   name: UIST 2022
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2022)
   url: http://uist.acm.org/uist2022
+pdf: uist-2022-sketched-reality.pdf
+video: https://www.youtube.com/watch?v=xy-IeVgoEpY
+embed: https://www.youtube.com/embed/xy-IeVgoEpY
+arxiv: https://arxiv.org/abs/2208.06341
+pageCount: 12
+slideCount: 0
 ---
 
+# Abstract
 
+This paper introduces Sketched Reality, an approach that com- bines AR sketching and actuated tangible user interfaces (TUI) for bi-directional sketching interaction. Bi-directional sketching enables virtual sketches and physical objects to "affect" each other through physical actuation and digital computation. In the existing AR sketching, the relationship between virtual and physical worlds is only one-directional --- while physical interaction can affect virtual sketches, virtual sketches have no return effect on the physical objects or environment. In contrast, bi-directional sketching interaction allows the seamless coupling between sketches and actuated TUIs. In this paper, we employ tabletop-size small robots (Sony Toio) and an iPad-based AR sketching tool to demonstrate the concept. In our system, virtual sketches drawn and simulated on an iPad (e.g., lines, walls, pendulums, and springs) can move, actuate, collide, and constrain physical Toio robots, as if virtual sketches and the physical objects exist in the same space through seamless coupling between AR and robot motion. This paper contributes a set of novel interactions and a design space of bi-directional AR sketching. We demonstrate a series of potential applications, such as tangible physics education, explorable mechanism, tangible gaming for children, and in-situ robot programming via sketching.
 

@@ -18,6 +18,5 @@ conference:
   name: UIST 2022
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2022)
   url: http://uist.acm.org/uist2022
+external: https://hcie.csail.mit.edu/research/mixels/mixels.html
 ---
-
-

@@ -16,4 +16,14 @@ conference:
   name: UIST 2022
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2022)
   url: http://uist.acm.org/uist2022
+pdf: uist-2022-realitytalk.pdf
+video: https://www.youtube.com/watch?v=vfIMeICV-7c
+embed: https://www.youtube.com/embed/vfIMeICV-7c
+arxiv: https://arxiv.org/abs/2208.06350
+pageCount: 12
+slideCount: 0
 ---
+
+# Abstract
+
+We present RealityTalk, a system that augments real-time live presentations with speech-driven interactive virtual elements. Augmented presentations leverage embedded visuals and animation for engaging and expressive storytelling. However, existing tools for live presentations often lack interactivity and improvisation, while creating such effects in video editing tools require significant time and expertise. RealityTalk enables users to create live augmented presentations with real-time speech-driven interactions. The user can interactively prompt, move, and manipulate graphical elements through real-time speech and supporting modalities. Based on our analysis of 177 existing video-edited augmented presentations, we propose a novel set of interaction techniques and then incorporated them into RealityTalk. We evaluate our tool from a presenter's perspective to demonstrate the effectiveness of our system.
