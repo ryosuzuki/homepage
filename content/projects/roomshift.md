@@ -27,6 +27,7 @@ short-video: https://www.youtube.com/watch?v=4OWU60gTOFE
 pdf: chi-2020-roomshift.pdf
 # poster: uist-2019-lift-tiles-poster.pdf
 arxiv: https://arxiv.org/abs/2008.08695
+acm-dl: https://dl.acm.org/doi/10.1145/3313831.3376523
 pageCount: 11
 slideCount: 0
 
