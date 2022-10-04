@@ -24,6 +24,7 @@ embed: https://www.youtube.com/embed/0LHeTkOMR84
 pdf: tei-2020-lift-tiles.pdf
 slide: tei-2020-lift-tiles-slide.pdf
 poster: uist-2019-lift-tiles-poster.pdf
+acm-dl: https://dl.acm.org/doi/10.1145/3374920.3374941
 pageCount: 9
 slideCount: 37
 related:

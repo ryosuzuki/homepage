@@ -12,6 +12,7 @@ authors:
 year: 2022
 booktitle: In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)
 publisher: ACM, New York, NY, USA
+doi: https://doi.org/10.1145/3526113.3545702
 conference:
   name: UIST 2022
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2022)
