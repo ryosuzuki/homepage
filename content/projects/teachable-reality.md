@@ -17,7 +17,6 @@ conference:
   name: CHI 2023
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2023)
   url: https://chi2023.acm.org/
-image: teachable-reality.jpg
 ---
 
 # Abstract

@@ -145,6 +145,8 @@ class Profile extends React.Component {
               <h1>Programmable Reality Lab</h1>
               <img src="/static/images/lab-1.jpg"></img>
             </a>
+              <img src="/static/images/overview.jpg" style={{ marginTop: '50px' }}></img>
+
 
           </div>
 

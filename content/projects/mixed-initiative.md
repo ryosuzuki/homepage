@@ -26,5 +26,4 @@ slide: las-2017-mixed-slide.pdf
 acm-dl: http://dl.acm.org/citation.cfm?id=3051467
 pageCount: 10
 slideCount: 62
-image: mixed-initiative.png
 ---

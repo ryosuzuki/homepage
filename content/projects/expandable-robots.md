@@ -17,5 +17,4 @@ conference:
   name: Frontiers 2022
   fullname: Frontiers in Robotics and AI (Frontiers 2022)
   url: https://www.frontiersin.org/journals/robotics-and-ai
-image: expandable-robots.jpg
 ---
