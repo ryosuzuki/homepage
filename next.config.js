@@ -6,6 +6,8 @@ const debug = process.env.NODE_ENV !== "production"
 module.exports = withCSS({
   exportPathMap: function () {
     const ids = [
+      'chameleon-control',
+      'teachable-reality',
       'sketched-reality',
       'realitytalk',
       'hapticbots',
