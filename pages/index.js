@@ -12,6 +12,7 @@ import press from '../content/output/press.json'
 
 import Profile from './profile'
 import Projects from './projects'
+import Posters from './posters'
 import Students from './students'
 import Experience from './experience'
 import Timeline from './timeline'
@@ -83,9 +84,11 @@ class Index extends React.Component {
               </div>
             </section>
 
-            <section className="container">            
+            <section className="container">
+              <Posters />
+
               <div id="posters">
-                <h1>Posters and Demos</h1>
+                <h1>Selected Posters and Demos</h1>
                 <div className="ui vertical segment">
                   <div className="ui bulleted list">
                   { posters.map((item) => {
@@ -135,7 +138,7 @@ class Index extends React.Component {
                 </div>
               </div>
             </section>
-            
+
             <section className="container">
               <div id="fellowship">
                 <h1>Funding and Fellowship</h1>

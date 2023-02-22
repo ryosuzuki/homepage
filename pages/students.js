@@ -90,7 +90,11 @@ class Students extends React.Component {
   }  
 
   getTitle(student) {
-    switch (student.type) {
+    let type = student.type
+    if (type === 'alumni') {
+      type = student.past
+    }
+    switch (type) {
       case 'postdoc':
         student.title = 'Postdoc'
         break
@@ -105,25 +109,6 @@ class Students extends React.Component {
         break
       case 'visiting':
         student.title = 'Visiting'
-        break
-      case 'alumni':
-        switch (student.past) {
-          case 'postdoc':
-            student.title = 'Alumni (PostDoc)'
-            break
-          case 'phd':
-            student.title = 'Alumni (PhD)'
-            break
-          case 'master':
-            student.title = 'Alumni (Master)'
-            break
-          case 'undergrad':
-            student.title = 'Alumni (Undergrad)'
-            break
-          case 'visiting':
-            student.title = 'Alumni (Visiting)'
-            break
-        }
         break
     }
     return student
@@ -153,13 +138,13 @@ class Students extends React.Component {
       <div id="students" >
         <h1>Students</h1>
         <h3>Current Students</h3>
-        <div className="ui eight cards">
+        <div className="ui ten cards">
           { students.filter(student => student.type !== 'alumni').map((student) => {
             return this.renderStudent(student)
           })}
         </div>
         <h3>Alumni</h3>
-        <div className="ui eight cards">
+        <div className="ui ten cards">
           { students.filter(student => student.type === 'alumni').map((student) => {
             return this.renderStudent(student)
           })}

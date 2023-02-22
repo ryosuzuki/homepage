@@ -138,7 +138,7 @@ class Profile extends React.Component {
               <a href="https://www.linkedin.com/in/ryosuzuki/" target="_blank" style={{ fontSize: '1.2em' }}>
                 <i className="fab fa-linkedin-in fa-fw" />
                 ryosuzuki
-              </a>
+              </a>  
             </div>
           </div>
 
