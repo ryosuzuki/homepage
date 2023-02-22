@@ -140,14 +140,6 @@ class Profile extends React.Component {
                 ryosuzuki
               </a>
             </div>
-
-            <a id="lab" href="https://programmable-reality-lab.github.io/" target="_blank">
-              <h1>Programmable Reality Lab</h1>
-              <img src="/static/images/lab-1.jpg"></img>
-            </a>
-              <img src="/static/images/overview.jpg" style={{ marginTop: '50px' }}></img>
-
-
           </div>
 
         </div>

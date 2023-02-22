@@ -12,6 +12,7 @@ import press from '../content/output/press.json'
 
 import Profile from './profile'
 import Projects from './projects'
+import Students from './students'
 import Experience from './experience'
 import Timeline from './timeline'
 
@@ -32,10 +33,57 @@ class Index extends React.Component {
           <div className="eleven wide column centered">
             <Profile />
 
-            <section id="container">
-              <Projects />
+            <section className="container">
+        <div className="teaser project ui vertical segment stackable grid" data-id="" >
+          <a id="lab" href="https://programmable-reality-lab.github.io/" target="_blank">
+            <h1>Programmable Reality Lab</h1>
+            <img src="/static/images/lab-1.jpg"></img>
+          </a>
+        </div>
+        <div className="teaser project ui vertical segment stackable grid" data-id="" >
+          <img src="/static/images/overview.jpg"></img>
+        </div>  
+            </section>
+            <section className="container">
+              <Students />
+            </section>
 
-              <div className="ui divider"></div>
+            <section className="container">
+              <Projects />
+            </section>
+
+            <section className="container">
+              <div id="dissertation">
+                <h1>PhD Dissertation</h1>
+                <div className="project ui vertical segment stackable grid" data-id="" >
+                  <div className="six wide column">
+                    <a href={ `/phd-thesis` }>
+                      <img className="ui rounded images" src={ `/static/images/collective.jpg` } />
+                    </a>
+
+                  </div>
+                  <div className="ten wide column">
+                    <a href={ `phd-thesis` }>
+                      <h1 className="ui header" style={{ marginBottom: '10px' }}>
+                        Collective Shape-changing Interfaces
+                        {/*<span className="ui big label">PhD Thesis</span>*/}
+                      </h1>
+                      <h2 style={{ margin: '5px 0' }}>
+                      Dynamic Shape Construction and Transformation with Collective Elements
+                      </h2>
+                    </a>
+                    <p>
+                      <br/>
+                      <strong>Ryo Suzuki</strong><br/>
+                      PhD Dissertation (University of Colorado Boulder)
+                      <br/>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section className="container">            
               <div id="posters">
                 <h1>Posters and Demos</h1>
                 <div className="ui vertical segment">
@@ -58,41 +106,44 @@ class Index extends React.Component {
                   </div>
                 </div>
               </div>
+            </section>
 
-              <div className="ui divider"></div>
+            <section className="container">
               <div id="press">
                 <h1>Press Coverage</h1>
                 <div className="ui vertical segment">
-                <div className="ui bulleted list">
-                  { press.map((item) => {
-                    return (
-                      <div className="item">
-                        <a href={ item.url } target="_blank">
-                          [{ item.date }] <b>{ item.media }</b> <i>{ item.title }</i>
-                        </a>
-                      </div>
-                    )
-                  })}
+                  <div className="ui bulleted list">
+                    { press.map((item) => {
+                      return (
+                        <div className="item">
+                          <a href={ item.url } target="_blank">
+                            [{ item.date }] <b>{ item.media }</b> <i>{ item.title }</i>
+                          </a>
+                        </div>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
-              <div className="ui divider"></div>
+            </section>
+
+            <section className="container">
               <div id="activities">
                 <h1>Professional Activities</h1>
                 <div className="ui vertical segment">
                   <ReactMarkdown source={ activities.bodyContent } />
                 </div>
               </div>
-              <div className="ui divider"></div>
+            </section>
+            
+            <section className="container">
               <div id="fellowship">
                 <h1>Funding and Fellowship</h1>
                 <div className="ui vertical segment">
                   <ReactMarkdown source={ fellowship.bodyContent } />
                 </div>
               </div>
-              </div>
             </section>
-
-
           </div>
 
 
