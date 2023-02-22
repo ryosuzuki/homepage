@@ -191,6 +191,10 @@ body .ui.cards>.card{
   box-shadow: none;
 }
 
+body .ui.cards>.card:hover{
+  box-shadow: none;
+}
+
 #students {
   font-size: 0.8em !important;
 }
