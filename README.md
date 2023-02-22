@@ -143,3 +143,5 @@ ffmpeg -i static/video/top.mp4 image.jpg -map 1 -map 0 -c copy
 defaults write com.apple.screencapture disable-shadow -bool true
 killall SystemUIServer
 ```
+
+Compress with 30% and 360p
