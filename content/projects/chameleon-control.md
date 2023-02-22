@@ -19,6 +19,8 @@ pdf: chi-2023-chameleon-control.pdf
 video: https://www.youtube.com/watch?v=VOe3fETd3sk
 embed: https://www.youtube.com/embed/VOe3fETd3sk
 acm-dl: https://dl.acm.org/doi/10.1145/3544548.3581449
+pageCount: 13
+slideCount: 0
 ---
 
 # Abstract

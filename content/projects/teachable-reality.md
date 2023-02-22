@@ -21,6 +21,8 @@ pdf: chi-2023-teachable-reality.pdf
 video: https://www.youtube.com/watch?v=JssiyfrhIJw
 embed: https://www.youtube.com/embed/JssiyfrhIJw
 acm-dl: https://dl.acm.org/doi/10.1145/3544548.3581449
+pageCount: 15
+slideCount: 0
 ---
 
 # Abstract
