@@ -20,6 +20,7 @@ conference:
 pdf: chi-2023-teachable-reality.pdf
 video: https://www.youtube.com/watch?v=JssiyfrhIJw
 embed: https://www.youtube.com/embed/JssiyfrhIJw
+arxiv: https://arxiv.org/abs/2302.11046
 acm-dl: https://dl.acm.org/doi/10.1145/3544548.3581449
 pageCount: 15
 slideCount: 0
