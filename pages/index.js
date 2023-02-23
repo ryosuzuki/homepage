@@ -85,7 +85,7 @@ class Index extends React.Component {
             </section>
 
             <section className="container">
-              <Posters />
+              {/*<Posters />*/}
 
               <div id="posters">
                 <h1>Selected Posters and Demos</h1>
