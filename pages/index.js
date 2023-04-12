@@ -61,7 +61,6 @@ class Index extends React.Component {
                     <a href={ `/phd-thesis` }>
                       <img className="ui rounded images" src={ `/static/images/collective.jpg` } />
                     </a>
-
                   </div>
                   <div className="ten wide column">
                     <a href={ `phd-thesis` }>
@@ -92,6 +91,38 @@ class Index extends React.Component {
                 <div className="ui vertical segment">
                   <div className="ui bulleted list">
                   { posters.map((item) => {
+                      return (
+                        <div className="project ui vertical segment stackable grid" data-id="" >
+                          <div className="six wide column">
+                            <a href={ `/phd-thesis` }>
+                              <img className="ui rounded images" src={ `/static/posters/${item.id}.jpg` } />
+                            </a>
+
+                          </div>
+                          <div className="ten wide column">
+                            <h1 className="ui header" style={{ marginBottom: '10px' }}>
+                                <span>{ item.name }</span>
+                              <span className="ui big label">{ item.series }</span>
+                              <span className="ui teal large label" style={{ display: ['morphio'].includes(item.id) ? 'inline-block' : 'none' }}>Best Paper Award</span>
+                              <span className="ui teal large label" style={{ display: ['realitysketch'].includes(item.id) ? 'inline-block' : 'none' }}>Honorable Mention Award</span>
+                            </h1>
+
+                            <div className="item" target="_blank" style={{ lineHeight: '1.8rem' }}>
+                              <a href={ '/publications/' + item.pdf }><b>{ item.title }</b></a>
+                              <br />
+                              { item.author }.
+                              <br/>
+                              <a href={ '/publications/' + item.pdf } target="_blank" style={{ marginRight: '5px', display: item.pdf ? 'inline' : 'none' }}>[PDF]</a>
+                              <a href={ '/publications/' + item.poster } target="_blank" style={{ marginRight: '5px', display: item.poster ? 'inline' : 'none' }}>[Poster]</a>
+                              <a href={ '/publications/' + item.slide } target="_blank" style={{ marginRight: '5px', display: item.slide ? 'inline' : 'none' }}>[Slide]</a>
+                              <a href={ `http://doi.acm.org/${item.doi}` } target="_blank" style={{ marginRight: '5px', display: item.doi ? 'inline' : 'none' }}>[DOI]</a>
+                              <a href={ item.video } target="_blank" style={{ marginRight: '5px', display: item.video ? 'inline' : 'none' }}>[Video]</a>
+                            </div>
+                          </div>
+                        </div>
+                      )
+
+                    /*
                     return (
                       <div className="item" target="_blank" style={{ lineHeight: '1.8rem' }}>
                         <b>[{ item.series }]</b><br/>
@@ -105,6 +136,7 @@ class Index extends React.Component {
                         <a href={ item.url } target="_blank" style={{ marginRight: '5px', display: item.url ? 'inline' : 'none' }}>[DOI]</a>
                       </div>
                     )
+                    */
                   }) }
                   </div>
                 </div>
