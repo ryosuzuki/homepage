@@ -226,3 +226,24 @@ body .ui.cards>.card:hover{
   height: 100% !important;
   object-fit: cover;
 }
+
+#vision {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#vision .mission {
+  font-size: 3em;
+}
+
+#vision .description {
+  color: #999;
+}
+
+#vision .five {
+  font-size: 0.7em;
+}
+
+#vision .label {
+  margin-bottom: 10px;
+}

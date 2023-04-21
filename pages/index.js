@@ -35,15 +35,320 @@ class Index extends React.Component {
             <Profile />
 
             <section className="container">
-        <div className="teaser project ui vertical segment stackable grid" data-id="" >
-          <a id="lab" href="https://programmable-reality-lab.github.io/" target="_blank">
-            <h1>Programmable Reality Lab</h1>
-            <img src="/static/images/lab-1.jpg"></img>
-          </a>
-        </div>
-        <div className="teaser project ui vertical segment stackable grid" data-id="" >
-          <img src="/static/images/overview.jpg"></img>
-        </div>  
+
+<div id="vision">
+<h2 className="ui horizontal divider header">
+  Mission
+</h2>
+<h1 className="mission">Designing Pervasive Dynamic Media With the Power of AR and AI</h1>
+<p className="description">
+Computers are dynamic media. Much like writing systems, the printing press and painting canvases, they empower and amplify human thought and creativity. This medium, however, is currently confined within the boundaries of flat rectangular screens, restricting our minds and creative potential to what can be done in this small space. Our goal is to redesign this medium to unlock the full potential of human capabilities, by transforming our world itself into a computational medium with the power of AR and AI.
+</p>
+
+<h2 className="ui horizontal divider header">
+  Principles
+</h2>
+
+<div className="ui three stackable cards">
+  <div className="card">
+    <div className="content">
+      <h1>Real World</h1>
+      <div className="header">
+        Should Work with Real Objects in the Real World, not Virtual Objects on Screens
+      </div>
+      <div className="description">
+        Humans have developed tangible and spatial abilities. Media should leverage these innate human capabilities, instead of requiring humans to adapt to media’s capabilities.
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="content">
+      <h1>Dynamic</h1>
+      <div className="header">
+        Should Leverage Dynamic and Explorable Representations, not Static and Passive Ones
+      </div>
+      <div className="description">
+        Human thought and creative process is fluid. Media should harness this dynamic and explorable potential, beyond merely watching and consuming static text or passive content.
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="content">
+      <h1>Pervapsive</h1>
+      <div className="header">
+        Should Work with Every Space, Object, and User, On-the-Fly and On-Demand
+      </div>
+      <div className="description">
+        Tangible user interfaces exist over decades, but only in research labs. It is time to make them accessible, adaptable, and deployable to everywhere with the power of AI.
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 className="ui horizontal divider header">
+  Umbrella Themes
+</h2>
+
+<div className="ui five stackable cards">
+  <div className="card">
+    <div className="content">
+      <h1>Augmented Languages</h1>
+      <div className="header">
+        Reinvent Languages for AR Era
+      </div>
+      <div className="description">
+        Dynamic pervasive media for reading, writing, presenting, discussing, and communicating ideas
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="content">
+      <h1>Explorable Environments</h1>
+      <div className="header">
+        Science Museums for Every Home
+      </div>
+      <div className="description">
+        Dynamic pervasive media for learning, understanding, exploring, and discovering concepts
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="content">
+      <h1>World Canvas</h1>
+      <div className="header">
+        Make the World a Dynamic Canvas
+      </div>
+      <div className="description">
+        Dynamic pervasive media for creating, sketching, expressing, authoring ideas
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="content">
+      <h1>Responsive Environments</h1>
+      <div className="header">
+        Respond Both Visually and Physically
+      </div>
+      <div className="description">
+        Dynamic pervasive media for touching, crafting, feeling, grasping, and manipulating objects
+      </div>
+    </div>
+  </div>
+
+
+  <div className="card">
+    <div className="content">
+      <h1>Adaptive Reality</h1>
+      <div className="header">
+        Ambient and Context-Aware Intelligence
+      </div>
+      <div className="description">
+        Dynamic pervasive media for adapting, reminding, visualizing, and assisting behaviors
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<h2 className="ui horizontal divider header">
+  Projects
+</h2>
+
+<div className="ui five cards">
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-realitytalk.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2022
+      </div>
+      <div className="header">
+        RealityTalk
+      </div>
+      <div className="description">
+        Augmented Presentation
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-realitysketch.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2020
+      </div>
+      <div className="header">
+        RealitySketch
+      </div>
+      <div className="description">
+        Visualize Everyday Motion
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-sketched-reality.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2022
+      </div>
+      <div className="header">
+        Sketched Reality
+      </div>
+      <div className="description">
+        AR Sketch for Robots
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-roomshift.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        CHI 2020
+      </div>
+      <div className="header">
+        RoomShift
+      </div>
+      <div className="description">
+        Reconfigurable Rooms
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-teachable-reality.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        CHI 2023
+      </div>
+      <div className="header">
+        Teachable Reality
+      </div>
+      <div className="description">
+        Tangible AR Everywhere
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-chameleon-control.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        CHI 2023
+      </div>
+      <div className="header">
+        ChameleonControl
+      </div>
+      <div className="description">
+        Augmented Presentation
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-shapebots-3.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2019
+      </div>
+      <div className="header">
+        ShapeBots
+      </div>
+      <div className="description">
+        Swarm Robot Assistant
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-reactile.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        CHI 2018
+      </div>
+      <div className="header">
+        Reactile
+      </div>
+      <div className="description">
+        Sketch to Program
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-hapticbots.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2021
+      </div>
+      <div className="header">
+        HapticBots
+      </div>
+      <div className="description">
+        On-Demand Haptics
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-lifttiles.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        TEI 2020
+      </div>
+      <div className="header">
+        LiftTiles
+      </div>
+      <div className="description">
+
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+</div>
+
+{/*
+<div className="teaser project ui vertical segment stackable grid" data-id="" >
+  <a id="lab" href="https://programmable-reality-lab.github.io/" target="_blank">
+    <h1>Programmable Reality Lab</h1>
+    <img src="/static/images/lab-1.jpg"></img>
+  </a>
+</div>
+<div className="teaser project ui vertical segment stackable grid" data-id="" >
+  <img src="/static/images/overview.jpg"></img>
+</div>
+*/}
             </section>
             <section className="container">
               <Students />

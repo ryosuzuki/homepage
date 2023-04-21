@@ -24,12 +24,12 @@ class Profile extends React.Component {
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>, starting in Winter 2021.
+              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>.
               I am part of <a href="https://ilab.cpsc.ucalgary.ca/" target="_blank"><b>HCI Group</b></a> at UCalgary.
             </p>
             <div class="ui segment" style={{ borderColor: '#191970' }}>
               <p style={{ marginBottom: '-5px', color: '#191970'}}>
-                I am actively looking for <b>PhDs, masters, postdocs, or interns</b>, who are interested in joining or collaborating with us, across disciplines (e.g., <b>Industrial Design, Mechanical Engineering, Material Science, Electrical Engineering, Architectural Design, and Computer Science</b>). If you are interested, please feel free to send me an email. We could start from some possible collaborative projects. :)
+                I am actively looking for prospective <b>PhD students, PostDocs, or Student Interns</b>, who are interested in joining or collaborating with us, across disciplines (e.g., Industrial Design, Mechanical Engineering, Material Science, Electrical Engineering, Architectural Design, and Computer Science). If you are interested, please feel free to send me an email. We could start from some possible collaborative projects. :)
               </p>
             </div>
 
@@ -63,7 +63,7 @@ class Profile extends React.Component {
             </div>
             */}
             <p>
-              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b> and <b>Robotics</b>. I direct <b><a href="https://programmable-reality-lab.github.io/" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, tangible, and shape-changing interfaces</b>.
+              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b>. I direct <b><a href="https://programmable-reality-lab.github.io/" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, Tangible UI, and AI</b>.
             </p>
 
             <p>
