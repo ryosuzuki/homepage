@@ -40,7 +40,7 @@ class Index extends React.Component {
 <h2 className="ui horizontal divider header">
   Mission
 </h2>
-<h1 className="mission">Designing Pervasive Dynamic Media With the Power of AR and AI</h1>
+<h1 className="mission">Designing <span className="highlight">Pervasive Dynamic Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
 <p className="description">
 Computers are dynamic media. Much like writing systems, the printing press and painting canvases, they empower and amplify human thought and creativity. This medium, however, is currently confined within the boundaries of flat rectangular screens, restricting our minds and creative potential to what can be done in this small space. Our goal is to redesign this medium to unlock the full potential of human capabilities, by transforming our world itself into a computational medium with the power of AR and AI.
 </p>
@@ -52,7 +52,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 <div className="ui three stackable cards">
   <div className="card">
     <div className="content">
-      <h1>Real World</h1>
+      <h1 className="highlight">Real World</h1>
       <div className="header">
         Should Work with Real Objects in the Real World, not Virtual Objects on Screens
       </div>
@@ -64,7 +64,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div className="content">
-      <h1>Dynamic</h1>
+      <h1 className="highlight">Dynamic</h1>
       <div className="header">
         Should Leverage Dynamic and Explorable Representations, not Static and Passive Ones
       </div>
@@ -76,12 +76,12 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div className="content">
-      <h1>Pervapsive</h1>
+      <h1 className="highlight">Pervapsive</h1>
       <div className="header">
         Should Work with Every Space, Object, and User, On-the-Fly and On-Demand
       </div>
       <div className="description">
-        Tangible user interfaces exist over decades, but only in research labs. It is time to make them accessible, adaptable, and deployable to everywhere with the power of AI.
+        Tangible user interfaces exist over decades, but only in research labs. It is time to make them accessible, adaptable, and deployable to everywhere for everyone with the power of AI.
       </div>
     </div>
   </div>
@@ -94,6 +94,9 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 <div className="ui five stackable cards">
   <div className="card">
     <div className="content">
+      <div class="image">
+        <img src="/static/images/theme-1.jpg" />
+      </div>
       <h1>Augmented Languages</h1>
       <div className="header">
         Reinvent Languages for AR Era
@@ -106,6 +109,9 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div className="content">
+      <div class="image">
+        <img src="/static/images/theme-2.jpg" />
+      </div>
       <h1>Explorable Environments</h1>
       <div className="header">
         Science Museums for Every Home
@@ -118,6 +124,9 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div className="content">
+      <div class="image">
+        <img src="/static/images/theme-3.jpg" />
+      </div>
       <h1>World Canvas</h1>
       <div className="header">
         Make the World a Dynamic Canvas
@@ -130,6 +139,9 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div className="content">
+      <div class="image">
+        <img src="/static/images/theme-4.jpg" />
+      </div>
       <h1>Responsive Environments</h1>
       <div className="header">
         Respond Both Visually and Physically
@@ -143,6 +155,9 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div className="content">
+      <div class="image">
+        <img src="/static/images/theme-5.jpg" />
+      </div>
       <h1>Adaptive Reality</h1>
       <div className="header">
         Ambient and Context-Aware Intelligence
@@ -170,7 +185,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         UIST 2022
       </div>
       <div className="header">
-        RealityTalk
+        <a href="/realitytalk" target="_blank">RealityTalk</a>
       </div>
       <div className="description">
         Augmented Presentation
@@ -187,7 +202,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         UIST 2020
       </div>
       <div className="header">
-        RealitySketch
+        <a href="/realitysketch" target="_blank">RealitySketch</a>
       </div>
       <div className="description">
         Visualize Everyday Motion
@@ -204,7 +219,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         UIST 2022
       </div>
       <div className="header">
-        Sketched Reality
+        <a href="/sketched-reality" target="_blank">Sketched Reality</a>
       </div>
       <div className="description">
         AR Sketch for Robots
@@ -221,7 +236,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         CHI 2020
       </div>
       <div className="header">
-        RoomShift
+        <a href="/roomshift" target="_blank">RoomShift</a>
       </div>
       <div className="description">
         Reconfigurable Rooms
@@ -238,7 +253,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         CHI 2023
       </div>
       <div className="header">
-        Teachable Reality
+        <a href="/teachable-reality" target="_blank">Teachable Reality</a>
       </div>
       <div className="description">
         Tangible AR Everywhere
@@ -255,10 +270,10 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         CHI 2023
       </div>
       <div className="header">
-        ChameleonControl
+        <a href="/chameleon-control" target="_blank">ChameleonControl</a>
       </div>
       <div className="description">
-        Augmented Presentation
+        Human Teleoperation
       </div>
     </div>
   </div>
@@ -272,10 +287,10 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         UIST 2019
       </div>
       <div className="header">
-        ShapeBots
+        <a href="/shapebots" target="_blank">ShapeBots</a>
       </div>
       <div className="description">
-        Swarm Robot Assistant
+        Swarm Robots as Media
       </div>
     </div>
   </div>
@@ -289,7 +304,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         CHI 2018
       </div>
       <div className="header">
-        Reactile
+        <a href="/reactile" target="_blank">Reactile</a>
       </div>
       <div className="description">
         Sketch to Program
@@ -306,7 +321,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         UIST 2021
       </div>
       <div className="header">
-        HapticBots
+        <a href="/hapticbots" target="_blank">HapticBots</a>
       </div>
       <div className="description">
         On-Demand Haptics
@@ -316,17 +331,17 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div class="image">
-      <img src="/static/images/project-lifttiles.jpg" />
+      <img src="/static/images/project-dynablock-1.jpg" />
     </div>
     <div className="content">
       <div className="ui tiny label">
-        TEI 2020
+        UIST 2018
       </div>
       <div className="header">
-        LiftTiles
+        <a href="/dynablock" target="_blank">Dynablock</a>
       </div>
       <div className="description">
-
+        3D Printer as Media
       </div>
     </div>
   </div>
@@ -476,6 +491,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
               </div>
             </section>
 
+            {/*
             <section className="container">
               <div id="fellowship">
                 <h1>Funding and Fellowship</h1>
@@ -484,6 +500,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
                 </div>
               </div>
             </section>
+            */}
           </div>
 
 

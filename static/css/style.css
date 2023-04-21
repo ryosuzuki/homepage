@@ -247,3 +247,7 @@ body .ui.cards>.card:hover{
 #vision .label {
   margin-bottom: 10px;
 }
+
+#vision .highlight {
+  color: #4da1ac;
+}
