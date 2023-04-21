@@ -40,7 +40,7 @@ class Index extends React.Component {
 <h2 className="ui horizontal divider header">
   Mission
 </h2>
-<h1 className="mission">Designing <span className="highlight">Pervasive Dynamic Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
+<h1 className="mission">Designing <span className="highlight">Dynamic Pervasive Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
 <p className="description">
 Computers are dynamic media. Much like writing systems, the printing press and painting canvases, they empower and amplify human thought and creativity. This medium, however, is currently confined within the boundaries of flat rectangular screens, restricting our minds and creative potential to what can be done in this small space. Our goal is to redesign this medium to unlock the full potential of human capabilities, by transforming our world itself into a computational medium with the power of AR and AI.
 </p>
@@ -76,7 +76,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div className="content">
-      <h1 className="highlight">Pervapsive</h1>
+      <h1 className="highlight">Pervasive</h1>
       <div className="header">
         Should Work with Every Space, Object, and User, On-the-Fly and On-Demand
       </div>
@@ -102,7 +102,15 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         Reinvent Languages for AR Era
       </div>
       <div className="description">
-        Dynamic pervasive media for reading, writing, presenting, discussing, and communicating ideas
+        We redsign "languages", including written, spoken, and visual languages, to empower human-to-human communication
+      </div>
+      <br/>
+      ― Dynamic Media for ―<br/>
+      <div className="labels">
+        <div className="ui tiny label">reading</div>
+        <div className="ui tiny label">presenting</div>
+        <div className="ui tiny label">writing</div>
+        <div className="ui tiny label">communicating</div>
       </div>
     </div>
   </div>
@@ -117,7 +125,14 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         Science Museums for Every Home
       </div>
       <div className="description">
-        Dynamic pervasive media for learning, understanding, exploring, and discovering concepts
+        We transform our everyday space into explorable environments where people can learn through tangible exploration just like science museums.
+      </div>
+      ― Dynamic Media for ―<br/>
+      <div className="labels">
+        <div className="ui tiny label">learning</div>
+        <div className="ui tiny label">understanding</div>
+        <div className="ui tiny label">exploring</div>
+        <div className="ui tiny label">discovering</div>
       </div>
     </div>
   </div>
@@ -127,12 +142,19 @@ Computers are dynamic media. Much like writing systems, the printing press and p
       <div class="image">
         <img src="/static/images/theme-3.jpg" />
       </div>
-      <h1>World Canvas</h1>
+      <h1>Dynamic World Canvas</h1>
       <div className="header">
         Make the World a Dynamic Canvas
       </div>
       <div className="description">
-        Dynamic pervasive media for creating, sketching, expressing, authoring ideas
+        We unleash the creative expression and potential of computers beyond screens, as if the entire world becomes a dynamic and living canvas.
+      </div>
+      ― Dynamic Media for ―<br/>
+      <div className="labels">
+        <div className="ui tiny label">sketching</div>
+        <div className="ui tiny label">expressing</div>
+        <div className="ui tiny label">authoring</div>
+        <div className="ui tiny label">creating</div>
       </div>
     </div>
   </div>
@@ -142,12 +164,19 @@ Computers are dynamic media. Much like writing systems, the printing press and p
       <div class="image">
         <img src="/static/images/theme-4.jpg" />
       </div>
-      <h1>Responsive Environments</h1>
+      <h1>Responsive Physical World</h1>
       <div className="header">
         Respond Both Visually and Physically
       </div>
       <div className="description">
-        Dynamic pervasive media for touching, crafting, feeling, grasping, and manipulating objects
+        Both visual and physical representations are equally important. We make environments responsive both visually and physically with AR and robotics
+      </div>
+      ― Dynamic Media for ―<br/>
+      <div className="labels">
+        <div className="ui tiny label">touching</div>
+        <div className="ui tiny label">crafting</div>
+        <div className="ui tiny label">feeling</div>
+        <div className="ui tiny label">manipulating</div>
       </div>
     </div>
   </div>
@@ -163,7 +192,15 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         Ambient and Context-Aware Intelligence
       </div>
       <div className="description">
-        Dynamic pervasive media for adapting, reminding, visualizing, and assisting behaviors
+        We make dynamic media pervasive and ubiquitous with the power of AR and AI, disappearing them into the fabric of everyday life.
+      </div>
+      <br/>
+      ― Dynamic Media for ―<br/>
+      <div className="labels">
+        <div className="ui tiny label">adapting</div>
+        <div className="ui tiny label">reminding</div>
+        <div className="ui tiny label">visualizing</div>
+        <div className="ui tiny label">assisting</div>
       </div>
     </div>
   </div>
@@ -290,7 +327,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         <a href="/shapebots" target="_blank">ShapeBots</a>
       </div>
       <div className="description">
-        Swarm Robots as Media
+        Swarm Robots as Dynamic Media
       </div>
     </div>
   </div>
@@ -341,7 +378,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         <a href="/dynablock" target="_blank">Dynablock</a>
       </div>
       <div className="description">
-        3D Printer as Media
+        3D Printer as Dynamic Media
       </div>
     </div>
   </div>

@@ -244,10 +244,19 @@ body .ui.cards>.card:hover{
   font-size: 0.7em;
 }
 
+#vision .five h1 {
+  font-size: 1.9em;
+  min-height: 2.3em;
+}
+
 #vision .label {
   margin-bottom: 10px;
 }
 
 #vision .highlight {
   color: #4da1ac;
+}
+
+#vision .labels {
+  margin-top: 8px;
 }
