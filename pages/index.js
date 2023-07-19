@@ -37,10 +37,13 @@ class Index extends React.Component {
             <section className="container">
 
 <div id="vision">
+<p>From <b>Tools for Thought</b> to <b>Space for Thought</b></p>
 <h2 className="ui horizontal divider header">
   Mission
 </h2>
-<h1 className="mission">Designing <span className="highlight">Dynamic Pervasive Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
+<h1 style={{marginBottom: '0px'}}>Transforming Every Single Environment into a</h1>
+<h1 className="mission"><span className="highlight">Dynamic Space for Thought</span><br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
+{/*<h1 className="mission">Designing <span className="highlight">Dynamic Pervasive Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>*/}
 <p className="description">
 Computers are dynamic media. Much like writing systems, the printing press and painting canvases, they empower and amplify human thought and creativity. This medium, however, is currently confined within the boundaries of flat rectangular screens, restricting our minds and creative potential to what can be done in this small space. Our goal is to redesign this medium to unlock the full potential of human capabilities, by transforming our world itself into a computational medium with the power of AR and AI.
 </p>
@@ -52,9 +55,9 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 <div className="ui three stackable cards">
   <div className="card">
     <div className="content">
-      <h1 className="highlight">Real World</h1>
+      <h1 className="highlight">Blended</h1>
       <div className="header">
-        Should Work with Real Objects in the Real World, not Virtual Objects on Screens
+        Should Work with Real, Tangible Objects in the Real World, not Virtual Objects on Screens or VR
       </div>
       <div className="description">
         Humans have developed tangible and spatial abilities. Media should leverage these innate human capabilities, instead of requiring humans to adapt to media’s capabilities.

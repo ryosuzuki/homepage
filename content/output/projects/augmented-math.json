@@ -1,0 +1,28 @@
+{
+  "id": "augmented-math",
+  "name": "Augmented Math",
+  "description": "ML-Based Approach to Authoring AR Explorable Explanations by Augmenting Static Math Textbooks",
+  "title": "Augmented Math: ML-Based Approach to Authoring AR Explorable Explanations by Augmenting Static Math Textbooks",
+  "authors": [
+    "Neil Chulpongsatorn",
+    "Mille Skovhus Lunding",
+    "Nishan Soni",
+    "Ryo Suzuki"
+  ],
+  "year": 2023,
+  "booktitle": "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)",
+  "publisher": "ACM, New York, NY, USA",
+  "conference": {
+    "name": "UIST 2023",
+    "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2023)",
+    "url": "http://uist.acm.org/uist2023"
+  },
+  "pdf": "uist-2023-augmented-math.pdf",
+  "bodyContent": "# Abstract\n\nWe introduce Augmented Math, a machine learning-based approach to authoring AR explorable explanations by augmenting static math textbooks without programming. To augment a static document, our system first extracts mathematical formulas and figures from a given document using optical character recognition (OCR) and computer vision. By binding and manipulating these extracted contents, the user can see the interactive animation overlaid onto the document through mobile AR interfaces. This empowers non-technical users, such as teachers or students, to transform existing math textbooks and handouts into on-demand and personalized explorable explanations. To design our system, we first analyzed existing explorable math explanations to identify common design strategies. Based on the findings, we developed a set of augmentation techniques that can be automatically generated based on the extracted content, which are 1) dynamic values, 2) interactive figures, 3) relationship highlights, 4) concrete examples, and 5) step-by-step hints. To evaluate our system, we conduct two user studies: preliminary user testing and expert interviews. The study results confirm that our system allows more engaging experiences for learning math concepts.",
+  "bodyHtml": "<h1>Abstract</h1>\n<p>We introduce Augmented Math, a machine learning-based approach to authoring AR explorable explanations by augmenting static math textbooks without programming. To augment a static document, our system first extracts mathematical formulas and figures from a given document using optical character recognition (OCR) and computer vision. By binding and manipulating these extracted contents, the user can see the interactive animation overlaid onto the document through mobile AR interfaces. This empowers non-technical users, such as teachers or students, to transform existing math textbooks and handouts into on-demand and personalized explorable explanations. To design our system, we first analyzed existing explorable math explanations to identify common design strategies. Based on the findings, we developed a set of augmentation techniques that can be automatically generated based on the extracted content, which are 1) dynamic values, 2) interactive figures, 3) relationship highlights, 4) concrete examples, and 5) step-by-step hints. To evaluate our system, we conduct two user studies: preliminary user testing and expert interviews. The study results confirm that our system allows more engaging experiences for learning math concepts.</p>\n",
+  "dir": "content/output/projects",
+  "base": "augmented-math.json",
+  "ext": ".json",
+  "sourceBase": "augmented-math.md",
+  "sourceExt": ".md"
+}

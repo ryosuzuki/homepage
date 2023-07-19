@@ -1,0 +1,30 @@
+---
+id: realitycanvas
+name: RealityCanvas
+description: Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects
+title: 'RealityCanvas: Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects'
+authors:
+  - Zhijie Xia
+  - Kyzyl Monteiro
+  - Kevin Van
+  - Ryo Suzuki
+year: 2023
+booktitle: In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)
+publisher: ACM, New York, NY, USA
+# doi: https://doi.org/10.1145/3526113.3545626
+conference:
+  name: UIST 2023
+  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2023)
+  url: http://uist.acm.org/uist2023
+pdf: uist-2023-realitycanvas.pdf
+# video: https://www.youtube.com/watch?v=7DKpq52282g
+# embed: https://www.youtube.com/embed/7DKpq52282g
+# acm-dl: https://dl.acm.org/doi/10.1145/3563657.3596037
+# pageCount: 15
+# slideCount: 0
+---
+
+# Abstract
+
+We introduce RealityCanvas, a mobile AR sketching tool that can easily augment real-world physical motion with responsive hand-drawn animation. Recent research in AR sketching tools has enabled users to not only embed static drawings into the real world but also dynamically animate them with physical motion. However, existing tools often lack the flexibility and expressiveness of possible animations, as they primarily support simple line-based geometry. To address this limitation, we explore both expressive and improvisational AR sketched animation by introducing a set of responsive scribble animation techniques that can be directly embedded through sketching interactions: 1) object binding, 2) flip-book animation, 3) action trigger, 4) particle effects, 5) motion trajectory, and 6) contour highlight. These six animation effects were derived from the analysis of 172 existing video-edited scribble animations. We showcase these techniques through various applications, such as video creation, augmented education, storytelling, and AR prototyping. The results of our user study and expert interviews confirm that our tool can lower the barrier to creating AR-based sketched animation, while allowing creative, expressive, and improvisational AR sketching experiences.
+

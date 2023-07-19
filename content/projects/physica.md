@@ -1,0 +1,28 @@
+---
+id: physica
+name: Physica
+description: Interactive Tangible Physics Simulation based on Tabletop Mobile Robots Towards Explorable Physics Education
+title: 'Physica: Interactive Tangible Physics Simulation based on Tabletop Mobile Robots Towards Explorable Physics Education'
+authors:
+  - Jiatong Li
+  - Ryo Suzuki
+  - Ken Nakagaki
+year: 2023
+booktitle: In Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)
+publisher: ACM, New York, NY, USA
+doi: https://doi.org/10.1145/3526113.3545626
+conference:
+  name: DIS 2023
+  fullname: The ACM Designing Interactive Systems Conference (DIS 2023)
+  url: https://dis.acm.org/2023/
+pdf: dis-2023-physica.pdf
+video: https://www.youtube.com/watch?v=7DKpq52282g
+embed: https://www.youtube.com/embed/7DKpq52282g
+acm-dl: https://dl.acm.org/doi/10.1145/3563657.3596037
+pageCount: 15
+slideCount: 0
+---
+
+# Abstract
+
+In this paper, we introduce Physica, a tangible physics simulation system and approach based on tabletop mobile robots. In Physica, each tabletop robot can physically represent distinct simulated objects that are controlled through an underlying physics simulation, such as gravitational force, molecular movement, and spring force. It aims to bring the benefits of tangible and haptic interaction into explorable physics learning, which was traditionally only available on screen-based interfaces. The system utilizes off-the-shelf mobile robots (Sony Toio) and an open-source physics simulation tool (Teilchen). Built on top of them, we implement the interaction software pipeline that consists of 1) an event detector to reflect tangible interaction by users, and 2) target speed control to minimize the gap between the robot motion and simulated moving objects. To present the potential for physics education, we demonstrate various application scenarios that illustrate different forms of learning using Physica. In our user study, we investigate the effect and the potential of our approach through a perception study and interviews with physics educators.

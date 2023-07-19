@@ -19,6 +19,19 @@
     ]
   },
   {
+    "period": "July, 2023 --- Current",
+    "role": "Visiting Researcher",
+    "logo": "google.png",
+    "institute": {
+      "name": "Google",
+      "url": "https://arvr.google.com/"
+    },
+    "lab": {
+      "name": "BIRD Lab",
+      "url": "https://margonzalezfranco.github.io/"
+    }
+  },
+  {
     "period": "August, 2015 --- August, 2020",
     "role": "Research Assistant",
     "logo": "cu-boulder.png",
@@ -32,7 +45,7 @@
     },
     "advisors": [
       {
-        "name": "Daniel Lightinger",
+        "name": "Daniel Leithinger",
         "url": "http://leithinger.com/"
       },
       {

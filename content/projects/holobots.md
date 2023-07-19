@@ -1,0 +1,31 @@
+---
+id: holobots
+name: HoloBots
+description: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality
+title: 'HoloBots: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality'
+authors:
+  - Keiichi Ihara
+  - Mehrad Faridan
+  - Ayumi Ichikawa
+  - Ikkaku Kawaguchi
+  - Ryo Suzuki
+year: 2023
+booktitle: In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)
+publisher: ACM, New York, NY, USA
+# doi: https://doi.org/10.1145/3526113.3545626
+conference:
+  name: UIST 2023
+  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2023)
+  url: http://uist.acm.org/uist2023
+pdf: uist-2023-holobots.pdf
+# video: https://www.youtube.com/watch?v=7DKpq52282g
+# embed: https://www.youtube.com/embed/7DKpq52282g
+# acm-dl: https://dl.acm.org/doi/10.1145/3563657.3596037
+# pageCount: 15
+# slideCount: 0
+---
+
+# Abstract
+
+This paper introduces HoloBots, a mixed reality interface that augments holographic telepresence with a synchronized actuated tangible user interface. Beyond existing mixed reality telepresence, HoloBots lets remote users not only be visually and spatially present, but also enables them to physically engage with the local users and their environment, allowing them to touch, grasp, manipulate, and interact with remote physical objects as if they were co-located in the same shared space. We achieve this by synchronizing holographic user motion (Hololens 2 and Azure Kinect) with tabletop mobile robots (Sony Toio), which enables scalable, deployable, and generalizable tangible remote collaboration. HoloBots allows various interactions, such as object actuation, virtual hand physicalization, world-in-miniature exploration, shared tangible interfaces, embodied guidance, and haptic communication. We evaluate our system by comparing it with hologram-only and robot-only conditions. Both quantitative and qualitative results with 12 participants confirm that our system significantly enhances the level of co-presence and shared experience of mixed reality remote collaboration, compared to the other conditions.
+
