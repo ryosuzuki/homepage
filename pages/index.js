@@ -37,12 +37,13 @@ class Index extends React.Component {
             <section className="container">
 
 <div id="vision">
-<p>From <b>Tools for Thought</b> to <b>Space for Thought</b></p>
+<p>From <b><a href="https://en.wikipedia.org/wiki/Tools_for_Thought" target="_blank">Tools for Thought</a></b> to <b>Space for Thought</b></p>
 <h2 className="ui horizontal divider header">
   Mission
 </h2>
-<h1 style={{marginBottom: '0px'}}>Transforming Every Single Environment into a</h1>
-<h1 className="mission"><span className="highlight">Dynamic Space for Thought</span><br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
+<h1 className="mission"><span className="highlight">Dynamic Space for Thought</span></h1>
+<h1 className="mission">Augment Human Thought and Creativity<br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
+{/*<h1 className="mission"><span className="highlight">Dynamic Space for Thought</span><br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>*/}
 {/*<h1 className="mission">Designing <span className="highlight">Dynamic Pervasive Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>*/}
 <p className="description">
 Computers are dynamic media. Much like writing systems, the printing press and painting canvases, they empower and amplify human thought and creativity. This medium, however, is currently confined within the boundaries of flat rectangular screens, restricting our minds and creative potential to what can be done in this small space. Our goal is to redesign this medium to unlock the full potential of human capabilities, by transforming our world itself into a computational medium with the power of AR and AI.
@@ -57,7 +58,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
     <div className="content">
       <h1 className="highlight">Blended</h1>
       <div className="header">
-        Should Work with Real, Tangible Objects in the Real World, not Virtual Objects on Screens or VR
+        Should Work with Real, Tangible Objects in the Real World, not Virtual Objects on Screens or in VR
       </div>
       <div className="description">
         Humans have developed tangible and spatial abilities. Media should leverage these innate human capabilities, instead of requiring humans to adapt to media’s capabilities.
@@ -81,7 +82,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
     <div className="content">
       <h1 className="highlight">Pervasive</h1>
       <div className="header">
-        Should Work with Every Space, Object, and User, On-the-Fly and On-Demand
+        Should Work with Every Single Space, Object, and Environment, On-the-Fly and On-Demand
       </div>
       <div className="description">
         Tangible user interfaces exist over decades, but only in research labs. It is time to make them accessible, adaptable, and deployable to everywhere for everyone with the power of AI.
@@ -218,68 +219,51 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 <div className="ui five cards">
   <div className="card">
     <div class="image">
-      <img src="/static/images/project-realitytalk.jpg" />
+      <img src="/static/images/project-augmented-math.jpg" />
     </div>
     <div className="content">
       <div className="ui tiny label">
-        UIST 2022
+        UIST 2023
       </div>
       <div className="header">
-        <a href="/realitytalk" target="_blank">RealityTalk</a>
+        <a href="/augmented-math" target="_blank">Augmented Math</a>
       </div>
       <div className="description">
-        Augmented Presentation
+        AI-Enabled Augmented Textbook
       </div>
     </div>
   </div>
 
   <div className="card">
     <div class="image">
-      <img src="/static/images/project-realitysketch.jpg" />
+      <img src="/static/images/project-realitycanvas.jpg" />
     </div>
     <div className="content">
       <div className="ui tiny label">
-        UIST 2020
+        UIST 2023
       </div>
       <div className="header">
-        <a href="/realitysketch" target="_blank">RealitySketch</a>
+        <a href="/realitycanvas" target="_blank">RealityCanvas</a>
       </div>
       <div className="description">
-        Visualize Everyday Motion
+        Dynamic Sketch in AR
       </div>
     </div>
   </div>
 
   <div className="card">
     <div class="image">
-      <img src="/static/images/project-sketched-reality.jpg" />
+      <img src="/static/images/project-holobots.jpg" />
     </div>
     <div className="content">
       <div className="ui tiny label">
-        UIST 2022
+        UIST 2023
       </div>
       <div className="header">
-        <a href="/sketched-reality" target="_blank">Sketched Reality</a>
+        <a href="/holobots" target="_blank">HoloBots</a>
       </div>
       <div className="description">
-        AR Sketch for Robots
-      </div>
-    </div>
-  </div>
-
-  <div className="card">
-    <div class="image">
-      <img src="/static/images/project-roomshift.jpg" />
-    </div>
-    <div className="content">
-      <div className="ui tiny label">
-        CHI 2020
-      </div>
-      <div className="header">
-        <a href="/roomshift" target="_blank">RoomShift</a>
-      </div>
-      <div className="description">
-        Reconfigurable Rooms
+        Tangible Holoportation
       </div>
     </div>
   </div>
@@ -296,7 +280,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         <a href="/teachable-reality" target="_blank">Teachable Reality</a>
       </div>
       <div className="description">
-        Tangible AR Everywhere
+        AI-Enabled Tangible AR Prototype
       </div>
     </div>
   </div>
@@ -320,7 +304,109 @@ Computers are dynamic media. Much like writing systems, the printing press and p
 
   <div className="card">
     <div class="image">
+      <img src="/static/images/project-realitytalk.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2022
+      </div>
+      <div className="header">
+        <a href="/realitytalk" target="_blank">RealityTalk</a>
+      </div>
+      <div className="description">
+        Augmented Presentation
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-sketched-reality.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2022
+      </div>
+      <div className="header">
+        <a href="/sketched-reality" target="_blank">Sketched Reality</a>
+      </div>
+      <div className="description">
+        AR Sketch for Robots
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
       <img src="/static/images/project-shapebots-3.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        CHI 2022
+      </div>
+      <div className="header">
+        <a href="https://ilab.ucalgary.ca/ar-and-robotics/" target="_blank">AR and Robotics</a>
+      </div>
+      <div className="description">
+        A Survey and Taxonomy
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-hapticbots.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2021
+      </div>
+      <div className="header">
+        <a href="/hapticbots" target="_blank">HapticBots</a>
+      </div>
+      <div className="description">
+        On-Demand Haptics
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-realitysketch.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        UIST 2020
+      </div>
+      <div className="header">
+        <a href="/realitysketch" target="_blank">RealitySketch</a>
+      </div>
+      <div className="description">
+        Visualize Everyday Motion
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-roomshift.jpg" />
+    </div>
+    <div className="content">
+      <div className="ui tiny label">
+        CHI 2020
+      </div>
+      <div className="header">
+        <a href="/roomshift" target="_blank">RoomShift</a>
+      </div>
+      <div className="description">
+        Reconfigurable Rooms
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div class="image">
+      <img src="/static/images/project-shapebots.jpg" />
     </div>
     <div className="content">
       <div className="ui tiny label">
@@ -347,24 +433,7 @@ Computers are dynamic media. Much like writing systems, the printing press and p
         <a href="/reactile" target="_blank">Reactile</a>
       </div>
       <div className="description">
-        Sketch to Program
-      </div>
-    </div>
-  </div>
-
-  <div className="card">
-    <div class="image">
-      <img src="/static/images/project-hapticbots.jpg" />
-    </div>
-    <div className="content">
-      <div className="ui tiny label">
-        UIST 2021
-      </div>
-      <div className="header">
-        <a href="/hapticbots" target="_blank">HapticBots</a>
-      </div>
-      <div className="description">
-        On-Demand Haptics
+        Sketch to Program Swarm Robots
       </div>
     </div>
   </div>
@@ -385,8 +454,6 @@ Computers are dynamic media. Much like writing systems, the printing press and p
       </div>
     </div>
   </div>
-
-
 
 </div>
 

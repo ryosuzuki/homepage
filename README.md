@@ -123,8 +123,18 @@ Then, you can get the resized paper images
 
 ## Prepare for the Videos
 
-To compress mp4
+1. Download 360p from YouTube with Y2Mate
+https://en1.y2mate.is/
+
+2. Crop with QuickTime
+
+3. To compress mp4
 https://www.ps2pdf.com/compress-mp4
+
+4. Mute the video
+https://ezgif.com/mute-video
+
+---
 
 To convert from mp4 to webm
 https://www.zamzar.com/
