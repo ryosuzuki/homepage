@@ -1,8 +1,8 @@
 ---
 id: augmented-math
 name: Augmented Math
-description: ML-Based Approach to Authoring AR Explorable Explanations by Augmenting Static Math Textbooks
-title: 'Augmented Math: ML-Based Approach to Authoring AR Explorable Explanations by Augmenting Static Math Textbooks'
+description: Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks
+title: 'Augmented Math: Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks'
 authors:
   - Neil Chulpongsatorn
   - Mille Skovhus Lunding
