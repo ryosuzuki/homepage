@@ -197,7 +197,7 @@ Computers are dynamic media. Much like writing systems, the printing press, and 
         Ambient and Context-Aware Intelligence
       </div>
       <div className="description">
-        We make dynamic media pervasive and ubiquitous with the power of AR and AI, disappearing them into the fabric of everyday life.
+        We make dynamic media pervasive and ubiquitous with the power of AR and AI, weaving them into the fabric of everyday life.
       </div>
       <br/>
       ― Dynamic Media for ―<br/>
