@@ -104,7 +104,7 @@ Computers are dynamic media. Much like writing systems, the printing press, and 
       </div>
       <h1>Augmented Languages</h1>
       <div className="header">
-        Reinvent Languages for AR Era
+        Reinvent Languages for Spatial Computing Era
       </div>
       <div className="description">
         We redsign "languages", including written, spoken, and visual languages, to empower human-to-human communication
@@ -147,12 +147,13 @@ Computers are dynamic media. Much like writing systems, the printing press, and 
       <div class="image">
         <img src="/static/images/theme-3.jpg" />
       </div>
-      <h1>Dynamic World Canvas</h1>
+      <h1>Generative AR</h1>
       <div className="header">
-        Make the World a Dynamic Canvas
+        {/*Make the World a Dynamic Canvas*/}
+        Make the World a Dynamic Canvas for Generative AI
       </div>
       <div className="description">
-        We unleash the creative expression and potential of computers beyond screens, as if the entire world becomes a dynamic and living canvas.
+        We unleash the creative potential of Generative AI beyond screens, as if the entire world becomes a dynamic and living canvas.
       </div>
       ― Dynamic Media for ―<br/>
       <div className="labels">
