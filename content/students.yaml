@@ -68,6 +68,12 @@
   past: 'intern'
   now: 'Aarhus'
 
+- id: 'shrivatsa-mishra'
+  name: 'Shrivatsa Mishra'
+  type: 'alumni'
+  past: 'intern'
+  now: 'CU Boulder'
+
 - id: 'hiroki-kaimoto'
   name: 'Hiroki Kaimoto'
   type: 'alumni'
