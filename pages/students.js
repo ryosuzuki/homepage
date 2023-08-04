@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import summary from '../content/output/ilab-summary.json'
+import students from '../content/output/students.json'
 
+/*
+import summary from '../content/output/ilab-summary.json'
 const names = [
-  'shivesh-jadon', 
   'neil-chulpongsatorn',
   'marcus-friedel',
   'adnan-karim',
@@ -22,6 +23,7 @@ const names = [
   'rasmus-lunding',
   'ryota-gomi',
   'kyzyl-monteiro',
+  'shivesh-jadon',
   'hiroki-kaimoto',
   'ritik-vatsal',
   'shrivatsa-mishra',
@@ -39,6 +41,11 @@ for (let name of names) {
   student.id = name
   student.photo = `https://raw.githubusercontent.com/ucalgary-ilab/ilab-website/master/static/images/people/${name}.jpg`
   students.push(student)
+}
+*/
+
+for (let student of students) {
+  student.photo = `https://raw.githubusercontent.com/ucalgary-ilab/ilab-website/master/static/images/people/${student.id}.jpg`
 }
 
 class Students extends React.Component {
@@ -107,6 +114,9 @@ class Students extends React.Component {
       case 'undergrad':
         student.title = 'Undergrad'
         break
+      case 'intern':
+        student.title = 'Intern'
+        break
       case 'visiting':
         student.title = 'Visiting'
         break
@@ -125,7 +135,10 @@ class Students extends React.Component {
           <div className="header">
             { student.name } <br/>
             <span className="meta">
-              { student.title }
+              { student.title } <br/>
+            </span>
+            <span className="meta">
+              { student.now }
             </span>
           </div>
         </div>
@@ -143,7 +156,7 @@ class Students extends React.Component {
             return this.renderStudent(student)
           })}
         </div>
-        <h3>Alumni</h3>
+        <h3>Selected Alumni</h3>
         <div className="ui ten cards">
           { students.filter(student => student.type === 'alumni').map((student) => {
             return this.renderStudent(student)
