@@ -45,7 +45,7 @@ for (let name of names) {
 */
 
 for (let student of students) {
-  student.photo = `https://raw.githubusercontent.com/ucalgary-ilab/ilab-website/master/static/images/people/${student.id}.jpg`
+  student.photo = `https://raw.githubusercontent.com/ryosuzuki/homepage/master/static/students/${student.id}.jpg`
 }
 
 class Students extends React.Component {
