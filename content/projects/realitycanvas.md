@@ -11,7 +11,7 @@ authors:
 year: 2023
 booktitle: In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)
 publisher: ACM, New York, NY, USA
-# doi: https://doi.org/10.1145/3526113.3545626
+doi: https://doi.org/10.1145/3586183.3606716
 conference:
   name: UIST 2023
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2023)
@@ -19,8 +19,9 @@ conference:
 pdf: uist-2023-realitycanvas.pdf
 # video: https://www.youtube.com/watch?v=7DKpq52282g
 # embed: https://www.youtube.com/embed/7DKpq52282g
-# acm-dl: https://dl.acm.org/doi/10.1145/3563657.3596037
-# pageCount: 15
+arxiv: https://arxiv.org/abs/2307.16116
+acm-dl: https://dl.acm.org/doi/10.1145/3586183.3606716
+pageCount: 14
 # slideCount: 0
 ---
 

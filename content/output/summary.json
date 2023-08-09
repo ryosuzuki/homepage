@@ -8,414 +8,6 @@
       "sourceBase": "activities.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/chameleon-control.json": {
-      "id": "chameleon-control",
-      "name": "ChameleonControl",
-      "description": "Teleoperating Real Human Surrogates through Mixed Reality Gestural Guidance for Remote Hands-on Classrooms",
-      "title": "ChameleonControl: Teleoperating Real Human Surrogates through Mixed Reality Gestural Guidance for Remote Hands-on Classrooms",
-      "authors": [
-        "Mehrad Faridan",
-        "Bheesha Kumari",
-        "Ryo Suzuki"
-      ],
-      "year": 2023,
-      "booktitle": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI '23)",
-      "publisher": "ACM, New York, NY, USA",
-      "doi": "https://doi.org/10.1145/3544548.3581449",
-      "conference": {
-        "name": "CHI 2023",
-        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2023)",
-        "url": "https://chi2023.acm.org/"
-      },
-      "pdf": "chi-2023-chameleon-control.pdf",
-      "video": "https://www.youtube.com/watch?v=VOe3fETd3sk",
-      "embed": "https://www.youtube.com/embed/VOe3fETd3sk",
-      "arxiv": "https://arxiv.org/abs/2302.11053",
-      "acm-dl": "https://dl.acm.org/doi/10.1145/3544548.3581449",
-      "pageCount": 13,
-      "slideCount": 0,
-      "dir": "content/output/projects",
-      "base": "chameleon-control.json",
-      "ext": ".json",
-      "sourceBase": "chameleon-control.md",
-      "sourceExt": ".md"
-    },
-    "content/output/posters/ultrabots.json": {
-      "id": "ultrabots",
-      "name": "Atelier",
-      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "authors": [
-        "Ryo Suzuki",
-        "Niloufar Salehi",
-        "Michelle S. Lam",
-        "Juan C. Marroquin",
-        "Michael S. Bernstein"
-      ],
-      "year": 2016,
-      "booktitle": "In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "2645-2656",
-      "conference": {
-        "name": "CHI 2016",
-        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2016)",
-        "url": "https://chi2016.acm.org/wp/"
-      },
-      "pdf": "chi-2016-atelier.pdf",
-      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
-      "embed": "https://www.youtube.com/embed/tBojZejtFQo",
-      "slide": "chi-2016-atelier-slide.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
-      "arxiv": "https://arxiv.org/abs/1602.06634",
-      "pageCount": 12,
-      "slideCount": 56,
-      "dir": "content/output/posters",
-      "base": "ultrabots.json",
-      "ext": ".json",
-      "sourceBase": "ultrabots.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/atelier.json": {
-      "id": "atelier",
-      "name": "Atelier",
-      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
-      "authors": [
-        "Ryo Suzuki",
-        "Niloufar Salehi",
-        "Michelle S. Lam",
-        "Juan C. Marroquin",
-        "Michael S. Bernstein"
-      ],
-      "year": 2016,
-      "booktitle": "In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "2645-2656",
-      "conference": {
-        "name": "CHI 2016",
-        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2016)",
-        "url": "https://chi2016.acm.org/wp/"
-      },
-      "pdf": "chi-2016-atelier.pdf",
-      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
-      "embed": "https://www.youtube.com/embed/tBojZejtFQo",
-      "slide": "chi-2016-atelier-slide.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
-      "arxiv": "https://arxiv.org/abs/1602.06634",
-      "pageCount": 12,
-      "slideCount": 56,
-      "dir": "content/output/projects",
-      "base": "atelier.json",
-      "ext": ".json",
-      "sourceBase": "atelier.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/electro-voxel.json": {
-      "id": "electro-voxel",
-      "name": "ElectroVoxel",
-      "description": "Electromagnetically Actuated Pivoting for Scalable Modular Self-Reconfigurable Robots",
-      "title": "ElectroVoxel: Electromagnetically Actuated Pivoting for Scalable Modular Self-Reconfigurable Robots",
-      "authors": [
-        "Martin Nisser",
-        "Leon Cheng",
-        "Yashaswini Makaram",
-        "Ryo Suzuki",
-        "Stefanie Mueller"
-      ],
-      "year": 2022,
-      "conference": {
-        "name": "ICRA 2022",
-        "fullname": "International Conference on Robotics and Automation (ICRA 2022)",
-        "url": "https://www.icra2022.org/"
-      },
-      "external": "https://hcie.csail.mit.edu/research/Electrovoxel/electrovoxel.html",
-      "dir": "content/output/projects",
-      "base": "electro-voxel.json",
-      "ext": ".json",
-      "sourceBase": "electro-voxel.md",
-      "sourceExt": ".md"
-    },
-    "content/output/press.json": [
-      {
-        "date": "2022-02",
-        "tag": "electro-voxel",
-        "media": "Engadget",
-        "title": "Scientists create cube robots that can shapeshift in space",
-        "url": "https://www.engadget.com/shapeshifting-robots-space-exploration-mit-csail-electrovoxels-140026431.html"
-      },
-      {
-        "date": "2022-02",
-        "tag": "electro-voxel",
-        "media": "TechXplore",
-        "title": "Robotic cubes: Self-reconfiguring ElectroVoxels use embedded electromagnets to test applications for space exploration",
-        "url": "https://techxplore.com/news/2022-02-robotic-cubes-self-reconfiguring-electrovoxels-embedded.html"
-      },
-      {
-        "date": "2022-02",
-        "tag": "electro-voxel",
-        "media": "TechEBlog",
-        "title": "MIT Researchers Develop Shape-Shifting ElectroVoxel Robots for Space Exploration",
-        "url": "https://www.techeblog.com/mit-electrovoxel-shape-shifting-robot-space/"
-      },
-      {
-        "date": "2022-02",
-        "tag": "electro-voxel",
-        "media": "IEEE Spectrum",
-        "title": "Video Friday: Your weekly selection of awesome robot videos",
-        "url": "https://spectrum.ieee.org/video-friday-lunar-rover"
-      },
-      {
-        "date": "2022-02",
-        "tag": "electro-voxel",
-        "media": "Arduino Blog",
-        "title": "ElectroVoxel robots reconfigure themselves using magnets",
-        "url": "https://blog.arduino.cc/2022/02/08/electrovoxel-robots-reconfigure-themselves-using-magnets/"
-      },
-      {
-        "date": "2022-02",
-        "tag": "electro-voxel",
-        "media": "Hackster.io",
-        "title": "These Magnetic Robots Assemble Like Voltron",
-        "url": "https://www.hackster.io/news/these-magnetic-robots-assemble-like-voltron-37e4b1f4ec5d"
-      },
-      {
-        "date": "2021-11",
-        "tag": "snap",
-        "media": "UCalgary News",
-        "title": "“Touchable spoken words” bring the fantastic to life",
-        "url": "https://science.ucalgary.ca/news/touchable-spoken-words-bring-fantastic-life"
-      },
-      {
-        "date": "2021-07",
-        "tag": "roomshift",
-        "media": "IEEE Computer Graphics and Applications",
-        "title": "Cover Story of “Real Virtual Reality” (vol. 41)",
-        "url": "https://www.computer.org/csdl/magazine/cg/2021/04/09487526/1vg3mB6LNJe"
-      },
-      {
-        "date": "2021-03",
-        "tag": "realitysketch",
-        "media": "IT Media News",
-        "title": "Evolution of “AR Drawing”? RealitySketch, a sketching technology that works with objects in reality",
-        "url": "https://www.itmedia.co.jp/news/articles/2103/18/news027.html"
-      },
-      {
-        "date": "2020-12",
-        "tag": "realitysketch",
-        "media": "TechXplore",
-        "title": "RealitySketch: An AR interface to create responsive sketches",
-        "url": "https://techxplore.com/news/2020-12-realitysketch-ar-interface-responsive.html"
-      },
-      {
-        "date": "2020-10",
-        "tag": "pufferbot",
-        "media": "ACM TechNews",
-        "title": "Pufferfish-inspired robot could improve drone safety",
-        "url": "https://cacm.acm.org/news/248245-pufferfish-inspired-robot-could-improve-drone-safety/fulltext"
-      },
-      {
-        "date": "2020-10",
-        "tag": "pufferbot",
-        "media": "Interesting Engineering",
-        "title": "Pufferfish Mimicking Drones to Improve Aerial Safety",
-        "url": "https://interestingengineering.com/pufferfish-mimicking-drones-to-improve-aerial-safety"
-      },
-      {
-        "date": "2020-10",
-        "tag": "pufferbot",
-        "media": "New Atlas",
-        "title": "Drone draws on the pufferfish to protect itself and others",
-        "url": "https://newatlas.com/drones/pufferbot-drone"
-      },
-      {
-        "date": "2020-10",
-        "tag": "roomshift",
-        "media": "Techable",
-        "title": "University of Colorado researchers unveil ’RoomShift’ to move props in VR space in real life",
-        "url": "https://techable.jp/archives/139024"
-      },
-      {
-        "date": "2020-10",
-        "tag": "roomshift",
-        "media": "Hackster.io",
-        "title": "Putting the Reality in Virtual Reality",
-        "url": "https://www.hackster.io/news/putting-the-reality-in-virtual-reality-8c21db67e605"
-      },
-      {
-        "date": "2020-09",
-        "tag": "pufferbot",
-        "media": "Hackster.io",
-        "title": "PufferBot Is an Aerial Robot That Can Change Shape In-Flight",
-        "url": "https://www.hackster.io/news/pufferbot-is-an-aerial-robot-that-can-change-shape-in-flight-0be9c211ce07"
-      },
-      {
-        "date": "2020-09",
-        "tag": "roomshift",
-        "media": "TechXplore",
-        "title": "RoomShift: A room-scale haptic and dynamic environment for VR applications",
-        "url": "https://techxplore.com/news/2020-09-roomshift-room-scale-haptic-dynamic-environment.html"
-      },
-      {
-        "date": "2020-09",
-        "tag": "pufferbot",
-        "media": "Engineering 360",
-        "title": "Team builds drone inspired by the pufferfish",
-        "url": "https://insights.globalspec.com/article/15041/team-builds-drone-inspired-by-the-pufferfish"
-      },
-      {
-        "date": "2020-09",
-        "tag": "roomshift",
-        "media": "TechXplore",
-        "title": "PufferBot: A flying robot with an expandable body",
-        "url": "https://techxplore.com/news/2020-09-pufferbot-robot-body.html"
-      },
-      {
-        "date": "2020-09",
-        "tag": "roomshift",
-        "media": "Yahoo News Japan",
-        "title": "The University of Colorado Announced ”RoomShift” where Robot Rearranges Furniture to Create Virtual Spaces in a Realistic Way",
-        "url": "https://www.itmedia.co.jp/news/articles/2009/07/news097.html"
-      },
-      {
-        "date": "2020-09",
-        "tag": "roomshift",
-        "media": "IT Media News",
-        "title": "RoomShift: Reconfigurable Environments for Virtual Reality",
-        "url": "https://www.itmedia.co.jp/news/articles/2009/07/news097.html"
-      },
-      {
-        "date": "2020-02",
-        "tag": "pufferbot",
-        "media": "IT Media News",
-        "title": "Giant whistle module expands the room with the University of Colorado and other ”LiftTiles” developments",
-        "url": "https://www.itmedia.co.jp/news/articles/2002/26/news029.html"
-      },
-      {
-        "date": "2020-01",
-        "tag": "lift-tiles",
-        "media": "Arduino Blog",
-        "title": "Prototype room-scale, shape-changing interfaces with LiftTiles",
-        "url": "https://blog.arduino.cc/2020/01/27/prototype-room-scale-shape-changing-interfaces-with-lifttiles/"
-      },
-      {
-        "date": "2020-01",
-        "tag": "lift-tiles",
-        "media": "TechXplore",
-        "title": "LiftTiles: Actuator-based Building Blocks for Shape-changing Interfaces",
-        "url": "https://techxplore.com/news/2020-01-lifttiles-actuator-based-blocks-shape-changing-interfaces.html"
-      },
-      {
-        "date": "2020-01",
-        "tag": "shapebots",
-        "media": "ITMedia News",
-        "title": "A Swarm of Self-transforming Robots to Assist People",
-        "url": "https://www.itmedia.co.jp/news/articles/2001/15/news032.html"
-      },
-      {
-        "date": "2019-10",
-        "tag": "lift-tiles",
-        "media": "Hackster.io",
-        "title": "LiftTiles Turn Walls and Floors Into Reconfigurable Structures on Demand",
-        "url": "https://www.hackster.io/news/lifttiles-turn-walls-and-floors-into-reconfigurable-structures-on-demand-4a226d58bc74"
-      },
-      {
-        "date": "2019-10",
-        "tag": "lift-tiles",
-        "media": "Element 14",
-        "title": "Engineers Develop LiftTiles, a Scale Shape-changing Interface",
-        "url": "https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/10/25/engineers-develop-lifttiles-a-scale-shape-changing-interface?CMP=SOM-PRG-TWITTER-BLOG-CATWELL-LIFT-TILES-COMM"
-      },
-      {
-        "date": "2019-11",
-        "tag": "shapebots",
-        "media": "Bouncy",
-        "title": "Swarm Robots that can Change Shape to Visualize Data",
-        "url": "https://bouncy.news/53532?fbclid=IwAR0jyfBKo8LJ3aiUidDfZUsQqJ5-oSMxRuiZyJju0g_F6A_hi1tOeboPM4E"
-      },
-      {
-        "date": "2019-10",
-        "tag": "shapebots",
-        "media": "Hackster.io",
-        "title": "Swarming Robots Can Change Their Configuration to Handle Different Tasks",
-        "url": "https://www.hackster.io/news/shapebots-swarming-robots-can-change-their-configuration-to-handle-different-tasks-59a5ae926e1d"
-      },
-      {
-        "date": "2019-09",
-        "tag": "shapebots",
-        "media": "TechXplore",
-        "title": "ShapeBots: A Swarm of Shape-shifting Robots that Visually Display Data",
-        "url": "https://techxplore.com/news/2019-09-shapebots-swarm-shape-shifting-robots-visually.html"
-      },
-      {
-        "date": "2019-09",
-        "tag": "shapebots",
-        "media": "Hackaday",
-        "title": "Tiny Robots that Grow Taller and Wider",
-        "url": "https://hackaday.com/2019/10/04/tiny-robots-that-grow-taller-and-wider/"
-      },
-      {
-        "date": "2019-09",
-        "media": "Robotic Gizmo",
-        "title": "ShapeBots: Shape-changing Swarm Robots",
-        "url": "https://www.roboticgizmos.com/shapebots/"
-      },
-      {
-        "date": "2019-09",
-        "tag": "shapebots",
-        "media": "Gadgetify",
-        "title": "ShapeBots: Shape Changing Swarm Robots",
-        "url": "http://www.gadgetify.com/shapebots/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "3DPrint.com",
-        "title": "Dynablock: 3D Prints That Assemble and Disassemble in Seconds",
-        "url": "https://3dprint.com/227781/3d-prints-that-assemble-in-seconds/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "Hackster.io",
-        "title": "The Dynamic 3D Printing That Assembles and Disassembles Objects in Seconds",
-        "url": "https://www.hackster.io/news/dynablock-the-dynamic-3d-printing-that-assembles-and-disassembles-objects-in-seconds-a7f7d4bf6cad"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "Arduino Blog",
-        "title": "Create Shapes Over and Over with the Dynablock 3D Printer",
-        "url": "https://blog.arduino.cc/2018/10/22/create-shapes-over-and-over-with-the-dynablock-3d-printer/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "3DRuck.com",
-        "title": "Dynablock: Dynamic 3D Printer Creates Objects in Seconds",
-        "url": "https://3druck.com/forschung/dynablock-dynamischer-3d-drucker-erstellt-objekte-in-sekunden-2776738/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "World Business Satellite",
-        "title": "Repeatable 3D Printer",
-        "url": "https://txbiz.tv-tokyo.co.jp/wbs/trend_tamago/post_168589/"
-      },
-      {
-        "date": "2018-10",
-        "tag": "dynablock",
-        "media": "Nikkei Newspaper",
-        "title": "Modeling 3D Objects with Magnet-Embedded Blocks",
-        "url": "https://active.nikkeibp.co.jp/atclact/active/17/071100318/101600559/"
-      },
-      {
-        "date": "2016-06",
-        "tag": "atelier",
-        "media": "Wired",
-        "title": "It’s Not Just Robots: Skilled Jobs Are Going to Meatware",
-        "url": "https://www.wired.com/2016/06/its-not-just-robots-skilled-jobs-are-going-to-meatware/"
-      }
-    ],
     "content/output/news.json": [
       {
         "date": "2023-07-25",
@@ -752,58 +344,6 @@
         "text": "The very first day of starting my HCI research (mentor: [**Koji Yatani**](http://iis-lab.org/member/koji-yatani/))"
       }
     ],
-    "content/output/projects/ar-and-robotics.json": {
-      "id": "ar-and-robotics",
-      "name": "Augmented Reality and Robotics",
-      "description": "A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces",
-      "title": "Augmented Reality and Robotics: A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces",
-      "authors": [
-        "Ryo Suzuki",
-        "Adnan Karim",
-        "Tian Xia",
-        "Hooman Hedayati",
-        "Nicolai Marquardt"
-      ],
-      "year": 2022,
-      "conference": {
-        "name": "CHI 2022",
-        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)",
-        "url": "https://chi2022.acm.org/"
-      },
-      "external": "https://ilab.ucalgary.ca/ar-and-robotics/",
-      "dir": "content/output/projects",
-      "base": "ar-and-robotics.json",
-      "ext": ".json",
-      "sourceBase": "ar-and-robotics.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/holobots.json": {
-      "id": "holobots",
-      "name": "HoloBots",
-      "description": "Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality",
-      "title": "HoloBots: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality",
-      "authors": [
-        "Keiichi Ihara",
-        "Mehrad Faridan",
-        "Ayumi Ichikawa",
-        "Ikkaku Kawaguchi",
-        "Ryo Suzuki"
-      ],
-      "year": 2023,
-      "booktitle": "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)",
-      "publisher": "ACM, New York, NY, USA",
-      "conference": {
-        "name": "UIST 2023",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2023)",
-        "url": "http://uist.acm.org/uist2023"
-      },
-      "pdf": "uist-2023-holobots.pdf",
-      "dir": "content/output/projects",
-      "base": "holobots.json",
-      "ext": ".json",
-      "sourceBase": "holobots.md",
-      "sourceExt": ".md"
-    },
     "content/output/posters.json": [
       {
         "author": "Neil Chulpongsatorn, Wesley Willett, Ryo Suzuki",
@@ -1010,31 +550,156 @@
         "address": "Piscataway, NJ, USA"
       }
     ],
-    "content/output/projects/expandable-robots.json": {
-      "id": "expandable-robots",
-      "name": "HRI for Expandable Robots",
-      "description": "Designing Expandable-Structure Robots for Human-Robot Interaction",
-      "title": "Designing Expandable-Structure Robots for Human-Robot Interaction",
+    "content/output/projects/chameleon-control.json": {
+      "id": "chameleon-control",
+      "name": "ChameleonControl",
+      "description": "Teleoperating Real Human Surrogates through Mixed Reality Gestural Guidance for Remote Hands-on Classrooms",
+      "title": "ChameleonControl: Teleoperating Real Human Surrogates through Mixed Reality Gestural Guidance for Remote Hands-on Classrooms",
       "authors": [
-        "Hooman Hedayati",
+        "Mehrad Faridan",
+        "Bheesha Kumari",
+        "Ryo Suzuki"
+      ],
+      "year": 2023,
+      "booktitle": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI '23)",
+      "publisher": "ACM, New York, NY, USA",
+      "doi": "https://doi.org/10.1145/3544548.3581449",
+      "conference": {
+        "name": "CHI 2023",
+        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2023)",
+        "url": "https://chi2023.acm.org/"
+      },
+      "pdf": "chi-2023-chameleon-control.pdf",
+      "video": "https://www.youtube.com/watch?v=VOe3fETd3sk",
+      "embed": "https://www.youtube.com/embed/VOe3fETd3sk",
+      "arxiv": "https://arxiv.org/abs/2302.11053",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3544548.3581449",
+      "pageCount": 13,
+      "slideCount": 0,
+      "dir": "content/output/projects",
+      "base": "chameleon-control.json",
+      "ext": ".json",
+      "sourceBase": "chameleon-control.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/atelier.json": {
+      "id": "atelier",
+      "name": "Atelier",
+      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "authors": [
         "Ryo Suzuki",
-        "Wyatt Rees",
-        "Daniel Leithinger",
-        "Daniel Szafir"
+        "Niloufar Salehi",
+        "Michelle S. Lam",
+        "Juan C. Marroquin",
+        "Michael S. Bernstein"
+      ],
+      "year": 2016,
+      "booktitle": "In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "2645-2656",
+      "conference": {
+        "name": "CHI 2016",
+        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2016)",
+        "url": "https://chi2016.acm.org/wp/"
+      },
+      "pdf": "chi-2016-atelier.pdf",
+      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
+      "embed": "https://www.youtube.com/embed/tBojZejtFQo",
+      "slide": "chi-2016-atelier-slide.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
+      "arxiv": "https://arxiv.org/abs/1602.06634",
+      "pageCount": 12,
+      "slideCount": 56,
+      "dir": "content/output/projects",
+      "base": "atelier.json",
+      "ext": ".json",
+      "sourceBase": "atelier.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/ar-and-robotics.json": {
+      "id": "ar-and-robotics",
+      "name": "Augmented Reality and Robotics",
+      "description": "A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces",
+      "title": "Augmented Reality and Robotics: A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces",
+      "authors": [
+        "Ryo Suzuki",
+        "Adnan Karim",
+        "Tian Xia",
+        "Hooman Hedayati",
+        "Nicolai Marquardt"
       ],
       "year": 2022,
-      "booktitle": "Frontiers in Robotics and AI",
-      "publisher": "ACM, New York, NY, USA",
-      "doi": "https://doi.org/10.3389/frobt.2022.719639",
       "conference": {
-        "name": "Frontiers 2022",
-        "fullname": "Frontiers in Robotics and AI (Frontiers 2022)",
-        "url": "https://www.frontiersin.org/journals/robotics-and-ai"
+        "name": "CHI 2022",
+        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)",
+        "url": "https://chi2022.acm.org/"
       },
+      "external": "https://ilab.ucalgary.ca/ar-and-robotics/",
       "dir": "content/output/projects",
-      "base": "expandable-robots.json",
+      "base": "ar-and-robotics.json",
       "ext": ".json",
-      "sourceBase": "expandable-robots.md",
+      "sourceBase": "ar-and-robotics.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/electro-voxel.json": {
+      "id": "electro-voxel",
+      "name": "ElectroVoxel",
+      "description": "Electromagnetically Actuated Pivoting for Scalable Modular Self-Reconfigurable Robots",
+      "title": "ElectroVoxel: Electromagnetically Actuated Pivoting for Scalable Modular Self-Reconfigurable Robots",
+      "authors": [
+        "Martin Nisser",
+        "Leon Cheng",
+        "Yashaswini Makaram",
+        "Ryo Suzuki",
+        "Stefanie Mueller"
+      ],
+      "year": 2022,
+      "conference": {
+        "name": "ICRA 2022",
+        "fullname": "International Conference on Robotics and Automation (ICRA 2022)",
+        "url": "https://www.icra2022.org/"
+      },
+      "external": "https://hcie.csail.mit.edu/research/Electrovoxel/electrovoxel.html",
+      "dir": "content/output/projects",
+      "base": "electro-voxel.json",
+      "ext": ".json",
+      "sourceBase": "electro-voxel.md",
+      "sourceExt": ".md"
+    },
+    "content/output/posters/ultrabots.json": {
+      "id": "ultrabots",
+      "name": "Atelier",
+      "description": "Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "title": "Atelier: Repurposing Expert Crowdsourcing Tasks as Micro-internships",
+      "authors": [
+        "Ryo Suzuki",
+        "Niloufar Salehi",
+        "Michelle S. Lam",
+        "Juan C. Marroquin",
+        "Michael S. Bernstein"
+      ],
+      "year": 2016,
+      "booktitle": "In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "2645-2656",
+      "conference": {
+        "name": "CHI 2016",
+        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2016)",
+        "url": "https://chi2016.acm.org/wp/"
+      },
+      "pdf": "chi-2016-atelier.pdf",
+      "video": "https://www.youtube.com/watch?v=tBojZejtFQo",
+      "embed": "https://www.youtube.com/embed/tBojZejtFQo",
+      "slide": "chi-2016-atelier-slide.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=2858121",
+      "arxiv": "https://arxiv.org/abs/1602.06634",
+      "pageCount": 12,
+      "slideCount": 56,
+      "dir": "content/output/posters",
+      "base": "ultrabots.json",
+      "ext": ".json",
+      "sourceBase": "ultrabots.md",
       "sourceExt": ".md"
     },
     "content/output/projects/flux-marker.json": {
@@ -1070,6 +735,138 @@
       "base": "flux-marker.json",
       "ext": ".json",
       "sourceBase": "flux-marker.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/augmented-math.json": {
+      "id": "augmented-math",
+      "name": "Augmented Math",
+      "description": "Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks",
+      "title": "Augmented Math: Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks",
+      "authors": [
+        "Neil Chulpongsatorn",
+        "Mille Skovhus Lunding",
+        "Nishan Soni",
+        "Ryo Suzuki"
+      ],
+      "year": 2023,
+      "booktitle": "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)",
+      "publisher": "ACM, New York, NY, USA",
+      "doi": "https://doi.org/10.1145/3586183.3606827",
+      "conference": {
+        "name": "UIST 2023",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2023)",
+        "url": "http://uist.acm.org/uist2023"
+      },
+      "pdf": "uist-2023-augmented-math.pdf",
+      "video": "https://www.youtube.com/watch?v=Zv6JQ5T-qn0",
+      "embed": "https://www.youtube.com/embed/Zv6JQ5T-qn0",
+      "arxiv": "https://arxiv.org/abs/2307.16112",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3586183.3606827",
+      "pageCount": 16,
+      "dir": "content/output/projects",
+      "base": "augmented-math.json",
+      "ext": ".json",
+      "sourceBase": "augmented-math.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/expandable-robots.json": {
+      "id": "expandable-robots",
+      "name": "HRI for Expandable Robots",
+      "description": "Designing Expandable-Structure Robots for Human-Robot Interaction",
+      "title": "Designing Expandable-Structure Robots for Human-Robot Interaction",
+      "authors": [
+        "Hooman Hedayati",
+        "Ryo Suzuki",
+        "Wyatt Rees",
+        "Daniel Leithinger",
+        "Daniel Szafir"
+      ],
+      "year": 2022,
+      "booktitle": "Frontiers in Robotics and AI",
+      "publisher": "ACM, New York, NY, USA",
+      "doi": "https://doi.org/10.3389/frobt.2022.719639",
+      "conference": {
+        "name": "Frontiers 2022",
+        "fullname": "Frontiers in Robotics and AI (Frontiers 2022)",
+        "url": "https://www.frontiersin.org/journals/robotics-and-ai"
+      },
+      "dir": "content/output/projects",
+      "base": "expandable-robots.json",
+      "ext": ".json",
+      "sourceBase": "expandable-robots.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/holobots.json": {
+      "id": "holobots",
+      "name": "HoloBots",
+      "description": "Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality",
+      "title": "HoloBots: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality",
+      "authors": [
+        "Keiichi Ihara",
+        "Mehrad Faridan",
+        "Ayumi Ichikawa",
+        "Ikkaku Kawaguchi",
+        "Ryo Suzuki"
+      ],
+      "year": 2023,
+      "booktitle": "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)",
+      "publisher": "ACM, New York, NY, USA",
+      "doi": "https://doi.org/10.1145/3586183.3606727",
+      "conference": {
+        "name": "UIST 2023",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2023)",
+        "url": "http://uist.acm.org/uist2023"
+      },
+      "pdf": "uist-2023-holobots.pdf",
+      "video": "https://www.youtube.com/watch?v=KSBPtiXy8Hg",
+      "embed": "https://www.youtube.com/embed/KSBPtiXy8Hg",
+      "arxiv": "https://arxiv.org/abs/2307.16114",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3586183.3606727",
+      "pageCount": 12,
+      "dir": "content/output/projects",
+      "base": "holobots.json",
+      "ext": ".json",
+      "sourceBase": "holobots.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/dynablock.json": {
+      "id": "dynablock",
+      "name": "Dynablock",
+      "description": "Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
+      "title": "Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
+      "authors": [
+        "Ryo Suzuki",
+        "Junichi Yamaoka",
+        "Daniel Leithinger",
+        "Tom Yeh",
+        "Mark D. Gross",
+        "Yoshihiro Kawahara",
+        "Yasuaki Kakehi"
+      ],
+      "year": 2018,
+      "booktitle": "In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (UIST '18)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "99-111",
+      "doi": "https://doi.org/10.1145/3242587.3242659",
+      "conference": {
+        "name": "UIST 2018",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2018)",
+        "url": "http://uist.acm.org/uist2018"
+      },
+      "pdf": "uist-2018-dynablock.pdf",
+      "video": "https://www.youtube.com/watch?v=7nPlr3O9xu8",
+      "embed": "https://www.youtube.com/embed/7nPlr3O9xu8",
+      "short-video": "https://www.youtube.com/watch?v=92eGI-gYYc4",
+      "slide": "uist-2018-dynablock-slide.pdf",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3242659",
+      "talk": "https://www.youtube.com/watch?v=R3FRUtOIiCQ",
+      "poster": "uist-2018-dynablock-poster.pdf",
+      "pageCount": 12,
+      "slideCount": 53,
+      "dir": "content/output/projects",
+      "base": "dynablock.json",
+      "ext": ".json",
+      "sourceBase": "dynablock.md",
       "sourceExt": ".md"
     },
     "content/output/projects/hapticbots.json": {
@@ -1110,41 +907,71 @@
       "sourceBase": "hapticbots.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/morphio.json": {
-      "id": "morphio",
-      "name": "MorphIO",
-      "description": "Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
-      "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+    "content/output/projects/mixels.json": {
+      "id": "mixels",
+      "name": "Mixels",
+      "description": "Fabricating Interfaces using Programmable Magnetic Pixels",
+      "title": "Mixels: Fabricating Interfaces using Programmable Magnetic Pixels",
       "authors": [
-        "Ryosuke Nakayama*",
-        "Ryo Suzuki*",
-        "Satoshi Nakamaru",
-        "Ryuma Niiyama",
-        "Yoshihiro Kawahara",
-        "Yasuaki Kakehi"
+        "Martin Nisser",
+        "Yashaswini Makaram",
+        "Lucian Covarrubias",
+        "Amadou Yaye Bah",
+        "Faraz Faruqi",
+        "Ryo Suzuki",
+        "Stefanie Mueller"
       ],
-      "note": "(the first two authors equally contributed)",
-      "year": 2018,
-      "booktitle": "In Proceedings of the 2019 on Designing Interactive Systems Conference (DIS '19)",
+      "year": 2022,
+      "booktitle": "In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)",
       "publisher": "ACM, New York, NY, USA",
-      "pages": "975-986",
-      "doi": "https://doi.org/10.1145/3322276.3322337",
       "conference": {
-        "name": "DIS 2019",
-        "fullname": "The ACM conference on Designing Interactive Systems (DIS 2019) - Best Paper Award",
-        "url": "https://dis2019.com/"
+        "name": "UIST 2022",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2022)",
+        "url": "http://uist.acm.org/uist2022"
       },
-      "pdf": "dis-2019-morphio.pdf",
-      "slide": "dis-2019-morphio-slide.pdf",
-      "video": "https://www.youtube.com/watch?v=ZkCcazfFD-M",
-      "embed": "https://www.youtube.com/embed/ZkCcazfFD-M",
-      "acm-dl": "https://dl.acm.org/citation.cfm?id=3322337",
-      "pageCount": 12,
-      "slideCount": 52,
+      "external": "https://hcie.csail.mit.edu/research/mixels/mixels.html",
+      "doi": "https://doi.org/10.1145/3526114.3558654",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3526114.3558654",
       "dir": "content/output/projects",
-      "base": "morphio.json",
+      "base": "mixels.json",
       "ext": ".json",
-      "sourceBase": "morphio.md",
+      "sourceBase": "mixels.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/mixed-initiative.json": {
+      "id": "mixed-initiative",
+      "name": "Mixed-Initiative Code Feedback",
+      "description": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
+      "title": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
+      "authors": [
+        "Andrew Head",
+        "Elena Glassman",
+        "Gustavo Soares",
+        "Ryo Suzuki",
+        "Lucas Figueredo",
+        "Loris D’Antoni",
+        "Björn Hartmann"
+      ],
+      "note": "(the first three authors equally contributed)",
+      "year": 2017,
+      "booktitle": "In Proceedings of the Fourth (2017) ACM Conference on Learning @ Scale (L@S '17)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "89-98",
+      "doi": "https://doi.org/10.1145/3051457.3051467",
+      "conference": {
+        "name": "L@S 2017",
+        "fullname": "The ACM Conference on Learning at Scale (L@S 2017)",
+        "url": "http://learningatscale.acm.org/las2017"
+      },
+      "pdf": "las-2017-mixed.pdf",
+      "slide": "las-2017-mixed-slide.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3051467",
+      "pageCount": 10,
+      "slideCount": 62,
+      "dir": "content/output/projects",
+      "base": "mixed-initiative.json",
+      "ext": ".json",
+      "sourceBase": "mixed-initiative.md",
       "sourceExt": ".md"
     },
     "content/output/projects/lift-tiles.json": {
@@ -1204,74 +1031,6 @@
       "sourceBase": "lift-tiles.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/mixed-initiative.json": {
-      "id": "mixed-initiative",
-      "name": "Mixed-Initiative Code Feedback",
-      "description": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
-      "title": "Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis",
-      "authors": [
-        "Andrew Head",
-        "Elena Glassman",
-        "Gustavo Soares",
-        "Ryo Suzuki",
-        "Lucas Figueredo",
-        "Loris D’Antoni",
-        "Björn Hartmann"
-      ],
-      "note": "(the first three authors equally contributed)",
-      "year": 2017,
-      "booktitle": "In Proceedings of the Fourth (2017) ACM Conference on Learning @ Scale (L@S '17)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "89-98",
-      "doi": "https://doi.org/10.1145/3051457.3051467",
-      "conference": {
-        "name": "L@S 2017",
-        "fullname": "The ACM Conference on Learning at Scale (L@S 2017)",
-        "url": "http://learningatscale.acm.org/las2017"
-      },
-      "pdf": "las-2017-mixed.pdf",
-      "slide": "las-2017-mixed-slide.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=3051467",
-      "pageCount": 10,
-      "slideCount": 62,
-      "dir": "content/output/projects",
-      "base": "mixed-initiative.json",
-      "ext": ".json",
-      "sourceBase": "mixed-initiative.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/pufferbot.json": {
-      "id": "pufferbot",
-      "name": "PufferBot",
-      "description": "Actuated Expandable Structures for Aerial Robots",
-      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
-      "authors": [
-        "Hooman Hedayati",
-        "Ryo Suzuki",
-        "Daniel Leithinger",
-        "Daniel Szafir"
-      ],
-      "year": 2020,
-      "booktitle": "In Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '20)",
-      "publisher": "IEEE, New York, NY, USA",
-      "pages": "1-6",
-      "conference": {
-        "name": "IROS 2020",
-        "fullname": "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2020)",
-        "url": "https://www.iros2020.org/"
-      },
-      "pdf": "iros-2020-pufferbot.pdf",
-      "video": "https://www.youtube.com/watch?v=XtPepCxWcBg",
-      "embed": "https://www.youtube.com/embed/XtPepCxWcBg",
-      "arxiv": "https://arxiv.org/abs/2008.07615",
-      "pageCount": 6,
-      "slideCount": 0,
-      "dir": "content/output/projects",
-      "base": "pufferbot.json",
-      "ext": ".json",
-      "sourceBase": "pufferbot.md",
-      "sourceExt": ".md"
-    },
     "content/output/projects/pep.json": {
       "id": "pep",
       "name": "PEP",
@@ -1308,101 +1067,41 @@
       "sourceBase": "pep.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/dynablock.json": {
-      "id": "dynablock",
-      "name": "Dynablock",
-      "description": "Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
-      "title": "Dynablock: Dynamic 3D Printing for Instant and Reconstructable Shape Formation",
+    "content/output/projects/morphio.json": {
+      "id": "morphio",
+      "name": "MorphIO",
+      "description": "Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
+      "title": "MorphIO: Entirely Soft Sensing and Actuation Modules for Programming Shape Changes through Tangible Interaction",
       "authors": [
-        "Ryo Suzuki",
-        "Junichi Yamaoka",
-        "Daniel Leithinger",
-        "Tom Yeh",
-        "Mark D. Gross",
+        "Ryosuke Nakayama*",
+        "Ryo Suzuki*",
+        "Satoshi Nakamaru",
+        "Ryuma Niiyama",
         "Yoshihiro Kawahara",
         "Yasuaki Kakehi"
       ],
+      "note": "(the first two authors equally contributed)",
       "year": 2018,
-      "booktitle": "In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology (UIST '18)",
+      "booktitle": "In Proceedings of the 2019 on Designing Interactive Systems Conference (DIS '19)",
       "publisher": "ACM, New York, NY, USA",
-      "pages": "99-111",
-      "doi": "https://doi.org/10.1145/3242587.3242659",
+      "pages": "975-986",
+      "doi": "https://doi.org/10.1145/3322276.3322337",
       "conference": {
-        "name": "UIST 2018",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2018)",
-        "url": "http://uist.acm.org/uist2018"
+        "name": "DIS 2019",
+        "fullname": "The ACM conference on Designing Interactive Systems (DIS 2019) - Best Paper Award",
+        "url": "https://dis2019.com/"
       },
-      "pdf": "uist-2018-dynablock.pdf",
-      "video": "https://www.youtube.com/watch?v=7nPlr3O9xu8",
-      "embed": "https://www.youtube.com/embed/7nPlr3O9xu8",
-      "short-video": "https://www.youtube.com/watch?v=92eGI-gYYc4",
-      "slide": "uist-2018-dynablock-slide.pdf",
-      "acm-dl": "https://dl.acm.org/citation.cfm?id=3242659",
-      "talk": "https://www.youtube.com/watch?v=R3FRUtOIiCQ",
-      "poster": "uist-2018-dynablock-poster.pdf",
+      "pdf": "dis-2019-morphio.pdf",
+      "slide": "dis-2019-morphio-slide.pdf",
+      "video": "https://www.youtube.com/watch?v=ZkCcazfFD-M",
+      "embed": "https://www.youtube.com/embed/ZkCcazfFD-M",
+      "acm-dl": "https://dl.acm.org/citation.cfm?id=3322337",
       "pageCount": 12,
-      "slideCount": 53,
+      "slideCount": 52,
       "dir": "content/output/projects",
-      "base": "dynablock.json",
+      "base": "morphio.json",
       "ext": ".json",
-      "sourceBase": "dynablock.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/realitycanvas.json": {
-      "id": "realitycanvas",
-      "name": "RealityCanvas",
-      "description": "Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects",
-      "title": "RealityCanvas: Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects",
-      "authors": [
-        "Zhijie Xia",
-        "Kyzyl Monteiro",
-        "Kevin Van",
-        "Ryo Suzuki"
-      ],
-      "year": 2023,
-      "booktitle": "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)",
-      "publisher": "ACM, New York, NY, USA",
-      "conference": {
-        "name": "UIST 2023",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2023)",
-        "url": "http://uist.acm.org/uist2023"
-      },
-      "pdf": "uist-2023-realitycanvas.pdf",
-      "dir": "content/output/projects",
-      "base": "realitycanvas.json",
-      "ext": ".json",
-      "sourceBase": "realitycanvas.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/mixels.json": {
-      "id": "mixels",
-      "name": "Mixels",
-      "description": "Fabricating Interfaces using Programmable Magnetic Pixels",
-      "title": "Mixels: Fabricating Interfaces using Programmable Magnetic Pixels",
-      "authors": [
-        "Martin Nisser",
-        "Yashaswini Makaram",
-        "Lucian Covarrubias",
-        "Amadou Yaye Bah",
-        "Faraz Faruqi",
-        "Ryo Suzuki",
-        "Stefanie Mueller"
-      ],
-      "year": 2022,
-      "booktitle": "In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)",
-      "publisher": "ACM, New York, NY, USA",
-      "conference": {
-        "name": "UIST 2022",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2022)",
-        "url": "http://uist.acm.org/uist2022"
-      },
-      "external": "https://hcie.csail.mit.edu/research/mixels/mixels.html",
-      "doi": "https://doi.org/10.1145/3526114.3558654",
-      "acm-dl": "https://dl.acm.org/doi/10.1145/3526114.3558654",
-      "dir": "content/output/projects",
-      "base": "mixels.json",
-      "ext": ".json",
-      "sourceBase": "mixels.md",
+      "sourceBase": "morphio.md",
       "sourceExt": ".md"
     },
     "content/output/projects/phd-thesis.json": {
@@ -1446,42 +1145,6 @@
       "sourceBase": "phd-thesis.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/realitysketch.json": {
-      "id": "realitysketch",
-      "name": "RealitySketch",
-      "description": "Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
-      "title": "RealitySketch: Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
-      "authors": [
-        "Ryo Suzuki",
-        "Rubaiat Habib Kazi",
-        "Li-Yi Wei",
-        "Stephen DiVerdi",
-        "Wilmot Li",
-        "Daniel Leithinger"
-      ],
-      "year": 2020,
-      "booktitle": "In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20)",
-      "publisher": "ACM, New York, NY, USA",
-      "pages": "1-16",
-      "doi": "https://doi.org/10.1145/3379337.3415892",
-      "conference": {
-        "name": "UIST 2020",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2020) - Honorable Mention Award",
-        "url": "https://uist.acm.org/uist2020/"
-      },
-      "pdf": "uist-2020-realitysketch.pdf",
-      "video": "https://www.youtube.com/watch?v=L0p-BNU9rXU",
-      "embed": "https://www.youtube.com/embed/L0p-BNU9rXU",
-      "arxiv": "https://arxiv.org/abs/2008.08688",
-      "acm-dl": "https://dl.acm.org/doi/10.1145/3379337.3415892",
-      "pageCount": 16,
-      "slideCount": 0,
-      "dir": "content/output/projects",
-      "base": "realitysketch.json",
-      "ext": ".json",
-      "sourceBase": "realitysketch.md",
-      "sourceExt": ".md"
-    },
     "content/output/projects/reactile.json": {
       "id": "reactile",
       "name": "Reactile",
@@ -1518,146 +1181,98 @@
       "sourceBase": "reactile.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/refazer.json": {
-      "id": "refazer",
-      "name": "Refazer",
-      "description": "Learning Syntactic Program Transformations from Examples",
-      "title": "Learning Syntactic Program Transformations from Examples",
+    "content/output/projects/pufferbot.json": {
+      "id": "pufferbot",
+      "name": "PufferBot",
+      "description": "Actuated Expandable Structures for Aerial Robots",
+      "title": "PufferBot: Actuated Expandable Structures for Aerial Robots",
       "authors": [
-        "Reudismam Rolim",
-        "Gustavo Soares",
-        "Loris D'Antoni",
-        "Oleksandr Polozov",
-        "Sumit Gulwani",
-        "Rohit Gheyi",
+        "Hooman Hedayati",
         "Ryo Suzuki",
-        "Björn Hartmann"
+        "Daniel Leithinger",
+        "Daniel Szafir"
       ],
-      "yera": 2017,
-      "booktitle": "In Proceedings of the 39th International Conference on Software Engineering (ICSE '17)",
-      "publisher": "IEEE Press, Piscataway, NJ, USA",
-      "pages": "404-415",
+      "year": 2020,
+      "booktitle": "In Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '20)",
+      "publisher": "IEEE, New York, NY, USA",
+      "pages": "1-6",
       "conference": {
-        "name": "ICSE 2017",
-        "fullname": "The International Conference on Software Engineering (ICSE 2017)",
-        "url": "http://icse2017.gatech.edu/"
+        "name": "IROS 2020",
+        "fullname": "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2020)",
+        "url": "https://www.iros2020.org/"
       },
-      "pdf": "icse-2017-refazer.pdf",
-      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
-      "arxiv": "https://arxiv.org/abs/1608.09000",
-      "pageCount": 12,
+      "pdf": "iros-2020-pufferbot.pdf",
+      "video": "https://www.youtube.com/watch?v=XtPepCxWcBg",
+      "embed": "https://www.youtube.com/embed/XtPepCxWcBg",
+      "arxiv": "https://arxiv.org/abs/2008.07615",
+      "pageCount": 6,
       "slideCount": 0,
       "dir": "content/output/projects",
-      "base": "refazer.json",
+      "base": "pufferbot.json",
       "ext": ".json",
-      "sourceBase": "refazer.md",
+      "sourceBase": "pufferbot.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/shapebots.json": {
-      "id": "shapebots",
-      "name": "ShapeBots",
-      "description": "Shape-changing Swarm Robots",
-      "title": "ShapeBots: Shape-changing Swarm Robots",
+    "content/output/projects/realitycanvas.json": {
+      "id": "realitycanvas",
+      "name": "RealityCanvas",
+      "description": "Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects",
+      "title": "RealityCanvas: Augmented Reality Sketching for Embedded and Responsive Scribble Animation Effects",
       "authors": [
-        "Ryo Suzuki",
-        "Clement Zheng",
-        "Yasuaki Kakehi",
-        "Tom Yeh",
-        "Ellen Yi-Luen Do",
-        "Mark D. Gross",
-        "Daniel Leithinger"
+        "Zhijie Xia",
+        "Kyzyl Monteiro",
+        "Kevin Van",
+        "Ryo Suzuki"
       ],
-      "year": 2019,
-      "booktitle": "In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST '19)",
+      "year": 2023,
+      "booktitle": "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)",
       "publisher": "ACM, New York, NY, USA",
-      "pages": "1-13",
-      "doi": "https://doi.org/10.1145/3332165.3347911",
       "conference": {
-        "name": "UIST 2019",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2019)",
-        "url": "http://uist.acm.org/uist2019"
+        "name": "UIST 2023",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2023)",
+        "url": "http://uist.acm.org/uist2023"
       },
-      "pdf": "uist-2019-shapebots.pdf",
-      "slide": "uist-2019-shapebots-slide.pdf",
-      "video": "https://www.youtube.com/watch?v=cwPaof0kKdM",
-      "embed": "https://www.youtube.com/embed/cwPaof0kKdM",
-      "github": "https://github.com/ryosuzuki/shapebots",
-      "poster": "uist-2019-shapebots-poster.pdf",
-      "demo": "https://ryosuzuki.github.io/shapebots-simulator/",
-      "arxiv": "https://arxiv.org/abs/1909.03372",
-      "acm-dl": "https://dl.acm.org/doi/10.1145/3332165.3347911",
-      "pageCount": 13,
-      "slideCount": 53,
+      "pdf": "uist-2023-realitycanvas.pdf",
       "dir": "content/output/projects",
-      "base": "shapebots.json",
+      "base": "realitycanvas.json",
       "ext": ".json",
-      "sourceBase": "shapebots.md",
+      "sourceBase": "realitycanvas.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/roomshift.json": {
-      "id": "roomshift",
-      "name": "RoomShift",
-      "description": "Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
-      "title": "RoomShift: Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
+    "content/output/projects/realitysketch.json": {
+      "id": "realitysketch",
+      "name": "RealitySketch",
+      "description": "Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
+      "title": "RealitySketch: Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching",
       "authors": [
         "Ryo Suzuki",
-        "Hooman Hedayati",
-        "Clement Zheng",
-        "James Bohn",
-        "Daniel Szafir",
-        "Ellen Yi-Luen Do",
-        "Mark D Gross",
+        "Rubaiat Habib Kazi",
+        "Li-Yi Wei",
+        "Stephen DiVerdi",
+        "Wilmot Li",
         "Daniel Leithinger"
       ],
       "year": 2020,
-      "booktitle": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI '20)",
+      "booktitle": "In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20)",
       "publisher": "ACM, New York, NY, USA",
-      "pages": "Paper 396, 11 pages",
-      "doi": "https://doi.org/10.1145/3313831.3376523",
+      "pages": "1-16",
+      "doi": "https://doi.org/10.1145/3379337.3415892",
       "conference": {
-        "name": "CHI 2020",
-        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2020)",
-        "url": "https://chi2020.acm.org/"
+        "name": "UIST 2020",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2020) - Honorable Mention Award",
+        "url": "https://uist.acm.org/uist2020/"
       },
-      "video": "https://www.youtube.com/watch?v=6_PAirnlDnk",
-      "embed": "https://www.youtube.com/embed/6_PAirnlDnk",
-      "short-video": "https://www.youtube.com/watch?v=4OWU60gTOFE",
-      "pdf": "chi-2020-roomshift.pdf",
-      "arxiv": "https://arxiv.org/abs/2008.08695",
-      "acm-dl": "https://dl.acm.org/doi/10.1145/3313831.3376523",
-      "pageCount": 11,
+      "pdf": "uist-2020-realitysketch.pdf",
+      "video": "https://www.youtube.com/watch?v=L0p-BNU9rXU",
+      "embed": "https://www.youtube.com/embed/L0p-BNU9rXU",
+      "arxiv": "https://arxiv.org/abs/2008.08688",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3379337.3415892",
+      "pageCount": 16,
       "slideCount": 0,
       "dir": "content/output/projects",
-      "base": "roomshift.json",
+      "base": "realitysketch.json",
       "ext": ".json",
-      "sourceBase": "roomshift.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/selective-self-assembly.json": {
-      "id": "selective-self-assembly",
-      "name": "Selective Self-Assembly",
-      "description": "Selective Self-Assembly using Re-Programmable Magnetic Pixels",
-      "title": "Selective Self-Assembly using Re-Programmable Magnetic Pixels",
-      "authors": [
-        "Martin Nisser",
-        "Yashaswini Makaram",
-        "Faraz Faruqi",
-        "Ryo Suzuki",
-        "Stefanie Mueller"
-      ],
-      "year": 2022,
-      "booktitle": "In Proceedings of 2022 IEEE/RSJ In- ternational Conference on Intelligent Robots and Systems (IROS '22)",
-      "publisher": "ACM, New York, NY, USA",
-      "conference": {
-        "name": "IROS 2022",
-        "fullname": "In Proceedings of 2022 IEEE/RSJ In- ternational Conference on Intelligent Robots and Systems (IROS 2022)",
-        "url": "https://iros2022.org/"
-      },
-      "external": "https://hcie.csail.mit.edu/research/selective/selective.html",
-      "dir": "content/output/projects",
-      "base": "selective-self-assembly.json",
-      "ext": ".json",
-      "sourceBase": "selective-self-assembly.md",
+      "sourceBase": "realitysketch.md",
       "sourceExt": ".md"
     },
     "content/output/projects/physica.json": {
@@ -1691,167 +1306,66 @@
       "sourceBase": "physica.md",
       "sourceExt": ".md"
     },
-    "content/output/projects/realitytalk.json": {
-      "id": "realitytalk",
-      "name": "RealityTalk",
-      "description": "Real-time Speech-driven Augmented Presentation for AR Live Storytelling",
-      "title": "RealityTalk: Real-time Speech-driven Augmented Presentation for AR Live Storytelling",
+    "content/output/projects/selective-self-assembly.json": {
+      "id": "selective-self-assembly",
+      "name": "Selective Self-Assembly",
+      "description": "Selective Self-Assembly using Re-Programmable Magnetic Pixels",
+      "title": "Selective Self-Assembly using Re-Programmable Magnetic Pixels",
       "authors": [
-        "Jian Liao",
-        "Adnan Karim",
-        "Shivesh Jadon",
-        "Rubaiat Habib Kazi",
-        "Ryo Suzuki"
-      ],
-      "year": 2022,
-      "booktitle": "In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)",
-      "publisher": "ACM, New York, NY, USA",
-      "doi": "https://doi.org/10.1145/3526113.3545702",
-      "conference": {
-        "name": "UIST 2022",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2022)",
-        "url": "http://uist.acm.org/uist2022"
-      },
-      "pdf": "uist-2022-realitytalk.pdf",
-      "video": "https://www.youtube.com/watch?v=vfIMeICV-7c",
-      "embed": "https://www.youtube.com/embed/vfIMeICV-7c",
-      "arxiv": "https://arxiv.org/abs/2208.06350",
-      "acm-dl": "https://dl.acm.org/doi/10.1145/3526113.3545702",
-      "pageCount": 12,
-      "slideCount": 0,
-      "dir": "content/output/projects",
-      "base": "realitytalk.json",
-      "ext": ".json",
-      "sourceBase": "realitytalk.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/augmented-math.json": {
-      "id": "augmented-math",
-      "name": "Augmented Math",
-      "description": "Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks",
-      "title": "Augmented Math: Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks",
-      "authors": [
-        "Neil Chulpongsatorn",
-        "Mille Skovhus Lunding",
-        "Nishan Soni",
-        "Ryo Suzuki"
-      ],
-      "year": 2023,
-      "booktitle": "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)",
-      "publisher": "ACM, New York, NY, USA",
-      "conference": {
-        "name": "UIST 2023",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2023)",
-        "url": "http://uist.acm.org/uist2023"
-      },
-      "pdf": "uist-2023-augmented-math.pdf",
-      "dir": "content/output/projects",
-      "base": "augmented-math.json",
-      "ext": ".json",
-      "sourceBase": "augmented-math.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/sketched-reality.json": {
-      "id": "sketched-reality",
-      "name": "Sketched Reality",
-      "description": "Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI",
-      "title": "Sketched Reality: Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI",
-      "authors": [
-        "Hiroki Kaimoto",
-        "Kyzyl Monteiro",
-        "Mehrad Faridan",
-        "Jiatong Li",
-        "Samin Farajian",
-        "Yasuaki Kakehi",
-        "Ken Nakagaki",
-        "Ryo Suzuki"
-      ],
-      "year": 2022,
-      "booktitle": "In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)",
-      "publisher": "ACM, New York, NY, USA",
-      "doi": "https://doi.org/10.1145/3526113.3545626",
-      "conference": {
-        "name": "UIST 2022",
-        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2022)",
-        "url": "http://uist.acm.org/uist2022"
-      },
-      "pdf": "uist-2022-sketched-reality.pdf",
-      "video": "https://www.youtube.com/watch?v=xy-IeVgoEpY",
-      "embed": "https://www.youtube.com/embed/xy-IeVgoEpY",
-      "arxiv": "https://arxiv.org/abs/2208.06341",
-      "acm-dl": "https://dl.acm.org/doi/10.1145/3526113.3545626",
-      "pageCount": 12,
-      "slideCount": 0,
-      "dir": "content/output/projects",
-      "base": "sketched-reality.json",
-      "ext": ".json",
-      "sourceBase": "sketched-reality.md",
-      "sourceExt": ".md"
-    },
-    "content/output/projects/trace-diff.json": {
-      "id": "trace-diff",
-      "name": "TraceDiff",
-      "description": "Debugging Unexpected Code Behavior Using Trace Divergences",
-      "title": "TraceDiff: Debugging Unexpected Code Behavior Using Trace Divergences",
-      "authors": [
+        "Martin Nisser",
+        "Yashaswini Makaram",
+        "Faraz Faruqi",
         "Ryo Suzuki",
-        "Gustavo Soares",
-        "Andrew Head",
-        "Elena Glassman",
-        "Ruan Reis",
-        "Melina Mongiovi",
-        "Loris D’Antoni",
-        "Bjöern Hartmann"
+        "Stefanie Mueller"
       ],
-      "year": 2017,
-      "booktitle": "In Proceedings of 2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC '17)",
-      "publisher": "IEEE Press, Piscataway, NJ, USA",
-      "pages": "107-115",
-      "doi": "https://doi.org/10.1109/VLHCC.2017.8103457",
+      "year": 2022,
+      "booktitle": "In Proceedings of 2022 IEEE/RSJ In- ternational Conference on Intelligent Robots and Systems (IROS '22)",
+      "publisher": "ACM, New York, NY, USA",
       "conference": {
-        "name": "VL/HCC 2017",
-        "fullname": "IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC 2017)",
-        "url": "https://sites.google.com/site/vlhcc2017/"
+        "name": "IROS 2022",
+        "fullname": "In Proceedings of 2022 IEEE/RSJ In- ternational Conference on Intelligent Robots and Systems (IROS 2022)",
+        "url": "https://iros2022.org/"
       },
-      "pdf": "vlhcc-2017-tracediff.pdf",
-      "slide": "vlhcc-2017-tracediff-slide.pdf",
-      "github": "https://github.com/ryosuzuki/trace-diff",
-      "demo": "https://ryosuzuki.github.io/trace-diff/",
-      "ieee": "http://ieeexplore.ieee.org/document/8103457/",
-      "arxiv": "https://arxiv.org/abs/1708.03786a",
-      "related": {
-        "title": "Exploring the Design Space of Automatically Synthesized Hints for Introductory Programming Assignments",
-        "authors": [
-          "Ryo Suzuki",
-          "Gustavo Soares",
-          "Elena Glassman",
-          "Andrew Head",
-          "Loris D'Antoni",
-          "Björn Hartmann"
-        ],
-        "year": 2017,
-        "booktitle": "In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17)",
-        "publisher": "ACM, New York, NY, USA",
-        "pages": "2951-2958",
-        "doi": "https://doi.org/10.1145/3027063.3053187",
-        "pdf": "chi-2017-lbw.pdf",
-        "suffix": "lbw",
-        "pageCount": 6
-      },
-      "pageCount": 9,
-      "slideCount": 77,
+      "external": "https://hcie.csail.mit.edu/research/selective/selective.html",
       "dir": "content/output/projects",
-      "base": "trace-diff.json",
+      "base": "selective-self-assembly.json",
       "ext": ".json",
-      "sourceBase": "trace-diff.md",
+      "sourceBase": "selective-self-assembly.md",
       "sourceExt": ".md"
     },
-    "content/output/fellowship.json": {
-      "title": "Funding",
-      "dir": "content/output",
-      "base": "fellowship.json",
+    "content/output/projects/refazer.json": {
+      "id": "refazer",
+      "name": "Refazer",
+      "description": "Learning Syntactic Program Transformations from Examples",
+      "title": "Learning Syntactic Program Transformations from Examples",
+      "authors": [
+        "Reudismam Rolim",
+        "Gustavo Soares",
+        "Loris D'Antoni",
+        "Oleksandr Polozov",
+        "Sumit Gulwani",
+        "Rohit Gheyi",
+        "Ryo Suzuki",
+        "Björn Hartmann"
+      ],
+      "yera": 2017,
+      "booktitle": "In Proceedings of the 39th International Conference on Software Engineering (ICSE '17)",
+      "publisher": "IEEE Press, Piscataway, NJ, USA",
+      "pages": "404-415",
+      "conference": {
+        "name": "ICSE 2017",
+        "fullname": "The International Conference on Software Engineering (ICSE 2017)",
+        "url": "http://icse2017.gatech.edu/"
+      },
+      "pdf": "icse-2017-refazer.pdf",
+      "acm-dl": "http://dl.acm.org/citation.cfm?id=3097417",
+      "arxiv": "https://arxiv.org/abs/1608.09000",
+      "pageCount": 12,
+      "slideCount": 0,
+      "dir": "content/output/projects",
+      "base": "refazer.json",
       "ext": ".json",
-      "sourceBase": "fellowship.md",
+      "sourceBase": "refazer.md",
       "sourceExt": ".md"
     },
     "content/output/experience.json": [
@@ -2080,38 +1594,429 @@
         ]
       }
     ],
-    "content/output/projects/tabby.json": {
-      "id": "tabby",
-      "name": "Tabby",
-      "description": "Explorable Design for 3D Printing Textures",
-      "title": "Tabby: Explorable Design for 3D Printing Textures",
+    "content/output/fellowship.json": {
+      "title": "Funding",
+      "dir": "content/output",
+      "base": "fellowship.json",
+      "ext": ".json",
+      "sourceBase": "fellowship.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/shapebots.json": {
+      "id": "shapebots",
+      "name": "ShapeBots",
+      "description": "Shape-changing Swarm Robots",
+      "title": "ShapeBots: Shape-changing Swarm Robots",
       "authors": [
         "Ryo Suzuki",
-        "Koji Yatani",
+        "Clement Zheng",
+        "Yasuaki Kakehi",
+        "Tom Yeh",
+        "Ellen Yi-Luen Do",
         "Mark D. Gross",
-        "Tom Yeh"
+        "Daniel Leithinger"
       ],
-      "year": 2018,
-      "booktitle": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
-      "publisher": "The Eurographics Association",
-      "pages": "1-4",
-      "doi": "https://doi.org/10.2312/pg.20181273",
+      "year": 2019,
+      "booktitle": "In Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST '19)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "1-13",
+      "doi": "https://doi.org/10.1145/3332165.3347911",
       "conference": {
-        "name": "Pacific Graphics 2018",
-        "fullname": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
-        "url": "http://sweb.cityu.edu.hk/pg2018/"
+        "name": "UIST 2019",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2019)",
+        "url": "http://uist.acm.org/uist2019"
       },
-      "pdf": "pg-2018-tabby.pdf",
-      "video": "https://www.youtube.com/watch?v=rRgw8lH74CA",
-      "embed": "https://www.youtube.com/embed/rRgw8lH74CA",
-      "acm-dl": "https://diglib.eg.org/handle/10.2312/pg20181273",
-      "slide": "pg-2018-tabby-slide.pdf",
-      "pageCount": 4,
-      "slideCount": 40,
+      "pdf": "uist-2019-shapebots.pdf",
+      "slide": "uist-2019-shapebots-slide.pdf",
+      "video": "https://www.youtube.com/watch?v=cwPaof0kKdM",
+      "embed": "https://www.youtube.com/embed/cwPaof0kKdM",
+      "github": "https://github.com/ryosuzuki/shapebots",
+      "poster": "uist-2019-shapebots-poster.pdf",
+      "demo": "https://ryosuzuki.github.io/shapebots-simulator/",
+      "arxiv": "https://arxiv.org/abs/1909.03372",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3332165.3347911",
+      "pageCount": 13,
+      "slideCount": 53,
       "dir": "content/output/projects",
-      "base": "tabby.json",
+      "base": "shapebots.json",
       "ext": ".json",
-      "sourceBase": "tabby.md",
+      "sourceBase": "shapebots.md",
+      "sourceExt": ".md"
+    },
+    "content/output/press.json": [
+      {
+        "date": "2022-02",
+        "tag": "electro-voxel",
+        "media": "Engadget",
+        "title": "Scientists create cube robots that can shapeshift in space",
+        "url": "https://www.engadget.com/shapeshifting-robots-space-exploration-mit-csail-electrovoxels-140026431.html"
+      },
+      {
+        "date": "2022-02",
+        "tag": "electro-voxel",
+        "media": "TechXplore",
+        "title": "Robotic cubes: Self-reconfiguring ElectroVoxels use embedded electromagnets to test applications for space exploration",
+        "url": "https://techxplore.com/news/2022-02-robotic-cubes-self-reconfiguring-electrovoxels-embedded.html"
+      },
+      {
+        "date": "2022-02",
+        "tag": "electro-voxel",
+        "media": "TechEBlog",
+        "title": "MIT Researchers Develop Shape-Shifting ElectroVoxel Robots for Space Exploration",
+        "url": "https://www.techeblog.com/mit-electrovoxel-shape-shifting-robot-space/"
+      },
+      {
+        "date": "2022-02",
+        "tag": "electro-voxel",
+        "media": "IEEE Spectrum",
+        "title": "Video Friday: Your weekly selection of awesome robot videos",
+        "url": "https://spectrum.ieee.org/video-friday-lunar-rover"
+      },
+      {
+        "date": "2022-02",
+        "tag": "electro-voxel",
+        "media": "Arduino Blog",
+        "title": "ElectroVoxel robots reconfigure themselves using magnets",
+        "url": "https://blog.arduino.cc/2022/02/08/electrovoxel-robots-reconfigure-themselves-using-magnets/"
+      },
+      {
+        "date": "2022-02",
+        "tag": "electro-voxel",
+        "media": "Hackster.io",
+        "title": "These Magnetic Robots Assemble Like Voltron",
+        "url": "https://www.hackster.io/news/these-magnetic-robots-assemble-like-voltron-37e4b1f4ec5d"
+      },
+      {
+        "date": "2021-11",
+        "tag": "snap",
+        "media": "UCalgary News",
+        "title": "“Touchable spoken words” bring the fantastic to life",
+        "url": "https://science.ucalgary.ca/news/touchable-spoken-words-bring-fantastic-life"
+      },
+      {
+        "date": "2021-07",
+        "tag": "roomshift",
+        "media": "IEEE Computer Graphics and Applications",
+        "title": "Cover Story of “Real Virtual Reality” (vol. 41)",
+        "url": "https://www.computer.org/csdl/magazine/cg/2021/04/09487526/1vg3mB6LNJe"
+      },
+      {
+        "date": "2021-03",
+        "tag": "realitysketch",
+        "media": "IT Media News",
+        "title": "Evolution of “AR Drawing”? RealitySketch, a sketching technology that works with objects in reality",
+        "url": "https://www.itmedia.co.jp/news/articles/2103/18/news027.html"
+      },
+      {
+        "date": "2020-12",
+        "tag": "realitysketch",
+        "media": "TechXplore",
+        "title": "RealitySketch: An AR interface to create responsive sketches",
+        "url": "https://techxplore.com/news/2020-12-realitysketch-ar-interface-responsive.html"
+      },
+      {
+        "date": "2020-10",
+        "tag": "pufferbot",
+        "media": "ACM TechNews",
+        "title": "Pufferfish-inspired robot could improve drone safety",
+        "url": "https://cacm.acm.org/news/248245-pufferfish-inspired-robot-could-improve-drone-safety/fulltext"
+      },
+      {
+        "date": "2020-10",
+        "tag": "pufferbot",
+        "media": "Interesting Engineering",
+        "title": "Pufferfish Mimicking Drones to Improve Aerial Safety",
+        "url": "https://interestingengineering.com/pufferfish-mimicking-drones-to-improve-aerial-safety"
+      },
+      {
+        "date": "2020-10",
+        "tag": "pufferbot",
+        "media": "New Atlas",
+        "title": "Drone draws on the pufferfish to protect itself and others",
+        "url": "https://newatlas.com/drones/pufferbot-drone"
+      },
+      {
+        "date": "2020-10",
+        "tag": "roomshift",
+        "media": "Techable",
+        "title": "University of Colorado researchers unveil ’RoomShift’ to move props in VR space in real life",
+        "url": "https://techable.jp/archives/139024"
+      },
+      {
+        "date": "2020-10",
+        "tag": "roomshift",
+        "media": "Hackster.io",
+        "title": "Putting the Reality in Virtual Reality",
+        "url": "https://www.hackster.io/news/putting-the-reality-in-virtual-reality-8c21db67e605"
+      },
+      {
+        "date": "2020-09",
+        "tag": "pufferbot",
+        "media": "Hackster.io",
+        "title": "PufferBot Is an Aerial Robot That Can Change Shape In-Flight",
+        "url": "https://www.hackster.io/news/pufferbot-is-an-aerial-robot-that-can-change-shape-in-flight-0be9c211ce07"
+      },
+      {
+        "date": "2020-09",
+        "tag": "roomshift",
+        "media": "TechXplore",
+        "title": "RoomShift: A room-scale haptic and dynamic environment for VR applications",
+        "url": "https://techxplore.com/news/2020-09-roomshift-room-scale-haptic-dynamic-environment.html"
+      },
+      {
+        "date": "2020-09",
+        "tag": "pufferbot",
+        "media": "Engineering 360",
+        "title": "Team builds drone inspired by the pufferfish",
+        "url": "https://insights.globalspec.com/article/15041/team-builds-drone-inspired-by-the-pufferfish"
+      },
+      {
+        "date": "2020-09",
+        "tag": "roomshift",
+        "media": "TechXplore",
+        "title": "PufferBot: A flying robot with an expandable body",
+        "url": "https://techxplore.com/news/2020-09-pufferbot-robot-body.html"
+      },
+      {
+        "date": "2020-09",
+        "tag": "roomshift",
+        "media": "Yahoo News Japan",
+        "title": "The University of Colorado Announced ”RoomShift” where Robot Rearranges Furniture to Create Virtual Spaces in a Realistic Way",
+        "url": "https://www.itmedia.co.jp/news/articles/2009/07/news097.html"
+      },
+      {
+        "date": "2020-09",
+        "tag": "roomshift",
+        "media": "IT Media News",
+        "title": "RoomShift: Reconfigurable Environments for Virtual Reality",
+        "url": "https://www.itmedia.co.jp/news/articles/2009/07/news097.html"
+      },
+      {
+        "date": "2020-02",
+        "tag": "pufferbot",
+        "media": "IT Media News",
+        "title": "Giant whistle module expands the room with the University of Colorado and other ”LiftTiles” developments",
+        "url": "https://www.itmedia.co.jp/news/articles/2002/26/news029.html"
+      },
+      {
+        "date": "2020-01",
+        "tag": "lift-tiles",
+        "media": "Arduino Blog",
+        "title": "Prototype room-scale, shape-changing interfaces with LiftTiles",
+        "url": "https://blog.arduino.cc/2020/01/27/prototype-room-scale-shape-changing-interfaces-with-lifttiles/"
+      },
+      {
+        "date": "2020-01",
+        "tag": "lift-tiles",
+        "media": "TechXplore",
+        "title": "LiftTiles: Actuator-based Building Blocks for Shape-changing Interfaces",
+        "url": "https://techxplore.com/news/2020-01-lifttiles-actuator-based-blocks-shape-changing-interfaces.html"
+      },
+      {
+        "date": "2020-01",
+        "tag": "shapebots",
+        "media": "ITMedia News",
+        "title": "A Swarm of Self-transforming Robots to Assist People",
+        "url": "https://www.itmedia.co.jp/news/articles/2001/15/news032.html"
+      },
+      {
+        "date": "2019-10",
+        "tag": "lift-tiles",
+        "media": "Hackster.io",
+        "title": "LiftTiles Turn Walls and Floors Into Reconfigurable Structures on Demand",
+        "url": "https://www.hackster.io/news/lifttiles-turn-walls-and-floors-into-reconfigurable-structures-on-demand-4a226d58bc74"
+      },
+      {
+        "date": "2019-10",
+        "tag": "lift-tiles",
+        "media": "Element 14",
+        "title": "Engineers Develop LiftTiles, a Scale Shape-changing Interface",
+        "url": "https://www.element14.com/community/community/applications/industrial-automation-space/blog/2019/10/25/engineers-develop-lifttiles-a-scale-shape-changing-interface?CMP=SOM-PRG-TWITTER-BLOG-CATWELL-LIFT-TILES-COMM"
+      },
+      {
+        "date": "2019-11",
+        "tag": "shapebots",
+        "media": "Bouncy",
+        "title": "Swarm Robots that can Change Shape to Visualize Data",
+        "url": "https://bouncy.news/53532?fbclid=IwAR0jyfBKo8LJ3aiUidDfZUsQqJ5-oSMxRuiZyJju0g_F6A_hi1tOeboPM4E"
+      },
+      {
+        "date": "2019-10",
+        "tag": "shapebots",
+        "media": "Hackster.io",
+        "title": "Swarming Robots Can Change Their Configuration to Handle Different Tasks",
+        "url": "https://www.hackster.io/news/shapebots-swarming-robots-can-change-their-configuration-to-handle-different-tasks-59a5ae926e1d"
+      },
+      {
+        "date": "2019-09",
+        "tag": "shapebots",
+        "media": "TechXplore",
+        "title": "ShapeBots: A Swarm of Shape-shifting Robots that Visually Display Data",
+        "url": "https://techxplore.com/news/2019-09-shapebots-swarm-shape-shifting-robots-visually.html"
+      },
+      {
+        "date": "2019-09",
+        "tag": "shapebots",
+        "media": "Hackaday",
+        "title": "Tiny Robots that Grow Taller and Wider",
+        "url": "https://hackaday.com/2019/10/04/tiny-robots-that-grow-taller-and-wider/"
+      },
+      {
+        "date": "2019-09",
+        "media": "Robotic Gizmo",
+        "title": "ShapeBots: Shape-changing Swarm Robots",
+        "url": "https://www.roboticgizmos.com/shapebots/"
+      },
+      {
+        "date": "2019-09",
+        "tag": "shapebots",
+        "media": "Gadgetify",
+        "title": "ShapeBots: Shape Changing Swarm Robots",
+        "url": "http://www.gadgetify.com/shapebots/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "3DPrint.com",
+        "title": "Dynablock: 3D Prints That Assemble and Disassemble in Seconds",
+        "url": "https://3dprint.com/227781/3d-prints-that-assemble-in-seconds/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "Hackster.io",
+        "title": "The Dynamic 3D Printing That Assembles and Disassembles Objects in Seconds",
+        "url": "https://www.hackster.io/news/dynablock-the-dynamic-3d-printing-that-assembles-and-disassembles-objects-in-seconds-a7f7d4bf6cad"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "Arduino Blog",
+        "title": "Create Shapes Over and Over with the Dynablock 3D Printer",
+        "url": "https://blog.arduino.cc/2018/10/22/create-shapes-over-and-over-with-the-dynablock-3d-printer/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "3DRuck.com",
+        "title": "Dynablock: Dynamic 3D Printer Creates Objects in Seconds",
+        "url": "https://3druck.com/forschung/dynablock-dynamischer-3d-drucker-erstellt-objekte-in-sekunden-2776738/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "World Business Satellite",
+        "title": "Repeatable 3D Printer",
+        "url": "https://txbiz.tv-tokyo.co.jp/wbs/trend_tamago/post_168589/"
+      },
+      {
+        "date": "2018-10",
+        "tag": "dynablock",
+        "media": "Nikkei Newspaper",
+        "title": "Modeling 3D Objects with Magnet-Embedded Blocks",
+        "url": "https://active.nikkeibp.co.jp/atclact/active/17/071100318/101600559/"
+      },
+      {
+        "date": "2016-06",
+        "tag": "atelier",
+        "media": "Wired",
+        "title": "It’s Not Just Robots: Skilled Jobs Are Going to Meatware",
+        "url": "https://www.wired.com/2016/06/its-not-just-robots-skilled-jobs-are-going-to-meatware/"
+      }
+    ],
+    "content/output/projects/sketched-reality.json": {
+      "id": "sketched-reality",
+      "name": "Sketched Reality",
+      "description": "Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI",
+      "title": "Sketched Reality: Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI",
+      "authors": [
+        "Hiroki Kaimoto",
+        "Kyzyl Monteiro",
+        "Mehrad Faridan",
+        "Jiatong Li",
+        "Samin Farajian",
+        "Yasuaki Kakehi",
+        "Ken Nakagaki",
+        "Ryo Suzuki"
+      ],
+      "year": 2022,
+      "booktitle": "In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)",
+      "publisher": "ACM, New York, NY, USA",
+      "doi": "https://doi.org/10.1145/3526113.3545626",
+      "conference": {
+        "name": "UIST 2022",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2022)",
+        "url": "http://uist.acm.org/uist2022"
+      },
+      "pdf": "uist-2022-sketched-reality.pdf",
+      "video": "https://www.youtube.com/watch?v=xy-IeVgoEpY",
+      "embed": "https://www.youtube.com/embed/xy-IeVgoEpY",
+      "arxiv": "https://arxiv.org/abs/2208.06341",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3526113.3545626",
+      "pageCount": 12,
+      "slideCount": 0,
+      "dir": "content/output/projects",
+      "base": "sketched-reality.json",
+      "ext": ".json",
+      "sourceBase": "sketched-reality.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/trace-diff.json": {
+      "id": "trace-diff",
+      "name": "TraceDiff",
+      "description": "Debugging Unexpected Code Behavior Using Trace Divergences",
+      "title": "TraceDiff: Debugging Unexpected Code Behavior Using Trace Divergences",
+      "authors": [
+        "Ryo Suzuki",
+        "Gustavo Soares",
+        "Andrew Head",
+        "Elena Glassman",
+        "Ruan Reis",
+        "Melina Mongiovi",
+        "Loris D’Antoni",
+        "Bjöern Hartmann"
+      ],
+      "year": 2017,
+      "booktitle": "In Proceedings of 2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC '17)",
+      "publisher": "IEEE Press, Piscataway, NJ, USA",
+      "pages": "107-115",
+      "doi": "https://doi.org/10.1109/VLHCC.2017.8103457",
+      "conference": {
+        "name": "VL/HCC 2017",
+        "fullname": "IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC 2017)",
+        "url": "https://sites.google.com/site/vlhcc2017/"
+      },
+      "pdf": "vlhcc-2017-tracediff.pdf",
+      "slide": "vlhcc-2017-tracediff-slide.pdf",
+      "github": "https://github.com/ryosuzuki/trace-diff",
+      "demo": "https://ryosuzuki.github.io/trace-diff/",
+      "ieee": "http://ieeexplore.ieee.org/document/8103457/",
+      "arxiv": "https://arxiv.org/abs/1708.03786a",
+      "related": {
+        "title": "Exploring the Design Space of Automatically Synthesized Hints for Introductory Programming Assignments",
+        "authors": [
+          "Ryo Suzuki",
+          "Gustavo Soares",
+          "Elena Glassman",
+          "Andrew Head",
+          "Loris D'Antoni",
+          "Björn Hartmann"
+        ],
+        "year": 2017,
+        "booktitle": "In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17)",
+        "publisher": "ACM, New York, NY, USA",
+        "pages": "2951-2958",
+        "doi": "https://doi.org/10.1145/3027063.3053187",
+        "pdf": "chi-2017-lbw.pdf",
+        "suffix": "lbw",
+        "pageCount": 6
+      },
+      "pageCount": 9,
+      "slideCount": 77,
+      "dir": "content/output/projects",
+      "base": "trace-diff.json",
+      "ext": ".json",
+      "sourceBase": "trace-diff.md",
       "sourceExt": ".md"
     },
     "content/output/publications.json": [
@@ -2220,6 +2125,79 @@
         "keywords": "crowd work, crowdsourcing, micro-internships"
       }
     ],
+    "content/output/projects/roomshift.json": {
+      "id": "roomshift",
+      "name": "RoomShift",
+      "description": "Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
+      "title": "RoomShift: Room-scale Dynamic Haptics for VR with Furniture-moving Swarm Robots",
+      "authors": [
+        "Ryo Suzuki",
+        "Hooman Hedayati",
+        "Clement Zheng",
+        "James Bohn",
+        "Daniel Szafir",
+        "Ellen Yi-Luen Do",
+        "Mark D Gross",
+        "Daniel Leithinger"
+      ],
+      "year": 2020,
+      "booktitle": "In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI '20)",
+      "publisher": "ACM, New York, NY, USA",
+      "pages": "Paper 396, 11 pages",
+      "doi": "https://doi.org/10.1145/3313831.3376523",
+      "conference": {
+        "name": "CHI 2020",
+        "fullname": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2020)",
+        "url": "https://chi2020.acm.org/"
+      },
+      "video": "https://www.youtube.com/watch?v=6_PAirnlDnk",
+      "embed": "https://www.youtube.com/embed/6_PAirnlDnk",
+      "short-video": "https://www.youtube.com/watch?v=4OWU60gTOFE",
+      "pdf": "chi-2020-roomshift.pdf",
+      "arxiv": "https://arxiv.org/abs/2008.08695",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3313831.3376523",
+      "pageCount": 11,
+      "slideCount": 0,
+      "dir": "content/output/projects",
+      "base": "roomshift.json",
+      "ext": ".json",
+      "sourceBase": "roomshift.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/realitytalk.json": {
+      "id": "realitytalk",
+      "name": "RealityTalk",
+      "description": "Real-time Speech-driven Augmented Presentation for AR Live Storytelling",
+      "title": "RealityTalk: Real-time Speech-driven Augmented Presentation for AR Live Storytelling",
+      "authors": [
+        "Jian Liao",
+        "Adnan Karim",
+        "Shivesh Jadon",
+        "Rubaiat Habib Kazi",
+        "Ryo Suzuki"
+      ],
+      "year": 2022,
+      "booktitle": "In Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22)",
+      "publisher": "ACM, New York, NY, USA",
+      "doi": "https://doi.org/10.1145/3526113.3545702",
+      "conference": {
+        "name": "UIST 2022",
+        "fullname": "The ACM Symposium on User Interface Software and Technology (UIST 2022)",
+        "url": "http://uist.acm.org/uist2022"
+      },
+      "pdf": "uist-2022-realitytalk.pdf",
+      "video": "https://www.youtube.com/watch?v=vfIMeICV-7c",
+      "embed": "https://www.youtube.com/embed/vfIMeICV-7c",
+      "arxiv": "https://arxiv.org/abs/2208.06350",
+      "acm-dl": "https://dl.acm.org/doi/10.1145/3526113.3545702",
+      "pageCount": 12,
+      "slideCount": 0,
+      "dir": "content/output/projects",
+      "base": "realitytalk.json",
+      "ext": ".json",
+      "sourceBase": "realitytalk.md",
+      "sourceExt": ".md"
+    },
     "content/output/projects/teachable-reality.json": {
       "id": "teachable-reality",
       "name": "Teachable Reality",
@@ -2252,6 +2230,40 @@
       "base": "teachable-reality.json",
       "ext": ".json",
       "sourceBase": "teachable-reality.md",
+      "sourceExt": ".md"
+    },
+    "content/output/projects/tabby.json": {
+      "id": "tabby",
+      "name": "Tabby",
+      "description": "Explorable Design for 3D Printing Textures",
+      "title": "Tabby: Explorable Design for 3D Printing Textures",
+      "authors": [
+        "Ryo Suzuki",
+        "Koji Yatani",
+        "Mark D. Gross",
+        "Tom Yeh"
+      ],
+      "year": 2018,
+      "booktitle": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
+      "publisher": "The Eurographics Association",
+      "pages": "1-4",
+      "doi": "https://doi.org/10.2312/pg.20181273",
+      "conference": {
+        "name": "Pacific Graphics 2018",
+        "fullname": "The Pacific Conference on Computer Graphics and Applications (Pacific Graphics 2018)",
+        "url": "http://sweb.cityu.edu.hk/pg2018/"
+      },
+      "pdf": "pg-2018-tabby.pdf",
+      "video": "https://www.youtube.com/watch?v=rRgw8lH74CA",
+      "embed": "https://www.youtube.com/embed/rRgw8lH74CA",
+      "acm-dl": "https://diglib.eg.org/handle/10.2312/pg20181273",
+      "slide": "pg-2018-tabby-slide.pdf",
+      "pageCount": 4,
+      "slideCount": 40,
+      "dir": "content/output/projects",
+      "base": "tabby.json",
+      "ext": ".json",
+      "sourceBase": "tabby.md",
       "sourceExt": ".md"
     },
     "content/output/students.json": [
