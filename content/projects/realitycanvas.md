@@ -17,8 +17,8 @@ conference:
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2023)
   url: http://uist.acm.org/uist2023
 pdf: uist-2023-realitycanvas.pdf
-# video: https://www.youtube.com/watch?v=7DKpq52282g
-# embed: https://www.youtube.com/embed/7DKpq52282g
+video: https://www.youtube.com/watch?v=HVOgH1quDsc
+embed: https://www.youtube.com/embed/HVOgH1quDsc
 arxiv: https://arxiv.org/abs/2307.16116
 acm-dl: https://dl.acm.org/doi/10.1145/3586183.3606716
 pageCount: 14
