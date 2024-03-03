@@ -14,7 +14,7 @@ year: 2024
 booktitle: In Proceedings of the 19th Annual ACM/IEEE International Conference on Human Robot Interaction (HRI '24)
 publisher: ACM, New York, NY, USA
 conference:
-  name: HRI 2023
+  name: HRI 2024
   fullname: The ACM/IEEE International Conference on Human Robot Interaction (HRI 2024)
   url: https://humanrobotinteraction.org/2024
 pdf: hri-2024-robovisar.pdf
