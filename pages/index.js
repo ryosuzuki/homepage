@@ -44,11 +44,14 @@ class Index extends React.Component {
 <h1 className="mission">Augment <span className="highlight">Human Thought</span> and <span className="highlight">Creativity</span><br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
 <h1>by Transforming the Everyday Environment into a <span className="highlight">Dynamic Space for Thought</span></h1>
 <br/>
+
 {/*<h1 className="mission"><span className="highlight">Dynamic Space for Thought</span><br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>*/}
 {/*<h1 className="mission">Designing <span className="highlight">Dynamic Pervasive Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>*/}
 <p className="description">
 Computers are dynamic media. Much like writing systems, the printing press, and painting canvases, they empower and amplify human thought and creativity. This medium, however, is currently confined within the boundaries of flat rectangular screens, restricting our minds and creative potential to what can be done in this small space. Our goal is to redesign this medium to unlock the full potential of human capabilities, by transforming our world itself into a computational medium with the power of AR and AI.
 </p>
+
+<img src="/static/images/teaser.jpg" />
 
 <h2 className="ui horizontal divider header">
   Principles

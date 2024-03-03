@@ -14,7 +14,7 @@ class Experience extends React.Component {
               { i == 0 &&
                 <h3>Current Affiliation</h3>
               }
-              { i == 2 &&
+              { i == 3 &&
                 <h3>Previous Affiliation</h3>
               }
               <div className="ui mini image">
