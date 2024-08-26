@@ -1,6 +1,25 @@
 [
   {
-    "period": "January, 2021 --- Current",
+    "period": "August, 2024 --- Current",
+    "role": "Assistant Professor",
+    "logo": "cu-boulder.png",
+    "institute": {
+      "name": "CU Boulder",
+      "url": "https://colorado.edu"
+    },
+    "lab": {
+      "name": "ATLAS institute",
+      "url": "https://www.colorado.edu/atlas/"
+    },
+    "advisors": [
+      {
+        "name": "Programmable Reality Lab",
+        "url": "http://leithinger.com/"
+      }
+    ]
+  },
+  {
+    "period": "January, 2021 --- August, 2024",
     "role": "Assistant Professor",
     "logo": "ucalgary.png",
     "institute": {
@@ -8,18 +27,18 @@
       "url": "https://www.ucalgary.ca/"
     },
     "lab": {
-      "name": "HCI Group",
-      "url": "https://ilab.cpsc.ucalgary.ca/"
+      "name": "Computer Science",
+      "url": "https://science.ucalgary.ca/computer-science"
     },
     "advisors": [
       {
-        "name": "Computer Science",
-        "url": "https://science.ucalgary.ca/computer-science"
+        "name": "Interactions Lab",
+        "url": "https://ilab.ucalgary.ca/"
       }
     ]
   },
   {
-    "period": "July, 2023 --- Current",
+    "period": "July, 2023 --- May, 2024",
     "role": "Visiting Researcher",
     "logo": "google.png",
     "institute": {

@@ -10,7 +10,7 @@ class Profile extends React.Component {
             <div className="content">
               Ryo Suzuki
               <div className="sub header" style={{ fontSize: '1.5rem'}}>
-                <b>University of Calgary</b>, Assistant Professor in Computer Science
+                <b>University of Colorado Boulder</b>, Assistant Professor of ATLAS and Computer Science
               </div>
             </div>
           </h1>
@@ -24,7 +24,7 @@ class Profile extends React.Component {
 
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
-              I am an Assistant Professor at the <a href="https://ucalgary.ca" target="_blank"><b>University of Calgary</b></a> in the <a href="https://science.ucalgary.ca/computer-science" target="_blank"><b>Department of Computer Science</b></a>.
+              I am an Assistant Professor at the <a href="https://www.colorado.edu/" target="_blank"><b>University of Colorado Boulder</b></a> in the <a href="https://www.colorado.edu/atlas/" target="_blank"><b>ATLAS Institute</b></a> and <a href="https://www.colorado.edu/cs/" target="_blank"><b>Department of Computer Science</b></a>.
               I am part of <a href="https://ilab.cpsc.ucalgary.ca/" target="_blank"><b>HCI Group</b></a> at UCalgary.
             </p>
             <div class="ui segment" style={{ borderColor: '#191970' }}>
@@ -63,11 +63,11 @@ class Profile extends React.Component {
             </div>
             */}
             <p>
-              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b>. I direct <b><a href="https://programmable-reality-lab.github.io/" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, Tangible UI, and AI</b>.
+              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b>. I direct <b><a href="https://www.colorado.edu/atlas/programmable-reality-lab" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, Tangible UI, and AI</b>.
             </p>
 
             <p>
-              Previously, I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
+              Previously, I was an Assistant Professor at the <a href="https://ucalgary.ca/" target="_blank"><b>Unviersity of Calgary</b></a>. Before that I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>
