@@ -6,7 +6,7 @@ class Profile extends React.Component {
       <header className="ui stackable grid">
         <div className="ui sixteen wide column">
           <h1 className="ui huge header">
-            <img style={{ maxWidth: '62px', marginRight: '15px' }} src="/static/images/profile.png" className="ui circular image" />
+            <img style={{ maxWidth: '62px', marginRight: '15px' }} src="/static/images/profile.jpg" className="ui circular image" />
             <div className="content">
               Ryo Suzuki
               <div className="sub header" style={{ fontSize: '1.5rem'}}>
@@ -25,11 +25,13 @@ class Profile extends React.Component {
           <div id="profile" style={{ fontSize: '1.3rem' }}>
             <p>
               I am an Assistant Professor at the <a href="https://www.colorado.edu/" target="_blank"><b>University of Colorado Boulder</b></a> in the <a href="https://www.colorado.edu/atlas/" target="_blank"><b>ATLAS Institute</b></a> and <a href="https://www.colorado.edu/cs/" target="_blank"><b>Department of Computer Science</b></a>.
-              I am part of <a href="https://ilab.cpsc.ucalgary.ca/" target="_blank"><b>HCI Group</b></a> at UCalgary.
+            </p>
+            <p>
+              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b>. I direct <b><a href="https://www.colorado.edu/atlas/programmable-reality-lab" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, Tangible UI, and AI</b>.
             </p>
             <div class="ui segment" style={{ borderColor: '#191970' }}>
               <p style={{ marginBottom: '-5px', color: '#191970'}}>
-                I am actively looking for prospective <b>PhD students, PostDocs, or Student Interns</b>, who are interested in joining or collaborating with us, across disciplines (e.g., Industrial Design, Mechanical Engineering, Material Science, Electrical Engineering, Architectural Design, and Computer Science). If you are interested, please feel free to send me an email. We could start from some possible collaborative projects. :)
+                I am looking for prospective <b>PhD students</b> across disciplines, including computer science, industrial design, mechanical engineering, material science, electrical engineering, and architectural design. If you are interested, please feel free to send me an email.
               </p>
             </div>
 
@@ -63,11 +65,7 @@ class Profile extends React.Component {
             </div>
             */}
             <p>
-              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b>. I direct <b><a href="https://www.colorado.edu/atlas/programmable-reality-lab" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, Tangible UI, and AI</b>.
-            </p>
-
-            <p>
-              Previously, I was an Assistant Professor at the <a href="https://ucalgary.ca/" target="_blank"><b>Unviersity of Calgary</b></a>. Before that I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>University of Colorado Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
+              Previously, I was an Assistant Professor at the <a href="https://ucalgary.ca/" target="_blank"><b>Unviersity of Calgary</b></a>. Before that I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>CU Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "mehrad-faridan",
+    "name": "Mehrad Faridan",
+    "type": "undergrad",
+    "now": "UCalgary"
+  },
+  {
+    "id": "jarin-thundathil",
+    "name": "Jarin Thundathil",
+    "type": "undergrad",
+    "now": "UCalgary"
+  },
+  {
+    "id": "keiichi-ihara",
+    "name": "Keiichi Ihara",
+    "type": "intern",
+    "now": "Tsukuba"
+  },
+  {
+    "id": "ryota-gomi",
+    "name": "Ryota Gomi",
+    "type": "intern",
+    "now": "Tohoku"
+  },
+  {
+    "id": "freya-wen",
+    "name": "Freya Wen",
+    "type": "intern",
+    "now": "Texas A&M",
+    "photo": "https://cyberwenyi2357.github.io/static/media/photo.9bcc48ea7728e92c0ce2.jpg",
+    "url": "https://cyberwenyi2357.github.io/"
+  },
+  {
+    "id": "neil-chulpongsatorn",
+    "name": "Neil Chulpongsatorn",
+    "type": "master",
+    "now": "UCalgary"
+  },
+  {
+    "id": "marcus-friedel",
+    "name": "Marcus Friedel",
+    "type": "master",
+    "now": "UCalgary"
+  },
+  {
+    "id": "shivesh-jadon",
+    "name": "Shivesh Jadon",
+    "past": "master",
+    "type": "alumni",
+    "now": "Apple"
+  },
+  {
+    "id": "kyzyl-monteiro",
+    "name": "Kyzyl Monteiro",
+    "type": "alumni",
+    "past": "intern",
+    "now": "CMU HCII"
+  },
+  {
+    "id": "adnan-karim",
+    "name": "Adnan Karim",
+    "past": "master",
+    "type": "alumni",
+    "now": "Attabotics"
+  },
+  {
+    "id": "mille-skovhus-lunding",
+    "name": "Mille Skovhus Lunding",
+    "type": "alumni",
+    "past": "intern",
+    "now": "Aarhus"
+  },
+  {
+    "id": "rasmus-lunding",
+    "name": "Rasmus Lunding",
+    "type": "alumni",
+    "past": "intern",
+    "now": "Aarhus"
+  },
+  {
+    "id": "hiroki-kaimoto",
+    "name": "Hiroki Kaimoto",
+    "type": "alumni",
+    "past": "intern",
+    "now": "UTokyo"
+  },
+  {
+    "id": "jian-liao",
+    "name": "Jian Liao",
+    "past": "undergrad",
+    "type": "alumni",
+    "now": "Startup"
+  },
+  {
+    "id": "zhijie-xia",
+    "name": "Zhijie Xia",
+    "past": "undergrad",
+    "type": "alumni",
+    "now": "Startup"
+  },
+  {
+    "id": "shrivatsa-mishra",
+    "name": "Shrivatsa Mishra",
+    "past": "intern",
+    "type": "alumni",
+    "now": "CU Boulder"
+  },
+  {
+    "id": "ritik-vatsal",
+    "name": "Ritik Vatsal",
+    "past": "intern",
+    "type": "alumni",
+    "now": "UBC"
+  }
+]

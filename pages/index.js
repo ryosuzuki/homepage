@@ -44,11 +44,14 @@ class Index extends React.Component {
 <h1 className="mission">Augment <span className="highlight">Human Thought</span> and <span className="highlight">Creativity</span><br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>
 <h1>by Transforming the Everyday Environment into a <span className="highlight">Dynamic Space for Thought</span></h1>
 <br/>
+
 {/*<h1 className="mission"><span className="highlight">Dynamic Space for Thought</span><br/>with the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>*/}
 {/*<h1 className="mission">Designing <span className="highlight">Dynamic Pervasive Media</span> With the Power of <span className="highlight">AR</span> and <span className="highlight">AI</span></h1>*/}
 <p className="description">
 Computers are dynamic media. Much like writing systems, the printing press, and painting canvases, they empower and amplify human thought and creativity. This medium, however, is currently confined within the boundaries of flat rectangular screens, restricting our minds and creative potential to what can be done in this small space. Our goal is to redesign this medium to unlock the full potential of human capabilities, by transforming our world itself into a computational medium with the power of AR and AI.
 </p>
+
+<img src="/static/images/teaser.jpg" />
 
 <h2 className="ui horizontal divider header">
   Principles
@@ -104,7 +107,7 @@ Computers are dynamic media. Much like writing systems, the printing press, and 
       </div>
       <h1>Augmented Languages</h1>
       <div className="header">
-        Reinvent Languages for AR Era
+        Reinvent Languages for Spatial Computing Era
       </div>
       <div className="description">
         We redsign "languages", including written, spoken, and visual languages, to empower human-to-human communication
@@ -147,12 +150,13 @@ Computers are dynamic media. Much like writing systems, the printing press, and 
       <div class="image">
         <img src="/static/images/theme-3.jpg" />
       </div>
-      <h1>Dynamic World Canvas</h1>
+      <h1>Generative AR</h1>
       <div className="header">
-        Make the World a Dynamic Canvas
+        {/*Make the World a Dynamic Canvas*/}
+        Make the World a Dynamic Canvas for Generative AI
       </div>
       <div className="description">
-        We unleash the creative expression and potential of computers beyond screens, as if the entire world becomes a dynamic and living canvas.
+        We unleash the creative potential of Generative AI beyond screens, as if the entire world becomes a dynamic and living canvas.
       </div>
       ― Dynamic Media for ―<br/>
       <div className="labels">
@@ -197,7 +201,7 @@ Computers are dynamic media. Much like writing systems, the printing press, and 
         Ambient and Context-Aware Intelligence
       </div>
       <div className="description">
-        We make dynamic media pervasive and ubiquitous with the power of AR and AI, disappearing them into the fabric of everyday life.
+        We make dynamic media pervasive and ubiquitous with the power of AR and AI, weaving them into the fabric of everyday life.
       </div>
       <br/>
       ― Dynamic Media for ―<br/>

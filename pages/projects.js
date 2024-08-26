@@ -3,6 +3,12 @@ import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
 const ids = [
+  'augmented-physics',
+  'shape-it',
+  'inflatablebots',
+  'collagevis',
+  'thermopixels',
+  'robovisar',
   'augmented-math',
   'realitycanvas',
   'holobots',

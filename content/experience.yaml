@@ -22,6 +22,15 @@
   advisors:
     - name: Interactions Lab
       url: https://ilab.ucalgary.ca/
+- period: October, 2023 --- Current
+  role: Visiting Professor
+  logo: tohoku.png
+  institute:
+    name: Tohoku University
+    url: https://arvr.google.com/
+  lab:
+    name: Cyber & Real Center
+    url: https://www.cr-ict.riec.tohoku.ac.jp/
 - period: July, 2023 --- May, 2024
   role: Visiting Researcher
   logo: google.png
