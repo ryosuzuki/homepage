@@ -6,7 +6,6 @@ title: 'SHAPE-IT: Exploring Text-to-Shape-Display for Generative Shape-Changing 
 authors:
   - Wanli Qian
   - Chenfeng Gao
-  - Nandi Zhang
   - Anup Sathya
   - Ryo Suzuki
   - Ken Nakagaki
