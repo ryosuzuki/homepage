@@ -65,7 +65,7 @@ class Profile extends React.Component {
             </div>
             */}
             <p>
-              Previously, I was an Assistant Professor at the <a href="https://ucalgary.ca/" target="_blank"><b>Unviersity of Calgary</b></a>. Before that I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>CU Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
+              Previously, I was an Assistant Professor at the <a href="https://ucalgary.ca/" target="_blank"><b>University of Calgary</b></a>. Before that I was a PhD student at the <a href="https://www.colorado.edu/cs/" target="_blank"><b>CU Boulder</b></a>, advised by <a href="http://leithinger.com/" target="_blank"><b>Daniel Leithinger</b></a> and <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> in <a href="https://www.colorado.edu/atlas/thing-lab" target="_blank"><b>THING Lab</b></a> and <a href="http://hcc.colorado.edu/" target="_blank"><b>Human-Computer Interaction Group</b></a>
                { /* , <a href="http://mdgross.net/" target="_blank"><b>Mark D. Gross</b></a> , and <a href="http://tomyeh.info/" target="_blank"><b>Tom Yeh</b></a>
                 */ }
             </p>
