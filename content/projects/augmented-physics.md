@@ -19,6 +19,8 @@ conference:
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2024)
   url: http://uist.acm.org/uist2024
 pdf: uist-2024-augmented-physics.pdf
+video: https://www.youtube.com/watch?v=4fGrc6Lp-ddKRGFS
+embed: https://www.youtube.com/embed/4fGrc6Lp-ddKRGFS
 arxiv: https://arxiv.org/abs/2405.18614
 acm-dl: https://doi.org/10.1145/3654777.3676392
 pageCount: 0
