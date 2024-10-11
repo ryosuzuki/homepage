@@ -18,6 +18,8 @@ conference:
   fullname: The ACM Symposium on User Interface Software and Technology (UIST 2024)
   url: http://uist.acm.org/uist2024
 pdf: uist-2024-shape-it.pdf
+video: https://www.youtube.com/watch?v=2NxzOBc7AdQ
+embed: https://www.youtube.com/embed/2NxzOBc7AdQ
 acm-dl: https://doi.org/10.1145/3654777.3676348
 pageCount: 0
 # slideCount: 0
