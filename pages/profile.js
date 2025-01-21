@@ -27,7 +27,7 @@ class Profile extends React.Component {
               I am an Assistant Professor at the <a href="https://www.colorado.edu/" target="_blank"><b>University of Colorado Boulder</b></a> in the <a href="https://www.colorado.edu/atlas/" target="_blank"><b>ATLAS Institute</b></a> and <a href="https://www.colorado.edu/cs/" target="_blank"><b>Department of Computer Science</b></a>.
             </p>
             <p>
-              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b>. I direct <b><a href="https://www.colorado.edu/atlas/programmable-reality-lab" target="_blank">Programmable Reality Lab</a></b> at the University of Calgary, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, Tangible UI, and AI</b>.
+              My research interest lies on the intersection at <b>Human-Computer Interaction (HCI)</b>. I direct <b><a href="https://www.colorado.edu/atlas/programmable-reality-lab" target="_blank">Programmable Reality Lab</a></b> at CU Boulder, where we try to blend digital and physical worlds by exploring novel interactions for <b>AR/VR, Tangible UI, and AI</b>.
             </p>
             <div class="ui segment" style={{ borderColor: '#191970' }}>
               <p style={{ marginBottom: '-5px', color: '#191970'}}>
