@@ -41,6 +41,17 @@ const references = new Set()
 const scanned = new Set()
 const referencePattern = /(?:^|[=\"'(\s])((?:\/static|\/_next)\/[A-Za-z0-9_@%+.,'()\-\/]+\.[A-Za-z0-9]+)(?:[?#][^\s\"'<>)]*)?/gm
 
+// Project preview URLs are assembled at runtime, so the exported bundle does
+// not contain their complete paths. Parse the page's explicit video ID set so
+// the reference-driven deployment keeps every lazy-loaded preview.
+const projectsSource = fs.readFileSync(path.join(root, 'pages/projects.js'), 'utf8')
+const localVideoBlock = projectsSource.match(/const projectsWithLocalVideo = new Set\(\[([\s\S]*?)\]\)/)
+if (!localVideoBlock) throw new Error('Could not find projectsWithLocalVideo in pages/projects.js')
+for (const match of localVideoBlock[1].matchAll(/'([^']+)'/g)) {
+  references.add(`static/video/${match[1]}.mp4`)
+  references.add(`static/posters/${match[1]}.jpg`)
+}
+
 function collect(absolute) {
   if (scanned.has(absolute)) return
   scanned.add(absolute)
