@@ -69,6 +69,106 @@ const projectsWithLocalVideo = new Set([
   'shapebots', 'sketched-reality', 'tabby', 'teachable-reality', 'trace-diff'
 ])
 
+class LazyProjectVideo extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { shouldLoad: false }
+    this.container = null
+    this.video = null
+    this.isNearViewport = false
+    this.setContainerRef = element => { this.container = element }
+    this.setVideoRef = element => { this.video = element }
+    this.handleIntersection = this.handleIntersection.bind(this)
+    this.handleVisibilityChange = this.handleVisibilityChange.bind(this)
+  }
+
+  componentDidMount() {
+    document.addEventListener('visibilitychange', this.handleVisibilityChange)
+
+    if (!('IntersectionObserver' in window)) {
+      this.isNearViewport = true
+      this.setState({ shouldLoad: true }, () => {
+        this.video.load()
+        this.play()
+      })
+      return
+    }
+
+    this.observer = new IntersectionObserver(this.handleIntersection, {
+      rootMargin: '300px 0px',
+      threshold: 0
+    })
+    this.observer.observe(this.container)
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('visibilitychange', this.handleVisibilityChange)
+    if (this.observer) this.observer.disconnect()
+  }
+
+  handleIntersection(entries) {
+    this.isNearViewport = entries.some(entry => entry.isIntersecting)
+
+    if (!this.isNearViewport) {
+      if (this.video) this.video.pause()
+      return
+    }
+
+    if (!this.state.shouldLoad) {
+      this.setState({ shouldLoad: true }, () => {
+        this.video.load()
+        this.play()
+      })
+      return
+    }
+
+    this.play()
+  }
+
+  handleVisibilityChange() {
+    if (document.hidden || !this.isNearViewport) {
+      if (this.video) this.video.pause()
+    } else {
+      this.play()
+    }
+  }
+
+  play() {
+    if (!this.video) return
+    const playPromise = this.video.play()
+    if (playPromise && playPromise.catch) playPromise.catch(() => {})
+  }
+
+  render() {
+    const { id } = this.props
+    return (
+      <div ref={this.setContainerRef} data-project-video={id}>
+        {this.state.shouldLoad ?
+          <video
+            ref={this.setVideoRef}
+            poster={`/static/posters/${id}.jpg`}
+            preload="none"
+            loop
+            muted
+            playsInline
+            width="100%"
+            data-project-video-player={id}
+          >
+          <source src={`/static/video/${id}.mp4`} type="video/mp4" />
+          </video>
+          :
+          <img
+            src={`/static/posters/${id}.jpg`}
+            alt={`${id} project video preview`}
+            loading="lazy"
+            width="100%"
+          />
+        }
+      </div>
+    )
+  }
+}
+
 class Projects extends React.Component {
   componentDidMount() {
   }
@@ -87,17 +187,15 @@ class Projects extends React.Component {
               <div className="six wide column">
                 { project.image &&
                 <a href={ link } target="_blank" className="cover-image-container">
-                  <img className="ui rounded images cover-image" src={ `/static/images/${ project.image }` } />
+                  <img className="ui rounded images cover-image" src={ `/static/images/${ project.image }` } loading="lazy" />
                 </a>
                 }
                 { !project.image && projectsWithLocalVideo.has(project.id) &&
-                <video poster={`/static/posters/${project.id}.jpg`} autoPlay loop muted playsInline width="100%">
-                  <source src={`/static/video/${project.id}.mp4`} type="video/mp4" />
-                </video>
+                <LazyProjectVideo id={project.id} />
                 }
                 { !project.image && !projectsWithLocalVideo.has(project.id) &&
                 <a href={ link } target="_blank" className="cover-image-container">
-                  <img className="ui rounded images cover-image" src={`/static/posters/${project.id}.jpg`} />
+                  <img className="ui rounded images cover-image" src={`/static/posters/${project.id}.jpg`} loading="lazy" />
                 </a>
                 }
               </div>
