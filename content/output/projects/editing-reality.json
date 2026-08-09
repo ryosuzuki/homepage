@@ -1,0 +1,37 @@
+{
+  "id": "editing-reality",
+  "name": "Editing Reality",
+  "description": "In-situ co-creation with generative AI in mixed reality",
+  "title": "Editing Reality: Designing In-Situ Co-Creation with Generative AI in Mixed Reality",
+  "authors": [
+    "Suibi Che-Chuan Weng",
+    "Shih-Yu Ma",
+    "Sawyer Reinig",
+    "Pritalee Kadam",
+    "Ada Yi Zhao",
+    "Amy Banić",
+    "Ryo Suzuki",
+    "Ellen Yi-Luen Do"
+  ],
+  "year": 2026,
+  "booktitle": "Proceedings of the 2026 Designing Interactive Systems Conference",
+  "publisher": "ACM",
+  "pages": "4236-4248",
+  "conference": {
+    "name": "DIS 2026",
+    "fullname": "ACM Designing Interactive Systems Conference 2026",
+    "url": "https://dis.acm.org/2026/"
+  },
+  "video": "/static/video/editing-reality.mp4",
+  "acm-dl": "https://doi.org/10.1145/3800645.3813087",
+  "doi": "https://doi.org/10.1145/3800645.3813087",
+  "pageCount": 0,
+  "slideCount": 0,
+  "bodyContent": "# Abstract\n\nEditing Reality explores generative AI as part of an embodied, situated creative process in mixed reality. The system lets users iteratively co-create inside a physical room, treating generation as a spatial design material rather than a one-shot command on a screen.",
+  "bodyHtml": "<h1>Abstract</h1>\n<p>Editing Reality explores generative AI as part of an embodied, situated creative process in mixed reality. The system lets users iteratively co-create inside a physical room, treating generation as a spatial design material rather than a one-shot command on a screen.</p>\n",
+  "dir": "content/output/projects",
+  "base": "editing-reality.json",
+  "ext": ".json",
+  "sourceBase": "editing-reality.md",
+  "sourceExt": ".md"
+}

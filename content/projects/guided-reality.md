@@ -1,0 +1,29 @@
+---
+id: guided-reality
+name: Guided Reality
+description: Generating Visually-Enriched AR Task Guidance with LLMs and Vision Models
+title: 'Guided Reality: Generating Visually-Enriched AR Task Guidance with LLMs and Vision Models'
+authors:
+  - Ada Yi Zhao
+  - Aditya Gunturu
+  - Ellen Yi-Luen Do
+  - Ryo Suzuki
+year: 2025
+booktitle: Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology
+publisher: ACM, New York, NY, USA
+doi: https://doi.org/10.1145/3746059.3747784
+conference:
+  name: UIST 2025
+  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2025)
+  url: https://uist.acm.org/2025/
+pdf: uist-2025-guided-reality.pdf
+video: https://www.youtube.com/watch?v=-2JnwxWvZkY
+arxiv: https://arxiv.org/abs/2508.03547
+acm-dl: https://dl.acm.org/doi/10.1145/3746059.3747784
+pageCount: 0
+slideCount: 0
+---
+
+# Abstract
+
+Guided Reality automatically generates visually enriched, spatially situated AR instructions. The system combines large language models and vision models to create task steps, select suitable visual guidance, locate interaction points, and embed dynamic guidance into the physical environment.

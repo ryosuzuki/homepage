@@ -1,0 +1,53 @@
+---
+id: challenges-collaboration
+name: Visualization Collaboration Challenges
+description: Challenges in synchronous and remote collaboration around visualization
+title: 'Challenges in Synchronous & Remote Collaboration Around Visualization'
+authors:
+  - Matthew Brehmer
+  - Maxime Cordeil
+  - Christophe Hurter
+  - Takayuki Itoh
+  - Wolfgang Büschel
+  - Mahmood Jasim
+  - Arnaud Prouzeau
+  - David Saffo
+  - Lyn Bartram
+  - Sheelagh Carpendale
+  - Chen Zhu-Tian
+  - Andrew Cunningham
+  - Tim Dwyer
+  - Samuel Huron
+  - Masahiko Itoh
+  - Alark Joshi
+  - Kiyoshi Kiyokawa
+  - Hideaki Kuzuoka
+  - Bongshin Lee
+  - Gabriela Molina León
+  - Harald Reiterer
+  - Bektur Ryskeldiev
+  - Jonathan Schwabish
+  - Brian A. Smith
+  - Yasuyuki Sumi
+  - Ryo Suzuki
+  - Anthony Tang
+  - Yalong Yang
+  - Jian Zhao
+year: 2026
+booktitle: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
+publisher: ACM
+conference:
+  name: CHI 2026
+  fullname: ACM CHI Conference on Human Factors in Computing Systems 2026
+  url: https://chi2026.acm.org/
+pdf: chi-2026-collaboration-challenges.pdf
+arxiv: https://arxiv.org/abs/2603.05871
+acm-dl: https://doi.org/10.1145/3772318.3791117
+doi: https://doi.org/10.1145/3772318.3791117
+pageCount: 0
+slideCount: 0
+---
+
+# Abstract
+
+This paper synthesizes challenges for synchronous and remote collaboration around visualization across five collaborative activities. Twenty-nine researchers identify technological, social, AI, and evaluation concerns and outline opportunities for future collaborative visualization systems.

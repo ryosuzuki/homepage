@@ -1,0 +1,36 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "start:routes": "node server.js",
+    "verify": "node scripts/verify-site.js",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && echo ryosuzuki.org > out/CNAME && touch out/.nojekyll && node scripts/create-deploy-tree.js && rsync -a --delete --exclude .git --exclude .gitignore deploy-out/ ../gh-pages/ && cd ../gh-pages && git add -A && git commit -m 'Update' && git push origin master && cd ../homepage",
+    "push": "git subtree push --prefix out origin gh-pages",
+    "force": "git push origin `git subtree split --prefix out master`:gh-pages --force",
+    "build:content": "processmd \"content/**/*.{yaml,md}\" --outputDir content/output --summaryOutput content/output/summary.json --markdownOptions.html true",
+    "watch": "processmd \"content/**/*.{yaml,md}\" --outputDir content/output --watch  --markdownOptions.html true"
+  },
+  "author": "Ryo Suzuki <ryosuzk@googlemail.com> (http://ryosuzuki.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "compress-images": "^1.5.8",
+    "jquery": "^3.4.1",
+    "next": "^8.1.0",
+    "next-routes": "^1.4.2",
+    "png-to-jpeg": "^1.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.0.8",
+    "sharp": "^0.29.1"
+  },
+  "devDependencies": {
+    "processmd": "^4.2.1"
+  }
+}

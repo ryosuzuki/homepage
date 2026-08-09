@@ -1,0 +1,29 @@
+---
+id: cinemaworld
+name: CinemaWorld
+description: Generative Augmented Reality for Movie Augmentation
+title: 'CinemaWorld: Generative Augmented Reality with LLMs and 3D Scene Generation for Movie Augmentation'
+authors:
+  - Keiichi Ihara
+  - DaeHo Lee
+  - Manato Abe
+  - Hye-Young Jo
+  - Ryo Suzuki
+year: 2026
+booktitle: Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology
+publisher: ACM
+conference:
+  name: UIST 2026
+  fullname: ACM Symposium on User Interface Software and Technology 2026
+  url: https://uist.acm.org/2026/
+pdf: arxiv-2026-cinemaworld.pdf
+arxiv: https://arxiv.org/abs/2603.08060
+video: /static/video/cinemaworld.mp4
+note: Conditionally accepted to UIST 2026
+pageCount: 0
+slideCount: 0
+---
+
+# Abstract
+
+CinemaWorld is a generative augmented reality system that augments a viewer's physical surroundings with mixed-reality 3D content extracted from and synchronized with movie scenes. It uses multimodal large language models to analyze films, generative AI to produce dynamic 3D augmentations, and Meta Quest 3 to embed those augmentations into the viewer's environment.

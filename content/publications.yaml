@@ -1,0 +1,98 @@
+- author: Ryo Suzuki, Jun Kato, Mark D. Gross, Tom Yeh
+  title: 'Reactile: Programming Swarm User Interfaces Through Direct Physical Manipulation'
+  booktitle: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems
+  series: CHI '18
+  year: 2018
+  isbn: 978-1-4503-5620-6
+  location: Montreal QC, Canada
+  pages: 199:1--199:13
+  articleno: 199
+  numpages: 13
+  url: http://doi.acm.org/10.1145/3173574.3173773
+  doi: 10.1145/3173574.3173773
+  acmid: 3173773
+  publisher: ACM
+  address: New York, NY, USA
+  keywords: direct manipulation, programming by demonstration, swarm user interfaces, tangible programming
+
+- author: Hyunjoo Oh, Tung D. Ta, Ryo Suzuki, Mark D. Gross, Yoshihiro Kawahara, and Lining Yao.
+  title: 'PEP (3D Printed Electronic Papercrafts): An Integrated Approach for 3D Sculpting Paper-Based Electronic Devices'
+  booktitle: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems
+  series: CHI '18
+  year: 2018
+  isbn: 978-1-4503-5620-6
+  location: Montreal QC, Canada
+  pages: 441:1--441:12
+  articleno: 441
+  numpages: 12
+  url: http://doi.acm.org/10.1145/3173574.3174015
+  doi: 10.1145/3173574.3174015
+  acmid: 3174015
+  publisher: ACM
+  address: New York, NY, USA
+  keywords: 3d sculpting, fabrication techniques, paper craft, paper electronics, prototyping
+
+- author: Ryo Suzuki, Abigale Stangl, Mark D. Gross, and Tom Yeh
+  title: 'FluxMarker: Enhancing Tactile Graphics with Dynamic Tactile Markers'
+  booktitle: Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility
+  series: ASSETS '17
+  year: 2017
+  isbn: 978-1-4503-4926-0
+  location: Baltimore, Maryland, USA
+  pages: 190--199
+  numpages: 10
+  url: http://doi.acm.org/10.1145/3132525.3132548
+  doi: 10.1145/3132525.3132548
+  acmid: 3132548
+  publisher: ACM
+  address: New York, NY, USA
+  keywords: dynamic tactile markers, interactive tactile graphics, tangible interfaces, visual impairment
+
+- author: Andrew Head, Elena Glassman, Gustavo Soares, Ryo Suzuki, Lucas Figueredo, Loris D'Antoni, and Bjoern Hartmann
+  title: 'Writing Reusable Code Feedback at Scale with Mixed-Initiative Program Synthesis'
+  booktitle: Proceedings of the Fourth (2017) ACM Conference on Learning @ Scale
+  series: L@S '17
+  year: 2017
+  isbn: 978-1-4503-4450-0
+  location: Cambridge, Massachusetts, USA
+  pages: 89--98
+  numpages: 10
+  url: http://doi.acm.org/10.1145/3051457.3051467
+  doi: 10.1145/3051457.3051467
+  acmid: 3051467
+  publisher: ACM
+  address: New York, NY, USA
+  keywords: program synthesis, programming education
+
+- author: Reudismam Rolim, Gustavo Soares, Loris D'Antoni, Oleksandr Polozov, Sumit Gulwani, Rohit Gheyi, Ryo Suzuki, and Bjoern Hartmann
+  title: 'Learning Syntactic Program Transformations from Examples'
+  booktitle: Proceedings of the 39th International Conference on Software Engineering
+  series: ICSE '17
+  year: 2017
+  isbn: 978-1-5386-3868-2
+  location: Buenos Aires, Argentina
+  pages: 404--415
+  numpages: 12
+  url: https://doi.org/10.1109/ICSE.2017.44
+  doi: 10.1109/ICSE.2017.44
+  acmid: 3097417
+  publisher: IEEE Press
+  address: Piscataway, NJ, USA
+  keywords: program synthesis, program transformation, refactoring, tutoring systems
+
+- author: Ryo Suzuki, Niloufar Salehi, Michelle S. Lam, Juan C. Marroquin, and Michael S. Bernstein
+  title: 'Atelier: Repurposing Expert Crowdsourcing Tasks As Micro-internships'
+  booktitle: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems
+  series: CHI '16
+  year: 2016
+  isbn: 978-1-4503-3362-7
+  location: San Jose, California, USA
+  pages: 2645--2656
+  numpages: 12
+  url: http://doi.acm.org/10.1145/2858036.2858121
+  doi: 10.1145/2858036.2858121
+  acmid: 2858121
+  publisher: ACM
+  address: New York, NY, USA
+  keywords: crowd work, crowdsourcing, micro-internships
+

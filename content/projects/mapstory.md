@@ -1,0 +1,33 @@
+---
+id: mapstory
+name: MapStory
+description: Prototyping Editable Map Animations with LLM Agents
+title: 'MapStory: Prototyping Editable Map Animations with LLM Agents'
+authors:
+  - Aditya Gunturu
+  - Ben Pearman
+  - Keiichi Ihara
+  - Morteza Faraji
+  - Bryan Wang
+  - Rubaiat Habib Kazi
+  - Ryo Suzuki
+year: 2025
+booktitle: Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology
+publisher: ACM, New York, NY, USA
+doi: https://doi.org/10.1145/3746059.3747664
+conference:
+  name: UIST 2025
+  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2025)
+  url: https://uist.acm.org/2025/
+pdf: uist-2025-mapstory.pdf
+video: https://www.youtube.com/watch?v=sOsJ9f0otFY
+embed: https://www.youtube.com/embed/sOsJ9f0otFY
+arxiv: https://arxiv.org/abs/2505.21966
+acm-dl: https://dl.acm.org/doi/10.1145/3746059.3747664
+pageCount: 0
+slideCount: 0
+---
+
+# Abstract
+
+MapStory is an LLM-powered prototyping tool that creates editable map animation sequences from natural-language scripts. Its dual-agent architecture decomposes a script into map animation primitives, retrieves geospatial information, and keeps the result editable through an interactive timeline.

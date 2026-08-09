@@ -1,0 +1,36 @@
+{
+  "id": "video2mr",
+  "name": "Video2MR",
+  "description": "Generating Mixed Reality 3D Instructions from 2D Videos",
+  "title": "Video2MR: Automatically Generating Mixed Reality 3D Instructions by Augmenting Extracted Motion from 2D Videos",
+  "authors": [
+    "Keiichi Ihara",
+    "Kyzyl Monteiro",
+    "Mehrad Faridan",
+    "Rubaiat Habib Kazi",
+    "Ryo Suzuki"
+  ],
+  "year": 2025,
+  "booktitle": "Proceedings of the 30th International Conference on Intelligent User Interfaces",
+  "publisher": "ACM, New York, NY, USA",
+  "doi": "https://doi.org/10.1145/3708359.3712159",
+  "conference": {
+    "name": "IUI 2025",
+    "fullname": "The ACM International Conference on Intelligent User Interfaces (IUI 2025)",
+    "url": "https://iui.acm.org/2025/"
+  },
+  "pdf": "iui-2025-video2mr.pdf",
+  "video": "https://www.youtube.com/watch?v=f1L-2US25PU",
+  "embed": "https://www.youtube.com/embed/f1L-2US25PU",
+  "arxiv": "https://arxiv.org/abs/2405.18565",
+  "acm-dl": "https://dl.acm.org/doi/10.1145/3708359.3712159",
+  "pageCount": 0,
+  "slideCount": 0,
+  "bodyContent": "# Abstract\n\nVideo2MR automatically transforms 2D instructional videos into mixed-reality 3D sports and exercise guidance. It extracts motion into an avatar and augments that motion with posture comparison, trajectory visualization, time manipulation, and spatial repositioning.",
+  "bodyHtml": "<h1>Abstract</h1>\n<p>Video2MR automatically transforms 2D instructional videos into mixed-reality 3D sports and exercise guidance. It extracts motion into an avatar and augments that motion with posture comparison, trajectory visualization, time manipulation, and spatial repositioning.</p>\n",
+  "dir": "content/output/projects",
+  "base": "video2mr.json",
+  "ext": ".json",
+  "sourceBase": "video2mr.md",
+  "sourceExt": ".md"
+}
