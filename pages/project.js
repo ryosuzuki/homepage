@@ -147,14 +147,14 @@ class Project extends React.Component {
             <div className="ui placeholder segment">
               <p>
                 { project.authors.join(', ').replace(/, ([^,]*)$/, ', and $1') }. { project.year }. <b>{ project.title }</b>. <i>{ project.booktitle }</i>. { project.publisher }{project.pages ? `, ${project.pages}` : ''}.
-                { project.doi && <span><br/>DOI: <a href={ project.doi } target="_blank">{ project.doi }</a></span> }
+                { project.doi && <span><br/>DOI: <a href={ project.doi } target="_blank" style={{ overflowWrap: 'anywhere' }}>{ project.doi }</a></span> }
               </p>
             </div>
 
             { project.related &&
             <div className="ui placeholder segment">
               <p>
-                { project.related.authors.join(', ').replace(/, ([^,]*)$/, ', and $1') }. { project.related.year }. <b>{ project.related.title }</b>. <i>{ project.related.booktitle }</i>. { project.related.publisher }, { project.related.pages }.<br/>DOI: <a href={ project.related.doi } target="_blank">{ project.related.doi }</a>
+                { project.related.authors.join(', ').replace(/, ([^,]*)$/, ', and $1') }. { project.related.year }. <b>{ project.related.title }</b>. <i>{ project.related.booktitle }</i>. { project.related.publisher }, { project.related.pages }.<br/>DOI: <a href={ project.related.doi } target="_blank" style={{ overflowWrap: 'anywhere' }}>{ project.related.doi }</a>
               </p>
             </div>
             }

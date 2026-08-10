@@ -1,0 +1,31 @@
+---
+id: realityeffects
+name: RealityEffects
+description: Object-Centric Annotations and Visual Effects for Volumetric Video
+title: 'RealityEffects: Augmenting 3D Volumetric Videos with Object-Centric Annotation and Dynamic Visual Effects'
+authors:
+  - Jian Liao
+  - Kevin Van
+  - Zhijie Xia
+  - Ryo Suzuki
+year: 2024
+booktitle: In Proceedings of the 2024 ACM Designing Interactive Systems Conference (DIS '24)
+publisher: ACM, New York, NY, USA
+pages: 1248-1261
+doi: https://doi.org/10.1145/3643834.3661631
+conference:
+  name: DIS 2024
+  fullname: The ACM Designing Interactive Systems Conference (DIS 2024)
+  url: https://dis.acm.org/2024/
+pdf: dis-2024-realityeffects.pdf
+video: https://www.youtube.com/watch?v=5x45I-eXqBk
+embed: https://www.youtube.com/embed/5x45I-eXqBk
+arxiv: https://arxiv.org/abs/2405.17711
+acm-dl: https://dl.acm.org/doi/10.1145/3643834.3661631
+pageCount: 0
+slideCount: 0
+---
+
+# Abstract
+
+This paper introduces RealityEffects, a desktop authoring interface designed for editing and augmenting 3D volumetric videos with object-centric annotations and visual effects. RealityEffects enhances volumetric capture by introducing a novel method for augmenting captured physical motion with embedded, responsive visual effects, referred to as object-centric augmentation. In RealityEffects, users can interactively attach various visual effects to physical objects within the captured 3D scene, enabling these effects to dynamically move and animate in sync with the corresponding physical motion and body movements. The primary contribution of this paper is the development of a taxonomy for such object-centric augmentations, which includes annotated labels, highlighted objects, ghost effects, and trajectory visualization. This taxonomy is informed by an analysis of 120 edited videos featuring object-centric visual effects. The findings from our user study confirm that our direct manipulation techniques lower the barriers to editing and annotating volumetric captures, thereby enhancing interactive and engaging viewing experiences of 3D volumetric videos.

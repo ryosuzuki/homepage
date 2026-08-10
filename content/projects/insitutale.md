@@ -1,0 +1,32 @@
+---
+id: insitutale
+name: InSituTale
+description: Augmented Data Storytelling through Physical Object Manipulation
+title: 'InSituTale: Enhancing Augmented Data Storytelling with Physical Objects'
+authors:
+  - Kentaro Takahira
+  - Yue Yu
+  - Takanori Fujiwara
+  - Ryo Suzuki
+  - Huamin Qu
+year: 2025
+booktitle: In Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST '25)
+publisher: ACM, New York, NY, USA
+pages: 1-15
+doi: https://doi.org/10.1145/3746059.3747678
+conference:
+  name: UIST 2025
+  fullname: The ACM Symposium on User Interface Software and Technology (UIST 2025)
+  url: https://uist.acm.org/2025/
+pdf: uist-2025-insitutale.pdf
+video: https://www.youtube.com/watch?v=Wn-sOu-sK60
+embed: https://www.youtube.com/embed/Wn-sOu-sK60
+arxiv: https://arxiv.org/abs/2507.21411
+acm-dl: https://dl.acm.org/doi/10.1145/3746059.3747678
+pageCount: 0
+slideCount: 0
+---
+
+# Abstract
+
+Augmented data storytelling enhances narrative delivery by integrating visualizations with physical environments and presenter actions. Existing systems predominantly rely on body gestures or speech to control visualizations, leaving interactions with physical objects largely underexplored. We introduce augmented physical data storytelling, an approach enabling presenters to manipulate visualizations through physical object interactions. To inform this approach, we first conducted a survey of data-driven presentations to identify common visualization commands. We then conducted workshops with nine HCI/VIS researchers to collect mappings between physical manipulations and these commands. Guided by these insights, we developed InSituTale, a prototype that combines object tracking via a depth camera with Vision-LLM for detecting real-world events. Through physical manipulations, presenters can dynamically execute various visualization commands, delivering cohesive data storytelling experiences that blend physical and digital elements. A user study with 12 participants demonstrated that InSituTale enables intuitive interactions, offers high utility, and facilitates an engaging presentation experience.
