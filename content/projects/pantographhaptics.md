@@ -18,7 +18,8 @@ conference:
   fullname: IEEE Transactions on Visualization and Computer Graphics (TVCG), Volume 31, Issue 5
   url: https://ieeexplore.ieee.org/document/10937319/
 ieee: https://ieeexplore.ieee.org/document/10937319/
-video: /static/video/pantographhaptics.mp4
+video: https://www.youtube.com/watch?v=Z7rgBuI5Xr4
+embed: https://www.youtube.com/embed/Z7rgBuI5Xr4
 pageCount: 0
 slideCount: 0
 ---

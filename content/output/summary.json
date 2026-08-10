@@ -3024,7 +3024,8 @@
         "url": "https://chi2025.acm.org/"
       },
       "pdf": "chi-2025-from-following.pdf",
-      "video": "/static/video/from-following.mp4",
+      "video": "https://www.youtube.com/watch?v=QH7lpkRQcs0",
+      "embed": "https://www.youtube.com/embed/QH7lpkRQcs0",
       "arxiv": "https://arxiv.org/abs/2501.13258",
       "acm-dl": "https://dl.acm.org/doi/10.1145/3706598.3713293",
       "pageCount": 0,
@@ -3127,7 +3128,8 @@
         "url": "https://ieeexplore.ieee.org/document/10937319/"
       },
       "ieee": "https://ieeexplore.ieee.org/document/10937319/",
-      "video": "/static/video/pantographhaptics.mp4",
+      "video": "https://www.youtube.com/watch?v=Z7rgBuI5Xr4",
+      "embed": "https://www.youtube.com/embed/Z7rgBuI5Xr4",
       "pageCount": 0,
       "slideCount": 0,
       "dir": "content/output/projects",

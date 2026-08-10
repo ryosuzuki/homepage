@@ -20,7 +20,8 @@
     "url": "https://ieeexplore.ieee.org/document/10937319/"
   },
   "ieee": "https://ieeexplore.ieee.org/document/10937319/",
-  "video": "/static/video/pantographhaptics.mp4",
+  "video": "https://www.youtube.com/watch?v=Z7rgBuI5Xr4",
+  "embed": "https://www.youtube.com/embed/Z7rgBuI5Xr4",
   "pageCount": 0,
   "slideCount": 0,
   "bodyContent": "# Abstract\n\nIn Virtual Reality (VR), existing hand-scale passive interaction techniques are unsuitable for continuous large-scale renders: room-scale proxies lack portability, and wearable robotic arms are energy-intensive and induce friction. This paper presents a technique for providing wall haptics in VR which supports portable, passive, and large-scale user interactions. We propose a potential solution, PantographHaptics, a technique which uses the scaling properties of a pantograph to passively render two-degree-of-freedom body-scale surfaces to overcome the limitations present in existing methods. We demonstrate PantographHaptics through two prototypes: HapticLever, a grounded system, and Feedbackpack, a wearable device. We evaluate these prototypes with technical and user evaluations. Our 9-participant first study compares HapticLever against traditional haptic modalities, while our 7-participant second study verifies Feedbackpack's usability and interaction fidelity.",

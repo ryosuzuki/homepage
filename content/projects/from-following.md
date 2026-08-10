@@ -17,7 +17,8 @@ conference:
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2025)
   url: https://chi2025.acm.org/
 pdf: chi-2025-from-following.pdf
-video: /static/video/from-following.mp4
+video: https://www.youtube.com/watch?v=QH7lpkRQcs0
+embed: https://www.youtube.com/embed/QH7lpkRQcs0
 arxiv: https://arxiv.org/abs/2501.13258
 acm-dl: https://dl.acm.org/doi/10.1145/3706598.3713293
 pageCount: 0
