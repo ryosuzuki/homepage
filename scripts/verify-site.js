@@ -28,6 +28,7 @@ function request(route) {
 async function main() {
   const ids = projectIds()
   const checks = []
+  let previousPublicationYear = Infinity
   for (const id of ids) {
     const file = `content/output/projects/${id}.json`
     if (!fs.existsSync(path.join(root, file))) throw new Error(`Missing generated project data: ${id}`)
@@ -35,6 +36,13 @@ async function main() {
     for (const field of ['id', 'name', 'title', 'authors', 'conference']) {
       if (!project[field]) throw new Error(`${id}: missing ${field}`)
     }
+    const yearMatch = project.conference.name.match(/\b(19|20)\d{2}\b/)
+    if (!yearMatch) throw new Error(`${id}: conference name has no publication year`)
+    const publicationYear = Number(yearMatch[0])
+    if (publicationYear > previousPublicationYear) {
+      throw new Error(`${id}: publication year ${publicationYear} appears after ${previousPublicationYear}`)
+    }
+    previousPublicationYear = publicationYear
     if (!fs.existsSync(path.join(root, `static/posters/${id}.jpg`)) && !project.image) {
       throw new Error(`${id}: missing poster`)
     }

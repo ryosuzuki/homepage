@@ -3,10 +3,6 @@ import ReactMarkdown from 'react-markdown'
 import summary from '../content/output/summary.json'
 
 const ids = [
-  'insitutale',
-  'from-following',
-  'augmented-physics',
-  'inflatablebots',
   'cinemaworld',
   'map2video',
   'carvid',
@@ -14,6 +10,8 @@ const ids = [
   'tingletouch',
   'humanoidturk',
   'challenges-collaboration',
+  'insitutale',
+  'from-following',
   'designmemo',
   'programmable-reality',
   'mapstory',
@@ -21,6 +19,8 @@ const ids = [
   'realitysummary',
   'pantographhaptics',
   'video2mr',
+  'augmented-physics',
+  'inflatablebots',
   'shape-it',
   'realityeffects',
   'collagevis',
