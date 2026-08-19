@@ -34,8 +34,8 @@ const currentStudents = [
     id: 'ziru-wei',
     name: 'Ziru Wei',
     photo: '/static/students/ziru-wei.jpg',
-    title: 'Incoming PhD Student (Fall 2026)',
-    url: 'https://interactive-structures.org/team.html'
+    title: 'PhD Student',
+    url: 'https://ziru-wei.github.io/'
   },
   {
     id: 'zhuo-wang',
