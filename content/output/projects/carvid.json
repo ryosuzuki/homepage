@@ -18,7 +18,6 @@
     "url": "https://uist.acm.org/2026/"
   },
   "pdf": "uist-2026-carvid.pdf",
-  "note": "Conditionally accepted to UIST 2026",
   "pageCount": 0,
   "slideCount": 0,
   "bodyContent": "# Abstract\n\nCARVid helps editors adapt landscape videos with on-screen graphics to new aspect ratios while preserving readability and design intent. It combines graphics decomposition, text-aware scaling, layout-aware segmentation, and content-aware recomposition to support automatic and user-directed retargeting.",

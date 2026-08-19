@@ -72,10 +72,6 @@
     },
     "content/output/news.json": [
       {
-        "date": "2026-08-07",
-        "text": "Three papers—[**CinemaWorld**](/cinemaworld), [**Map2Video**](/map2video), and [**CARVid**](/carvid)—were conditionally accepted to [**UIST 2026**](https://uist.acm.org/2026/)."
-      },
-      {
         "date": "2026-06-01",
         "text": "[**Editing Reality**](/editing-reality) was published at [**DIS 2026**](https://dis.acm.org/2026/)."
       },
@@ -1411,7 +1407,6 @@
       "pdf": "arxiv-2026-cinemaworld.pdf",
       "arxiv": "https://arxiv.org/abs/2603.08060",
       "video": "/static/video/cinemaworld.mp4",
-      "note": "Conditionally accepted to UIST 2026",
       "pageCount": 0,
       "slideCount": 0,
       "dir": "content/output/projects",
@@ -1591,7 +1586,6 @@
         "url": "https://uist.acm.org/2026/"
       },
       "pdf": "uist-2026-carvid.pdf",
-      "note": "Conditionally accepted to UIST 2026",
       "pageCount": 0,
       "slideCount": 0,
       "dir": "content/output/projects",
@@ -1825,7 +1819,6 @@
       },
       "pdf": "uist-2026-map2video.pdf",
       "video": "/static/video/map2video.mp4",
-      "note": "Conditionally accepted to UIST 2026",
       "pageCount": 0,
       "slideCount": 0,
       "dir": "content/output/projects",

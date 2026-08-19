@@ -19,7 +19,6 @@ conference:
   url: https://uist.acm.org/2026/
 pdf: uist-2026-map2video.pdf
 video: /static/video/map2video.mp4
-note: Conditionally accepted to UIST 2026
 pageCount: 0
 slideCount: 0
 ---

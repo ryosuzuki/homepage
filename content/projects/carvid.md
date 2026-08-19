@@ -16,7 +16,6 @@ conference:
   fullname: ACM Symposium on User Interface Software and Technology 2026
   url: https://uist.acm.org/2026/
 pdf: uist-2026-carvid.pdf
-note: Conditionally accepted to UIST 2026
 pageCount: 0
 slideCount: 0
 ---

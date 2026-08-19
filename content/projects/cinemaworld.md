@@ -19,7 +19,6 @@ conference:
 pdf: arxiv-2026-cinemaworld.pdf
 arxiv: https://arxiv.org/abs/2603.08060
 video: /static/video/cinemaworld.mp4
-note: Conditionally accepted to UIST 2026
 pageCount: 0
 slideCount: 0
 ---

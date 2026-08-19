@@ -21,7 +21,6 @@
   },
   "pdf": "uist-2026-map2video.pdf",
   "video": "/static/video/map2video.mp4",
-  "note": "Conditionally accepted to UIST 2026",
   "pageCount": 0,
   "slideCount": 0,
   "bodyContent": "# Abstract\n\nMap2Video grounds AI video generation in real-world locations. It lets creators annotate character trajectories on maps and directly manipulate cameras and character masks in geodetic coordinates. In a study with twelve filmmakers, it improved controllability, reduced cognitive effort, and strengthened spatial consistency across shots compared with an image-to-video baseline.",
