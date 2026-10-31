@@ -29,6 +29,5 @@
   "base": "cinemaworld.json",
   "ext": ".json",
   "sourceBase": "cinemaworld.md",
-  "sourceExt": ".md",
-  "embed": "https://www.youtube.com/embed/hpujArzf9Dw"
+  "sourceExt": ".md"
 }

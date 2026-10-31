@@ -19,7 +19,6 @@ conference:
 pdf: arxiv-2026-cinemaworld.pdf
 arxiv: https://arxiv.org/abs/2603.08060
 video: https://www.youtube.com/watch?v=hpujArzf9Dw
-embed: https://www.youtube.com/embed/hpujArzf9Dw
 pageCount: 0
 slideCount: 0
 ---
