@@ -18,7 +18,8 @@ conference:
   fullname: ACM Symposium on User Interface Software and Technology 2026
   url: https://uist.acm.org/2026/
 pdf: uist-2026-map2video.pdf
-video: /static/video/map2video.mp4
+video: https://www.youtube.com/watch?v=B4KrLiT4b6k
+embed: https://www.youtube.com/embed/B4KrLiT4b6k
 pageCount: 0
 slideCount: 0
 ---

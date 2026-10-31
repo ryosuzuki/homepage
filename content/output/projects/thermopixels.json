@@ -26,5 +26,7 @@
   "base": "thermopixels.json",
   "ext": ".json",
   "sourceBase": "thermopixels.md",
-  "sourceExt": ".md"
+  "sourceExt": ".md",
+  "video": "https://www.youtube.com/watch?v=ww-oStjKz58",
+  "embed": "https://www.youtube.com/embed/ww-oStjKz58"
 }

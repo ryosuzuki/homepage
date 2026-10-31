@@ -27,5 +27,7 @@
   "base": "inflatablebots.json",
   "ext": ".json",
   "sourceBase": "inflatablebots.md",
-  "sourceExt": ".md"
+  "sourceExt": ".md",
+  "video": "https://www.youtube.com/watch?v=PmwdonNO_Mc",
+  "embed": "https://www.youtube.com/embed/PmwdonNO_Mc"
 }

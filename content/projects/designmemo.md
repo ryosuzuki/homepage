@@ -21,7 +21,8 @@ conference:
   fullname: Proceedings of the ACM on Human-Computer Interaction (CSCW 2025)
   url: https://dl.acm.org/doi/10.1145/3757579
 pdf: cscw-2025-designmemo.pdf
-video: https://dl.acm.org/doi/suppl/10.1145/3757579/suppl_file/DesignMemo_video.mp4
+video: https://www.youtube.com/watch?v=bINHBKBDPBc
+embed: https://www.youtube.com/embed/bINHBKBDPBc
 acm-dl: https://dl.acm.org/doi/10.1145/3757579
 pageCount: 0
 slideCount: 0

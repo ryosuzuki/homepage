@@ -17,6 +17,8 @@ conference:
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2024)
   url: https://chi2024.acm.org/
 pdf: chi-2024-infltablebots.pdf
+video: https://www.youtube.com/watch?v=PmwdonNO_Mc
+embed: https://www.youtube.com/embed/PmwdonNO_Mc
 pageCount: 0
 slideCount: 0
 ---

@@ -16,6 +16,8 @@ conference:
   fullname: The ACM CHI Conference on Human Factors in Computing Systems (CHI 2024)
   url: https://chi2024.acm.org/
 pdf: chi-2024-thermopixels.pdf
+video: https://www.youtube.com/watch?v=ww-oStjKz58
+embed: https://www.youtube.com/embed/ww-oStjKz58
 pageCount: 0
 slideCount: 0
 ---

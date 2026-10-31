@@ -22,7 +22,7 @@
     "fullname": "ACM Designing Interactive Systems Conference 2026",
     "url": "https://dis.acm.org/2026/"
   },
-  "video": "/static/video/editing-reality.mp4",
+  "video": "https://www.youtube.com/watch?v=aALw0FyFBnI",
   "acm-dl": "https://doi.org/10.1145/3800645.3813087",
   "doi": "https://doi.org/10.1145/3800645.3813087",
   "pageCount": 0,
@@ -33,5 +33,6 @@
   "base": "editing-reality.json",
   "ext": ".json",
   "sourceBase": "editing-reality.md",
-  "sourceExt": ".md"
+  "sourceExt": ".md",
+  "embed": "https://www.youtube.com/embed/aALw0FyFBnI"
 }
