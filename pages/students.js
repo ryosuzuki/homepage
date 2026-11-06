@@ -36,14 +36,6 @@ const currentStudents = [
     photo: '/static/students/ziru-wei.jpg',
     title: 'PhD Student',
     url: 'https://ziru-wei.github.io/'
-  },
-  {
-    id: 'zhuo-wang',
-    name: 'Zhuo Wang',
-    photo: '/static/students/zhuo-wang.jpg',
-    title: 'Visiting Short-Term Scholar (Summer 2026)',
-    now: "Xi'an Jiaotong-Liverpool University",
-    url: 'https://zhuowang.academic.ws/'
   }
 ]
 

@@ -61,7 +61,6 @@ async function main() {
     ['/students', 'Keiichi Ihara'],
     ['/students', 'Ziru Wei'],
     ['/students', 'ChungHa Lee'],
-    ['/students', 'Zhuo Wang'],
     ['/students', 'Aditya Gunturu'],
     ['/students', 'Nandi Zhang']
   )
@@ -71,7 +70,6 @@ async function main() {
     '/static/students/chungha-lee.jpg',
     '/static/students/daeho-lee.jpg',
     '/static/students/freya-wen.jpg',
-    '/static/students/zhuo-wang.jpg',
     '/static/video/mapstory.mp4',
     '/static/video/guided-reality.mp4',
     '/static/video/realitysummary.mp4',
